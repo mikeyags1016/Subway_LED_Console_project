@@ -1,0 +1,49 @@
+#:kivy 2.2.1
+
+<TouchPadUI>:
+    BoxLayout:
+        orientation: "horizontal"
+        size_hint: None, None
+        size: self.minimum_size
+        spacing: 20
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+        # First Dropdown
+        Button:
+            id: btn1
+            text: "Select Option 1"
+            on_release: drop1.open(self)
+
+        DropDown:
+            id: drop1
+            on_select: btn1.text = args[1]
+            Button:
+                text: "Option 1A"
+                size_hint_y: None
+                height: 44
+                on_release: drop1.select(self.text)
+            Button:
+                text: "Option 1B"
+                size_hint_y: None
+                height: 44
+                on_release: drop1.select(self.text)
+
+        # Second Dropdown
+        Button:
+            id: btn2
+            text: "Select Option 2"
+            on_release: drop2.open(self)
+
+        DropDown:
+            id: drop2
+            on_select: btn2.text = args[1]
+            Button:
+                text: "Option 2A"
+                size_hint_y: None
+                height: 44
+                on_release: drop2.select(self.text)
+            Button:
+                text: "Option 2B"
+                size_hint_y: None
+                height: 44
+                on_release: drop2.select(self.text)
