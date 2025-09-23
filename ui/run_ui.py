@@ -49,7 +49,7 @@ class TouchPadUI(App):
 
         # Second dropdown
         dropdown_two = DropDown()
-        for index in range(10):
+        for index in range(11):
             btn2 = Button(text=f'Stop {index}', size_hint_y=None, height=40)
             btn2.bind(on_release=lambda btn2: dropdown_two.select(btn2.text))
             dropdown_two.add_widget(btn2)
