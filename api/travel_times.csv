@@ -1,0 +1,1150 @@
+from_stop_id,from_stop_name,to_stop_id,to_stop_name,min_travel_time_seconds,line
+L06N,1 Av,L05N,3 Av,60,NA
+L06S,1 Av,L08S,Bedford Av,210,NA
+624N,103 St,623N,110 St,60,NA
+119S,103 St,120S,96 St,120,NA
+624S,103 St,625S,96 St,90,NA
+A18S,103 St,A19S,96 St,60,NA
+119N,103 St,118N,Cathedral Pkwy (110 St),60,NA
+A18N,103 St,A17N,Cathedral Pkwy (110 St),60,NA
+706N,103 St-Corona Plaza,705N,111 St,60,NA
+706S,103 St-Corona Plaza,707S,Junction Blvd,60,NA
+A63S,104 St,A64S,111 St,60,NA
+J14N,104 St,J13N,111 St,120,NA
+J14N,104 St,J12N,121 St,180,NA
+A63N,104 St,A61N,Rockaway Blvd,90,NA
+J14S,104 St,J15S,Woodhaven Blvd,90,NA
+623S,110 St,624S,103 St,60,NA
+623N,110 St,622N,116 St,60,NA
+705S,111 St,706S,103 St-Corona Plaza,60,NA
+A64N,111 St,A63N,104 St,60,NA
+J13S,111 St,J14S,104 St,120,NA
+J13N,111 St,J12N,121 St,90,NA
+705N,111 St,702N,Mets-Willets Point,120,NA
+A64S,111 St,A65S,Ozone Park-Lefferts Blvd,60,NA
+J13N,111 St,G06N,Sutphin Blvd-Archer Av-JFK Airport,300,NA
+J13S,111 St,J15S,Woodhaven Blvd,180,NA
+622S,116 St,623S,110 St,60,NA
+226N,116 St,225N,125 St,90,NA
+622N,116 St,621N,125 St,90,NA
+A16N,116 St,A15N,125 St,90,NA
+A16S,116 St,A17S,Cathedral Pkwy (110 St),90,NA
+226S,116 St,227S,Central Park North (110 St),60,NA
+117N,116 St-Columbia University,116N,125 St,120,NA
+117S,116 St-Columbia University,118S,Cathedral Pkwy (110 St),60,NA
+J12S,121 St,J14S,104 St,180,NA
+J12S,121 St,J13S,111 St,90,NA
+J12N,121 St,G06N,Sutphin Blvd-Archer Av-JFK Airport,240,NA
+225S,125 St,226S,116 St,90,NA
+621S,125 St,622S,116 St,90,NA
+A15S,125 St,A16S,116 St,90,NA
+116S,125 St,117S,116 St-Columbia University,120,NA
+225N,125 St,224N,135 St,90,NA
+A15N,125 St,A14N,135 St,90,NA
+116N,125 St,115N,137 St-City College,90,NA
+621N,125 St,416N,138 St-Grand Concourse,150,NA
+A15N,125 St,A12N,145 St,150,NA
+A15N,125 St,D13N,145 St,210,NA
+621N,125 St,415N,149 St-Grand Concourse,300,NA
+621N,125 St,619N,3 Av-138 St,180,NA
+A15S,125 St,A24S,59 St-Columbus Circle,480,NA
+621S,125 St,626S,86 St,270,NA
+224S,135 St,225S,125 St,90,NA
+A14S,135 St,A15S,125 St,90,NA
+224N,135 St,302N,145 St,120,NA
+A14N,135 St,A12N,145 St,90,NA
+A14N,135 St,D13N,145 St,90,NA
+224N,135 St,222N,149 St-Grand Concourse,180,NA
+115S,137 St-City College,116S,125 St,90,NA
+115N,137 St-City College,114N,145 St,90,NA
+416S,138 St-Grand Concourse,621S,125 St,120,NA
+416N,138 St-Grand Concourse,222N,149 St-Grand Concourse,150,NA
+416N,138 St-Grand Concourse,415N,149 St-Grand Concourse,90,NA
+132N,14 St,131N,18 St,60,NA
+A31N,14 St,A30N,23 St,90,NA
+D19N,14 St,D18N,23 St,90,NA
+132N,14 St,128N,34 St-Penn Station,150,NA
+A31N,14 St,A28N,34 St-Penn Station,180,NA
+132S,14 St,137S,Chambers St,270,NA
+132S,14 St,133S,Christopher St-Sheridan Sq,90,NA
+A31S,14 St,A32S,W 4 St-Wash Sq,120,NA
+D19S,14 St,D20S,W 4 St-Wash Sq,90,NA
+635N,14 St-Union Sq,634N,23 St,90,NA
+R20N,14 St-Union Sq,R19N,23 St,90,NA
+L03S,14 St-Union Sq,L05S,3 Av,30,NA
+R20N,14 St-Union Sq,R17N,34 St-Herald Sq,150,NA
+L03N,14 St-Union Sq,L02N,6 Av,90,NA
+R20S,14 St-Union Sq,R21S,8 St-NYU,90,NA
+635S,14 St-Union Sq,636S,Astor Pl,90,NA
+635S,14 St-Union Sq,640S,Brooklyn Bridge-City Hall,270,NA
+R20S,14 St-Union Sq,Q01S,Canal St,240,NA
+635N,14 St-Union Sq,631N,Grand Central-42 St,210,NA
+A12S,145 St,A15S,125 St,210,NA
+D13S,145 St,A15S,125 St,210,NA
+302S,145 St,224S,135 St,120,NA
+A12S,145 St,A14S,135 St,90,NA
+D13S,145 St,A14S,135 St,120,NA
+114S,145 St,115S,137 St-City College,90,NA
+A12N,145 St,A11N,155 St,90,NA
+D13N,145 St,D12N,155 St,90,NA
+114N,145 St,113N,157 St,120,NA
+A12N,145 St,A09N,168 St,180,NA
+302N,145 St,301N,Harlem-148 St,60,NA
+D13N,145 St,D07N,Tremont Av,450,NA
+415S,149 St-Grand Concourse,621S,125 St,390,NA
+222S,149 St-Grand Concourse,224S,135 St,180,NA
+222S,149 St-Grand Concourse,416S,138 St-Grand Concourse,150,NA
+415S,149 St-Grand Concourse,416S,138 St-Grand Concourse,90,NA
+415N,149 St-Grand Concourse,414N,161 St-Yankee Stadium,90,NA
+222N,149 St-Grand Concourse,221N,3 Av-149 St,90,NA
+F25N,15 St-Prospect Park,F24N,7 Av,90,NA
+F25S,15 St-Prospect Park,F26S,Fort Hamilton Pkwy,120,NA
+A11S,155 St,A12S,145 St,90,NA
+D12S,155 St,D13S,145 St,90,NA
+D12N,155 St,D11N,161 St-Yankee Stadium,90,NA
+A11N,155 St,A10N,163 St-Amsterdam Av,90,NA
+113S,157 St,114S,145 St,120,NA
+113N,157 St,112N,168 St-Washington Hts,90,NA
+414S,161 St-Yankee Stadium,415S,149 St-Grand Concourse,150,NA
+D11S,161 St-Yankee Stadium,D12S,155 St,90,NA
+414N,161 St-Yankee Stadium,413N,167 St,90,NA
+D11N,161 St-Yankee Stadium,D10N,167 St,120,NA
+A10S,163 St-Amsterdam Av,A11S,155 St,60,NA
+A10N,163 St-Amsterdam Av,A09N,168 St,90,NA
+413S,167 St,414S,161 St-Yankee Stadium,120,NA
+D10S,167 St,D11S,161 St-Yankee Stadium,120,NA
+413N,167 St,412N,170 St,90,NA
+D10N,167 St,D09N,170 St,90,NA
+413N,167 St,409N,Burnside Av,300,NA
+A09S,168 St,A12S,145 St,210,NA
+A09S,168 St,A10S,163 St-Amsterdam Av,60,NA
+A09N,168 St,A07N,175 St,120,NA
+112S,168 St-Washington Hts,113S,157 St,90,NA
+112N,168 St-Washington Hts,111N,181 St,120,NA
+F02N,169 St,F01N,Jamaica-179 St,120,NA
+F02S,169 St,F03S,Parsons Blvd,90,NA
+412S,170 St,413S,167 St,90,NA
+D09S,170 St,D10S,167 St,90,NA
+D09N,170 St,D08N,174-175 Sts,90,NA
+412N,170 St,411N,Mt Eden Av,60,NA
+215S,174 St,216S,Freeman St,120,NA
+215N,174 St,214N,West Farms Sq-E Tremont Av,90,NA
+D08S,174-175 Sts,D09S,170 St,90,NA
+D08N,174-175 Sts,D07N,Tremont Av,90,NA
+A07S,175 St,A09S,168 St,120,NA
+A07N,175 St,A06N,181 St,60,NA
+410N,176 St,409N,Burnside Av,90,NA
+410S,176 St,411S,Mt Eden Av,60,NA
+B19S,18 Av,B20S,20 Av,60,NA
+N05S,18 Av,N06S,20 Av,60,NA
+B19N,18 Av,B18N,79 St,90,NA
+F30S,18 Av,F31S,Avenue I,60,NA
+F30N,18 Av,F29N,Ditmas Av,90,NA
+N05N,18 Av,N04N,New Utrecht Av,90,NA
+131S,18 St,132S,14 St,60,NA
+131N,18 St,130N,23 St,60,NA
+111S,181 St,112S,168 St-Washington Hts,120,NA
+A06S,181 St,A07S,175 St,60,NA
+A06N,181 St,A05N,190 St,120,NA
+111N,181 St,110N,191 St,90,NA
+D06N,182-183 Sts,D05N,Fordham Rd,90,NA
+D06S,182-183 Sts,D07S,Tremont Av,90,NA
+408S,183 St,409S,Burnside Av,90,NA
+408N,183 St,407N,Fordham Rd,60,NA
+A05S,190 St,A06S,181 St,120,NA
+A05N,190 St,A03N,Dyckman St,120,NA
+110S,191 St,111S,181 St,90,NA
+110N,191 St,109N,Dyckman St,60,NA
+F14N,2 Av,D21N,Broadway-Lafayette St,90,NA
+F14S,2 Av,F15S,Delancey St-Essex St,90,NA
+B20N,20 Av,B19N,18 Av,60,NA
+N06N,20 Av,N05N,18 Av,60,NA
+B20S,20 Av,B21S,Bay Pkwy,60,NA
+N06S,20 Av,N07S,Bay Pkwy,90,NA
+108N,207 St,107N,215 St,60,NA
+108S,207 St,109S,Dyckman St,90,NA
+G24N,21 St,G22N,Court Sq,60,NA
+G24S,21 St,G26S,Greenpoint Av,150,NA
+B04N,21 St-Queensbridge,G20N,36 St,150,NA
+B04N,21 St-Queensbridge,G14N,Jackson Hts-Roosevelt Av,360,NA
+B04S,21 St-Queensbridge,B06S,Roosevelt Island,120,NA
+107S,215 St,108S,207 St,60,NA
+107N,215 St,106N,Marble Hill-225 St,90,NA
+207N,219 St,206N,225 St,60,NA
+207S,219 St,208S,Gun Hill Rd,90,NA
+206S,225 St,207S,219 St,60,NA
+206N,225 St,205N,233 St,60,NA
+A30S,23 St,A31S,14 St,90,NA
+D18S,23 St,D19S,14 St,90,NA
+634S,23 St,635S,14 St-Union Sq,90,NA
+R19S,23 St,R20S,14 St-Union Sq,90,NA
+130S,23 St,131S,18 St,60,NA
+130N,23 St,129N,28 St,60,NA
+634N,23 St,633N,28 St,60,NA
+R19N,23 St,R18N,28 St,60,NA
+D18N,23 St,D17N,34 St-Herald Sq,90,NA
+A30N,23 St,A28N,34 St-Penn Station,90,NA
+104N,231 St,103N,238 St,90,NA
+104S,231 St,106S,Marble Hill-225 St,90,NA
+205S,233 St,206S,225 St,60,NA
+205N,233 St,204N,Nereid Av,90,NA
+103S,238 St,104S,231 St,90,NA
+103N,238 St,101N,Van Cortlandt Park-242 St,90,NA
+B22S,25 Av,B23S,Bay 50 St,120,NA
+B22N,25 Av,B21N,Bay Pkwy,90,NA
+R35S,25 St,R36S,36 St,90,NA
+R35N,25 St,R34N,Prospect Av,90,NA
+129S,28 St,130S,23 St,60,NA
+633S,28 St,634S,23 St,60,NA
+R18S,28 St,R19S,23 St,60,NA
+633N,28 St,632N,33 St,60,NA
+R18N,28 St,R17N,34 St-Herald Sq,60,NA
+129N,28 St,128N,34 St-Penn Station,60,NA
+L05S,3 Av,L06S,1 Av,60,NA
+L05N,3 Av,L03N,14 St-Union Sq,60,NA
+619S,3 Av-138 St,621S,125 St,180,NA
+619N,3 Av-138 St,618N,Brook Av,90,NA
+619N,3 Av-138 St,613N,Hunts Point Av,420,NA
+221S,3 Av-149 St,222S,149 St-Grand Concourse,90,NA
+221N,3 Av-149 St,213N,E 180 St,600,NA
+221N,3 Av-149 St,220N,Jackson Av,120,NA
+R04N,30 Av,R03N,Astoria Blvd,60,NA
+R04S,30 Av,R05S,Broadway,90,NA
+632S,33 St,633S,28 St,60,NA
+632N,33 St,631N,Grand Central-42 St,120,NA
+716N,33 St-Rawson St,715N,40 St-Lowery St,60,NA
+716S,33 St-Rawson St,718S,Queensboro Plaza,120,NA
+R17S,34 St-Herald Sq,R20S,14 St-Union Sq,150,NA
+D17S,34 St-Herald Sq,D18S,23 St,90,NA
+R17S,34 St-Herald Sq,R18S,28 St,60,NA
+D17N,34 St-Herald Sq,D16N,42 St-Bryant Pk,90,NA
+R17N,34 St-Herald Sq,R16N,Times Sq-42 St,90,NA
+D17S,34 St-Herald Sq,D20S,W 4 St-Wash Sq,180,NA
+726N,34 St-Hudson Yards,725N,Times Sq-42 St,150,NA
+128S,34 St-Penn Station,132S,14 St,150,NA
+A28S,34 St-Penn Station,A31S,14 St,150,NA
+A28S,34 St-Penn Station,A30S,23 St,90,NA
+128S,34 St-Penn Station,129S,28 St,60,NA
+A28N,34 St-Penn Station,A27N,42 St-Port Authority Bus Terminal,60,NA
+128N,34 St-Penn Station,127N,Times Sq-42 St,60,NA
+R06S,36 Av,R08S,39 Av-Dutch Kills,60,NA
+R06N,36 Av,R05N,Broadway,90,NA
+G20S,36 St,B04S,21 St-Queensbridge,150,NA
+R36N,36 St,R35N,25 St,90,NA
+R36S,36 St,R39S,45 St,120,NA
+R36S,36 St,R41S,59 St,210,NA
+R36S,36 St,B12S,9 Av,240,NA
+R36N,36 St,R31N,Atlantic Av-Barclays Ctr,300,NA
+G20S,36 St,G21S,Queens Plaza,120,NA
+G20N,36 St,G19N,Steinway St,120,NA
+R08N,39 Av-Dutch Kills,R06N,36 Av,60,NA
+R08S,39 Av-Dutch Kills,R09S,Queensboro Plaza,120,NA
+F23S,4 Av-9 St,F24S,7 Av,90,NA
+R33S,4 Av-9 St,R34S,Prospect Av,90,NA
+F23N,4 Av-9 St,F22N,Smith-9 Sts,90,NA
+R33N,4 Av-9 St,R32N,Union St,90,NA
+715S,40 St-Lowery St,716S,33 St-Rawson St,60,NA
+715N,40 St-Lowery St,714N,46 St-Bliss St,60,NA
+D16S,42 St-Bryant Pk,D17S,34 St-Herald Sq,90,NA
+D16N,42 St-Bryant Pk,D15N,47-50 Sts-Rockefeller Ctr,90,NA
+A27S,42 St-Port Authority Bus Terminal,A28S,34 St-Penn Station,60,NA
+A27N,42 St-Port Authority Bus Terminal,A25N,50 St,90,NA
+A27N,42 St-Port Authority Bus Terminal,A24N,59 St-Columbus Circle,180,NA
+R39N,45 St,R36N,36 St,150,NA
+R39S,45 St,R40S,53 St,90,NA
+G18N,46 St,G16N,Northern Blvd,90,NA
+G18S,46 St,G19S,Steinway St,90,NA
+714S,46 St-Bliss St,715S,40 St-Lowery St,60,NA
+714N,46 St-Bliss St,713N,52 St,60,NA
+D15S,47-50 Sts-Rockefeller Ctr,D16S,42 St-Bryant Pk,90,NA
+D15N,47-50 Sts-Rockefeller Ctr,F12N,5 Av/53 St,150,NA
+D15N,47-50 Sts-Rockefeller Ctr,B10N,57 St,90,NA
+D15N,47-50 Sts-Rockefeller Ctr,D14N,7 Av,90,NA
+R15N,49 St,R14N,57 St-7 Av,90,NA
+R15S,49 St,R16S,Times Sq-42 St,90,NA
+724N,5 Av,723N,Grand Central-42 St,60,NA
+724S,5 Av,725S,Times Sq-42 St,90,NA
+F12S,5 Av/53 St,D15S,47-50 Sts-Rockefeller Ctr,150,NA
+F12S,5 Av/53 St,D14S,7 Av,90,NA
+F12N,5 Av/53 St,F11N,Lexington Av/53 St,90,NA
+R13S,5 Av/59 St,R14S,57 St-7 Av,150,NA
+R13N,5 Av/59 St,R11N,Lexington Av/59 St,90,NA
+A25S,50 St,A27S,42 St-Port Authority Bus Terminal,120,NA
+B14S,50 St,B15S,55 St,90,NA
+126N,50 St,125N,59 St-Columbus Circle,120,NA
+A25N,50 St,A24N,59 St-Columbus Circle,120,NA
+A25N,50 St,D14N,7 Av,90,NA
+B14N,50 St,B13N,Fort Hamilton Pkwy,90,NA
+126S,50 St,127S,Times Sq-42 St,90,NA
+630N,51 St,629N,59 St,90,NA
+630S,51 St,631S,Grand Central-42 St,120,NA
+713N,52 St,712N,61 St-Woodside,90,NA
+R40N,53 St,R39N,45 St,90,NA
+R40S,53 St,R41S,59 St,90,NA
+B15N,55 St,B14N,50 St,90,NA
+B15S,55 St,B16S,62 St,90,NA
+B10S,57 St,D15S,47-50 Sts-Rockefeller Ctr,90,NA
+B10N,57 St,B08N,Lexington Av/63 St,150,NA
+R14S,57 St-7 Av,R15S,49 St,90,NA
+R14N,57 St-7 Av,R13N,5 Av/59 St,150,NA
+R14N,57 St-7 Av,B08N,Lexington Av/63 St,150,NA
+R14S,57 St-7 Av,R16S,Times Sq-42 St,150,NA
+R41N,59 St,R36N,36 St,240,NA
+629S,59 St,630S,51 St,90,NA
+R41N,59 St,R40N,53 St,90,NA
+629N,59 St,628N,68 St-Hunter College,90,NA
+R41S,59 St,N02S,8 Av,180,NA
+629N,59 St,626N,86 St,210,NA
+R41S,59 St,R42S,Bay Ridge Av,120,NA
+629S,59 St,631S,Grand Central-42 St,150,NA
+A24N,59 St-Columbus Circle,A15N,125 St,420,NA
+A24S,59 St-Columbus Circle,A27S,42 St-Port Authority Bus Terminal,150,NA
+125S,59 St-Columbus Circle,126S,50 St,120,NA
+A24S,59 St-Columbus Circle,A25S,50 St,90,NA
+125N,59 St-Columbus Circle,124N,66 St-Lincoln Center,90,NA
+A24S,59 St-Columbus Circle,D14S,7 Av,90,NA
+A24N,59 St-Columbus Circle,A22N,72 St,90,NA
+L02S,6 Av,L03S,14 St-Union Sq,90,NA
+L02N,6 Av,L01N,8 Av,60,NA
+712S,61 St-Woodside,714S,46 St-Bliss St,150,NA
+712N,61 St-Woodside,711N,69 St,90,NA
+B16N,62 St,B15N,55 St,90,NA
+B16S,62 St,B17S,71 St,120,NA
+B16S,62 St,B21S,Bay Pkwy,330,NA
+G10N,63 Dr-Rego Park,G09N,67 Av,90,NA
+G10S,63 Dr-Rego Park,G11S,Woodhaven Blvd,60,NA
+G15N,65 St,G14N,Jackson Hts-Roosevelt Av,90,NA
+G15S,65 St,G16S,Northern Blvd,90,NA
+124S,66 St-Lincoln Center,125S,59 St-Columbus Circle,90,NA
+124N,66 St-Lincoln Center,123N,72 St,60,NA
+G09S,67 Av,G10S,63 Dr-Rego Park,90,NA
+G09N,67 Av,G08N,Forest Hills-71 Av,90,NA
+628S,68 St-Hunter College,629S,59 St,90,NA
+628N,68 St-Hunter College,627N,77 St,90,NA
+711N,69 St,710N,74 St-Broadway,60,NA
+F24S,7 Av,F25S,15 St-Prospect Park,90,NA
+F24N,7 Av,F23N,4 Av-9 St,90,NA
+D14S,7 Av,D15S,47-50 Sts-Rockefeller Ctr,90,NA
+D14N,7 Av,F12N,5 Av/53 St,60,NA
+D14S,7 Av,A25S,50 St,90,NA
+D14N,7 Av,A24N,59 St-Columbus Circle,90,NA
+D25N,7 Av,D24N,Atlantic Av-Barclays Ctr,120,NA
+F24S,7 Av,F27S,Church Av,240,NA
+F24N,7 Av,A41N,Jay St-MetroTech,330,NA
+D25S,7 Av,D26S,Prospect Park,180,NA
+B17N,71 St,B16N,62 St,120,NA
+B17S,71 St,B18S,79 St,90,NA
+A22S,72 St,A24S,59 St-Columbus Circle,90,NA
+123S,72 St,124S,66 St-Lincoln Center,90,NA
+123N,72 St,122N,79 St,90,NA
+A22N,72 St,A21N,81 St-Museum of Natural History,90,NA
+Q03N,72 St,Q04N,86 St,90,NA
+123N,72 St,120N,96 St,150,NA
+Q03S,72 St,B08S,Lexington Av/63 St,120,NA
+123S,72 St,127S,Times Sq-42 St,240,NA
+710S,74 St-Broadway,712S,61 St-Woodside,150,NA
+710N,74 St-Broadway,709N,82 St-Jackson Hts,60,NA
+710N,74 St-Broadway,707N,Junction Blvd,180,NA
+F07S,75 Av,G08S,Forest Hills-71 Av,90,NA
+F07N,75 Av,F06N,Kew Gardens-Union Tpke,90,NA
+J17N,75 St-Elderts Ln,J16N,85 St-Forest Pkwy,90,NA
+J17S,75 St-Elderts Ln,J20S,Crescent St,150,NA
+J17S,75 St-Elderts Ln,J19S,Cypress Hills,60,NA
+J17N,75 St-Elderts Ln,J15N,Woodhaven Blvd,180,NA
+627S,77 St,628S,68 St-Hunter College,90,NA
+627N,77 St,626N,86 St,90,NA
+R43S,77 St,R44S,86 St,120,NA
+R43N,77 St,R42N,Bay Ridge Av,90,NA
+B18S,79 St,B19S,18 Av,90,NA
+B18N,79 St,B17N,71 St,90,NA
+122S,79 St,123S,72 St,90,NA
+122N,79 St,121N,86 St,60,NA
+N02N,8 Av,R41N,59 St,180,NA
+L01S,8 Av,L02S,6 Av,90,NA
+N02S,8 Av,N03S,Fort Hamilton Pkwy,60,NA
+R21N,8 St-NYU,R20N,14 St-Union Sq,90,NA
+R21S,8 St-NYU,R22S,Prince St,90,NA
+A59S,80 St,A60S,88 St,60,NA
+A59N,80 St,A57N,Grant Av,60,NA
+A21S,81 St-Museum of Natural History,A22S,72 St,90,NA
+A21N,81 St-Museum of Natural History,A20N,86 St,90,NA
+709S,82 St-Jackson Hts,710S,74 St-Broadway,60,NA
+709N,82 St-Jackson Hts,708N,90 St-Elmhurst Av,60,NA
+J16S,85 St-Forest Pkwy,J17S,75 St-Elderts Ln,90,NA
+J16S,85 St-Forest Pkwy,J19S,Cypress Hills,150,NA
+J16N,85 St-Forest Pkwy,J15N,Woodhaven Blvd,90,NA
+626N,86 St,621N,125 St,270,NA
+626S,86 St,629S,59 St,210,NA
+Q04S,86 St,Q03S,72 St,120,NA
+626S,86 St,627S,77 St,90,NA
+R44N,86 St,R43N,77 St,120,NA
+121S,86 St,122S,79 St,60,NA
+A20S,86 St,A21S,81 St-Museum of Natural History,90,NA
+121N,86 St,120N,96 St,90,NA
+626N,86 St,625N,96 St,120,NA
+A20N,86 St,A19N,96 St,90,NA
+Q04N,86 St,Q05N,96 St,60,NA
+N10N,86 St,N09N,Avenue U,60,NA
+R44S,86 St,R45S,Bay Ridge-95 St,90,NA
+N10S,86 St,D43S,Coney Island-Stillwell Av,240,NA
+A60N,88 St,A59N,80 St,60,NA
+A60S,88 St,A61S,Rockaway Blvd,60,NA
+B12N,9 Av,R36N,36 St,240,NA
+B12S,9 Av,B16S,62 St,270,NA
+B12S,9 Av,B13S,Fort Hamilton Pkwy,120,NA
+708S,90 St-Elmhurst Av,709S,82 St-Jackson Hts,60,NA
+708N,90 St-Elmhurst Av,707N,Junction Blvd,60,NA
+120N,96 St,119N,103 St,90,NA
+625N,96 St,624N,103 St,90,NA
+A19N,96 St,A18N,103 St,90,NA
+120S,96 St,123S,72 St,150,NA
+120S,96 St,121S,86 St,120,NA
+625S,96 St,626S,86 St,120,NA
+A19S,96 St,A20S,86 St,90,NA
+Q05S,96 St,Q04S,86 St,90,NA
+120N,96 St,227N,Central Park North (110 St),240,NA
+J24S,Alabama Av,J27S,Broadway Junction,90,NA
+J24N,Alabama Av,J22N,Cleveland St,150,NA
+J24N,Alabama Av,J23N,Van Siclen Av,60,NA
+210N,Allerton Av,209N,Burke Av,60,NA
+210S,Allerton Av,211S,Pelham Pkwy,120,NA
+S17N,Annadale,S18N,Eltingville,120,SIR
+S17S,Annadale,S16S,Huguenot,120,SIR
+H01N,Aqueduct Racetrack,A61N,Rockaway Blvd,180,NA
+H02N,Aqueduct-N Conduit Av,H01N,Aqueduct Racetrack,60,NA
+H02S,Aqueduct-N Conduit Av,H03S,Howard Beach-JFK Airport,90,NA
+S11N,Arthur Kill,S13N,Richmond Valley,120,SIR
+S11S,Arthur Kill,S09S,Tottenville,180,SIR
+636N,Astor Pl,635N,14 St-Union Sq,90,NA
+636S,Astor Pl,637S,Bleecker St,60,NA
+R03S,Astoria Blvd,R04S,30 Av,60,NA
+R03N,Astoria Blvd,R01N,Astoria-Ditmars Blvd,90,NA
+R01S,Astoria-Ditmars Blvd,R03S,Astoria Blvd,90,NA
+L24N,Atlantic Av,L22N,Broadway Junction,90,NA
+L24S,Atlantic Av,L25S,Sutter Av,90,NA
+R31S,Atlantic Av-Barclays Ctr,R36S,36 St,330,NA
+D24S,Atlantic Av-Barclays Ctr,D25S,7 Av,120,NA
+235S,Atlantic Av-Barclays Ctr,236S,Bergen St,60,NA
+R31N,Atlantic Av-Barclays Ctr,Q01N,Canal St,600,NA
+D24N,Atlantic Av-Barclays Ctr,R30N,DeKalb Av,90,NA
+R31N,Atlantic Av-Barclays Ctr,R30N,DeKalb Av,180,NA
+235S,Atlantic Av-Barclays Ctr,239S,Franklin Av-Medgar Evers College,240,NA
+R31N,Atlantic Av-Barclays Ctr,D22N,Grand St,630,NA
+235N,Atlantic Av-Barclays Ctr,234N,Nevins St,90,NA
+R31S,Atlantic Av-Barclays Ctr,R32S,Union St,120,NA
+D32S,Avenue H,D33S,Avenue J,60,NA
+D32N,Avenue H,D31N,Newkirk Plaza,60,NA
+F31N,Avenue I,F30N,18 Av,60,NA
+F31S,Avenue I,F32S,Bay Pkwy,60,NA
+D33N,Avenue J,D32N,Avenue H,60,NA
+D33S,Avenue J,D34S,Avenue M,90,NA
+D34N,Avenue M,D33N,Avenue J,90,NA
+D34S,Avenue M,D35S,Kings Hwy,120,NA
+F33S,Avenue N,F34S,Avenue P,90,NA
+F33N,Avenue N,F32N,Bay Pkwy,90,NA
+F34N,Avenue P,F33N,Avenue N,90,NA
+F34S,Avenue P,F35S,Kings Hwy,90,NA
+N09S,Avenue U,N10S,86 St,60,NA
+F36S,Avenue U,F38S,Avenue X,90,NA
+D37N,Avenue U,D35N,Kings Hwy,120,NA
+F36N,Avenue U,F35N,Kings Hwy,120,NA
+N09N,Avenue U,N08N,Kings Hwy,90,NA
+D37S,Avenue U,D38S,Neck Rd,60,NA
+F38N,Avenue X,F36N,Avenue U,90,NA
+F38S,Avenue X,F39S,Neptune Av,120,NA
+B23N,Bay 50 St,B22N,25 Av,120,NA
+B23S,Bay 50 St,D43S,Coney Island-Stillwell Av,240,NA
+B21N,Bay Pkwy,B20N,20 Av,60,NA
+N07N,Bay Pkwy,N06N,20 Av,90,NA
+B21S,Bay Pkwy,B22S,25 Av,90,NA
+F32N,Bay Pkwy,F31N,Avenue I,60,NA
+F32S,Bay Pkwy,F33S,Avenue N,90,NA
+N07S,Bay Pkwy,N08S,Kings Hwy,120,NA
+R42N,Bay Ridge Av,R41N,59 St,120,NA
+R42S,Bay Ridge Av,R43S,77 St,90,NA
+R45N,Bay Ridge-95 St,R44N,86 St,90,NA
+S20S,Bay Terrace,S19S,Great Kills,120,SIR
+S20N,Bay Terrace,S21N,Oakwood Heights,120,SIR
+502N,Baychester Av,501N,Eastchester-Dyre Av,120,NA
+502S,Baychester Av,503S,Gun Hill Rd,120,NA
+H14N,Beach 105 St,H13N,Beach 98 St,90,NA
+H14S,Beach 105 St,H15S,Rockaway Park-Beach 116 St,90,NA
+H10N,Beach 25 St,H09N,Beach 36 St,90,NA
+H10S,Beach 25 St,H11S,Far Rockaway-Mott Av,90,NA
+H09S,Beach 36 St,H10S,Beach 25 St,60,NA
+H09N,Beach 36 St,H08N,Beach 44 St,90,NA
+H08S,Beach 44 St,H09S,Beach 36 St,60,NA
+H08N,Beach 44 St,H07N,Beach 60 St,120,NA
+H07S,Beach 60 St,H08S,Beach 44 St,90,NA
+H07N,Beach 60 St,H06N,Beach 67 St,90,NA
+H06S,Beach 67 St,H07S,Beach 60 St,90,NA
+H06N,Beach 67 St,H04N,Broad Channel,240,NA
+H12S,Beach 90 St,H13S,Beach 98 St,90,NA
+H12N,Beach 90 St,H04N,Broad Channel,210,NA
+H13S,Beach 98 St,H14S,Beach 105 St,60,NA
+H13N,Beach 98 St,H12N,Beach 90 St,90,NA
+L08N,Bedford Av,L06N,1 Av,210,NA
+L08S,Bedford Av,L10S,Lorimer St,90,NA
+D03S,Bedford Park Blvd,D04S,Kingsbridge Rd,120,NA
+D03N,Bedford Park Blvd,D01N,Norwood-205 St,150,NA
+405S,Bedford Park Blvd-Lehman College,406S,Kingsbridge Rd,120,NA
+405N,Bedford Park Blvd-Lehman College,402N,Mosholu Pkwy,90,NA
+G33S,Bedford-Nostrand Avs,G34S,Classon Av,60,NA
+G33N,Bedford-Nostrand Avs,G32N,Myrtle-Willoughby Avs,90,NA
+236N,Bergen St,235N,Atlantic Av-Barclays Ctr,60,NA
+F20S,Bergen St,F21S,Carroll St,90,NA
+236S,Bergen St,237S,Grand Army Plaza,90,NA
+F20N,Bergen St,A42N,Hoyt-Schermerhorn Sts,90,NA
+F20N,Bergen St,A41N,Jay St-MetroTech,120,NA
+D29N,Beverley Rd,D28N,Church Av,90,NA
+D29S,Beverley Rd,D30S,Cortelyou Rd,30,NA
+245N,Beverly Rd,244N,Church Av,90,NA
+245S,Beverly Rd,246S,Newkirk Av-Little Haiti,90,NA
+637N,Bleecker St,636N,Astor Pl,90,NA
+637S,Bleecker St,638S,Spring St,60,NA
+423N,Borough Hall,420N,Bowling Green,300,NA
+232N,Borough Hall,231N,Clark St,90,NA
+232S,Borough Hall,233S,Hoyt St,90,NA
+423S,Borough Hall,234S,Nevins St,90,NA
+S04N,Botanic Garden,S03N,Park Pl,120,NA
+S04S,Botanic Garden,D26S,Prospect Park,180,NA
+M19S,Bowery,M20S,Canal St,90,NA
+M19N,Bowery,M18N,Delancey St-Essex St,90,NA
+420S,Bowling Green,423S,Borough Hall,300,NA
+420N,Bowling Green,419N,Wall St,60,NA
+F05N,Briarwood,G07N,Jamaica-Van Wyck,90,NA
+F05S,Briarwood,F06S,Kew Gardens-Union Tpke,90,NA
+F05N,Briarwood,F04N,Sutphin Blvd,60,NA
+D40S,Brighton Beach,D41S,Ocean Pkwy,120,NA
+D40N,Brighton Beach,D39N,Sheepshead Bay,120,NA
+H04S,Broad Channel,H06S,Beach 67 St,240,NA
+H04S,Broad Channel,H12S,Beach 90 St,240,NA
+H04N,Broad Channel,H03N,Howard Beach-JFK Airport,390,NA
+M23N,Broad St,M22N,Fulton St,90,NA
+R05N,Broadway,R04N,30 Av,90,NA
+R05S,Broadway,R06S,36 Av,90,NA
+G30S,Broadway,G31S,Flushing Av,60,NA
+G30N,Broadway,G29N,Metropolitan Av,60,NA
+J27N,Broadway Junction,J24N,Alabama Av,90,NA
+L22S,Broadway Junction,L24S,Atlantic Av,60,NA
+L22N,Broadway Junction,L21N,Bushwick Av-Aberdeen St,60,NA
+J27S,Broadway Junction,J28S,Chauncey St,60,NA
+A51S,Broadway Junction,A55S,Euclid Av,240,NA
+J27S,Broadway Junction,J29S,Halsey St,150,NA
+A51S,Broadway Junction,A52S,Liberty Av,120,NA
+A51N,Broadway Junction,A50N,Rockaway Av,60,NA
+A51N,Broadway Junction,A48N,Utica Av,180,NA
+D21S,Broadway-Lafayette St,F14S,2 Av,90,NA
+D21S,Broadway-Lafayette St,M18S,Delancey St-Essex St,180,NA
+D21S,Broadway-Lafayette St,D22S,Grand St,120,NA
+D21N,Broadway-Lafayette St,D20N,W 4 St-Wash Sq,120,NA
+212S,Bronx Park East,213S,E 180 St,120,NA
+212N,Bronx Park East,211N,Pelham Pkwy,120,NA
+618S,Brook Av,619S,3 Av-138 St,90,NA
+618N,Brook Av,617N,Cypress Av,60,NA
+640N,Brooklyn Bridge-City Hall,635N,14 St-Union Sq,270,NA
+640N,Brooklyn Bridge-City Hall,639N,Canal St,120,NA
+640S,Brooklyn Bridge-City Hall,418S,Fulton St,90,NA
+602S,Buhre Av,603S,Middletown Rd,60,NA
+602N,Buhre Av,601N,Pelham Bay Park,150,NA
+209S,Burke Av,210S,Allerton Av,60,NA
+209N,Burke Av,208N,Gun Hill Rd,90,NA
+409S,Burnside Av,410S,176 St,90,NA
+409N,Burnside Av,408N,183 St,90,NA
+L21S,Bushwick Av-Aberdeen St,L22S,Broadway Junction,60,NA
+L21N,Bushwick Av-Aberdeen St,L20N,Wilson Av,90,NA
+Q01N,Canal St,R20N,14 St-Union Sq,240,NA
+Q01S,Canal St,R31S,Atlantic Av-Barclays Ctr,630,NA
+M20N,Canal St,M19N,Bowery,120,NA
+639S,Canal St,640S,Brooklyn Bridge-City Hall,120,NA
+A34S,Canal St,A36S,Chambers St,120,NA
+M20S,Canal St,M21S,Chambers St,90,NA
+R23S,Canal St,R24S,City Hall,150,NA
+Q01S,Canal St,R30S,DeKalb Av,450,NA
+135S,Canal St,136S,Franklin St,60,NA
+135N,Canal St,134N,Houston St,90,NA
+Q01N,Canal St,R22N,Prince St,120,NA
+R23N,Canal St,R22N,Prince St,90,NA
+639N,Canal St,638N,Spring St,90,NA
+A34N,Canal St,A33N,Spring St,90,NA
+A34N,Canal St,A32N,W 4 St-Wash Sq,150,NA
+A34S,Canal St,E01S,World Trade Center,120,NA
+L29N,Canarsie-Rockaway Pkwy,L28N,East 105 St,90,NA
+F21N,Carroll St,F20N,Bergen St,90,NA
+F21S,Carroll St,F22S,Smith-9 Sts,90,NA
+607S,Castle Hill Av,608S,Parkchester,90,NA
+607N,Castle Hill Av,606N,Zerega Av,60,NA
+118S,Cathedral Pkwy (110 St),119S,103 St,60,NA
+A17S,Cathedral Pkwy (110 St),A18S,103 St,60,NA
+A17N,Cathedral Pkwy (110 St),A16N,116 St,90,NA
+118N,Cathedral Pkwy (110 St),117N,116 St-Columbia University,60,NA
+M10S,Central Av,M09S,Knickerbocker Av,90,NA
+M10N,Central Av,M11N,Myrtle Av,120,NA
+227N,Central Park North (110 St),226N,116 St,60,NA
+227S,Central Park North (110 St),120S,96 St,240,NA
+137N,Chambers St,132N,14 St,240,NA
+A36N,Chambers St,A34N,Canal St,90,NA
+M21N,Chambers St,M20N,Canal St,90,NA
+137N,Chambers St,136N,Franklin St,60,NA
+A36S,Chambers St,A38S,Fulton St,120,NA
+M21S,Chambers St,M22S,Fulton St,60,NA
+137S,Chambers St,228S,Park Place,60,NA
+137S,Chambers St,138S,WTC Cortlandt,60,NA
+J28N,Chauncey St,J27N,Broadway Junction,60,NA
+J28S,Chauncey St,J30S,Gates Av,150,NA
+J28S,Chauncey St,J29S,Halsey St,90,NA
+133N,Christopher St-Sheridan Sq,132N,14 St,90,NA
+133S,Christopher St-Sheridan Sq,134S,Houston St,90,NA
+F27N,Church Av,F24N,7 Av,240,NA
+D28S,Church Av,D29S,Beverley Rd,90,NA
+244S,Church Av,245S,Beverly Rd,90,NA
+F27S,Church Av,F29S,Ditmas Av,120,NA
+F27N,Church Av,F26N,Fort Hamilton Pkwy,90,NA
+D28S,Church Av,D31S,Newkirk Plaza,150,NA
+D28N,Church Av,D27N,Parkside Av,60,NA
+D28N,Church Av,D26N,Prospect Park,120,NA
+244N,Church Av,243N,Winthrop St,60,NA
+R24N,City Hall,R23N,Canal St,150,NA
+R24S,City Hall,R25S,Cortlandt St,120,NA
+231S,Clark St,232S,Borough Hall,60,NA
+231N,Clark St,230N,Wall St,180,NA
+G34N,Classon Av,G33N,Bedford-Nostrand Avs,60,NA
+G34S,Classon Av,G35S,Clinton-Washington Avs,90,NA
+J22S,Cleveland St,J24S,Alabama Av,150,NA
+J22N,Cleveland St,J20N,Crescent St,150,NA
+J22N,Cleveland St,J21N,Norwood Av,60,NA
+J22S,Cleveland St,J23S,Van Siclen Av,90,NA
+S28S,Clifton,S27S,Grasmere,180,SIR
+S28N,Clifton,S29N,Stapleton,120,SIR
+G35N,Clinton-Washington Avs,G34N,Classon Av,90,NA
+A44S,Clinton-Washington Avs,A45S,Franklin Av,90,NA
+G35S,Clinton-Washington Avs,G36S,Fulton St,90,NA
+A44N,Clinton-Washington Avs,A43N,Lafayette Av,90,NA
+D43N,Coney Island-Stillwell Av,N10N,86 St,240,NA
+D43N,Coney Island-Stillwell Av,B23N,Bay 50 St,210,NA
+D43N,Coney Island-Stillwell Av,D42N,W 8 St-NY Aquarium,90,NA
+D30N,Cortelyou Rd,D29N,Beverley Rd,30,NA
+D30S,Cortelyou Rd,D31S,Newkirk Plaza,90,NA
+R25N,Cortlandt St,R24N,City Hall,90,NA
+R25S,Cortlandt St,R26S,Rector St,60,NA
+G22S,Court Sq,G24S,21 St,60,NA
+719S,Court Sq,720S,Hunters Point Av,90,NA
+719N,Court Sq,718N,Queensboro Plaza,90,NA
+F09S,Court Sq-23 St,F11S,Lexington Av/53 St,180,NA
+F09N,Court Sq-23 St,G21N,Queens Plaza,90,NA
+R28S,Court St,R29S,Jay St-MetroTech,120,NA
+R28N,Court St,R27N,Whitehall St-South Ferry,210,NA
+J20N,Crescent St,J17N,75 St-Elderts Ln,150,NA
+J20S,Crescent St,J22S,Cleveland St,150,NA
+J20N,Crescent St,J19N,Cypress Hills,90,NA
+J20S,Crescent St,J21S,Norwood Av,90,NA
+250N,Crown Hts-Utica Av,239N,Franklin Av-Medgar Evers College,180,NA
+250N,Crown Hts-Utica Av,249N,Kingston Av,120,NA
+250S,Crown Hts-Utica Av,251S,Sutter Av-Rutland Rd,150,NA
+617S,Cypress Av,618S,Brook Av,60,NA
+617N,Cypress Av,616N,E 143 St-St Mary's St,90,NA
+J19N,Cypress Hills,J17N,75 St-Elderts Ln,60,NA
+J19N,Cypress Hills,J16N,85 St-Forest Pkwy,150,NA
+J19S,Cypress Hills,J20S,Crescent St,90,NA
+R30S,DeKalb Av,D24S,Atlantic Av-Barclays Ctr,90,NA
+R30S,DeKalb Av,R31S,Atlantic Av-Barclays Ctr,180,NA
+R30N,DeKalb Av,Q01N,Canal St,450,NA
+R30N,DeKalb Av,D22N,Grand St,480,NA
+R30N,DeKalb Av,R29N,Jay St-MetroTech,90,NA
+L16N,DeKalb Av,L15N,Jefferson St,90,NA
+L16S,DeKalb Av,L17S,Myrtle-Wyckoff Avs,90,NA
+F15N,Delancey St-Essex St,F14N,2 Av,90,NA
+M18S,Delancey St-Essex St,M19S,Bowery,90,NA
+M18N,Delancey St-Essex St,D21N,Broadway-Lafayette St,180,NA
+F15S,Delancey St-Essex St,F16S,East Broadway,90,NA
+M18N,Delancey St-Essex St,M16N,Marcy Av,450,NA
+M18S,Delancey St-Essex St,M16S,Marcy Av,450,NA
+F29S,Ditmas Av,F30S,18 Av,120,NA
+F29N,Ditmas Av,F27N,Church Av,120,NA
+S25S,Dongan Hills,S24S,Jefferson Av,120,SIR
+S25N,Dongan Hills,S26N,Old Town,120,SIR
+A03S,Dyckman St,A05S,190 St,120,NA
+109S,Dyckman St,110S,191 St,90,NA
+109N,Dyckman St,108N,207 St,90,NA
+A03N,Dyckman St,A02N,Inwood-207 St,90,NA
+616S,E 143 St-St Mary's St,617S,Cypress Av,90,NA
+616N,E 143 St-St Mary's St,615N,E 149 St,60,NA
+615S,E 149 St,616S,E 143 St-St Mary's St,60,NA
+615N,E 149 St,614N,Longwood Av,90,NA
+213S,E 180 St,221S,3 Av-149 St,720,NA
+213N,E 180 St,212N,Bronx Park East,120,NA
+213N,E 180 St,208N,Gun Hill Rd,480,NA
+213N,E 180 St,505N,Morris Park,180,NA
+213S,E 180 St,214S,West Farms Sq-E Tremont Av,90,NA
+L28S,East 105 St,L29S,Canarsie-Rockaway Pkwy,90,NA
+L28N,East 105 St,L27N,New Lots Av,120,NA
+F16N,East Broadway,F15N,Delancey St-Essex St,60,NA
+F16S,East Broadway,F18S,York St,150,NA
+501S,Eastchester-Dyre Av,502S,Baychester Av,120,NA
+238S,Eastern Pkwy-Brooklyn Museum,239S,Franklin Av-Medgar Evers College,90,NA
+238N,Eastern Pkwy-Brooklyn Museum,237N,Grand Army Plaza,90,NA
+611N,Elder Av,610N,Morrison Av-Soundview,60,NA
+611S,Elder Av,612S,Whitlock Av,90,NA
+G13N,Elmhurst Av,G12N,Grand Av-Newtown,90,NA
+G13S,Elmhurst Av,G14S,Jackson Hts-Roosevelt Av,90,NA
+S18S,Eltingville,S17S,Annadale,120,SIR
+S18N,Eltingville,S19N,Great Kills,120,SIR
+A55N,Euclid Av,A51N,Broadway Junction,240,NA
+A55S,Euclid Av,A57S,Grant Av,90,NA
+A55N,Euclid Av,A54N,Shepherd Av,90,NA
+H11N,Far Rockaway-Mott Av,H10N,Beach 25 St,90,NA
+247N,Flatbush Av-Brooklyn College,246N,Newkirk Av-Little Haiti,120,NA
+G31N,Flushing Av,G30N,Broadway,60,NA
+M12N,Flushing Av,M13N,Lorimer St,90,NA
+M12S,Flushing Av,M13S,Lorimer St,90,NA
+M12N,Flushing Av,M11N,Myrtle Av,60,NA
+M12S,Flushing Av,M11S,Myrtle Av,60,NA
+G31S,Flushing Av,G32S,Myrtle-Willoughby Avs,60,NA
+701S,Flushing-Main St,702S,Mets-Willets Point,150,NA
+D05S,Fordham Rd,D06S,182-183 Sts,60,NA
+407S,Fordham Rd,408S,183 St,60,NA
+407N,Fordham Rd,406N,Kingsbridge Rd,60,NA
+D05N,Fordham Rd,D04N,Kingsbridge Rd,90,NA
+D05S,Fordham Rd,D07S,Tremont Av,150,NA
+M05S,Forest Av,M04S,Fresh Pond Rd,90,NA
+M05N,Forest Av,M06N,Seneca Av,60,NA
+G08S,Forest Hills-71 Av,G09S,67 Av,90,NA
+G08N,Forest Hills-71 Av,F07N,75 Av,120,NA
+G08S,Forest Hills-71 Av,G14S,Jackson Hts-Roosevelt Av,330,NA
+G08N,Forest Hills-71 Av,F06N,Kew Gardens-Union Tpke,150,NA
+F26N,Fort Hamilton Pkwy,F25N,15 St-Prospect Park,150,NA
+B13S,Fort Hamilton Pkwy,B14S,50 St,60,NA
+N03N,Fort Hamilton Pkwy,N02N,8 Av,60,NA
+B13N,Fort Hamilton Pkwy,B12N,9 Av,120,NA
+F26S,Fort Hamilton Pkwy,F27S,Church Av,90,NA
+N03S,Fort Hamilton Pkwy,N04S,New Utrecht Av,120,NA
+A45N,Franklin Av,A44N,Clinton-Washington Avs,90,NA
+A45S,Franklin Av,A46S,Nostrand Av,60,NA
+S01S,Franklin Av,S03S,Park Pl,120,NA
+239N,Franklin Av-Medgar Evers College,235N,Atlantic Av-Barclays Ctr,240,NA
+239S,Franklin Av-Medgar Evers College,250S,Crown Hts-Utica Av,210,NA
+239N,Franklin Av-Medgar Evers College,238N,Eastern Pkwy-Brooklyn Museum,90,NA
+239S,Franklin Av-Medgar Evers College,248S,Nostrand Av,90,NA
+239S,Franklin Av-Medgar Evers College,241S,President St-Medgar Evers College,150,NA
+136N,Franklin St,135N,Canal St,60,NA
+136S,Franklin St,137S,Chambers St,60,NA
+216N,Freeman St,215N,174 St,120,NA
+216S,Freeman St,217S,Simpson St,90,NA
+M04N,Fresh Pond Rd,M05N,Forest Av,90,NA
+M04S,Fresh Pond Rd,M01S,Middle Village-Metropolitan Av,120,NA
+M22S,Fulton St,M23S,Broad St,90,NA
+418N,Fulton St,640N,Brooklyn Bridge-City Hall,90,NA
+A38N,Fulton St,A36N,Chambers St,120,NA
+M22N,Fulton St,M21N,Chambers St,90,NA
+G36N,Fulton St,G35N,Clinton-Washington Avs,90,NA
+A38S,Fulton St,A40S,High St,180,NA
+G36S,Fulton St,A42S,Hoyt-Schermerhorn Sts,90,NA
+229N,Fulton St,228N,Park Place,120,NA
+229S,Fulton St,230S,Wall St,60,NA
+418S,Fulton St,419S,Wall St,60,NA
+J30N,Gates Av,J28N,Chauncey St,150,NA
+J30N,Gates Av,J29N,Halsey St,90,NA
+J30S,Gates Av,J31S,Kosciuszko St,90,NA
+J30S,Gates Av,M11S,Myrtle Av,180,NA
+L11S,Graham Av,L12S,Grand St,90,NA
+L11N,Graham Av,L10N,Lorimer St,60,NA
+237N,Grand Army Plaza,236N,Bergen St,120,NA
+237S,Grand Army Plaza,238S,Eastern Pkwy-Brooklyn Museum,90,NA
+G12S,Grand Av-Newtown,G13S,Elmhurst Av,90,NA
+G12N,Grand Av-Newtown,G11N,Woodhaven Blvd,90,NA
+631S,Grand Central-42 St,635S,14 St-Union Sq,210,NA
+631S,Grand Central-42 St,632S,33 St,120,NA
+723S,Grand Central-42 St,724S,5 Av,60,NA
+631N,Grand Central-42 St,630N,51 St,90,NA
+631N,Grand Central-42 St,629N,59 St,120,NA
+901N,Grand Central-42 St,902N,Times Sq-42 St,90,NA
+723N,Grand Central-42 St,721N,Vernon Blvd-Jackson Av,270,NA
+D22S,Grand St,R31S,Atlantic Av-Barclays Ctr,630,NA
+D22N,Grand St,D21N,Broadway-Lafayette St,120,NA
+D22S,Grand St,R30S,DeKalb Av,480,NA
+L12N,Grand St,L11N,Graham Av,90,NA
+L12S,Grand St,L13S,Montrose Av,60,NA
+A57S,Grant Av,A59S,80 St,90,NA
+A57N,Grant Av,A55N,Euclid Av,90,NA
+S23N,Grant City,S24N,Jefferson Av,60,SIR
+S23S,Grant City,S22S,New Dorp,120,SIR
+S27N,Grasmere,S28N,Clifton,180,SIR
+S27S,Grasmere,S26S,Old Town,120,SIR
+S19N,Great Kills,S20N,Bay Terrace,120,SIR
+S19S,Great Kills,S18S,Eltingville,120,SIR
+G26N,Greenpoint Av,G24N,21 St,150,NA
+G26S,Greenpoint Av,G28S,Nassau Av,60,NA
+208N,Gun Hill Rd,207N,219 St,90,NA
+503N,Gun Hill Rd,502N,Baychester Av,120,NA
+208S,Gun Hill Rd,209S,Burke Av,90,NA
+503S,Gun Hill Rd,504S,Pelham Pkwy,150,NA
+J29N,Halsey St,J27N,Broadway Junction,150,NA
+J29N,Halsey St,J28N,Chauncey St,90,NA
+J29S,Halsey St,J30S,Gates Av,90,NA
+J29S,Halsey St,J31S,Kosciuszko St,150,NA
+L19N,Halsey St,L17N,Myrtle-Wyckoff Avs,90,NA
+L19S,Halsey St,L20S,Wilson Av,150,NA
+301S,Harlem-148 St,302S,145 St,90,NA
+M14N,Hewes St,M13N,Lorimer St,90,NA
+M14S,Hewes St,M13S,Lorimer St,90,NA
+M14N,Hewes St,M16N,Marcy Av,60,NA
+M14S,Hewes St,M16S,Marcy Av,60,NA
+A40N,High St,A38N,Fulton St,180,NA
+A40S,High St,A41S,Jay St-MetroTech,120,NA
+134S,Houston St,135S,Canal St,90,NA
+134N,Houston St,133N,Christopher St-Sheridan Sq,90,NA
+H03N,Howard Beach-JFK Airport,H02N,Aqueduct-N Conduit Av,120,NA
+H03S,Howard Beach-JFK Airport,H04S,Broad Channel,390,NA
+233N,Hoyt St,232N,Borough Hall,90,NA
+233S,Hoyt St,234S,Nevins St,60,NA
+A42S,Hoyt-Schermerhorn Sts,F20S,Bergen St,90,NA
+A42N,Hoyt-Schermerhorn Sts,G36N,Fulton St,90,NA
+A42N,Hoyt-Schermerhorn Sts,A41N,Jay St-MetroTech,90,NA
+A42S,Hoyt-Schermerhorn Sts,A43S,Lafayette Av,120,NA
+A42S,Hoyt-Schermerhorn Sts,A46S,Nostrand Av,270,NA
+S16N,Huguenot,S17N,Annadale,120,SIR
+S16S,Huguenot,S15S,Prince's Bay,120,SIR
+720N,Hunters Point Av,719N,Court Sq,90,NA
+720S,Hunters Point Av,721S,Vernon Blvd-Jackson Av,30,NA
+613S,Hunts Point Av,619S,3 Av-138 St,360,NA
+613S,Hunts Point Av,614S,Longwood Av,90,NA
+613N,Hunts Point Av,608N,Parkchester,300,NA
+613N,Hunts Point Av,612N,Whitlock Av,90,NA
+218S,Intervale Av,219S,Prospect Av,60,NA
+218N,Intervale Av,217N,Simpson St,60,NA
+A02S,Inwood-207 St,A03S,Dyckman St,90,NA
+220S,Jackson Av,221S,3 Av-149 St,120,NA
+220N,Jackson Av,219N,Prospect Av,90,NA
+G14S,Jackson Hts-Roosevelt Av,B04S,21 St-Queensbridge,360,NA
+G14S,Jackson Hts-Roosevelt Av,G15S,65 St,90,NA
+G14N,Jackson Hts-Roosevelt Av,G13N,Elmhurst Av,90,NA
+G14N,Jackson Hts-Roosevelt Av,G08N,Forest Hills-71 Av,330,NA
+G14S,Jackson Hts-Roosevelt Av,G21S,Queens Plaza,300,NA
+G05S,Jamaica Center-Parsons/Archer,G06S,Sutphin Blvd-Archer Av-JFK Airport,60,NA
+F01S,Jamaica-179 St,F02S,169 St,90,NA
+F01S,Jamaica-179 St,F03S,Parsons Blvd,180,NA
+G07S,Jamaica-Van Wyck,F05S,Briarwood,90,NA
+G07S,Jamaica-Van Wyck,F06S,Kew Gardens-Union Tpke,180,NA
+G07N,Jamaica-Van Wyck,G06N,Sutphin Blvd-Archer Av-JFK Airport,120,NA
+A41S,Jay St-MetroTech,F24S,7 Av,420,NA
+A41S,Jay St-MetroTech,F20S,Bergen St,150,NA
+R29N,Jay St-MetroTech,R28N,Court St,90,NA
+R29S,Jay St-MetroTech,R30S,DeKalb Av,90,NA
+A41N,Jay St-MetroTech,A40N,High St,120,NA
+A41S,Jay St-MetroTech,A42S,Hoyt-Schermerhorn Sts,90,NA
+A41N,Jay St-MetroTech,F18N,York St,90,NA
+S24N,Jefferson Av,S25N,Dongan Hills,120,SIR
+S24S,Jefferson Av,S23S,Grant City,60,SIR
+L15S,Jefferson St,L16S,DeKalb Av,90,NA
+L15N,Jefferson St,L14N,Morgan Av,120,NA
+707N,Junction Blvd,706N,103 St-Corona Plaza,60,NA
+707S,Junction Blvd,712S,61 St-Woodside,240,NA
+707S,Junction Blvd,708S,90 St-Elmhurst Av,60,NA
+707N,Junction Blvd,702N,Mets-Willets Point,210,NA
+254S,Junius St,255S,Pennsylvania Av,90,NA
+254N,Junius St,253N,Rockaway Av,60,NA
+F06S,Kew Gardens-Union Tpke,F07S,75 Av,90,NA
+F06N,Kew Gardens-Union Tpke,F05N,Briarwood,120,NA
+F06S,Kew Gardens-Union Tpke,G08S,Forest Hills-71 Av,180,NA
+F06N,Kew Gardens-Union Tpke,G07N,Jamaica-Van Wyck,180,NA
+F06N,Kew Gardens-Union Tpke,F03N,Parsons Blvd,240,NA
+D35N,Kings Hwy,D34N,Avenue M,120,NA
+F35N,Kings Hwy,F34N,Avenue P,90,NA
+D35S,Kings Hwy,D37S,Avenue U,120,NA
+F35S,Kings Hwy,F36S,Avenue U,90,NA
+N08S,Kings Hwy,N09S,Avenue U,120,NA
+N08N,Kings Hwy,N07N,Bay Pkwy,120,NA
+D35N,Kings Hwy,D31N,Newkirk Plaza,270,NA
+D35S,Kings Hwy,D39S,Sheepshead Bay,240,NA
+D04N,Kingsbridge Rd,D03N,Bedford Park Blvd,120,NA
+406N,Kingsbridge Rd,405N,Bedford Park Blvd-Lehman College,120,NA
+406S,Kingsbridge Rd,407S,Fordham Rd,60,NA
+D04S,Kingsbridge Rd,D05S,Fordham Rd,90,NA
+249S,Kingston Av,250S,Crown Hts-Utica Av,120,NA
+249N,Kingston Av,248N,Nostrand Av,90,NA
+A47N,Kingston-Throop Avs,A46N,Nostrand Av,90,NA
+A47S,Kingston-Throop Avs,A48S,Utica Av,90,NA
+M09N,Knickerbocker Av,M10N,Central Av,120,NA
+M09S,Knickerbocker Av,M08S,Myrtle-Wyckoff Avs,90,NA
+J31N,Kosciuszko St,J30N,Gates Av,90,NA
+J31N,Kosciuszko St,J29N,Halsey St,150,NA
+J31S,Kosciuszko St,M11S,Myrtle Av,90,NA
+A43S,Lafayette Av,A44S,Clinton-Washington Avs,90,NA
+A43N,Lafayette Av,A42N,Hoyt-Schermerhorn Sts,90,NA
+F11S,Lexington Av/53 St,F12S,5 Av/53 St,90,NA
+F11N,Lexington Av/53 St,F09N,Court Sq-23 St,180,NA
+R11S,Lexington Av/59 St,R13S,5 Av/59 St,90,NA
+R11N,Lexington Av/59 St,G21N,Queens Plaza,330,NA
+R11N,Lexington Av/59 St,R09N,Queensboro Plaza,270,NA
+B08S,Lexington Av/63 St,B10S,57 St,150,NA
+B08S,Lexington Av/63 St,R14S,57 St-7 Av,180,NA
+B08N,Lexington Av/63 St,Q03N,72 St,120,NA
+B08N,Lexington Av/63 St,B06N,Roosevelt Island,120,NA
+A52N,Liberty Av,A51N,Broadway Junction,120,NA
+A52S,Liberty Av,A53S,Van Siclen Av,90,NA
+L26S,Livonia Av,L27S,New Lots Av,90,NA
+L26N,Livonia Av,L25N,Sutter Av,60,NA
+614S,Longwood Av,615S,E 149 St,90,NA
+614N,Longwood Av,613N,Hunts Point Av,90,NA
+L10N,Lorimer St,L08N,Bedford Av,90,NA
+M13N,Lorimer St,M12N,Flushing Av,90,NA
+M13S,Lorimer St,M12S,Flushing Av,90,NA
+L10S,Lorimer St,L11S,Graham Av,60,NA
+M13N,Lorimer St,M14N,Hewes St,60,NA
+M13S,Lorimer St,M14S,Hewes St,60,NA
+106S,Marble Hill-225 St,107S,215 St,90,NA
+106N,Marble Hill-225 St,104N,231 St,90,NA
+M16N,Marcy Av,M18N,Delancey St-Essex St,450,NA
+M16S,Marcy Av,M18S,Delancey St-Essex St,450,NA
+M16N,Marcy Av,M14N,Hewes St,60,NA
+M16S,Marcy Av,M14S,Hewes St,60,NA
+M16N,Marcy Av,M11N,Myrtle Av,240,NA
+G29S,Metropolitan Av,G30S,Broadway,90,NA
+G29N,Metropolitan Av,G28N,Nassau Av,150,NA
+702S,Mets-Willets Point,705S,111 St,90,NA
+702N,Mets-Willets Point,701N,Flushing-Main St,210,NA
+702S,Mets-Willets Point,707S,Junction Blvd,210,NA
+M01N,Middle Village-Metropolitan Av,M04N,Fresh Pond Rd,120,NA
+603N,Middletown Rd,602N,Buhre Av,90,NA
+603S,Middletown Rd,604S,Westchester Sq-E Tremont Av,90,NA
+L13N,Montrose Av,L12N,Grand St,60,NA
+L13S,Montrose Av,L14S,Morgan Av,90,NA
+L14S,Morgan Av,L15S,Jefferson St,120,NA
+L14N,Morgan Av,L13N,Montrose Av,90,NA
+505S,Morris Park,213S,E 180 St,180,NA
+505N,Morris Park,504N,Pelham Pkwy,60,NA
+610S,Morrison Av-Soundview,611S,Elder Av,60,NA
+610N,Morrison Av-Soundview,609N,St Lawrence Av,60,NA
+402S,Mosholu Pkwy,405S,Bedford Park Blvd-Lehman College,90,NA
+402N,Mosholu Pkwy,401N,Woodlawn,120,NA
+411S,Mt Eden Av,412S,170 St,60,NA
+411N,Mt Eden Av,410N,176 St,60,NA
+M11S,Myrtle Av,M10S,Central Av,120,NA
+M11N,Myrtle Av,M12N,Flushing Av,90,NA
+M11S,Myrtle Av,M12S,Flushing Av,90,NA
+M11N,Myrtle Av,J30N,Gates Av,180,NA
+M11N,Myrtle Av,J31N,Kosciuszko St,90,NA
+M11S,Myrtle Av,M16S,Marcy Av,240,NA
+G32S,Myrtle-Willoughby Avs,G33S,Bedford-Nostrand Avs,90,NA
+G32N,Myrtle-Willoughby Avs,G31N,Flushing Av,60,NA
+L17N,Myrtle-Wyckoff Avs,L16N,DeKalb Av,90,NA
+L17S,Myrtle-Wyckoff Avs,L19S,Halsey St,90,NA
+M08N,Myrtle-Wyckoff Avs,M09N,Knickerbocker Av,120,NA
+M08S,Myrtle-Wyckoff Avs,M06S,Seneca Av,90,NA
+G28N,Nassau Av,G26N,Greenpoint Av,60,NA
+G28S,Nassau Av,G29S,Metropolitan Av,150,NA
+D38N,Neck Rd,D37N,Avenue U,60,NA
+D38S,Neck Rd,D39S,Sheepshead Bay,120,NA
+F39N,Neptune Av,F38N,Avenue X,120,NA
+F39S,Neptune Av,D42S,W 8 St-NY Aquarium,90,NA
+204S,Nereid Av,205S,233 St,90,NA
+204N,Nereid Av,201N,Wakefield-241 St,90,NA
+234S,Nevins St,235S,Atlantic Av-Barclays Ctr,90,NA
+234N,Nevins St,423N,Borough Hall,90,NA
+234N,Nevins St,233N,Hoyt St,90,NA
+S22N,New Dorp,S23N,Grant City,120,SIR
+S22S,New Dorp,S21S,Oakwood Heights,120,SIR
+S22N,New Dorp,S31N,St George,780,SIR
+L27S,New Lots Av,L28S,East 105 St,120,NA
+L27N,New Lots Av,L26N,Livonia Av,90,NA
+257N,New Lots Av,256N,Van Siclen Av,90,NA
+N04S,New Utrecht Av,N05S,18 Av,90,NA
+N04N,New Utrecht Av,N03N,Fort Hamilton Pkwy,120,NA
+246N,Newkirk Av-Little Haiti,245N,Beverly Rd,60,NA
+246S,Newkirk Av-Little Haiti,247S,Flatbush Av-Brooklyn College,120,NA
+D31S,Newkirk Plaza,D32S,Avenue H,60,NA
+D31N,Newkirk Plaza,D28N,Church Av,150,NA
+D31N,Newkirk Plaza,D30N,Cortelyou Rd,90,NA
+D31S,Newkirk Plaza,D35S,Kings Hwy,240,NA
+G16S,Northern Blvd,G18S,46 St,90,NA
+G16N,Northern Blvd,G15N,65 St,60,NA
+J21S,Norwood Av,J22S,Cleveland St,60,NA
+J21N,Norwood Av,J20N,Crescent St,90,NA
+J21S,Norwood Av,J23S,Van Siclen Av,150,NA
+D01S,Norwood-205 St,D03S,Bedford Park Blvd,120,NA
+A46N,Nostrand Av,A45N,Franklin Av,60,NA
+248N,Nostrand Av,239N,Franklin Av-Medgar Evers College,90,NA
+A46N,Nostrand Av,A42N,Hoyt-Schermerhorn Sts,300,NA
+248S,Nostrand Av,249S,Kingston Av,90,NA
+A46S,Nostrand Av,A47S,Kingston-Throop Avs,90,NA
+A46S,Nostrand Av,A48S,Utica Av,120,NA
+S21S,Oakwood Heights,S20S,Bay Terrace,120,SIR
+S21N,Oakwood Heights,S22N,New Dorp,120,SIR
+D41N,Ocean Pkwy,D40N,Brighton Beach,120,NA
+D41S,Ocean Pkwy,D42S,W 8 St-NY Aquarium,120,NA
+S26S,Old Town,S25S,Dongan Hills,120,SIR
+S26N,Old Town,S27N,Grasmere,120,SIR
+A65N,Ozone Park-Lefferts Blvd,A64N,111 St,60,NA
+S03S,Park Pl,S04S,Botanic Garden,90,NA
+S03N,Park Pl,S01N,Franklin Av,120,NA
+228N,Park Place,137N,Chambers St,60,NA
+228S,Park Place,229S,Fulton St,120,NA
+608N,Parkchester,607N,Castle Hill Av,90,NA
+608S,Parkchester,613S,Hunts Point Av,330,NA
+608S,Parkchester,609S,St Lawrence Av,60,NA
+D27S,Parkside Av,D28S,Church Av,90,NA
+D27N,Parkside Av,D26N,Prospect Park,90,NA
+F03N,Parsons Blvd,F02N,169 St,120,NA
+F03N,Parsons Blvd,F01N,Jamaica-179 St,180,NA
+F03S,Parsons Blvd,F06S,Kew Gardens-Union Tpke,240,NA
+F03S,Parsons Blvd,F04S,Sutphin Blvd,60,NA
+601S,Pelham Bay Park,602S,Buhre Av,120,NA
+211N,Pelham Pkwy,210N,Allerton Av,120,NA
+211S,Pelham Pkwy,212S,Bronx Park East,90,NA
+504N,Pelham Pkwy,503N,Gun Hill Rd,120,NA
+504S,Pelham Pkwy,505S,Morris Park,60,NA
+255N,Pennsylvania Av,254N,Junius St,90,NA
+255S,Pennsylvania Av,256S,Van Siclen Av,60,NA
+S14N,Pleasant Plains,S15N,Prince's Bay,120,SIR
+S14S,Pleasant Plains,S13S,Richmond Valley,120,SIR
+241N,President St-Medgar Evers College,239N,Franklin Av-Medgar Evers College,150,NA
+241S,President St-Medgar Evers College,242S,Sterling St,60,NA
+R22N,Prince St,R21N,8 St-NYU,90,NA
+R22S,Prince St,Q01S,Canal St,120,NA
+R22S,Prince St,R23S,Canal St,90,NA
+S15N,Prince's Bay,S16N,Huguenot,120,SIR
+S15S,Prince's Bay,S14S,Pleasant Plains,120,SIR
+R34S,Prospect Av,R35S,25 St,90,NA
+R34N,Prospect Av,R33N,4 Av-9 St,90,NA
+219N,Prospect Av,218N,Intervale Av,60,NA
+219S,Prospect Av,220S,Jackson Av,90,NA
+D26N,Prospect Park,D25N,7 Av,150,NA
+D26N,Prospect Park,S04N,Botanic Garden,180,NA
+D26S,Prospect Park,D28S,Church Av,120,NA
+D26S,Prospect Park,D27S,Parkside Av,90,NA
+G21N,Queens Plaza,G20N,36 St,120,NA
+G21S,Queens Plaza,F09S,Court Sq-23 St,90,NA
+G21N,Queens Plaza,G14N,Jackson Hts-Roosevelt Av,330,NA
+G21S,Queens Plaza,R11S,Lexington Av/59 St,300,NA
+718N,Queensboro Plaza,716N,33 St-Rawson St,120,NA
+R09N,Queensboro Plaza,R08N,39 Av-Dutch Kills,120,NA
+718S,Queensboro Plaza,719S,Court Sq,90,NA
+R09S,Queensboro Plaza,R11S,Lexington Av/59 St,270,NA
+A49S,Ralph Av,A50S,Rockaway Av,90,NA
+A49N,Ralph Av,A48N,Utica Av,90,NA
+R26N,Rector St,R25N,Cortlandt St,60,NA
+139S,Rector St,142S,South Ferry,120,NA
+139N,Rector St,138N,WTC Cortlandt,60,NA
+R26S,Rector St,R27S,Whitehall St-South Ferry,120,NA
+S13S,Richmond Valley,S11S,Arthur Kill,120,SIR
+S13N,Richmond Valley,S14N,Pleasant Plains,120,SIR
+A50S,Rockaway Av,A51S,Broadway Junction,90,NA
+253S,Rockaway Av,254S,Junius St,60,NA
+A50N,Rockaway Av,A49N,Ralph Av,90,NA
+253N,Rockaway Av,252N,Saratoga Av,90,NA
+A61S,Rockaway Blvd,A63S,104 St,90,NA
+A61N,Rockaway Blvd,A60N,88 St,60,NA
+A61S,Rockaway Blvd,H02S,Aqueduct-N Conduit Av,210,NA
+H15N,Rockaway Park-Beach 116 St,H14N,Beach 105 St,120,NA
+B06N,Roosevelt Island,B04N,21 St-Queensbridge,120,NA
+B06S,Roosevelt Island,B08S,Lexington Av/63 St,150,NA
+252S,Saratoga Av,253S,Rockaway Av,90,NA
+252N,Saratoga Av,251N,Sutter Av-Rutland Rd,90,NA
+M06S,Seneca Av,M05S,Forest Av,60,NA
+M06N,Seneca Av,M08N,Myrtle-Wyckoff Avs,90,NA
+D39S,Sheepshead Bay,D40S,Brighton Beach,120,NA
+D39N,Sheepshead Bay,D35N,Kings Hwy,240,NA
+D39N,Sheepshead Bay,D38N,Neck Rd,120,NA
+A54S,Shepherd Av,A55S,Euclid Av,90,NA
+A54N,Shepherd Av,A53N,Van Siclen Av,90,NA
+217N,Simpson St,216N,Freeman St,90,NA
+217S,Simpson St,218S,Intervale Av,60,NA
+F22S,Smith-9 Sts,F23S,4 Av-9 St,90,NA
+F22N,Smith-9 Sts,F21N,Carroll St,120,NA
+142N,South Ferry,139N,Rector St,90,NA
+638N,Spring St,637N,Bleecker St,60,NA
+638S,Spring St,639S,Canal St,90,NA
+A33S,Spring St,A34S,Canal St,90,NA
+A33N,Spring St,A32N,W 4 St-Wash Sq,120,NA
+S31S,St George,S19S,Great Kills,960,SIR
+S31S,St George,S30S,Tompkinsville,180,SIR
+609S,St Lawrence Av,610S,Morrison Av-Soundview,60,NA
+609N,St Lawrence Av,608N,Parkchester,60,NA
+S29S,Stapleton,S28S,Clifton,120,SIR
+S29N,Stapleton,S30N,Tompkinsville,120,SIR
+G19S,Steinway St,G20S,36 St,120,NA
+G19N,Steinway St,G18N,46 St,90,NA
+242N,Sterling St,241N,President St-Medgar Evers College,60,NA
+242S,Sterling St,243S,Winthrop St,90,NA
+F04S,Sutphin Blvd,F05S,Briarwood,120,NA
+F04N,Sutphin Blvd,F03N,Parsons Blvd,60,NA
+G06S,Sutphin Blvd-Archer Av-JFK Airport,J13S,111 St,300,NA
+G06S,Sutphin Blvd-Archer Av-JFK Airport,J12S,121 St,240,NA
+G06N,Sutphin Blvd-Archer Av-JFK Airport,G05N,Jamaica Center-Parsons/Archer,60,NA
+G06S,Sutphin Blvd-Archer Av-JFK Airport,G07S,Jamaica-Van Wyck,120,NA
+L25N,Sutter Av,L24N,Atlantic Av,90,NA
+L25S,Sutter Av,L26S,Livonia Av,60,NA
+251N,Sutter Av-Rutland Rd,250N,Crown Hts-Utica Av,150,NA
+251S,Sutter Av-Rutland Rd,252S,Saratoga Av,90,NA
+R16S,Times Sq-42 St,R17S,34 St-Herald Sq,90,NA
+725S,Times Sq-42 St,726S,34 St-Hudson Yards,180,NA
+127S,Times Sq-42 St,128S,34 St-Penn Station,60,NA
+R16N,Times Sq-42 St,R15N,49 St,90,NA
+725N,Times Sq-42 St,724N,5 Av,90,NA
+127N,Times Sq-42 St,126N,50 St,90,NA
+R16N,Times Sq-42 St,R14N,57 St-7 Av,150,NA
+127N,Times Sq-42 St,123N,72 St,210,NA
+902S,Times Sq-42 St,901S,Grand Central-42 St,90,NA
+S30N,Tompkinsville,S31N,St George,180,SIR
+S30S,Tompkinsville,S29S,Stapleton,120,SIR
+S09N,Tottenville,S11N,Arthur Kill,180,SIR
+D07S,Tremont Av,D13S,145 St,480,NA
+D07S,Tremont Av,D08S,174-175 Sts,90,NA
+D07N,Tremont Av,D06N,182-183 Sts,90,NA
+D07N,Tremont Av,D05N,Fordham Rd,180,NA
+R32S,Union St,R33S,4 Av-9 St,90,NA
+R32N,Union St,R31N,Atlantic Av-Barclays Ctr,120,NA
+A48S,Utica Av,A51S,Broadway Junction,180,NA
+A48N,Utica Av,A47N,Kingston-Throop Avs,90,NA
+A48N,Utica Av,A46N,Nostrand Av,150,NA
+A48S,Utica Av,A49S,Ralph Av,120,NA
+101S,Van Cortlandt Park-242 St,103S,238 St,90,NA
+J23S,Van Siclen Av,J24S,Alabama Av,60,NA
+J23N,Van Siclen Av,J22N,Cleveland St,90,NA
+A53N,Van Siclen Av,A52N,Liberty Av,90,NA
+256S,Van Siclen Av,257S,New Lots Av,60,NA
+J23N,Van Siclen Av,J21N,Norwood Av,150,NA
+256N,Van Siclen Av,255N,Pennsylvania Av,60,NA
+A53S,Van Siclen Av,A54S,Shepherd Av,90,NA
+721S,Vernon Blvd-Jackson Av,723S,Grand Central-42 St,270,NA
+721N,Vernon Blvd-Jackson Av,720N,Hunters Point Av,30,NA
+A32N,W 4 St-Wash Sq,A31N,14 St,120,NA
+D20N,W 4 St-Wash Sq,D19N,14 St,90,NA
+D20N,W 4 St-Wash Sq,D17N,34 St-Herald Sq,180,NA
+D20S,W 4 St-Wash Sq,D21S,Broadway-Lafayette St,120,NA
+A32S,W 4 St-Wash Sq,A34S,Canal St,150,NA
+A32S,W 4 St-Wash Sq,A33S,Spring St,90,NA
+D42S,W 8 St-NY Aquarium,D43S,Coney Island-Stillwell Av,90,NA
+D42N,W 8 St-NY Aquarium,F39N,Neptune Av,90,NA
+D42N,W 8 St-NY Aquarium,D41N,Ocean Pkwy,90,NA
+138N,WTC Cortlandt,137N,Chambers St,60,NA
+138S,WTC Cortlandt,139S,Rector St,90,NA
+201S,Wakefield-241 St,204S,Nereid Av,90,NA
+419S,Wall St,420S,Bowling Green,60,NA
+230S,Wall St,231S,Clark St,270,NA
+230N,Wall St,229N,Fulton St,60,NA
+419N,Wall St,418N,Fulton St,60,NA
+214S,West Farms Sq-E Tremont Av,215S,174 St,120,NA
+214N,West Farms Sq-E Tremont Av,213N,E 180 St,90,NA
+604N,Westchester Sq-E Tremont Av,603N,Middletown Rd,90,NA
+604S,Westchester Sq-E Tremont Av,606S,Zerega Av,60,NA
+R27S,Whitehall St-South Ferry,R28S,Court St,180,NA
+R27N,Whitehall St-South Ferry,R26N,Rector St,90,NA
+612N,Whitlock Av,611N,Elder Av,90,NA
+612S,Whitlock Av,613S,Hunts Point Av,90,NA
+L20S,Wilson Av,L21S,Bushwick Av-Aberdeen St,90,NA
+L20N,Wilson Av,L19N,Halsey St,120,NA
+243S,Winthrop St,244S,Church Av,90,NA
+243N,Winthrop St,242N,Sterling St,90,NA
+J15N,Woodhaven Blvd,J14N,104 St,90,NA
+J15N,Woodhaven Blvd,J13N,111 St,180,NA
+G11N,Woodhaven Blvd,G10N,63 Dr-Rego Park,60,NA
+J15S,Woodhaven Blvd,J17S,75 St-Elderts Ln,180,NA
+J15S,Woodhaven Blvd,J16S,85 St-Forest Pkwy,90,NA
+G11S,Woodhaven Blvd,G12S,Grand Av-Newtown,90,NA
+401S,Woodlawn,402S,Mosholu Pkwy,120,NA
+E01N,World Trade Center,A34N,Canal St,120,NA
+F18N,York St,F16N,East Broadway,150,NA
+F18S,York St,A41S,Jay St-MetroTech,90,NA
+606S,Zerega Av,607S,Castle Hill Av,60,NA
+606N,Zerega Av,604N,Westchester Sq-E Tremont Av,60,NA
