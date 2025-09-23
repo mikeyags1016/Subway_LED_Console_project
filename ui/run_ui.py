@@ -13,6 +13,21 @@ PACKAGE NOTES:
 - This will avoid relative pathing issues 
 '''
 
+class CustomDropDown(DropDown):
+        def __init__(self, **kwargs):
+            super().__init__(**kwargs)
+            self.stations = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o']
+            self.scroll_type = ['bars'] 
+
+            self.max_height = 200  
+            self.scroll_type = ['bars', 'content']  
+            self.bar_width = 10  
+            
+            for station in self.stations:
+                btn = Button(text=f'{station}', size_hint_y=None, height=40)
+                btn.bind(on_release=lambda btn: self.select(btn.text))
+                self.add_widget(btn)
+
 class TouchPadUI(App):
     def build(self):
         # Outer layout to center content towards the top
@@ -33,12 +48,7 @@ class TouchPadUI(App):
         select_two_lay.size = (300, 100)
 
         # First dropdown
-        dropdown_one = DropDown()
-        for index in range(10):
-            btn = Button(text=f'Stop {index}', size_hint_y=None, height=40)
-            btn.bind(on_release=lambda btn: dropdown_one.select(btn.text))
-            dropdown_one.add_widget(btn)
-
+        dropdown_one = CustomDropDown()
         select_one = Button(text='Select first stop', size_hint=(None, None), size=(200, 50))
         select_one_text = TextInput(text='Select first stop', size_hint=(None, None), size=(200, 50))
         select_one.bind(on_release=dropdown_one.open)
@@ -48,15 +58,9 @@ class TouchPadUI(App):
         ))
 
         # Second dropdown
-        dropdown_two = DropDown()
-        for index in range(11):
-            btn2 = Button(text=f'Stop {index}', size_hint_y=None, height=40)
-            btn2.bind(on_release=lambda btn2: dropdown_two.select(btn2.text))
-            dropdown_two.add_widget(btn2)
-
+        dropdown_two = CustomDropDown()
         select_two = Button(text='Select second stop', size_hint=(None, None), size=(200, 50))
         select_two_text = TextInput(text='Select second stop', size_hint=(None, None), size=(200, 50))
-
         select_two.bind(on_release=dropdown_two.open)
         dropdown_two.bind(on_select=lambda instance, x: (
             setattr(select_two, 'text', x),
