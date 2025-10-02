@@ -6,7 +6,7 @@ SRC_STOP_ID = 'D29N'   # replace with your actual source
 DST_STOP_ID = 'G16N'   # replace with your actual destination
 
 # Connect to db
-conn = sqlite3.connect('subway.db')
+conn = sqlite3.connect('network/subway.db')
 conn.row_factory = sqlite3.Row
 
 # Load nodes (all platforms)
