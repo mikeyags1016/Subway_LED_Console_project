@@ -10,7 +10,14 @@ with conn:
     cursor = conn.execute("SELECT stop_id FROM node")
     stop_ids = [row['stop_id'] for row in cursor.fetchall()]
 
-    cursor = conn.execute("SELECT src_stop_id, dst_stop_id, weight_s FROM edge")
+    cursor = conn.execute('''
+                          SELECT src_stop_id, dst_stop_id, weight_s 
+                          FROM edge
+                          INNER JOIN node
+                          ON edge.dst_stop_id = node.stop_id
+                          WHERE node.is_rep
+                          '''
+                          )
     edges = [(row['src_stop_id'], row['dst_stop_id'], row['weight_s']) for row in cursor.fetchall()]
 
 # Build directed graph
