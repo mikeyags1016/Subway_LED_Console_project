@@ -4,7 +4,8 @@ from kivy.uix.dropdown import DropDown
 from kivy.uix.button import Button
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.textinput import TextInput
-from Subway_LED_Console_project.subway_API import MTA_requests
+from kivy_garden.mapview import MapView
+# from Subway_LED_Console_project.subway_API import MTA_requests
 
 '''
 PACKAGE NOTES:
@@ -85,8 +86,10 @@ class TouchPadUI(App):
         # Add layouts
         container.add_widget(main_layout)
         container.add_widget(confirm_btn)
+        mapview = MapView(zoom=11, lat=50.6394, lon=3.057)
 
         outer_layout.add_widget(container)
+        outer_layout.add_widget(mapview)
         return outer_layout
 
 if __name__ == '__main__':
