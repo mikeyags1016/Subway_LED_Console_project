@@ -1,7 +1,3 @@
-venv
 __pycache__/
-<<<<<<< HEAD
 *.py[cod]
 venv
-=======
->>>>>>> 8def8cc7dcded2a8b1234dd24b844e50cf20d56c
