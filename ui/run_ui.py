@@ -14,14 +14,13 @@ PACKAGE NOTES:
 - This will avoid relative pathing issues 
 '''
 
-class TouchPadUI(App):
+class TouchPadUI(MDApp):
     def build(self):
         # Outer layout to center content towards the top
         outer_layout = AnchorLayout(anchor_x="center", anchor_y="top", padding=20)
 
         # Inner vertical layout (dropdown row + confirm button)
-        container = BoxLayout(orientation="vertical", spacing=20, size_hint=(None, None))
-        container.size = (700, 200)
+        container = BoxLayout(orientation="vertical", spacing=20, size_hint=(1, 1))
 
         # Horizontal layout for the two dropdowns/text boxes
         main_layout = BoxLayout(orientation="horizontal", spacing=40, size_hint=(None, None))
@@ -83,10 +82,17 @@ class TouchPadUI(App):
 
         confirm_btn.bind(on_release=confirm_selection)
 
+        mapview = MapView(
+            zoom=10,
+            lat=40.7580,
+            lon=-73.9855,
+            size_hint=(1, 1)
+        )
+
         # Add layouts
         container.add_widget(main_layout)
         container.add_widget(confirm_btn)
-        mapview = MapView(zoom=11, lat=50.6394, lon=3.057)
+        container.add_widget(mapview)
 
         outer_layout.add_widget(container)
         outer_layout.add_widget(mapview)
