@@ -1,0 +1,26 @@
+-- database: ./subway.db
+
+-- 1. Rename old table
+ALTER TABLE edge RENAME TO edge_old;
+
+-- 2. Create new edge table with the expanded CHECK constraint
+CREATE TABLE edge (
+  src_stop_id  TEXT NOT NULL REFERENCES node(stop_id) ON DELETE CASCADE,
+  dst_stop_id  TEXT NOT NULL REFERENCES node(stop_id) ON DELETE CASCADE,
+  weight_s     INTEGER NOT NULL CHECK (weight_s >= 0),
+  edge_type    TEXT NOT NULL CHECK (edge_type IN ('run','intra_station0','ferry')),
+  PRIMARY KEY (src_stop_id, dst_stop_id)
+);
+
+-- 3. Copy existing data
+INSERT INTO edge (src_stop_id, dst_stop_id, weight_s, edge_type)
+SELECT src_stop_id, dst_stop_id, weight_s, edge_type FROM edge_old;
+
+-- 4. Drop the old table
+DROP TABLE edge_old;
+
+-- 5. Add ferry edges (example IDs and weights, update as needed)
+INSERT INTO edge (src_stop_id, dst_stop_id, weight_s, edge_type)
+VALUES
+  ('142S', 'S31N', 1800, 'ferry'),
+  ('S31N', '142N', 1800, 'ferry');
