@@ -32,9 +32,18 @@ class LEDList {
       size = count;
 
       for (unsigned int i = 0; i < count-1; i++) {
-        leds[i].next = &leds[i+1];
+        if (i == 0) {
+          leds[i].prev = nullptr;
+        }
+        else {
+          leds[i].prev = &leds[i-1];
+        }
+        if (i == count - 1) {
+          leds[i].next = nullptr;          
+        } else {
+          leds[i].next = &leds[i + 1];    
+        }
       }
-      leds[count-1].next = nullptr;
     }
 
     LED* getHead() { return head; }
@@ -86,14 +95,6 @@ void loop() {
   static String input = "";
 
   // ADD: STORE DIFFERENT LINKED LISTS FOR DIFFERENT ROUTES ON LED BOARD, WILL GET VERY INVOLvED
-
-
-  //... will do
-
-
-  // DO we need to create a fork for this?
-  // Are we directly connecting EPS32 to Raspberry PI?
-  // If so, rewrite to create a socket
 
   while (Serial2.available()) {
     char c = Serial2.read();

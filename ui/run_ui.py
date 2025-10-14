@@ -4,10 +4,12 @@ from kivy.uix.dropdown import DropDown
 from kivy.uix.button import Button
 from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.textinput import TextInput
-from subway_API import MTA_requests
+from subway_API import MTA_requests # gtfs-realtime-bindings
 from kivymd.app import MDApp
 from kivy_garden.mapview import MapView
 from kivy.core.window import Window
+# export KIVY_WINDOW=sd12
+# export KIVY_GL_BACKEND=angle_sdl2
 
 '''
 PACKAGE NOTES:

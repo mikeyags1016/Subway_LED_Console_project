@@ -1,4 +1,4 @@
-from google.transit import gtfs_realtime_pb2
+from google.transit import gtfs_realtime_pb2 # gtfs-realtime-bindings
 import requests
 import csv
 
