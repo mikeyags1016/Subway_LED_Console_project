@@ -79,10 +79,15 @@ public:
     LEDMap();
 };
 
+// Linked list structure with branch and station IDs for each run 
+// One larger dictionary with each run (for starting purposes)
+
 LEDMap::LEDMap() {
     for (int i = 0; i < NUM_ROUTES; i++) {
         LED* start = &leds[i * ROUTE_LENGTH];
         routes[i].initialize(start, ROUTE_LENGTH);
+
+        // Populate whole map onto ESP32
     }
 }
 
