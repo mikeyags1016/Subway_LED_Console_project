@@ -8,12 +8,12 @@ namespace WS2812B {
             uint8_t red;
             uint8_t blue;
             struct LED* next;
+            struct LED* prev;
             LED() {};
             LED(uint8_t r, uint8_t g, uint8_t b) : red(r), green(g), blue(b) {};
         };
     void initLEDStrip(LED* lights, unsigned int size); //expects lights to be array at least as big as size
     class LEDStrip {
-
         public:
             LED* start;
             unsigned int size;
