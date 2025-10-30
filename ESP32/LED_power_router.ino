@@ -9,6 +9,7 @@
 
 #include <Arduino.h>
 #include "WS2812BStrip.h"
+#include <string>
 
 #define LED_PIN   5
 #define LED_COUNT 60
@@ -22,10 +23,11 @@ class LEDList {
 private:
     LED* head;
     LED* tail;
+    string station_name;
     unsigned int size;
 
 public:
-    LEDList() : head(nullptr), tail(nullptr), size(0) {}
+    LEDList() : head(nullptr), tail(nullptr), size(0), string("") {}
 
     LEDList(LED* leds, unsigned int count) {
         initialize(leds, count);
@@ -83,11 +85,41 @@ public:
 // One larger dictionary with each run (for starting purposes)
 
 LEDMap::LEDMap() {
-    for (int i = 0; i < NUM_ROUTES; i++) {
-        LED* start = &leds[i * ROUTE_LENGTH];
-        routes[i].initialize(start, ROUTE_LENGTH);
+    // 1 Train
+    routes[0].initialize(&leds[0], 38);  // 38 stations
+    std::string line1_names[] = {
+        "Van Cortlandt Park–242 St", "238 St", "231 St", "Marble Hill–225 St", "215 St",
+        "207 St", "Dyckman St", "191 St", "181 St", "168 St–Washington Hts", "157 St",
+        "145 St", "137 St–City College", "125 St", "116 St–Columbia University",
+        "Cathedral Pkwy–110 St", "103 St", "96 St", "86 St", "79 St", "72 St",
+        "66 St–Lincoln Center", "59 St–Columbus Circle", "50 St", "Times Sq–42 St",
+        "34 St–Penn Station", "28 St", "23 St", "18 St", "14 St", "Christopher St–Sheridan Sq",
+        "Houston St", "Canal St", "Franklin St", "Chambers St", "Cortlandt St",
+        "Rector St", "South Ferry"
+    };
 
-        // Populate whole map onto ESP32
+    for (int i = 0; i < 38; i++) {
+        leds[i].station_name = line1_names[i];
+    }
+
+    // 2 Train
+    routes[1].initialize(&leds[60], 48);  // next block of LEDs
+    std::string line2_names[] = {
+        "Wakefield–241 St", "Nereid Ave–238 St", "233 St", "225 St", "219 St",
+        "Gun Hill Rd", "Burke Ave", "Allerton Ave", "Pelham Pkwy", "Bronx Park East",
+        "E 180 St", "West Farms Sq–E Tremont Ave", "174–175 Sts", "Freeman St",
+        "Simpson St", "Intervale Ave", "Prospect Ave", "Jackson Ave", "3 Ave–149 St",
+        "149 St–Grand Concourse", "135 St", "125 St", "116 St", "Central Park North–110 St",
+        "96 St", "Times Sq–42 St", "34 St–Penn Station", "14 St", "Chambers St",
+        "Park Place", "Fulton St", "Wall St", "Clark St", "Borough Hall", "Hoyt St",
+        "Nevins St", "Atlantic Av–Barclays Ctr", "Bergen St", "Grand Army Plaza",
+        "Eastern Pkwy–Bklyn Museum", "Franklin Ave", "President St", "Sterling St",
+        "Winthrop St", "Church Ave", "Beverly Rd", "Newkirk Ave–Little Haiti",
+        "Flatbush Ave–Brooklyn College"
+    };
+
+    for (int i = 0; i < 48; i++) {
+        leds[60 + i].station_name = line2_names[i];
     }
 }
 
@@ -98,6 +130,7 @@ void dataline_route(LEDList route, int starting_index) {
   LEDMap map;
 
   // Check if you need to go up or down the line
+  
 
   // Figure out how the output is going to look like 
   
