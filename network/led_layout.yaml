@@ -1092,103 +1092,259 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Coney Island-Stillwell Av (D,F,N,Q)
     - stop_id: D43S
       stop_name: Coney Island-Stillwell Av (D,F,N,Q)
-    - stop_id: B12N
-      stop_name: 9 Av (D)
-    - stop_id: B12S
-      stop_name: 9 Av (D)
-    - stop_id: B13N
-      stop_name: Fort Hamilton Pkwy (D)
-    - stop_id: B13S
-      stop_name: Fort Hamilton Pkwy (D)
-    - stop_id: B14N
-      stop_name: 50 St (D)
-    - stop_id: B14S
-      stop_name: 50 St (D)
-    - stop_id: B15N
-      stop_name: 55 St (D)
-    - stop_id: B15S
-      stop_name: 55 St (D)
-    - stop_id: B17N
-      stop_name: 71 St (D)
-    - stop_id: B17S
-      stop_name: 71 St (D)
-    - stop_id: B18N
-      stop_name: 79 St (D)
-    - stop_id: B18S
-      stop_name: 79 St (D)
-    - stop_id: B19N
-      stop_name: 18 Av (D)
-    - stop_id: B19S
-      stop_name: 18 Av (D)
-    - stop_id: B20N
-      stop_name: 20 Av (D)
-    - stop_id: B20S
-      stop_name: 20 Av (D)
-    - stop_id: B21N
-      stop_name: Bay Pkwy (D)
-    - stop_id: B21S
-      stop_name: Bay Pkwy (D)
-    - stop_id: B22N
-      stop_name: 25 Av (D)
-    - stop_id: B22S
-      stop_name: 25 Av (D)
-    - stop_id: B23N
-      stop_name: Bay 50 St (D)
-    - stop_id: B23S
-      stop_name: Bay 50 St (D)
     Run 5 (13 Stations):
-    - stop_id: Q05N
-      stop_name: 96 St (Q)
-    - stop_id: Q05S
-      stop_name: 96 St (Q)
-    - stop_id: Q04N
-      stop_name: 86 St (Q)
-    - stop_id: Q04S
-      stop_name: 86 St (Q)
-    - stop_id: Q03N
-      stop_name: 72 St (Q)
-    - stop_id: Q03S
-      stop_name: 72 St (Q)
-    - stop_id: N04N
-      stop_name: 62 St/New Utrecht Av (D,N)
-    - stop_id: N04S
-      stop_name: 62 St/New Utrecht Av (D,N)
-    - stop_id: Q01N
+    - stop_id: R01N
+      stop_name: Astoria-Ditmars Blvd (N,W)
+    - stop_id: R01S
+      stop_name: Astoria-Ditmars Blvd (N,W)
+    - stop_id: R03N
+      stop_name: Astoria Blvd (N,W)
+    - stop_id: R03S
+      stop_name: Astoria Blvd (N,W)
+    - stop_id: R04N
+      stop_name: 30 Av (N,W)
+    - stop_id: R04S
+      stop_name: 30 Av (N,W)
+    - stop_id: R05N
+      stop_name: Broadway (N,W)
+    - stop_id: R05S
+      stop_name: Broadway (N,W)
+    - stop_id: R06N
+      stop_name: 36 Av (N,W)
+    - stop_id: R06S
+      stop_name: 36 Av (N,W)
+    - stop_id: R08N
+      stop_name: 39 Av-Dutch Kills (N,W)
+    - stop_id: R08S
+      stop_name: 39 Av-Dutch Kills (N,W)
+    - stop_id: R09N
+      stop_name: Queensboro Plaza (7,N,W)
+    - stop_id: R09S
+      stop_name: Queensboro Plaza (7,N,W)
+    - stop_id: R11N
+      stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+    - stop_id: R11S
+      stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+    - stop_id: R13N
+      stop_name: 5 Av/59 St (N,R,W)
+    - stop_id: R13S
+      stop_name: 5 Av/59 St (N,R,W)
+    - Branch 1:
+      - stop_id: Q05N
+        stop_name: 96 St (Q)
+      - stop_id: Q05S
+        stop_name: 96 St (Q)
+      - stop_id: Q04N
+        stop_name: 86 St (Q)
+      - stop_id: Q04S
+        stop_name: 86 St (Q)
+      - stop_id: Q03N
+        stop_name: 72 St (Q)
+      - stop_id: Q03S
+        stop_name: 72 St (Q)
+    - stop_id: R14N
+      stop_name: 57 St-7 Av (N,Q,R,W)
+    - stop_id: R14S
+      stop_name: 57 St-7 Av (N,Q,R,W)
+    - stop_id: R15N
+      stop_name: 49 St (N,R,W)
+    - stop_id: R15S
+      stop_name: 49 St (N,R,W)
+    - stop_id: R16N
+      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+    - stop_id: R16S
+      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+    - stop_id: R17N
+      stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+    - stop_id: R17S
+      stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+    - stop_id: R18N
+      stop_name: 28 St (R,W)
+    - stop_id: R18S
+      stop_name: 28 St (R,W)
+    - stop_id: R19N
+      stop_name: 23 St (R,W)
+    - stop_id: R19S
+      stop_name: 23 St (R,W)
+    - stop_id: R20N
+      stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+    - stop_id: R20S
+      stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+    - stop_id: R21N
+      stop_name: 8 St-NYU (R,W)
+    - stop_id: R21S
+      stop_name: 8 St-NYU (R,W)
+    - stop_id: R22N
+      stop_name: Prince St (R,W)
+    - stop_id: R22S
+      stop_name: Prince St (R,W)
+    - stop_id: R23N
       stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: Q01S
+    - stop_id: R23S
       stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: N02N
-      stop_name: 8 Av (N)
-    - stop_id: N02S
-      stop_name: 8 Av (N)
-    - stop_id: N03N
-      stop_name: Fort Hamilton Pkwy (N)
-    - stop_id: N03S
-      stop_name: Fort Hamilton Pkwy (N)
-    - stop_id: N05N
-      stop_name: 18 Av (N)
-    - stop_id: N05S
-      stop_name: 18 Av (N)
-    - stop_id: N06N
-      stop_name: 20 Av (N)
-    - stop_id: N06S
-      stop_name: 20 Av (N)
-    - stop_id: N07N
-      stop_name: Bay Pkwy (N)
-    - stop_id: N07S
-      stop_name: Bay Pkwy (N)
-    - stop_id: N08N
-      stop_name: Kings Hwy (N)
-    - stop_id: N08S
-      stop_name: Kings Hwy (N)
-    - stop_id: N09N
-      stop_name: Avenue U (N)
-    - stop_id: N09S
-      stop_name: Avenue U (N)
-    - stop_id: N10N
-      stop_name: 86 St (N)
-    - stop_id: N10S
-      stop_name: 86 St (N)
+    - Branch 2:
+      - stop_id: Q01N
+        stop_name: Canal St (6,J,Z,N,Q,R,W)
+      - stop_id: Q01S
+        stop_name: Canal St (6,J,Z,N,Q,R,W)
+    - stop_id: R24N
+      stop_name: City Hall (R,W)
+    - stop_id: R24S
+      stop_name: City Hall (R,W)
+    - stop_id: R25N
+      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+    - stop_id: R25S
+      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+    - stop_id: R26N
+      stop_name: Rector St (R,W)
+    - stop_id: R26S
+      stop_name: Rector St (R,W)
+    - stop_id: R27N
+      stop_name: Whitehall St-South Ferry (1,R,W)
+    - stop_id: R27S
+      stop_name: Whitehall St-South Ferry (1,R,W)
+    - stop_id: R28N
+      stop_name: Borough Hall/Court St (2,3,4,5,R)
+    - stop_id: R28S
+      stop_name: Borough Hall/Court St (2,3,4,5,R)
+    - stop_id: R29N
+      stop_name: Jay St-MetroTech (A,C,F,R)
+    - stop_id: R29S
+      stop_name: Jay St-MetroTech (A,C,F,R)
+    - stop_id: R30N
+      stop_name: DeKalb Av (B,Q,R)
+    - stop_id: R30S
+      stop_name: DeKalb Av (B,Q,R)
+    - stop_id: R31N
+      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+    - stop_id: R31S
+      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+    - stop_id: R32N
+      stop_name: Union St (R)
+    - stop_id: R32S
+      stop_name: Union St (R)
+    - stop_id: R34N
+      stop_name: Prospect Av (R)
+    - stop_id: R34S
+      stop_name: Prospect Av (R)
+    - stop_id: R35N
+      stop_name: 25 St (R)
+    - stop_id: R35S
+      stop_name: 25 St (R)
+    - stop_id: R36N
+      stop_name: 36 St (D,N,R)
+    - stop_id: R36S
+      stop_name: 36 St (D,N,R)
+    - Branch 3:
+      - stop_id: B12N
+        stop_name: 9 Av (D)
+      - stop_id: B12S
+        stop_name: 9 Av (D)
+      - stop_id: B13N
+        stop_name: Fort Hamilton Pkwy (D)
+      - stop_id: B13S
+        stop_name: Fort Hamilton Pkwy (D)
+      - stop_id: B14N
+        stop_name: 50 St (D)
+      - stop_id: B14S
+        stop_name: 50 St (D)
+      - stop_id: B15N
+        stop_name: 55 St (D)
+      - stop_id: B15S
+        stop_name: 55 St (D)
+      - stop_id: B17N
+        stop_name: 71 St (D)
+      - stop_id: B17S
+        stop_name: 71 St (D)
+      - stop_id: B18N
+        stop_name: 79 St (D)
+      - stop_id: B18S
+        stop_name: 79 St (D)
+      - stop_id: B19N
+        stop_name: 18 Av (D)
+      - stop_id: B19S
+        stop_name: 18 Av (D)
+      - stop_id: B20N
+        stop_name: 20 Av (D)
+      - stop_id: B20S
+        stop_name: 20 Av (D)
+      - stop_id: B21N
+        stop_name: Bay Pkwy (D)
+      - stop_id: B21S
+        stop_name: Bay Pkwy (D)
+      - stop_id: B22N
+        stop_name: 25 Av (D)
+      - stop_id: B22S
+        stop_name: 25 Av (D)
+      - stop_id: B23N
+        stop_name: Bay 50 St (D)
+      - stop_id: B23S
+        stop_name: Bay 50 St (D)
+    - stop_id: R39N
+      stop_name: 45 St (R)
+    - stop_id: R39S
+      stop_name: 45 St (R)
+    - stop_id: R40N
+      stop_name: 53 St (R)
+    - stop_id: R40S
+      stop_name: 53 St (R)
+    - stop_id: R41N
+      stop_name: 59 St (N,R)
+    - stop_id: R41S
+      stop_name: 59 St (N,R)
+    - Branch 4:
+      - stop_id: N02N
+        stop_name: 8 Av (N)
+      - stop_id: N02S
+        stop_name: 8 Av (N)
+      - stop_id: N03N
+        stop_name: Fort Hamilton Pkwy (N)
+      - stop_id: N03S
+        stop_name: Fort Hamilton Pkwy (N)
+      - stop_id: N04N
+        stop_name: 62 St/New Utrecht Av (D,N)
+      - stop_id: N04S
+        stop_name: 62 St/New Utrecht Av (D,N)
+      - stop_id: N05N
+        stop_name: 18 Av (N)
+      - stop_id: N05S
+        stop_name: 18 Av (N)
+      - stop_id: N06N
+        stop_name: 20 Av (N)
+      - stop_id: N06S
+        stop_name: 20 Av (N)
+      - stop_id: N07N
+        stop_name: Bay Pkwy (N)
+      - stop_id: N07S
+        stop_name: Bay Pkwy (N)
+      - stop_id: N08N
+        stop_name: Kings Hwy (N)
+      - stop_id: N08S
+        stop_name: Kings Hwy (N)
+      - stop_id: N09N
+        stop_name: Avenue U (N)
+      - stop_id: N09S
+        stop_name: Avenue U (N)
+      - stop_id: N10N
+        stop_name: 86 St (N)
+      - stop_id: N10S
+        stop_name: 86 St (N)
+    - stop_id: R42N
+      stop_name: Bay Ridge Av (R)
+    - stop_id: R42S
+      stop_name: Bay Ridge Av (R)
+    - stop_id: R43N
+      stop_name: 77 St (R)
+    - stop_id: R43S
+      stop_name: 77 St (R)
+    - stop_id: R44N
+      stop_name: 86 St (R)
+    - stop_id: R44S
+      stop_name: 86 St (R)
+    - stop_id: R45N
+      stop_name: Bay Ridge-95 St (R)
+    - stop_id: R45S
+      stop_name: Bay Ridge-95 St (R)
     Run 6 (101 Stations):
     - stop_id: G08N
       stop_name: Forest Hills-71 Av (E,F,M,R)
@@ -1230,22 +1386,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 46 St (M,R)
     - stop_id: G18S
       stop_name: 46 St (M,R)
-    - stop_id: R09N
-      stop_name: Queensboro Plaza (7,N,W)
-    - stop_id: R09S
-      stop_name: Queensboro Plaza (7,N,W)
-    - stop_id: R20N
-      stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
-    - stop_id: R20S
-      stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
     - stop_id: F09N
       stop_name: Court Sq-23 St (7,E,M,G)
     - stop_id: F09S
       stop_name: Court Sq-23 St (7,E,M,G)
-    - stop_id: R17N
-      stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
-    - stop_id: R17S
-      stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
     - stop_id: F23N
       stop_name: 4 Av-9 St (F,G,R)
     - stop_id: F23S
@@ -1254,26 +1398,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 4 Av-9 St (F,G,R)
     - stop_id: R33S
       stop_name: 4 Av-9 St (F,G,R)
-    - stop_id: R16N
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: R16S
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
     - stop_id: F11N
       stop_name: Lexington Av/51-53 Sts (6,E,M)
     - stop_id: F11S
       stop_name: Lexington Av/51-53 Sts (6,E,M)
-    - stop_id: R11N
-      stop_name: Lexington Av/59 St (4,5,6,N,R,W)
-    - stop_id: R11S
-      stop_name: Lexington Av/59 St (4,5,6,N,R,W)
-    - stop_id: R31N
-      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
-    - stop_id: R31S
-      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
-    - stop_id: R28N
-      stop_name: Borough Hall/Court St (2,3,4,5,R)
-    - stop_id: R28S
-      stop_name: Borough Hall/Court St (2,3,4,5,R)
     - stop_id: M21N
       stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
     - stop_id: M21S
@@ -1282,14 +1410,6 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Canal St (6,J,Z,N,Q,R,W)
     - stop_id: M20S
       stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: R23N
-      stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: R23S
-      stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: R25N
-      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
-    - stop_id: R25S
-      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
     - stop_id: F15N
       stop_name: Delancey St-Essex St (F,M,J,Z)
     - stop_id: F15S
@@ -1302,14 +1422,6 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Myrtle-Wyckoff Avs (M,L)
     - stop_id: M08S
       stop_name: Myrtle-Wyckoff Avs (M,L)
-    - stop_id: R27N
-      stop_name: Whitehall St-South Ferry (1,R,W)
-    - stop_id: R27S
-      stop_name: Whitehall St-South Ferry (1,R,W)
-    - stop_id: R29N
-      stop_name: Jay St-MetroTech (A,C,F,R)
-    - stop_id: R29S
-      stop_name: Jay St-MetroTech (A,C,F,R)
     - stop_id: F12N
       stop_name: 5 Av/53 St (E,M)
     - stop_id: F12S
@@ -1422,114 +1534,6 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 75 Av (E,F)
     - stop_id: F07S
       stop_name: 75 Av (E,F)
-    - stop_id: R01N
-      stop_name: Astoria-Ditmars Blvd (N,W)
-    - stop_id: R01S
-      stop_name: Astoria-Ditmars Blvd (N,W)
-    - stop_id: R03N
-      stop_name: Astoria Blvd (N,W)
-    - stop_id: R03S
-      stop_name: Astoria Blvd (N,W)
-    - stop_id: R04N
-      stop_name: 30 Av (N,W)
-    - stop_id: R04S
-      stop_name: 30 Av (N,W)
-    - stop_id: R05N
-      stop_name: Broadway (N,W)
-    - stop_id: R05S
-      stop_name: Broadway (N,W)
-    - stop_id: R06N
-      stop_name: 36 Av (N,W)
-    - stop_id: R06S
-      stop_name: 36 Av (N,W)
-    - stop_id: R08N
-      stop_name: 39 Av-Dutch Kills (N,W)
-    - stop_id: R08S
-      stop_name: 39 Av-Dutch Kills (N,W)
-    - stop_id: R13N
-      stop_name: 5 Av/59 St (N,R,W)
-    - stop_id: R13S
-      stop_name: 5 Av/59 St (N,R,W)
-    - stop_id: R14N
-      stop_name: 57 St-7 Av (N,Q,R,W)
-    - stop_id: R14S
-      stop_name: 57 St-7 Av (N,Q,R,W)
-    - stop_id: R15N
-      stop_name: 49 St (N,R,W)
-    - stop_id: R15S
-      stop_name: 49 St (N,R,W)
-    - stop_id: R18N
-      stop_name: 28 St (R,W)
-    - stop_id: R18S
-      stop_name: 28 St (R,W)
-    - stop_id: R19N
-      stop_name: 23 St (R,W)
-    - stop_id: R19S
-      stop_name: 23 St (R,W)
-    - stop_id: R21N
-      stop_name: 8 St-NYU (R,W)
-    - stop_id: R21S
-      stop_name: 8 St-NYU (R,W)
-    - stop_id: R22N
-      stop_name: Prince St (R,W)
-    - stop_id: R22S
-      stop_name: Prince St (R,W)
-    - stop_id: R24N
-      stop_name: City Hall (R,W)
-    - stop_id: R24S
-      stop_name: City Hall (R,W)
-    - stop_id: R26N
-      stop_name: Rector St (R,W)
-    - stop_id: R26S
-      stop_name: Rector St (R,W)
-    - stop_id: R30N
-      stop_name: DeKalb Av (B,Q,R)
-    - stop_id: R30S
-      stop_name: DeKalb Av (B,Q,R)
-    - stop_id: R32N
-      stop_name: Union St (R)
-    - stop_id: R32S
-      stop_name: Union St (R)
-    - stop_id: R34N
-      stop_name: Prospect Av (R)
-    - stop_id: R34S
-      stop_name: Prospect Av (R)
-    - stop_id: R35N
-      stop_name: 25 St (R)
-    - stop_id: R35S
-      stop_name: 25 St (R)
-    - stop_id: R36N
-      stop_name: 36 St (D,N,R)
-    - stop_id: R36S
-      stop_name: 36 St (D,N,R)
-    - stop_id: R39N
-      stop_name: 45 St (R)
-    - stop_id: R39S
-      stop_name: 45 St (R)
-    - stop_id: R40N
-      stop_name: 53 St (R)
-    - stop_id: R40S
-      stop_name: 53 St (R)
-    - stop_id: R41N
-      stop_name: 59 St (N,R)
-    - stop_id: R41S
-      stop_name: 59 St (N,R)
-    - stop_id: R42N
-      stop_name: Bay Ridge Av (R)
-    - stop_id: R42S
-      stop_name: Bay Ridge Av (R)
-    - stop_id: R43N
-      stop_name: 77 St (R)
-    - stop_id: R43S
-      stop_name: 77 St (R)
-    - stop_id: R44N
-      stop_name: 86 St (R)
-    - stop_id: R44S
-      stop_name: 86 St (R)
-    - stop_id: R45N
-      stop_name: Bay Ridge-95 St (R)
-    - stop_id: R45S
-      stop_name: Bay Ridge-95 St (R)
     - stop_id: M11N
       stop_name: Myrtle Av (M,J,Z)
     - stop_id: M11S
