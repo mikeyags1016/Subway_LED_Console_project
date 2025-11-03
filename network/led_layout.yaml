@@ -632,42 +632,6 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: 423S
       stop_name: Borough Hall/Court St (2,3,4,5,R)
     Run 3 (69 Stations):
-    - stop_id: A09N
-      stop_name: 168 St-Washington Hts (1,A,C)
-    - stop_id: A09S
-      stop_name: 168 St-Washington Hts (1,A,C)
-    - stop_id: A27N
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: A27S
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: A24N
-      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
-    - stop_id: A24S
-      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
-    - stop_id: A31N
-      stop_name: 14 St/8 Av (A,C,E,L)
-    - stop_id: A31S
-      stop_name: 14 St/8 Av (A,C,E,L)
-    - stop_id: A51N
-      stop_name: Broadway Junction (A,C,J,Z,L)
-    - stop_id: A51S
-      stop_name: Broadway Junction (A,C,J,Z,L)
-    - stop_id: A36N
-      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
-    - stop_id: A36S
-      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
-    - stop_id: A45N
-      stop_name: Franklin Av (C,S)
-    - stop_id: A45S
-      stop_name: Franklin Av (C,S)
-    - stop_id: A38N
-      stop_name: Fulton St (2,3,4,5,A,C,J,Z)
-    - stop_id: A38S
-      stop_name: Fulton St (2,3,4,5,A,C,J,Z)
-    - stop_id: A41N
-      stop_name: Jay St-MetroTech (A,C,F,R)
-    - stop_id: A41S
-      stop_name: Jay St-MetroTech (A,C,F,R)
     - stop_id: A02N
       stop_name: Inwood-207 St (A)
     - stop_id: A02S
@@ -688,6 +652,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 175 St (A)
     - stop_id: A07S
       stop_name: 175 St (A)
+    - stop_id: A09N
+      stop_name: 168 St-Washington Hts (1,A,C)
+    - stop_id: A09S
+      stop_name: 168 St-Washington Hts (1,A,C)
     - stop_id: A10N
       stop_name: 163 St-Amsterdam Av (C)
     - stop_id: A10S
@@ -736,10 +704,18 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 72 St (C,B)
     - stop_id: A22S
       stop_name: 72 St (C,B)
+    - stop_id: A24N
+      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+    - stop_id: A24S
+      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
     - stop_id: A25N
       stop_name: 50 St (C,E)
     - stop_id: A25S
       stop_name: 50 St (C,E)
+    - stop_id: A27N
+      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+    - stop_id: A27S
+      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
     - stop_id: A28N
       stop_name: 34 St-Penn Station (A,C,E)
     - stop_id: A28S
@@ -748,6 +724,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 23 St (C,E)
     - stop_id: A30S
       stop_name: 23 St (C,E)
+    - stop_id: A31N
+      stop_name: 14 St/8 Av (A,C,E,L)
+    - stop_id: A31S
+      stop_name: 14 St/8 Av (A,C,E,L)
     - stop_id: A32N
       stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
     - stop_id: A32S
@@ -760,10 +740,26 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Canal St (A,C,E)
     - stop_id: A34S
       stop_name: Canal St (A,C,E)
+    - stop_id: A36N
+      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+    - stop_id: A36S
+      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+    - stop_id: E01N
+      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+    - stop_id: E01S
+      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+    - stop_id: A38N
+      stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+    - stop_id: A38S
+      stop_name: Fulton St (2,3,4,5,A,C,J,Z)
     - stop_id: A40N
       stop_name: High St (A,C)
     - stop_id: A40S
       stop_name: High St (A,C)
+    - stop_id: A41N
+      stop_name: Jay St-MetroTech (A,C,F,R)
+    - stop_id: A41S
+      stop_name: Jay St-MetroTech (A,C,F,R)
     - stop_id: A42N
       stop_name: Hoyt-Schermerhorn Sts (A,C,G)
     - stop_id: A42S
@@ -776,6 +772,19 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Clinton-Washington Avs (C)
     - stop_id: A44S
       stop_name: Clinton-Washington Avs (C)
+    - stop_id: A45N
+      stop_name: Franklin Av (C,S)
+    - stop_id: A45S
+      stop_name: Franklin Av (C,S)
+    - Branch 1:
+      - stop_id: S01N
+        stop_name: Franklin Av (C,S)
+      - stop_id: S01S
+        stop_name: Franklin Av (C,S)
+      - stop_id: S03N
+        stop_name: Park Pl (S)
+      - stop_id: S03S
+        stop_name: Park Pl (S)
     - stop_id: A46N
       stop_name: Nostrand Av (A,C)
     - stop_id: A46S
@@ -796,6 +805,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Rockaway Av (C)
     - stop_id: A50S
       stop_name: Rockaway Av (C)
+    - stop_id: A51N
+      stop_name: Broadway Junction (A,C,J,Z,L)
+    - stop_id: A51S
+      stop_name: Broadway Junction (A,C,J,Z,L)
     - stop_id: A52N
       stop_name: Liberty Av (C)
     - stop_id: A52S
@@ -828,18 +841,19 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Rockaway Blvd (A)
     - stop_id: A61S
       stop_name: Rockaway Blvd (A)
-    - stop_id: A63N
-      stop_name: 104 St (A)
-    - stop_id: A63S
-      stop_name: 104 St (A)
-    - stop_id: A64N
-      stop_name: 111 St (A)
-    - stop_id: A64S
-      stop_name: 111 St (A)
-    - stop_id: A65N
-      stop_name: Ozone Park-Lefferts Blvd (A)
-    - stop_id: A65S
-      stop_name: Ozone Park-Lefferts Blvd (A)
+    - Branch 2:
+      - stop_id: A63N
+        stop_name: 104 St (A)
+      - stop_id: A63S
+        stop_name: 104 St (A)
+      - stop_id: A64N
+        stop_name: 111 St (A)
+      - stop_id: A64S
+        stop_name: 111 St (A)
+      - stop_id: A65N
+        stop_name: Ozone Park-Lefferts Blvd (A)
+      - stop_id: A65S
+        stop_name: Ozone Park-Lefferts Blvd (A)
     - stop_id: H01N
       stop_name: Aqueduct Racetrack (A)
     - stop_id: H01S
@@ -856,22 +870,23 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Broad Channel (A,S)
     - stop_id: H04S
       stop_name: Broad Channel (A,S)
-    - stop_id: H12N
-      stop_name: Beach 90 St (A,S)
-    - stop_id: H12S
-      stop_name: Beach 90 St (A,S)
-    - stop_id: H13N
-      stop_name: Beach 98 St (A,S)
-    - stop_id: H13S
-      stop_name: Beach 98 St (A,S)
-    - stop_id: H14N
-      stop_name: Beach 105 St (A,S)
-    - stop_id: H14S
-      stop_name: Beach 105 St (A,S)
-    - stop_id: H15N
-      stop_name: Rockaway Park-Beach 116 St (A,S)
-    - stop_id: H15S
-      stop_name: Rockaway Park-Beach 116 St (A,S)
+    - Branch 3:
+      - stop_id: H12N
+        stop_name: Beach 90 St (A,S)
+      - stop_id: H12S
+        stop_name: Beach 90 St (A,S)
+      - stop_id: H13N
+        stop_name: Beach 98 St (A,S)
+      - stop_id: H13S
+        stop_name: Beach 98 St (A,S)
+      - stop_id: H14N
+        stop_name: Beach 105 St (A,S)
+      - stop_id: H14S
+        stop_name: Beach 105 St (A,S)
+      - stop_id: H15N
+        stop_name: Rockaway Park-Beach 116 St (A,S)
+      - stop_id: H15S
+        stop_name: Rockaway Park-Beach 116 St (A,S)
     - stop_id: H06N
       stop_name: Beach 67 St (A)
     - stop_id: H06S
@@ -896,18 +911,6 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Far Rockaway-Mott Av (A)
     - stop_id: H11S
       stop_name: Far Rockaway-Mott Av (A)
-    - stop_id: E01N
-      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
-    - stop_id: E01S
-      stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
-    - stop_id: S01N
-      stop_name: Franklin Av (C,S)
-    - stop_id: S01S
-      stop_name: Franklin Av (C,S)
-    - stop_id: S03N
-      stop_name: Park Pl (S)
-    - stop_id: S03S
-      stop_name: Park Pl (S)
     Run 4 (56 Stations):
     - stop_id: D19N
       stop_name: 14 St/6 Av (1,2,3,L,F,M)
