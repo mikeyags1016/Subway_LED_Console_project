@@ -2,35 +2,7 @@ runs: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
   dictitems:
-    Run 1:
-    - stop_id: 301N
-      stop_name: Harlem-148 St (3)
-    - stop_id: 301S
-      stop_name: Harlem-148 St (3)
-    - stop_id: 302N
-      stop_name: 145 St (3)
-    - stop_id: 302S
-      stop_name: 145 St (3)
-    - stop_id: 132N
-      stop_name: 14 St/6 Av (1,2,3,L,F,M)
-    - stop_id: 132S
-      stop_name: 14 St/6 Av (1,2,3,L,F,M)
-    - stop_id: 112N
-      stop_name: 168 St-Washington Hts (1,A,C)
-    - stop_id: 112S
-      stop_name: 168 St-Washington Hts (1,A,C)
-    - stop_id: 127N
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: 127S
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: 125N
-      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
-    - stop_id: 125S
-      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
-    - stop_id: 142N
-      stop_name: Whitehall St-South Ferry (1,R,W)
-    - stop_id: 142S
-      stop_name: Whitehall St-South Ferry (1,R,W)
+    Run 1 (74 Stations):
     - stop_id: 101N
       stop_name: Van Cortlandt Park-242 St (1)
     - stop_id: 101S
@@ -67,6 +39,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 181 St (1)
     - stop_id: 111S
       stop_name: 181 St (1)
+    - stop_id: 112N
+      stop_name: 168 St-Washington Hts (1,A,C)
+    - stop_id: 112S
+      stop_name: 168 St-Washington Hts (1,A,C)
     - stop_id: 113N
       stop_name: 157 St (1)
     - stop_id: 113S
@@ -95,6 +71,31 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 103 St (1)
     - stop_id: 119S
       stop_name: 103 St (1)
+    - Branch 1:
+      - stop_id: 301N
+        stop_name: Harlem-148 St (3)
+      - stop_id: 301S
+        stop_name: Harlem-148 St (3)
+      - stop_id: 302N
+        stop_name: 145 St (3)
+      - stop_id: 302S
+        stop_name: 145 St (3)
+      - stop_id: 224N
+        stop_name: 135 St (2,3)
+      - stop_id: 224S
+        stop_name: 135 St (2,3)
+      - stop_id: 225N
+        stop_name: 125 St (2,3)
+      - stop_id: 225S
+        stop_name: 125 St (2,3)
+      - stop_id: 226N
+        stop_name: 116 St (2,3)
+      - stop_id: 226S
+        stop_name: 116 St (2,3)
+      - stop_id: 227N
+        stop_name: 110 St-Malcolm X Plaza (2,3)
+      - stop_id: 227S
+        stop_name: 110 St-Malcolm X Plaza (2,3)
     - stop_id: 120N
       stop_name: 96 St (1,2,3)
     - stop_id: 120S
@@ -115,10 +116,18 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 66 St-Lincoln Center (1)
     - stop_id: 124S
       stop_name: 66 St-Lincoln Center (1)
+    - stop_id: 125N
+      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+    - stop_id: 125S
+      stop_name: 59 St-Columbus Circle (1,A,C,B,D)
     - stop_id: 126N
       stop_name: 50 St (1)
     - stop_id: 126S
       stop_name: 50 St (1)
+    - stop_id: 127N
+      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+    - stop_id: 127S
+      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
     - stop_id: 128N
       stop_name: 34 St-Penn Station (1,2,3)
     - stop_id: 128S
@@ -135,6 +144,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 18 St (1)
     - stop_id: 131S
       stop_name: 18 St (1)
+    - stop_id: 132N
+      stop_name: 14 St/6 Av (1,2,3,L,F,M)
+    - stop_id: 132S
+      stop_name: 14 St/6 Av (1,2,3,L,F,M)
     - stop_id: 133N
       stop_name: Christopher St-Stonewall (1)
     - stop_id: 133S
@@ -155,30 +168,20 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Chambers St (1,2,3)
     - stop_id: 137S
       stop_name: Chambers St (1,2,3)
-    - stop_id: 138N
-      stop_name: WTC Cortlandt (1)
-    - stop_id: 138S
-      stop_name: WTC Cortlandt (1)
-    - stop_id: 139N
-      stop_name: Rector St (1)
-    - stop_id: 139S
-      stop_name: Rector St (1)
-    - stop_id: 224N
-      stop_name: 135 St (2,3)
-    - stop_id: 224S
-      stop_name: 135 St (2,3)
-    - stop_id: 225N
-      stop_name: 125 St (2,3)
-    - stop_id: 225S
-      stop_name: 125 St (2,3)
-    - stop_id: 226N
-      stop_name: 116 St (2,3)
-    - stop_id: 226S
-      stop_name: 116 St (2,3)
-    - stop_id: 227N
-      stop_name: 110 St-Malcolm X Plaza (2,3)
-    - stop_id: 227S
-      stop_name: 110 St-Malcolm X Plaza (2,3)
+    - Branch 2:
+      - stop_id: 138N
+        stop_name: WTC Cortlandt (1)
+      - stop_id: 138S
+        stop_name: WTC Cortlandt (1)
+      - stop_id: 139N
+        stop_name: Rector St (1)
+      - stop_id: 139S
+        stop_name: Rector St (1)
+      - stop_id: 142N
+        stop_name: Whitehall St-South Ferry (1,R,W)
+      - stop_id: 142S
+        stop_name: Whitehall St-South Ferry (1,R,W)
+
     - stop_id: 228N
       stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
     - stop_id: 228S
@@ -187,24 +190,16 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Fulton St (2,3,4,5,A,C,J,Z)
     - stop_id: 229S
       stop_name: Fulton St (2,3,4,5,A,C,J,Z)
-    - stop_id: 232N
-      stop_name: Borough Hall/Court St (2,3,4,5,R)
-    - stop_id: 232S
-      stop_name: Borough Hall/Court St (2,3,4,5,R)
-    - stop_id: 235N
-      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
-    - stop_id: 235S
-      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
-    - stop_id: 239N
-      stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
-    - stop_id: 239S
-      stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
     - stop_id: 230N
       stop_name: Wall St (2,3)
     - stop_id: 230S
       stop_name: Wall St (2,3)
     - stop_id: 231N
       stop_name: Clark St (2,3)
+    - stop_id: 232N
+      stop_name: Borough Hall/Court St (2,3,4,5,R)
+    - stop_id: 232S
+      stop_name: Borough Hall/Court St (2,3,4,5,R)
     - stop_id: 231S
       stop_name: Clark St (2,3)
     - stop_id: 233N
@@ -215,6 +210,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Nevins St (2,3,4,5)
     - stop_id: 234S
       stop_name: Nevins St (2,3,4,5)
+    - stop_id: 235N
+      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+    - stop_id: 235S
+      stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
     - stop_id: 236N
       stop_name: Bergen St (2,3)
     - stop_id: 236S
@@ -227,34 +226,44 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Eastern Pkwy-Brooklyn Museum (2,3)
     - stop_id: 238S
       stop_name: Eastern Pkwy-Brooklyn Museum (2,3)
-    - stop_id: 241N
-      stop_name: President St-Medgar Evers College (2,5)
-    - stop_id: 241S
-      stop_name: President St-Medgar Evers College (2,5)
-    - stop_id: 242N
-      stop_name: Sterling St (2,5)
-    - stop_id: 242S
-      stop_name: Sterling St (2,5)
-    - stop_id: 243N
-      stop_name: Winthrop St (2,5)
-    - stop_id: 243S
-      stop_name: Winthrop St (2,5)
-    - stop_id: 244N
-      stop_name: Church Av (2,5)
-    - stop_id: 244S
-      stop_name: Church Av (2,5)
-    - stop_id: 245N
-      stop_name: Beverly Rd (2,5)
-    - stop_id: 245S
-      stop_name: Beverly Rd (2,5)
-    - stop_id: 246N
-      stop_name: Newkirk Av-Little Haiti (2,5)
-    - stop_id: 246S
-      stop_name: Newkirk Av-Little Haiti (2,5)
-    - stop_id: 247N
-      stop_name: Flatbush Av-Brooklyn College (2,5)
-    - stop_id: 247S
-      stop_name: Flatbush Av-Brooklyn College (2,5)
+    - stop_id: 239N
+      stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+    - stop_id: 239S
+      stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+    - Branch 3:
+      - stop_id: S04N
+        stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+      - stop_id: S04S
+        stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+    - Branch 4:
+      - stop_id: 241N
+        stop_name: President St-Medgar Evers College (2,5)
+      - stop_id: 241S
+        stop_name: President St-Medgar Evers College (2,5)
+      - stop_id: 242N
+        stop_name: Sterling St (2,5)
+      - stop_id: 242S
+        stop_name: Sterling St (2,5)
+      - stop_id: 243N
+        stop_name: Winthrop St (2,5)
+      - stop_id: 243S
+        stop_name: Winthrop St (2,5)
+      - stop_id: 244N
+        stop_name: Church Av (2,5)
+      - stop_id: 244S
+        stop_name: Church Av (2,5)
+      - stop_id: 245N
+        stop_name: Beverly Rd (2,5)
+      - stop_id: 245S
+        stop_name: Beverly Rd (2,5)
+      - stop_id: 246N
+        stop_name: Newkirk Av-Little Haiti (2,5)
+      - stop_id: 246S
+        stop_name: Newkirk Av-Little Haiti (2,5)
+      - stop_id: 247N
+        stop_name: Flatbush Av-Brooklyn College (2,5)
+      - stop_id: 247S
+        stop_name: Flatbush Av-Brooklyn College (2,5)
     - stop_id: 248N
       stop_name: Nostrand Av (3)
     - stop_id: 248S
@@ -295,11 +304,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: New Lots Av (3)
     - stop_id: 257S
       stop_name: New Lots Av (3)
-    - stop_id: S04N
-      stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
-    - stop_id: S04S
-      stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
-    Run 2:
+    Run 2 (81 Stations):
     - stop_id: 222N
       stop_name: 149 St-Grand Concourse (2,4,5)
     - stop_id: 222S
@@ -624,7 +629,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 86 St (4,5,6)
     - stop_id: 626S
       stop_name: 86 St (4,5,6)
-    Run 3:
+    Run 3 (69 Stations):
     - stop_id: A09N
       stop_name: 168 St-Washington Hts (1,A,C)
     - stop_id: A09S
@@ -901,7 +906,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Park Pl (S)
     - stop_id: S03S
       stop_name: Park Pl (S)
-    Run 4:
+    Run 4 (56 Stations):
     - stop_id: D19N
       stop_name: 14 St/6 Av (1,2,3,L,F,M)
     - stop_id: D19S
@@ -1126,7 +1131,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Bay 50 St (D)
     - stop_id: B23S
       stop_name: Bay 50 St (D)
-    Run 5:
+    Run 5 (13 Stations):
     - stop_id: Q05N
       stop_name: 96 St (Q)
     - stop_id: Q05S
@@ -1179,7 +1184,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 86 St (N)
     - stop_id: N10S
       stop_name: 86 St (N)
-    Run 6:
+    Run 6 (101 Stations):
     - stop_id: G08N
       stop_name: Forest Hills-71 Av (E,F,M,R)
     - stop_id: G08S
@@ -1584,7 +1589,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Queens Plaza (E,M,R)
     - stop_id: G21S
       stop_name: Queens Plaza (E,M,R)
-    Run 7:
+    Run 7 (21 Stations):
     - stop_id: J27N
       stop_name: Broadway Junction (A,C,J,Z,L)
     - stop_id: J27S
@@ -1669,7 +1674,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Jamaica-Van Wyck (E)
     - stop_id: G07S
       stop_name: Jamaica-Van Wyck (E)
-    Run 8:
+    Run 8 (24 Stations):
     - stop_id: L02N
       stop_name: 14 St/6 Av (1,2,3,L,F,M)
     - stop_id: L02S
@@ -1766,7 +1771,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Canarsie-Rockaway Pkwy (L)
     - stop_id: L29S
       stop_name: Canarsie-Rockaway Pkwy (L)
-    Run 9:
+    Run 9 (36 Stations):
     - stop_id: 701N
       stop_name: Flushing-Main St (7)
     - stop_id: 701S
@@ -1911,7 +1916,7 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
     - stop_id: 902S
       stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    Run 10:
+    Run 10 (21 Stations):
     - stop_id: S31N
       stop_name: St George (SIR)
     - stop_id: S31S
@@ -1996,4 +2001,3 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Arthur Kill (SIR)
     - stop_id: S11S
       stop_name: Arthur Kill (SIR)
-unmapped:
