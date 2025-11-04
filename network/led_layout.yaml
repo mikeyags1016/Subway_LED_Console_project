@@ -1220,6 +1220,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Union St (R)
     - stop_id: R32S
       stop_name: Union St (R)
+    - stop_id: R33N
+      stop_name: 4 Av-9 St (F,G,R)
+    - stop_id: R33S
+      stop_name: 4 Av-9 St (F,G,R)
     - stop_id: R34N
       stop_name: Prospect Av (R)
     - stop_id: R34S
@@ -1347,6 +1351,34 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: R45S
       stop_name: Bay Ridge-95 St (R)
     Run 6:
+    - stop_id: F01N
+      stop_name: Jamaica-179 St (F)
+    - stop_id: F01S
+      stop_name: Jamaica-179 St (F)
+    - stop_id: F02N
+      stop_name: 169 St (F)
+    - stop_id: F02S
+      stop_name: 169 St (F)
+    - stop_id: F03N
+      stop_name: Parsons Blvd (F)
+    - stop_id: F03S
+      stop_name: Parsons Blvd (F)
+    - stop_id: F04N
+      stop_name: Sutphin Blvd (F)
+    - stop_id: F04S
+      stop_name: Sutphin Blvd (F)
+    - stop_id: F05N
+      stop_name: Briarwood (E,F)
+    - stop_id: F05S
+      stop_name: Briarwood (E,F)
+    - stop_id: F06N
+      stop_name: Kew Gardens-Union Tpke (E,F)
+    - stop_id: F06S
+      stop_name: Kew Gardens-Union Tpke (E,F)
+    - stop_id: F07N
+      stop_name: 75 Av (E,F)
+    - stop_id: F07S
+      stop_name: 75 Av (E,F)
     - stop_id: G08N
       stop_name: Forest Hills-71 Av (E,F,M,R)
     - stop_id: G08S
@@ -1387,42 +1419,26 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 46 St (M,R)
     - stop_id: G18S
       stop_name: 46 St (M,R)
+    - stop_id: G19N
+      stop_name: Steinway St (M,R)
+    - stop_id: G19S
+      stop_name: Steinway St (M,R)
+    - stop_id: G20N
+      stop_name: 36 St (M,R)
+    - stop_id: G20S
+      stop_name: 36 St (M,R)
+    - stop_id: G21N
+      stop_name: Queens Plaza (E,M,R)
+    - stop_id: G21S
+      stop_name: Queens Plaza (E,M,R)
     - stop_id: F09N
       stop_name: Court Sq-23 St (7,E,M,G)
     - stop_id: F09S
       stop_name: Court Sq-23 St (7,E,M,G)
-    - stop_id: F23N
-      stop_name: 4 Av-9 St (F,G,R)
-    - stop_id: F23S
-      stop_name: 4 Av-9 St (F,G,R)
-    - stop_id: R33N
-      stop_name: 4 Av-9 St (F,G,R)
-    - stop_id: R33S
-      stop_name: 4 Av-9 St (F,G,R)
     - stop_id: F11N
       stop_name: Lexington Av/51-53 Sts (6,E,M)
     - stop_id: F11S
       stop_name: Lexington Av/51-53 Sts (6,E,M)
-    - stop_id: M21N
-      stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
-    - stop_id: M21S
-      stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
-    - stop_id: M20N
-      stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: M20S
-      stop_name: Canal St (6,J,Z,N,Q,R,W)
-    - stop_id: F15N
-      stop_name: Delancey St-Essex St (F,M,J,Z)
-    - stop_id: F15S
-      stop_name: Delancey St-Essex St (F,M,J,Z)
-    - stop_id: M18N
-      stop_name: Delancey St-Essex St (F,M,J,Z)
-    - stop_id: M18S
-      stop_name: Delancey St-Essex St (F,M,J,Z)
-    - stop_id: M08N
-      stop_name: Myrtle-Wyckoff Avs (M,L)
-    - stop_id: M08S
-      stop_name: Myrtle-Wyckoff Avs (M,L)
     - stop_id: F12N
       stop_name: 5 Av/53 St (E,M)
     - stop_id: F12S
@@ -1431,6 +1447,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 2 Av (F)
     - stop_id: F14S
       stop_name: 2 Av (F)
+    - stop_id: F15N
+      stop_name: Delancey St-Essex St (F,M,J,Z)
+    - stop_id: F15S
+      stop_name: Delancey St-Essex St (F,M,J,Z)
     - stop_id: F16N
       stop_name: East Broadway (F)
     - stop_id: F16S
@@ -1451,6 +1471,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Smith-9 Sts (F,G)
     - stop_id: F22S
       stop_name: Smith-9 Sts (F,G)
+    - stop_id: F23N
+      stop_name: 4 Av-9 St (F,G,R)
+    - stop_id: F23S
+      stop_name: 4 Av-9 St (F,G,R)
     - stop_id: F24N
       stop_name: 7 Av (F,G)
     - stop_id: F24S
@@ -1507,103 +1531,20 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Neptune Av (F)
     - stop_id: F39S
       stop_name: Neptune Av (F)
-    - stop_id: F01N
-      stop_name: Jamaica-179 St (F)
-    - stop_id: F01S
-      stop_name: Jamaica-179 St (F)
-    - stop_id: F02N
-      stop_name: 169 St (F)
-    - stop_id: F02S
-      stop_name: 169 St (F)
-    - stop_id: F03N
-      stop_name: Parsons Blvd (F)
-    - stop_id: F03S
-      stop_name: Parsons Blvd (F)
-    - stop_id: F04N
-      stop_name: Sutphin Blvd (F)
-    - stop_id: F04S
-      stop_name: Sutphin Blvd (F)
-    - stop_id: F05N
-      stop_name: Briarwood (E,F)
-    - stop_id: F05S
-      stop_name: Briarwood (E,F)
-    - stop_id: F06N
-      stop_name: Kew Gardens-Union Tpke (E,F)
-    - stop_id: F06S
-      stop_name: Kew Gardens-Union Tpke (E,F)
-    - stop_id: F07N
-      stop_name: 75 Av (E,F)
-    - stop_id: F07S
-      stop_name: 75 Av (E,F)
-    - stop_id: M11N
-      stop_name: Myrtle Av (M,J,Z)
-    - stop_id: M11S
-      stop_name: Myrtle Av (M,J,Z)
-    - stop_id: M12N
-      stop_name: Flushing Av (M,J)
-    - stop_id: M12S
-      stop_name: Flushing Av (M,J)
-    - stop_id: M13N
-      stop_name: Lorimer St (M,J)
-    - stop_id: M13S
-      stop_name: Lorimer St (M,J)
-    - stop_id: M14N
-      stop_name: Hewes St (M,J)
-    - stop_id: M14S
-      stop_name: Hewes St (M,J)
-    - stop_id: M16N
-      stop_name: Marcy Av (M,J,Z)
-    - stop_id: M16S
-      stop_name: Marcy Av (M,J,Z)
-    - stop_id: M19N
-      stop_name: Bowery (J,Z)
-    - stop_id: M19S
-      stop_name: Bowery (J,Z)
-    - stop_id: M23N
-      stop_name: Broad St (J,Z)
-    - stop_id: M23S
-      stop_name: Broad St (J,Z)
-    - stop_id: M01N
-      stop_name: Middle Village-Metropolitan Av (M)
-    - stop_id: M01S
-      stop_name: Middle Village-Metropolitan Av (M)
-    - stop_id: M04N
-      stop_name: Fresh Pond Rd (M)
-    - stop_id: M04S
-      stop_name: Fresh Pond Rd (M)
-    - stop_id: M05N
-      stop_name: Forest Av (M)
-    - stop_id: M05S
-      stop_name: Forest Av (M)
-    - stop_id: M06N
-      stop_name: Seneca Av (M)
-    - stop_id: M06S
-      stop_name: Seneca Av (M)
-    - stop_id: M09N
-      stop_name: Knickerbocker Av (M)
-    - stop_id: M09S
-      stop_name: Knickerbocker Av (M)
-    - stop_id: M10N
-      stop_name: Central Av (M)
-    - stop_id: M10S
-      stop_name: Central Av (M)
-    - stop_id: G19N
-      stop_name: Steinway St (M,R)
-    - stop_id: G19S
-      stop_name: Steinway St (M,R)
-    - stop_id: G20N
-      stop_name: 36 St (M,R)
-    - stop_id: G20S
-      stop_name: 36 St (M,R)
-    - stop_id: G21N
-      stop_name: Queens Plaza (E,M,R)
-    - stop_id: G21S
-      stop_name: Queens Plaza (E,M,R)
     Run 7:
-    - stop_id: J27N
-      stop_name: Broadway Junction (A,C,J,Z,L)
-    - stop_id: J27S
-      stop_name: Broadway Junction (A,C,J,Z,L)
+    - stop_id: G05N
+      stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
+    - stop_id: G05S
+      stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
+    - stop_id: G06N
+      stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
+    - stop_id: G06S
+      stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
+    - Branch 1:
+      - stop_id: G07N
+        stop_name: Jamaica-Van Wyck (E)
+      - stop_id: G07S
+        stop_name: Jamaica-Van Wyck (E)
     - stop_id: J12N
       stop_name: 121 St (J,Z)
     - stop_id: J12S
@@ -1652,6 +1593,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Alabama Av (J,Z)
     - stop_id: J24S
       stop_name: Alabama Av (J,Z)
+    - stop_id: J27N
+      stop_name: Broadway Junction (A,C,J,Z,L)
+    - stop_id: J27S
+      stop_name: Broadway Junction (A,C,J,Z,L)
     - stop_id: J28N
       stop_name: Chauncey St (J,Z)
     - stop_id: J28S
@@ -1668,22 +1613,79 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Kosciuszko St (J)
     - stop_id: J31S
       stop_name: Kosciuszko St (J)
+    - Branch 2:
+      - stop_id: M01N
+        stop_name: Middle Village-Metropolitan Av (M)
+      - stop_id: M01S
+        stop_name: Middle Village-Metropolitan Av (M)
+      - stop_id: M04N
+        stop_name: Fresh Pond Rd (M)
+      - stop_id: M04S
+        stop_name: Fresh Pond Rd (M)
+      - stop_id: M05N
+        stop_name: Forest Av (M)
+      - stop_id: M05S
+        stop_name: Forest Av (M)
+      - stop_id: M06N
+        stop_name: Seneca Av (M)
+      - stop_id: M06S
+        stop_name: Seneca Av (M)
+      - stop_id: M09N
+        stop_name: Knickerbocker Av (M)
+      - stop_id: M09S
+        stop_name: Knickerbocker Av (M)
+      - stop_id: M10N
+        stop_name: Central Av (M)
+      - stop_id: M10S
+        stop_name: Central Av (M)
+    - stop_id: M08N
+      stop_name: Myrtle-Wyckoff Avs (M,L)
+    - stop_id: M08S
+      stop_name: Myrtle-Wyckoff Avs (M,L)
+    - stop_id: M11N
+      stop_name: Myrtle Av (M,J,Z)
+    - stop_id: M11S
+      stop_name: Myrtle Av (M,J,Z)
+    - stop_id: M12N
+      stop_name: Flushing Av (M,J)
+    - stop_id: M12S
+      stop_name: Flushing Av (M,J)
+    - stop_id: M13N
+      stop_name: Lorimer St (M,J)
+    - stop_id: M13S
+      stop_name: Lorimer St (M,J)
+    - stop_id: M14N
+      stop_name: Hewes St (M,J)
+    - stop_id: M14S
+      stop_name: Hewes St (M,J)
+    - stop_id: M16N
+      stop_name: Marcy Av (M,J,Z)
+    - stop_id: M16S
+      stop_name: Marcy Av (M,J,Z)
+    - stop_id: M18N
+      stop_name: Delancey St-Essex St (F,M,J,Z)
+    - stop_id: M18S
+      stop_name: Delancey St-Essex St (F,M,J,Z)
+    - stop_id: M19N
+      stop_name: Bowery (J,Z)
+    - stop_id: M19S
+      stop_name: Bowery (J,Z)
+    - stop_id: M20N
+      stop_name: Canal St (6,J,Z,N,Q,R,W)
+    - stop_id: M20S
+      stop_name: Canal St (6,J,Z,N,Q,R,W)
+    - stop_id: M21N
+      stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+    - stop_id: M21S
+      stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
     - stop_id: M22N
       stop_name: Fulton St (2,3,4,5,A,C,J,Z)
     - stop_id: M22S
       stop_name: Fulton St (2,3,4,5,A,C,J,Z)
-    - stop_id: G05N
-      stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
-    - stop_id: G05S
-      stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
-    - stop_id: G06N
-      stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
-    - stop_id: G06S
-      stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
-    - stop_id: G07N
-      stop_name: Jamaica-Van Wyck (E)
-    - stop_id: G07S
-      stop_name: Jamaica-Van Wyck (E)
+    - stop_id: M23N
+      stop_name: Broad St (J,Z)
+    - stop_id: M23S
+      stop_name: Broad St (J,Z)
     Run 8:
     - stop_id: L02N
       stop_name: 14 St/6 Av (1,2,3,L,F,M)
