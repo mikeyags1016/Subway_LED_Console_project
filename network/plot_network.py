@@ -90,14 +90,8 @@ def get_station_data_from_yaml(yaml_path, db_path):
     station_data = []
     run_mappings = yaml_data.get("runs", {}).get("dictitems", {})
 
-    # Debugging: Print the structure of run_mappings
-    print("Run mappings structure:", run_mappings)
-
     for stop_id, stop_name, stop_lat, stop_lon in nodes:
         normalized_stop_id = normalize_stop_id(stop_id)
-
-        # Debugging: Print the normalized stop_id being processed
-        print(f"Processing stop_id: {stop_id}, normalized: {normalized_stop_id}")
 
         assigned_run = None
         assigned_branch = None
@@ -123,9 +117,6 @@ def get_station_data_from_yaml(yaml_path, db_path):
                 if assigned_run:
                     break
 
-        # Debugging: Print the assigned run and branch for the station
-        print(f"Assigned Run: {assigned_run}, Assigned Branch: {assigned_branch}")
-
         station_data.append({
             "stop_id": stop_id,
             "stop_name": stop_name,
@@ -137,6 +128,19 @@ def get_station_data_from_yaml(yaml_path, db_path):
 
     return station_data
 
+# Function to display the total number of stations in each run
+def display_station_counts(station_data):
+    run_counts = {}
+
+    for station in station_data:
+        run = station["run"]
+        if run:
+            run_counts[run] = run_counts.get(run, 0) + 1
+
+    print("\nTotal number of stations in each run:")
+    for run, count in run_counts.items():
+        print(f"{run}: {count / 2} stations")
+
 # Function to plot the network and save as an image
 def plot_network(station_data, run_colors, branch_shapes, output_path="network_plot.png"):
     plt.figure(figsize=(12, 8))
@@ -144,9 +148,6 @@ def plot_network(station_data, run_colors, branch_shapes, output_path="network_p
     for station in station_data:
         color = run_colors.get(station["run"], "black")  # Default to black for unmapped stations
         shape = branch_shapes.get(station["branch"], "o")  # Default to 'x' for unmapped branches
-
-        # Debugging: Print station details to verify color assignment
-        print(f"Plotting station {station['stop_id']} ({station['stop_name']}): Run={station['run']}, Branch={station['branch']}, Color={color}, Shape={shape}")
 
         plt.scatter(station["longitude"], station["latitude"], color=color, marker=shape, label=f"{station['run']} - Branch {station['branch']}", s=10)
 
@@ -166,6 +167,9 @@ def plot_network(station_data, run_colors, branch_shapes, output_path="network_p
 
 # Get station data from YAML
 station_data = get_station_data_from_yaml(yaml_path, db_path)
+
+# Display the total number of stations in each run
+display_station_counts(station_data)
 
 # Plot the network and save as an image
 plot_network(station_data, run_colors, branch_shapes)

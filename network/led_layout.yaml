@@ -1687,6 +1687,10 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: M23S
       stop_name: Broad St (J,Z)
     Run 8:
+    - stop_id: L01N
+      stop_name: 14 St/8 Av (A,C,E,L)
+    - stop_id: L01S
+      stop_name: 14 St/8 Av (A,C,E,L)
     - stop_id: L02N
       stop_name: 14 St/6 Av (1,2,3,L,F,M)
     - stop_id: L02S
@@ -1695,22 +1699,6 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
     - stop_id: L03S
       stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
-    - stop_id: L01N
-      stop_name: 14 St/8 Av (A,C,E,L)
-    - stop_id: L01S
-      stop_name: 14 St/8 Av (A,C,E,L)
-    - stop_id: L22N
-      stop_name: Broadway Junction (A,C,J,Z,L)
-    - stop_id: L22S
-      stop_name: Broadway Junction (A,C,J,Z,L)
-    - stop_id: L10N
-      stop_name: Metropolitan Av/Lorimer St (G,L)
-    - stop_id: L10S
-      stop_name: Metropolitan Av/Lorimer St (G,L)
-    - stop_id: L17N
-      stop_name: Myrtle-Wyckoff Avs (M,L)
-    - stop_id: L17S
-      stop_name: Myrtle-Wyckoff Avs (M,L)
     - stop_id: L05N
       stop_name: 3 Av (L)
     - stop_id: L05S
@@ -1723,6 +1711,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Bedford Av (L)
     - stop_id: L08S
       stop_name: Bedford Av (L)
+    - stop_id: L10N
+      stop_name: Metropolitan Av/Lorimer St (G,L)
+    - stop_id: L10S
+      stop_name: Metropolitan Av/Lorimer St (G,L)
     - stop_id: L11N
       stop_name: Graham Av (L)
     - stop_id: L11S
@@ -1747,6 +1739,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: DeKalb Av (L)
     - stop_id: L16S
       stop_name: DeKalb Av (L)
+    - stop_id: L17N
+      stop_name: Myrtle-Wyckoff Avs (M,L)
+    - stop_id: L17S
+      stop_name: Myrtle-Wyckoff Avs (M,L)
     - stop_id: L19N
       stop_name: Halsey St (L)
     - stop_id: L19S
@@ -1759,6 +1755,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Bushwick Av-Aberdeen St (L)
     - stop_id: L21S
       stop_name: Bushwick Av-Aberdeen St (L)
+    - stop_id: L22N
+      stop_name: Broadway Junction (A,C,J,Z,L)
+    - stop_id: L22S
+      stop_name: Broadway Junction (A,C,J,Z,L)
     - stop_id: L24N
       stop_name: Atlantic Av (L)
     - stop_id: L24S
@@ -1812,6 +1812,10 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: 82 St-Jackson Hts (7)
     - stop_id: 709S
       stop_name: 82 St-Jackson Hts (7)
+    - stop_id: 710N
+      stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+    - stop_id: 710S
+      stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
     - stop_id: 711N
       stop_name: 69 St (7)
     - stop_id: 711S
@@ -1840,6 +1844,59 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Queensboro Plaza (7,N,W)
     - stop_id: 718S
       stop_name: Queensboro Plaza (7,N,W)
+    - stop_id: 719N
+      stop_name: Court Sq-23 St (7,E,M,G)
+    - stop_id: 719S
+      stop_name: Court Sq-23 St (7,E,M,G)
+    - Branch 1:
+      - stop_id: G22N
+        stop_name: Court Sq-23 St (7,E,M,G)
+      - stop_id: G22S
+        stop_name: Court Sq-23 St (7,E,M,G)
+      - stop_id: G24N
+        stop_name: 21 St (G)
+      - stop_id: G24S
+        stop_name: 21 St (G)
+      - stop_id: G26N
+        stop_name: Greenpoint Av (G)
+      - stop_id: G26S
+        stop_name: Greenpoint Av (G)
+      - stop_id: G28N
+        stop_name: Nassau Av (G)
+      - stop_id: G28S
+        stop_name: Nassau Av (G)
+      - stop_id: G29N
+        stop_name: Metropolitan Av/Lorimer St (G,L)
+      - stop_id: G29S
+        stop_name: Metropolitan Av/Lorimer St (G,L)
+      - stop_id: G30N
+        stop_name: Broadway (G)
+      - stop_id: G30S
+        stop_name: Broadway (G)
+      - stop_id: G31N
+        stop_name: Flushing Av (G)
+      - stop_id: G31S
+        stop_name: Flushing Av (G)
+      - stop_id: G32N
+        stop_name: Myrtle-Willoughby Avs (G)
+      - stop_id: G32S
+        stop_name: Myrtle-Willoughby Avs (G)
+      - stop_id: G33N
+        stop_name: Bedford-Nostrand Avs (G)
+      - stop_id: G33S
+        stop_name: Bedford-Nostrand Avs (G)
+      - stop_id: G34N
+        stop_name: Classon Av (G)
+      - stop_id: G34S
+        stop_name: Classon Av (G)
+      - stop_id: G35N
+        stop_name: Clinton-Washington Avs (G)
+      - stop_id: G35S
+        stop_name: Clinton-Washington Avs (G)
+      - stop_id: G36N
+        stop_name: Fulton St (G)
+      - stop_id: G36S
+        stop_name: Fulton St (G)
     - stop_id: 720N
       stop_name: Hunters Point Av (7)
     - stop_id: 720S
@@ -1848,86 +1905,32 @@ runs: !!python/object/apply:collections.defaultdict
       stop_name: Vernon Blvd-Jackson Av (7)
     - stop_id: 721S
       stop_name: Vernon Blvd-Jackson Av (7)
-    - stop_id: 726N
-      stop_name: 34 St-Hudson Yards (7)
-    - stop_id: 726S
-      stop_name: 34 St-Hudson Yards (7)
-    - stop_id: 719N
-      stop_name: Court Sq-23 St (7,E,M,G)
-    - stop_id: 719S
-      stop_name: Court Sq-23 St (7,E,M,G)
-    - stop_id: 724N
-      stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
-    - stop_id: 724S
-      stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
     - stop_id: 723N
       stop_name: Grand Central-42 St (4,5,6,7,S)
     - stop_id: 723S
       stop_name: Grand Central-42 St (4,5,6,7,S)
+    - Branch 2:
+      - stop_id: 901N
+        stop_name: Grand Central-42 St (4,5,6,7,S)
+      - stop_id: 901S
+        stop_name: Grand Central-42 St (4,5,6,7,S)
+    - stop_id: 724N
+      stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+    - stop_id: 724S
+      stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+    - Branch 3:
+      - stop_id: 902N
+        stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+      - stop_id: 902S
+        stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
     - stop_id: 725N
       stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
     - stop_id: 725S
       stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: 710N
-      stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
-    - stop_id: 710S
-      stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
-    - stop_id: G29N
-      stop_name: Metropolitan Av/Lorimer St (G,L)
-    - stop_id: G29S
-      stop_name: Metropolitan Av/Lorimer St (G,L)
-    - stop_id: G22N
-      stop_name: Court Sq-23 St (7,E,M,G)
-    - stop_id: G22S
-      stop_name: Court Sq-23 St (7,E,M,G)
-    - stop_id: G24N
-      stop_name: 21 St (G)
-    - stop_id: G24S
-      stop_name: 21 St (G)
-    - stop_id: G26N
-      stop_name: Greenpoint Av (G)
-    - stop_id: G26S
-      stop_name: Greenpoint Av (G)
-    - stop_id: G28N
-      stop_name: Nassau Av (G)
-    - stop_id: G28S
-      stop_name: Nassau Av (G)
-    - stop_id: G30N
-      stop_name: Broadway (G)
-    - stop_id: G30S
-      stop_name: Broadway (G)
-    - stop_id: G31N
-      stop_name: Flushing Av (G)
-    - stop_id: G31S
-      stop_name: Flushing Av (G)
-    - stop_id: G32N
-      stop_name: Myrtle-Willoughby Avs (G)
-    - stop_id: G32S
-      stop_name: Myrtle-Willoughby Avs (G)
-    - stop_id: G33N
-      stop_name: Bedford-Nostrand Avs (G)
-    - stop_id: G33S
-      stop_name: Bedford-Nostrand Avs (G)
-    - stop_id: G34N
-      stop_name: Classon Av (G)
-    - stop_id: G34S
-      stop_name: Classon Av (G)
-    - stop_id: G35N
-      stop_name: Clinton-Washington Avs (G)
-    - stop_id: G35S
-      stop_name: Clinton-Washington Avs (G)
-    - stop_id: G36N
-      stop_name: Fulton St (G)
-    - stop_id: G36S
-      stop_name: Fulton St (G)
-    - stop_id: 901N
-      stop_name: Grand Central-42 St (4,5,6,7,S)
-    - stop_id: 901S
-      stop_name: Grand Central-42 St (4,5,6,7,S)
-    - stop_id: 902N
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
-    - stop_id: 902S
-      stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+    - stop_id: 726N
+      stop_name: 34 St-Hudson Yards (7)
+    - stop_id: 726S
+      stop_name: 34 St-Hudson Yards (7)
     Run 10:
     - stop_id: S31N
       stop_name: St George (SIR)
