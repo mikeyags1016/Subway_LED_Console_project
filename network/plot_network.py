@@ -21,26 +21,41 @@ run_colors = {
     "Run 10": "royalblue"
 }
 
-# Custom YAML loader to handle defaultdict
-class DefaultDictLoader(yaml.SafeLoader):
-    def construct_python_object_apply(self, node, deep=False):
-        if node.tag == 'tag:yaml.org,2002:python/object/apply:collections.defaultdict':
-            mapping = self.construct_mapping(node, deep=deep)
-            return defaultdict(mapping.pop('default_factory', None), mapping)
-        return super().construct_python_object_apply(node, deep=deep)
+# Define shapes for branches
+branch_shapes = {
+    1: "x",  # Circle
+    2: "s",  # Square
+    3: "^",  # Triangle
+    4: "D",  # Diamond
+    5: "*"   # Star
+}
 
-# Custom YAML loader to handle Python-specific tags
-def remove_python_tags(loader, node):
-    if isinstance(node, yaml.SequenceNode):
-        return loader.construct_sequence(node)
-    elif isinstance(node, yaml.MappingNode):
-        return loader.construct_mapping(node)
-    elif isinstance(node, yaml.ScalarNode):
-        return loader.construct_scalar(node)
-    return None
+# Custom YAML loader to handle defaultdict and Python-specific tags
+class CustomLoader(yaml.SafeLoader):
+    def construct_python_object_apply(self, node):
+        if isinstance(node, yaml.MappingNode):
+            return defaultdict(list, self.construct_mapping(node, deep=True))
+        raise yaml.constructor.ConstructorError(
+            None, None, "expected a mapping node, but found %s" % node.id, node.start_mark
+        )
 
-DefaultDictLoader.add_constructor('tag:yaml.org,2002:python/name:builtins.list', remove_python_tags)
-DefaultDictLoader.add_constructor('tag:yaml.org,2002:python/object/apply:collections.defaultdict', DefaultDictLoader.construct_python_object_apply)
+    def construct_builtin_list(self, node):
+        if isinstance(node, yaml.SequenceNode):
+            return list(self.construct_sequence(node, deep=True))
+        elif isinstance(node, yaml.ScalarNode):
+            return [self.construct_scalar(node)]  # Wrap scalar in a list
+        raise yaml.constructor.ConstructorError(
+            None, None, "expected a sequence or scalar node, but found %s" % node.id, node.start_mark
+        )
+
+CustomLoader.add_constructor(
+    'tag:yaml.org,2002:python/object/apply:collections.defaultdict',
+    CustomLoader.construct_python_object_apply
+)
+CustomLoader.add_constructor(
+    'tag:yaml.org,2002:python/name:builtins.list',
+    CustomLoader.construct_builtin_list
+)
 
 # Convert defaultdict to a regular dictionary during YAML loading
 def convert_defaultdict_to_dict(data):
@@ -56,13 +71,10 @@ def convert_defaultdict_to_dict(data):
 def normalize_stop_id(stop_id):
     return stop_id.strip().upper() if isinstance(stop_id, str) else stop_id
 
-# Function to get station data with coordinates and run assignments from YAML
+# Function to get station data with coordinates, run, and branch assignments from YAML
 def get_station_data_from_yaml(yaml_path, db_path):
     with open(yaml_path, "r") as yaml_file:
-        # Fix YAML loading to extract `dictitems` from defaultdict
-        yaml_data = yaml.load(yaml_file, Loader=DefaultDictLoader)
-        if "dictitems" in yaml_data.get("runs", {}):
-            yaml_data["runs"] = yaml_data["runs"]["dictitems"]  # Extract `dictitems` if present
+        yaml_data = yaml.load(yaml_file, Loader=CustomLoader)
         yaml_data = convert_defaultdict_to_dict(yaml_data)  # Convert defaultdict to regular dict
 
     conn = sqlite3.connect(db_path)
@@ -74,50 +86,78 @@ def get_station_data_from_yaml(yaml_path, db_path):
 
     conn.close()
 
-    # Assign stations to runs based on the YAML data
+    # Assign stations to runs and branches based on the YAML data
     station_data = []
-    run_mappings = yaml_data.get("runs", {})
-
-    # Debugging: Print unmatched runs and station data
-    unmatched_runs = set()
+    run_mappings = yaml_data.get("runs", {}).get("dictitems", {})
 
     # Debugging: Print the structure of run_mappings
-    print("Run mappings structure:", {run: stations[:5] for run, stations in run_mappings.items() if isinstance(stations, list)})
+    print("Run mappings structure:", run_mappings)
 
     for stop_id, stop_name, stop_lat, stop_lon in nodes:
         normalized_stop_id = normalize_stop_id(stop_id)
+
+        # Debugging: Print the normalized stop_id being processed
+        print(f"Processing stop_id: {stop_id}, normalized: {normalized_stop_id}")
+
         assigned_run = None
-        for run, stations in run_mappings.items():
-            if isinstance(stations, list) and any(isinstance(station, dict) and normalize_stop_id(station.get("stop_id")) == normalized_stop_id for station in stations):
-                assigned_run = run
-                break
+        assigned_branch = None
+
+        for run, items in run_mappings.items():
+            if isinstance(items, list):
+                for item in items:
+                    if isinstance(item, dict):
+                        # Check if it's a direct station
+                        if normalize_stop_id(item.get("stop_id")) == normalized_stop_id:
+                            assigned_run = run
+                            break
+                        # Check if it's a branch
+                        branch_name, branch_stations = next(iter(item.items()))
+                        if branch_name.startswith("Branch") and isinstance(branch_stations, list):
+                            for station in branch_stations:
+                                if isinstance(station, dict) and normalize_stop_id(station.get("stop_id")) == normalized_stop_id:
+                                    assigned_run = run
+                                    assigned_branch = int(branch_name.split(" ")[1])  # Extract branch number
+                                    break
+                            if assigned_branch is not None:
+                                break
+                if assigned_run:
+                    break
+
+        # Debugging: Print the assigned run and branch for the station
+        print(f"Assigned Run: {assigned_run}, Assigned Branch: {assigned_branch}")
 
         station_data.append({
             "stop_id": stop_id,
             "stop_name": stop_name,
             "latitude": stop_lat,
             "longitude": stop_lon,
-            "run": assigned_run
+            "run": assigned_run,
+            "branch": assigned_branch
         })
-
-    print("Unmatched stop IDs:", unmatched_runs)
-    print("Station data:", station_data[:10])  # Print first 10 stations for debugging
 
     return station_data
 
 # Function to plot the network and save as an image
-def plot_network(station_data, run_colors, output_path="network_plot.png"):
+def plot_network(station_data, run_colors, branch_shapes, output_path="network_plot.png"):
     plt.figure(figsize=(12, 8))
 
     for station in station_data:
         color = run_colors.get(station["run"], "black")  # Default to black for unmapped stations
-        plt.scatter(station["longitude"], station["latitude"], color=color, label=station["run"], s=10)
+        shape = branch_shapes.get(station["branch"], "o")  # Default to 'x' for unmapped branches
+
+        # Debugging: Print station details to verify color assignment
+        print(f"Plotting station {station['stop_id']} ({station['stop_name']}): Run={station['run']}, Branch={station['branch']}, Color={color}, Shape={shape}")
+
+        plt.scatter(station["longitude"], station["latitude"], color=color, marker=shape, label=f"{station['run']} - Branch {station['branch']}", s=10)
 
     # Add labels and title
     plt.xlabel("Longitude")
     plt.ylabel("Latitude")
-    plt.title("Subway Network by Run")
-    plt.legend(handles=[plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=color, markersize=10, label=run) for run, color in run_colors.items()], loc="upper right")
+    plt.title("Subway Network by Run and Branch")
+    plt.legend(handles=[
+        plt.Line2D([0], [0], marker=shape, color='w', markerfacecolor=color, markersize=10, label=f"{run} - Branch {branch}")
+        for run, color in run_colors.items() for branch, shape in branch_shapes.items()
+    ], loc="upper right", fontsize="small")
     plt.grid(True)
 
     # Save the plot as an image
@@ -128,4 +168,4 @@ def plot_network(station_data, run_colors, output_path="network_plot.png"):
 station_data = get_station_data_from_yaml(yaml_path, db_path)
 
 # Plot the network and save as an image
-plot_network(station_data, run_colors)
+plot_network(station_data, run_colors, branch_shapes)
