@@ -72,30 +72,30 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: 119S
       stop_name: 103 St (1)
     - Branch 1:
-      - stop_id: 301N
-        stop_name: Harlem-148 St (3)
-      - stop_id: 301S
-        stop_name: Harlem-148 St (3)
-      - stop_id: 302N
-        stop_name: 145 St (3)
-      - stop_id: 302S
-        stop_name: 145 St (3)
-      - stop_id: 224N
-        stop_name: 135 St (2,3)
-      - stop_id: 224S
-        stop_name: 135 St (2,3)
-      - stop_id: 225N
-        stop_name: 125 St (2,3)
-      - stop_id: 225S
-        stop_name: 125 St (2,3)
-      - stop_id: 226N
-        stop_name: 116 St (2,3)
-      - stop_id: 226S
-        stop_name: 116 St (2,3)
       - stop_id: 227N
         stop_name: 110 St-Malcolm X Plaza (2,3)
       - stop_id: 227S
         stop_name: 110 St-Malcolm X Plaza (2,3)
+      - stop_id: 226N
+        stop_name: 116 St (2,3)
+      - stop_id: 226S
+        stop_name: 116 St (2,3)
+      - stop_id: 225N
+        stop_name: 125 St (2,3)
+      - stop_id: 225S
+        stop_name: 125 St (2,3)
+      - stop_id: 224N
+        stop_name: 135 St (2,3)
+      - stop_id: 224S
+        stop_name: 135 St (2,3)
+      - stop_id: 302N
+        stop_name: 145 St (3)
+      - stop_id: 302S
+        stop_name: 145 St (3)
+      - stop_id: 301N
+        stop_name: Harlem-148 St (3)
+      - stop_id: 301S
+        stop_name: Harlem-148 St (3)
     - stop_id: 120N
       stop_name: 96 St (1,2,3)
     - stop_id: 120S
@@ -345,26 +345,26 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: 212S
       stop_name: Bronx Park East (2,5)
     - Branch 1:
-      - stop_id: 501N
-        stop_name: Eastchester-Dyre Av (5)
-      - stop_id: 501S
-        stop_name: Eastchester-Dyre Av (5)
-      - stop_id: 502N
-        stop_name: Baychester Av (5)
-      - stop_id: 502S
-        stop_name: Baychester Av (5)
-      - stop_id: 503N
-        stop_name: Gun Hill Rd (5)
-      - stop_id: 503S
-        stop_name: Gun Hill Rd (5)
-      - stop_id: 504N
-        stop_name: Pelham Pkwy (5)
-      - stop_id: 504S
-        stop_name: Pelham Pkwy (5)
       - stop_id: 505N
         stop_name: Morris Park (5)
       - stop_id: 505S
         stop_name: Morris Park (5)
+      - stop_id: 504N
+        stop_name: Pelham Pkwy (5)
+      - stop_id: 504S
+        stop_name: Pelham Pkwy (5)
+      - stop_id: 503N
+        stop_name: Gun Hill Rd (5)
+      - stop_id: 503S
+        stop_name: Gun Hill Rd (5)
+      - stop_id: 502N
+        stop_name: Baychester Av (5)
+      - stop_id: 502S
+        stop_name: Baychester Av (5)
+      - stop_id: 501N
+        stop_name: Eastchester-Dyre Av (5)
+      - stop_id: 501S
+        stop_name: Eastchester-Dyre Av (5)
     - stop_id: 213N
       stop_name: E 180 St (2,5)
     - stop_id: 213S
@@ -402,54 +402,54 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: 221S
       stop_name: 3 Av-149 St (2,5)
     - Branch 2:
-      - stop_id: 401N
-        stop_name: Woodlawn (4)
-      - stop_id: 401S
-        stop_name: Woodlawn (4)
-      - stop_id: 402N
-        stop_name: Mosholu Pkwy (4)
-      - stop_id: 402S
-        stop_name: Mosholu Pkwy (4)
-      - stop_id: 405N
-        stop_name: Bedford Park Blvd-Lehman College (4)
-      - stop_id: 405S
-        stop_name: Bedford Park Blvd-Lehman College (4)
-      - stop_id: 406N
-        stop_name: Kingsbridge Rd (4)
-      - stop_id: 406S
-        stop_name: Kingsbridge Rd (4)
-      - stop_id: 407N
-        stop_name: Fordham Rd (4)
-      - stop_id: 407S
-        stop_name: Fordham Rd (4)
-      - stop_id: 408N
-        stop_name: 183 St (4)
-      - stop_id: 408S
-        stop_name: 183 St (4)
-      - stop_id: 409N
-        stop_name: Burnside Av (4)
-      - stop_id: 409S
-        stop_name: Burnside Av (4)
-      - stop_id: 410N
-        stop_name: 176 St (4)
-      - stop_id: 410S
-        stop_name: 176 St (4)
-      - stop_id: 411N
-        stop_name: Mt Eden Av (4)
-      - stop_id: 411S
-        stop_name: Mt Eden Av (4)
-      - stop_id: 412N
-        stop_name: 170 St (4)
-      - stop_id: 412S
-        stop_name: 170 St (4)
-      - stop_id: 413N
-        stop_name: 167 St (4)
-      - stop_id: 413S
-        stop_name: 167 St (4)
       - stop_id: 414N
         stop_name: 161 St-Yankee Stadium (4,B,D)
       - stop_id: 414S
         stop_name: 161 St-Yankee Stadium (4,B,D)
+      - stop_id: 413N
+        stop_name: 167 St (4)
+      - stop_id: 413S
+        stop_name: 167 St (4)
+      - stop_id: 412N
+        stop_name: 170 St (4)
+      - stop_id: 412S
+        stop_name: 170 St (4)
+      - stop_id: 411N
+        stop_name: Mt Eden Av (4)
+      - stop_id: 411S
+        stop_name: Mt Eden Av (4)
+      - stop_id: 410N
+        stop_name: 176 St (4)
+      - stop_id: 410S
+        stop_name: 176 St (4)
+      - stop_id: 409N
+        stop_name: Burnside Av (4)
+      - stop_id: 409S
+        stop_name: Burnside Av (4)
+      - stop_id: 408N
+        stop_name: 183 St (4)
+      - stop_id: 408S
+        stop_name: 183 St (4)
+      - stop_id: 407N
+        stop_name: Fordham Rd (4)
+      - stop_id: 407S
+        stop_name: Fordham Rd (4)
+      - stop_id: 406N
+        stop_name: Kingsbridge Rd (4)
+      - stop_id: 406S
+        stop_name: Kingsbridge Rd (4)
+      - stop_id: 405N
+        stop_name: Bedford Park Blvd-Lehman College (4)
+      - stop_id: 405S
+        stop_name: Bedford Park Blvd-Lehman College (4)
+      - stop_id: 402N
+        stop_name: Mosholu Pkwy (4)
+      - stop_id: 402S
+        stop_name: Mosholu Pkwy (4)
+      - stop_id: 401N
+        stop_name: Woodlawn (4)
+      - stop_id: 401S
+        stop_name: Woodlawn (4)
     - stop_id: 415N
       stop_name: 149 St-Grand Concourse (2,4,5)
     - stop_id: 415S
@@ -463,78 +463,78 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: 416S
       stop_name: 138 St-Grand Concourse (4,5)
     - Branch 3:
-      - stop_id: 601N
-        stop_name: Pelham Bay Park (6)
-      - stop_id: 601S
-        stop_name: Pelham Bay Park (6)
-      - stop_id: 602N
-        stop_name: Buhre Av (6)
-      - stop_id: 602S
-        stop_name: Buhre Av (6)
-      - stop_id: 603N
-        stop_name: Middletown Rd (6)
-      - stop_id: 603S
-        stop_name: Middletown Rd (6)
-      - stop_id: 604N
-        stop_name: Westchester Sq-E Tremont Av (6)
-      - stop_id: 604S
-        stop_name: Westchester Sq-E Tremont Av (6)
-      - stop_id: 606N
-        stop_name: Zerega Av (6)
-      - stop_id: 606S
-        stop_name: Zerega Av (6)
-      - stop_id: 607N
-        stop_name: Castle Hill Av (6)
-      - stop_id: 607S
-        stop_name: Castle Hill Av (6)
-      - stop_id: 608N
-        stop_name: Parkchester (6)
-      - stop_id: 608S
-        stop_name: Parkchester (6)
-      - stop_id: 609N
-        stop_name: St Lawrence Av (6)
-      - stop_id: 609S
-        stop_name: St Lawrence Av (6)
-      - stop_id: 610N
-        stop_name: Morrison Av-Soundview (6)
-      - stop_id: 610S
-        stop_name: Morrison Av-Soundview (6)
-      - stop_id: 611N
-        stop_name: Elder Av (6)
-      - stop_id: 611S
-        stop_name: Elder Av (6)
-      - stop_id: 612N
-        stop_name: Whitlock Av (6)
-      - stop_id: 612S
-        stop_name: Whitlock Av (6)
-      - stop_id: 613N
-        stop_name: Hunts Point Av (6)
-      - stop_id: 613S
-        stop_name: Hunts Point Av (6)
-      - stop_id: 614N
-        stop_name: Longwood Av (6)
-      - stop_id: 614S
-        stop_name: Longwood Av (6)
-      - stop_id: 615N
-        stop_name: E 149 St (6)
-      - stop_id: 615S
-        stop_name: E 149 St (6)
-      - stop_id: 616N
-        stop_name: E 143 St-St Mary's St (6)
-      - stop_id: 616S
-        stop_name: E 143 St-St Mary's St (6)
-      - stop_id: 617N
-        stop_name: Cypress Av (6)
-      - stop_id: 617S
-        stop_name: Cypress Av (6)
-      - stop_id: 618N
-        stop_name: Brook Av (6)
-      - stop_id: 618S
-        stop_name: Brook Av (6)
       - stop_id: 619N
         stop_name: 3 Av-138 St (6)
       - stop_id: 619S
         stop_name: 3 Av-138 St (6)
+      - stop_id: 618N
+        stop_name: Brook Av (6)
+      - stop_id: 618S
+        stop_name: Brook Av (6)
+      - stop_id: 617N
+        stop_name: Cypress Av (6)
+      - stop_id: 617S
+        stop_name: Cypress Av (6)
+      - stop_id: 616N
+        stop_name: E 143 St-St Mary's St (6)
+      - stop_id: 616S
+        stop_name: E 143 St-St Mary's St (6)
+      - stop_id: 615N
+        stop_name: E 149 St (6)
+      - stop_id: 615S
+        stop_name: E 149 St (6)
+      - stop_id: 614N
+        stop_name: Longwood Av (6)
+      - stop_id: 614S
+        stop_name: Longwood Av (6)
+      - stop_id: 613N
+        stop_name: Hunts Point Av (6)
+      - stop_id: 613S
+        stop_name: Hunts Point Av (6)
+      - stop_id: 612N
+        stop_name: Whitlock Av (6)
+      - stop_id: 612S
+        stop_name: Whitlock Av (6)
+      - stop_id: 611N
+        stop_name: Elder Av (6)
+      - stop_id: 611S
+        stop_name: Elder Av (6)
+      - stop_id: 610N
+        stop_name: Morrison Av-Soundview (6)
+      - stop_id: 610S
+        stop_name: Morrison Av-Soundview (6)
+      - stop_id: 609N
+        stop_name: St Lawrence Av (6)
+      - stop_id: 609S
+        stop_name: St Lawrence Av (6)
+      - stop_id: 608N
+        stop_name: Parkchester (6)
+      - stop_id: 608S
+        stop_name: Parkchester (6)
+      - stop_id: 607N
+        stop_name: Castle Hill Av (6)
+      - stop_id: 607S
+        stop_name: Castle Hill Av (6)
+      - stop_id: 606N
+        stop_name: Zerega Av (6)
+      - stop_id: 606S
+        stop_name: Zerega Av (6)
+      - stop_id: 604N
+        stop_name: Westchester Sq-E Tremont Av (6)
+      - stop_id: 604S
+        stop_name: Westchester Sq-E Tremont Av (6)
+      - stop_id: 603N
+        stop_name: Middletown Rd (6)
+      - stop_id: 603S
+        stop_name: Middletown Rd (6)
+      - stop_id: 602N
+        stop_name: Buhre Av (6)
+      - stop_id: 602S
+        stop_name: Buhre Av (6)
+      - stop_id: 601N
+        stop_name: Pelham Bay Park (6)
+      - stop_id: 601S
+        stop_name: Pelham Bay Park (6)
     - stop_id: 621N
       stop_name: 125 St (4,5,6)
     - stop_id: 621S
@@ -965,22 +965,22 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: D14S
       stop_name: 7 Av (E,B,D)
     - Branch 1:
-      - stop_id: B04N
-        stop_name: 21 St-Queensbridge (F)
-      - stop_id: B04S
-        stop_name: 21 St-Queensbridge (F)
-      - stop_id: B06N
-        stop_name: Roosevelt Island (F)
-      - stop_id: B06S
-        stop_name: Roosevelt Island (F)
-      - stop_id: B08N
-        stop_name: Lexington Av/63 St (F,Q)
-      - stop_id: B08S
-        stop_name: Lexington Av/63 St (F,Q)
       - stop_id: B10N
         stop_name: 57 St (F)
       - stop_id: B10S
         stop_name: 57 St (F)
+      - stop_id: B08N
+        stop_name: Lexington Av/63 St (F,Q)
+      - stop_id: B08S
+        stop_name: Lexington Av/63 St (F,Q)
+      - stop_id: B06N
+        stop_name: Roosevelt Island (F)
+      - stop_id: B06S
+        stop_name: Roosevelt Island (F)
+      - stop_id: B04N
+        stop_name: 21 St-Queensbridge (F)
+      - stop_id: B04S
+        stop_name: 21 St-Queensbridge (F)
     - stop_id: D15N
       stop_name: 47-50 Sts-Rockefeller Ctr (B,D,F,M)
     - stop_id: D15S
@@ -1127,18 +1127,18 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: R13S
       stop_name: 5 Av/59 St (N,R,W)
     - Branch 1:
-      - stop_id: Q05N
-        stop_name: 96 St (Q)
-      - stop_id: Q05S
-        stop_name: 96 St (Q)
-      - stop_id: Q04N
-        stop_name: 86 St (Q)
-      - stop_id: Q04S
-        stop_name: 86 St (Q)
       - stop_id: Q03N
         stop_name: 72 St (Q)
       - stop_id: Q03S
         stop_name: 72 St (Q)
+      - stop_id: Q04N
+        stop_name: 86 St (Q)
+      - stop_id: Q04S
+        stop_name: 86 St (Q)
+      - stop_id: Q05N
+        stop_name: 96 St (Q)
+      - stop_id: Q05S
+        stop_name: 96 St (Q)
     - stop_id: R14N
       stop_name: 57 St-7 Av (N,Q,R,W)
     - stop_id: R14S
@@ -1614,34 +1614,34 @@ runs: !!python/object/apply:collections.defaultdict
     - stop_id: J31S
       stop_name: Kosciuszko St (J)
     - Branch 2:
-      - stop_id: M01N
-        stop_name: Middle Village-Metropolitan Av (M)
-      - stop_id: M01S
-        stop_name: Middle Village-Metropolitan Av (M)
-      - stop_id: M04N
-        stop_name: Fresh Pond Rd (M)
-      - stop_id: M04S
-        stop_name: Fresh Pond Rd (M)
-      - stop_id: M05N
-        stop_name: Forest Av (M)
-      - stop_id: M05S
-        stop_name: Forest Av (M)
-      - stop_id: M06N
-        stop_name: Seneca Av (M)
-      - stop_id: M06S
-        stop_name: Seneca Av (M)
-      - stop_id: M09N
-        stop_name: Knickerbocker Av (M)
-      - stop_id: M09S
-        stop_name: Knickerbocker Av (M)
       - stop_id: M10N
         stop_name: Central Av (M)
       - stop_id: M10S
         stop_name: Central Av (M)
-    - stop_id: M08N
-      stop_name: Myrtle-Wyckoff Avs (M,L)
-    - stop_id: M08S
-      stop_name: Myrtle-Wyckoff Avs (M,L)
+      - stop_id: M09N
+        stop_name: Knickerbocker Av (M)
+      - stop_id: M09S
+        stop_name: Knickerbocker Av (M)
+      - stop_id: M08N
+        stop_name: Myrtle-Wyckoff Avs (M,L)
+      - stop_id: M08S
+        stop_name: Myrtle-Wyckoff Avs (M,L)
+      - stop_id: M06N
+        stop_name: Seneca Av (M)
+      - stop_id: M06S
+        stop_name: Seneca Av (M)
+      - stop_id: M05N
+        stop_name: Forest Av (M)
+      - stop_id: M05S
+        stop_name: Forest Av (M)
+      - stop_id: M04N
+        stop_name: Fresh Pond Rd (M)
+      - stop_id: M04S
+        stop_name: Fresh Pond Rd (M)
+      - stop_id: M01N
+        stop_name: Middle Village-Metropolitan Av (M)
+      - stop_id: M01S
+        stop_name: Middle Village-Metropolitan Av (M)
     - stop_id: M11N
       stop_name: Myrtle Av (M,J,Z)
     - stop_id: M11S
