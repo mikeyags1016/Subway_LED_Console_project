@@ -1,0 +1,3968 @@
+257N:
+  run_number: 0
+  index_number: 0
+  stop_name: New Lots Av (3)
+257S:
+  run_number: 0
+  index_number: 0
+  stop_name: New Lots Av (3)
+256N:
+  run_number: 0
+  index_number: 1
+  stop_name: Van Siclen Av (3)
+256S:
+  run_number: 0
+  index_number: 1
+  stop_name: Van Siclen Av (3)
+255N:
+  run_number: 0
+  index_number: 2
+  stop_name: Pennsylvania Av (3)
+255S:
+  run_number: 0
+  index_number: 2
+  stop_name: Pennsylvania Av (3)
+254N:
+  run_number: 0
+  index_number: 3
+  stop_name: Junius St (3)
+254S:
+  run_number: 0
+  index_number: 3
+  stop_name: Junius St (3)
+253N:
+  run_number: 0
+  index_number: 4
+  stop_name: Rockaway Av (3)
+253S:
+  run_number: 0
+  index_number: 4
+  stop_name: Rockaway Av (3)
+252N:
+  run_number: 0
+  index_number: 5
+  stop_name: Saratoga Av (3)
+252S:
+  run_number: 0
+  index_number: 5
+  stop_name: Saratoga Av (3)
+251N:
+  run_number: 0
+  index_number: 6
+  stop_name: Sutter Av-Rutland Rd (3)
+251S:
+  run_number: 0
+  index_number: 6
+  stop_name: Sutter Av-Rutland Rd (3)
+250N:
+  run_number: 0
+  index_number: 7
+  stop_name: Crown Hts-Utica Av (3,4)
+250S:
+  run_number: 0
+  index_number: 7
+  stop_name: Crown Hts-Utica Av (3,4)
+249N:
+  run_number: 0
+  index_number: 8
+  stop_name: Kingston Av (3)
+249S:
+  run_number: 0
+  index_number: 8
+  stop_name: Kingston Av (3)
+248N:
+  run_number: 0
+  index_number: 9
+  stop_name: Nostrand Av (3)
+248S:
+  run_number: 0
+  index_number: 9
+  stop_name: Nostrand Av (3)
+239N:
+  run_number: 0
+  index_number: 10
+  stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+239S:
+  run_number: 0
+  index_number: 10
+  stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+S04N:
+  run_number: 0
+  index_number: 10
+  stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+S04S:
+  run_number: 0
+  index_number: 10
+  stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+238N:
+  run_number: 0
+  index_number: 11
+  stop_name: Eastern Pkwy-Brooklyn Museum (2,3)
+238S:
+  run_number: 0
+  index_number: 11
+  stop_name: Eastern Pkwy-Brooklyn Museum (2,3)
+237N:
+  run_number: 0
+  index_number: 12
+  stop_name: Grand Army Plaza (2,3)
+237S:
+  run_number: 0
+  index_number: 12
+  stop_name: Grand Army Plaza (2,3)
+236N:
+  run_number: 0
+  index_number: 13
+  stop_name: Bergen St (2,3)
+236S:
+  run_number: 0
+  index_number: 13
+  stop_name: Bergen St (2,3)
+235N:
+  run_number: 0
+  index_number: 14
+  stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+235S:
+  run_number: 0
+  index_number: 14
+  stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+234N:
+  run_number: 0
+  index_number: 15
+  stop_name: Nevins St (2,3,4,5)
+234S:
+  run_number: 0
+  index_number: 15
+  stop_name: Nevins St (2,3,4,5)
+233N:
+  run_number: 0
+  index_number: 16
+  stop_name: Hoyt St (2,3)
+233S:
+  run_number: 0
+  index_number: 16
+  stop_name: Hoyt St (2,3)
+232N:
+  run_number: 0
+  index_number: 17
+  stop_name: Borough Hall/Court St (2,3,4,5,R)
+232S:
+  run_number: 0
+  index_number: 17
+  stop_name: Borough Hall/Court St (2,3,4,5,R)
+231N:
+  run_number: 0
+  index_number: 18
+  stop_name: Clark St (2,3)
+231S:
+  run_number: 0
+  index_number: 18
+  stop_name: Clark St (2,3)
+230N:
+  run_number: 0
+  index_number: 19
+  stop_name: Wall St (2,3)
+230S:
+  run_number: 0
+  index_number: 19
+  stop_name: Wall St (2,3)
+229N:
+  run_number: 0
+  index_number: 20
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+229S:
+  run_number: 0
+  index_number: 20
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+228N:
+  run_number: 0
+  index_number: 21
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+228S:
+  run_number: 0
+  index_number: 21
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+137N:
+  run_number: 0
+  index_number: 22
+  stop_name: Chambers St (1,2,3)
+137S:
+  run_number: 0
+  index_number: 22
+  stop_name: Chambers St (1,2,3)
+136N:
+  run_number: 0
+  index_number: 23
+  stop_name: Franklin St (1)
+136S:
+  run_number: 0
+  index_number: 23
+  stop_name: Franklin St (1)
+135N:
+  run_number: 0
+  index_number: 24
+  stop_name: Canal St (1)
+135S:
+  run_number: 0
+  index_number: 24
+  stop_name: Canal St (1)
+134N:
+  run_number: 0
+  index_number: 25
+  stop_name: Houston St (1)
+134S:
+  run_number: 0
+  index_number: 25
+  stop_name: Houston St (1)
+133N:
+  run_number: 0
+  index_number: 26
+  stop_name: Christopher St-Stonewall (1)
+133S:
+  run_number: 0
+  index_number: 26
+  stop_name: Christopher St-Stonewall (1)
+132N:
+  run_number: 0
+  index_number: 27
+  stop_name: 14 St/6 Av (1,2,3,L,F,M)
+132S:
+  run_number: 0
+  index_number: 27
+  stop_name: 14 St/6 Av (1,2,3,L,F,M)
+131N:
+  run_number: 0
+  index_number: 28
+  stop_name: 18 St (1)
+131S:
+  run_number: 0
+  index_number: 28
+  stop_name: 18 St (1)
+130N:
+  run_number: 0
+  index_number: 29
+  stop_name: 23 St (1)
+130S:
+  run_number: 0
+  index_number: 29
+  stop_name: 23 St (1)
+129N:
+  run_number: 0
+  index_number: 30
+  stop_name: 28 St (1)
+129S:
+  run_number: 0
+  index_number: 30
+  stop_name: 28 St (1)
+128N:
+  run_number: 0
+  index_number: 31
+  stop_name: 34 St-Penn Station (1,2,3)
+128S:
+  run_number: 0
+  index_number: 31
+  stop_name: 34 St-Penn Station (1,2,3)
+127N:
+  run_number: 0
+  index_number: 32
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+127S:
+  run_number: 0
+  index_number: 32
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+126N:
+  run_number: 0
+  index_number: 33
+  stop_name: 50 St (1)
+126S:
+  run_number: 0
+  index_number: 33
+  stop_name: 50 St (1)
+125N:
+  run_number: 0
+  index_number: 34
+  stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+125S:
+  run_number: 0
+  index_number: 34
+  stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+124N:
+  run_number: 0
+  index_number: 35
+  stop_name: 66 St-Lincoln Center (1)
+124S:
+  run_number: 0
+  index_number: 35
+  stop_name: 66 St-Lincoln Center (1)
+123N:
+  run_number: 0
+  index_number: 36
+  stop_name: 72 St (1,2,3)
+123S:
+  run_number: 0
+  index_number: 36
+  stop_name: 72 St (1,2,3)
+122N:
+  run_number: 0
+  index_number: 37
+  stop_name: 79 St (1)
+122S:
+  run_number: 0
+  index_number: 37
+  stop_name: 79 St (1)
+121N:
+  run_number: 0
+  index_number: 38
+  stop_name: 86 St (1)
+121S:
+  run_number: 0
+  index_number: 38
+  stop_name: 86 St (1)
+120N:
+  run_number: 0
+  index_number: 39
+  stop_name: 96 St (1,2,3)
+120S:
+  run_number: 0
+  index_number: 39
+  stop_name: 96 St (1,2,3)
+119N:
+  run_number: 0
+  index_number: 40
+  stop_name: 103 St (1)
+119S:
+  run_number: 0
+  index_number: 40
+  stop_name: 103 St (1)
+118N:
+  run_number: 0
+  index_number: 41
+  stop_name: Cathedral Pkwy (110 St) (1)
+118S:
+  run_number: 0
+  index_number: 41
+  stop_name: Cathedral Pkwy (110 St) (1)
+117N:
+  run_number: 0
+  index_number: 42
+  stop_name: 116 St-Columbia University (1)
+117S:
+  run_number: 0
+  index_number: 42
+  stop_name: 116 St-Columbia University (1)
+116N:
+  run_number: 0
+  index_number: 43
+  stop_name: 125 St (1)
+116S:
+  run_number: 0
+  index_number: 43
+  stop_name: 125 St (1)
+115N:
+  run_number: 0
+  index_number: 44
+  stop_name: 137 St-City College (1)
+115S:
+  run_number: 0
+  index_number: 44
+  stop_name: 137 St-City College (1)
+114N:
+  run_number: 0
+  index_number: 45
+  stop_name: 145 St (1)
+114S:
+  run_number: 0
+  index_number: 45
+  stop_name: 145 St (1)
+113N:
+  run_number: 0
+  index_number: 46
+  stop_name: 157 St (1)
+113S:
+  run_number: 0
+  index_number: 46
+  stop_name: 157 St (1)
+112N:
+  run_number: 0
+  index_number: 47
+  stop_name: 168 St-Washington Hts (1,A,C)
+112S:
+  run_number: 0
+  index_number: 47
+  stop_name: 168 St-Washington Hts (1,A,C)
+111N:
+  run_number: 0
+  index_number: 48
+  stop_name: 181 St (1)
+111S:
+  run_number: 0
+  index_number: 48
+  stop_name: 181 St (1)
+110N:
+  run_number: 0
+  index_number: 49
+  stop_name: 191 St (1)
+110S:
+  run_number: 0
+  index_number: 49
+  stop_name: 191 St (1)
+109N:
+  run_number: 0
+  index_number: 50
+  stop_name: Dyckman St (1)
+109S:
+  run_number: 0
+  index_number: 50
+  stop_name: Dyckman St (1)
+108N:
+  run_number: 0
+  index_number: 51
+  stop_name: 207 St (1)
+108S:
+  run_number: 0
+  index_number: 51
+  stop_name: 207 St (1)
+107N:
+  run_number: 0
+  index_number: 52
+  stop_name: 215 St (1)
+107S:
+  run_number: 0
+  index_number: 52
+  stop_name: 215 St (1)
+106N:
+  run_number: 0
+  index_number: 53
+  stop_name: Marble Hill-225 St (1)
+106S:
+  run_number: 0
+  index_number: 53
+  stop_name: Marble Hill-225 St (1)
+104N:
+  run_number: 0
+  index_number: 54
+  stop_name: 231 St (1)
+104S:
+  run_number: 0
+  index_number: 54
+  stop_name: 231 St (1)
+103N:
+  run_number: 0
+  index_number: 55
+  stop_name: 238 St (1)
+103S:
+  run_number: 0
+  index_number: 55
+  stop_name: 238 St (1)
+101N:
+  run_number: 0
+  index_number: 56
+  stop_name: Van Cortlandt Park-242 St (1)
+101S:
+  run_number: 0
+  index_number: 56
+  stop_name: Van Cortlandt Park-242 St (1)
+227N:
+  run_number: 1
+  index_number: 0
+  stop_name: 110 St-Malcolm X Plaza (2,3)
+227S:
+  run_number: 1
+  index_number: 0
+  stop_name: 110 St-Malcolm X Plaza (2,3)
+226N:
+  run_number: 1
+  index_number: 1
+  stop_name: 116 St (2,3)
+226S:
+  run_number: 1
+  index_number: 1
+  stop_name: 116 St (2,3)
+225N:
+  run_number: 1
+  index_number: 2
+  stop_name: 125 St (2,3)
+225S:
+  run_number: 1
+  index_number: 2
+  stop_name: 125 St (2,3)
+224N:
+  run_number: 1
+  index_number: 3
+  stop_name: 135 St (2,3)
+224S:
+  run_number: 1
+  index_number: 3
+  stop_name: 135 St (2,3)
+302N:
+  run_number: 1
+  index_number: 4
+  stop_name: 145 St (3)
+302S:
+  run_number: 1
+  index_number: 4
+  stop_name: 145 St (3)
+301N:
+  run_number: 1
+  index_number: 5
+  stop_name: Harlem-148 St (3)
+301S:
+  run_number: 1
+  index_number: 5
+  stop_name: Harlem-148 St (3)
+138N:
+  run_number: 2
+  index_number: 0
+  stop_name: WTC Cortlandt (1)
+138S:
+  run_number: 2
+  index_number: 0
+  stop_name: WTC Cortlandt (1)
+139N:
+  run_number: 2
+  index_number: 1
+  stop_name: Rector St (1)
+139S:
+  run_number: 2
+  index_number: 1
+  stop_name: Rector St (1)
+142N:
+  run_number: 2
+  index_number: 2
+  stop_name: Whitehall St-South Ferry (1,R,W)
+142S:
+  run_number: 2
+  index_number: 2
+  stop_name: Whitehall St-South Ferry (1,R,W)
+247N:
+  run_number: 3
+  index_number: 0
+  stop_name: Flatbush Av-Brooklyn College (2,5)
+247S:
+  run_number: 3
+  index_number: 0
+  stop_name: Flatbush Av-Brooklyn College (2,5)
+246N:
+  run_number: 3
+  index_number: 1
+  stop_name: Newkirk Av-Little Haiti (2,5)
+246S:
+  run_number: 3
+  index_number: 1
+  stop_name: Newkirk Av-Little Haiti (2,5)
+245N:
+  run_number: 3
+  index_number: 2
+  stop_name: Beverly Rd (2,5)
+245S:
+  run_number: 3
+  index_number: 2
+  stop_name: Beverly Rd (2,5)
+244N:
+  run_number: 3
+  index_number: 3
+  stop_name: Church Av (2,5)
+244S:
+  run_number: 3
+  index_number: 3
+  stop_name: Church Av (2,5)
+243N:
+  run_number: 3
+  index_number: 4
+  stop_name: Winthrop St (2,5)
+243S:
+  run_number: 3
+  index_number: 4
+  stop_name: Winthrop St (2,5)
+242N:
+  run_number: 3
+  index_number: 5
+  stop_name: Sterling St (2,5)
+242S:
+  run_number: 3
+  index_number: 5
+  stop_name: Sterling St (2,5)
+241N:
+  run_number: 3
+  index_number: 6
+  stop_name: President St-Medgar Evers College (2,5)
+241S:
+  run_number: 3
+  index_number: 6
+  stop_name: President St-Medgar Evers College (2,5)
+S03N:
+  run_number: 3
+  index_number: 7
+  stop_name: Park Pl (S)
+S03S:
+  run_number: 3
+  index_number: 7
+  stop_name: Park Pl (S)
+423N:
+  run_number: 4
+  index_number: 0
+  stop_name: Borough Hall/Court St (2,3,4,5,R)
+423S:
+  run_number: 4
+  index_number: 0
+  stop_name: Borough Hall/Court St (2,3,4,5,R)
+420N:
+  run_number: 4
+  index_number: 1
+  stop_name: Bowling Green (4,5)
+420S:
+  run_number: 4
+  index_number: 1
+  stop_name: Bowling Green (4,5)
+419N:
+  run_number: 4
+  index_number: 2
+  stop_name: Wall St (4,5)
+419S:
+  run_number: 4
+  index_number: 2
+  stop_name: Wall St (4,5)
+418N:
+  run_number: 4
+  index_number: 3
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+418S:
+  run_number: 4
+  index_number: 3
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+640N:
+  run_number: 4
+  index_number: 4
+  stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+640S:
+  run_number: 4
+  index_number: 4
+  stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+639N:
+  run_number: 4
+  index_number: 5
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+639S:
+  run_number: 4
+  index_number: 5
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+638N:
+  run_number: 4
+  index_number: 6
+  stop_name: Spring St (6)
+638S:
+  run_number: 4
+  index_number: 6
+  stop_name: Spring St (6)
+637N:
+  run_number: 4
+  index_number: 7
+  stop_name: Broadway-Lafayette St/Bleecker St (6,B,D,F,M)
+637S:
+  run_number: 4
+  index_number: 7
+  stop_name: Broadway-Lafayette St/Bleecker St (6,B,D,F,M)
+636N:
+  run_number: 4
+  index_number: 8
+  stop_name: Astor Pl (6)
+636S:
+  run_number: 4
+  index_number: 8
+  stop_name: Astor Pl (6)
+635N:
+  run_number: 4
+  index_number: 9
+  stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+635S:
+  run_number: 4
+  index_number: 9
+  stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+634N:
+  run_number: 4
+  index_number: 10
+  stop_name: 23 St (6)
+634S:
+  run_number: 4
+  index_number: 10
+  stop_name: 23 St (6)
+633N:
+  run_number: 4
+  index_number: 11
+  stop_name: 28 St (6)
+633S:
+  run_number: 4
+  index_number: 11
+  stop_name: 28 St (6)
+632N:
+  run_number: 4
+  index_number: 12
+  stop_name: 33 St (6)
+632S:
+  run_number: 4
+  index_number: 12
+  stop_name: 33 St (6)
+631N:
+  run_number: 4
+  index_number: 13
+  stop_name: Grand Central-42 St (4,5,6,7,S)
+631S:
+  run_number: 4
+  index_number: 13
+  stop_name: Grand Central-42 St (4,5,6,7,S)
+901N:
+  run_number: 4
+  index_number: 13
+  stop_name: Grand Central-42 St (4,5,6,7,S)
+901S:
+  run_number: 4
+  index_number: 13
+  stop_name: Grand Central-42 St (4,5,6,7,S)
+630N:
+  run_number: 4
+  index_number: 14
+  stop_name: Lexington Av/51-53 Sts (6,E,M)
+630S:
+  run_number: 4
+  index_number: 14
+  stop_name: Lexington Av/51-53 Sts (6,E,M)
+629N:
+  run_number: 4
+  index_number: 15
+  stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+629S:
+  run_number: 4
+  index_number: 15
+  stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+628N:
+  run_number: 4
+  index_number: 16
+  stop_name: 68 St-Hunter College (6)
+628S:
+  run_number: 4
+  index_number: 16
+  stop_name: 68 St-Hunter College (6)
+627N:
+  run_number: 4
+  index_number: 17
+  stop_name: 77 St (6)
+627S:
+  run_number: 4
+  index_number: 17
+  stop_name: 77 St (6)
+626N:
+  run_number: 4
+  index_number: 18
+  stop_name: 86 St (4,5,6)
+626S:
+  run_number: 4
+  index_number: 18
+  stop_name: 86 St (4,5,6)
+625N:
+  run_number: 4
+  index_number: 19
+  stop_name: 96 St (6)
+625S:
+  run_number: 4
+  index_number: 19
+  stop_name: 96 St (6)
+624N:
+  run_number: 4
+  index_number: 20
+  stop_name: 103 St (6)
+624S:
+  run_number: 4
+  index_number: 20
+  stop_name: 103 St (6)
+623N:
+  run_number: 4
+  index_number: 21
+  stop_name: 110 St (6)
+623S:
+  run_number: 4
+  index_number: 21
+  stop_name: 110 St (6)
+622N:
+  run_number: 4
+  index_number: 22
+  stop_name: 116 St (6)
+622S:
+  run_number: 4
+  index_number: 22
+  stop_name: 116 St (6)
+621N:
+  run_number: 4
+  index_number: 23
+  stop_name: 125 St (4,5,6)
+621S:
+  run_number: 4
+  index_number: 23
+  stop_name: 125 St (4,5,6)
+416N:
+  run_number: 4
+  index_number: 24
+  stop_name: 138 St-Grand Concourse (4,5)
+416S:
+  run_number: 4
+  index_number: 24
+  stop_name: 138 St-Grand Concourse (4,5)
+415N:
+  run_number: 4
+  index_number: 25
+  stop_name: 149 St-Grand Concourse (2,4,5)
+415S:
+  run_number: 4
+  index_number: 25
+  stop_name: 149 St-Grand Concourse (2,4,5)
+222N:
+  run_number: 4
+  index_number: 25
+  stop_name: 149 St-Grand Concourse (2,4,5)
+222S:
+  run_number: 4
+  index_number: 25
+  stop_name: 149 St-Grand Concourse (2,4,5)
+221N:
+  run_number: 4
+  index_number: 26
+  stop_name: 3 Av-149 St (2,5)
+221S:
+  run_number: 4
+  index_number: 26
+  stop_name: 3 Av-149 St (2,5)
+220N:
+  run_number: 4
+  index_number: 27
+  stop_name: Jackson Av (2,5)
+220S:
+  run_number: 4
+  index_number: 27
+  stop_name: Jackson Av (2,5)
+219N:
+  run_number: 4
+  index_number: 28
+  stop_name: Prospect Av (2,5)
+219S:
+  run_number: 4
+  index_number: 28
+  stop_name: Prospect Av (2,5)
+218N:
+  run_number: 4
+  index_number: 29
+  stop_name: Intervale Av (2,5)
+218S:
+  run_number: 4
+  index_number: 29
+  stop_name: Intervale Av (2,5)
+217N:
+  run_number: 4
+  index_number: 30
+  stop_name: Simpson St (2,5)
+217S:
+  run_number: 4
+  index_number: 30
+  stop_name: Simpson St (2,5)
+216N:
+  run_number: 4
+  index_number: 31
+  stop_name: Freeman St (2,5)
+216S:
+  run_number: 4
+  index_number: 31
+  stop_name: Freeman St (2,5)
+215N:
+  run_number: 4
+  index_number: 32
+  stop_name: 174 St (2,5)
+215S:
+  run_number: 4
+  index_number: 32
+  stop_name: 174 St (2,5)
+214N:
+  run_number: 4
+  index_number: 33
+  stop_name: West Farms Sq-E Tremont Av (2,5)
+214S:
+  run_number: 4
+  index_number: 33
+  stop_name: West Farms Sq-E Tremont Av (2,5)
+213N:
+  run_number: 4
+  index_number: 34
+  stop_name: E 180 St (2,5)
+213S:
+  run_number: 4
+  index_number: 34
+  stop_name: E 180 St (2,5)
+212N:
+  run_number: 4
+  index_number: 35
+  stop_name: Bronx Park East (2,5)
+212S:
+  run_number: 4
+  index_number: 35
+  stop_name: Bronx Park East (2,5)
+211N:
+  run_number: 4
+  index_number: 36
+  stop_name: Pelham Pkwy (2,5)
+211S:
+  run_number: 4
+  index_number: 36
+  stop_name: Pelham Pkwy (2,5)
+210N:
+  run_number: 4
+  index_number: 37
+  stop_name: Allerton Av (2,5)
+210S:
+  run_number: 4
+  index_number: 37
+  stop_name: Allerton Av (2,5)
+209N:
+  run_number: 4
+  index_number: 38
+  stop_name: Burke Av (2,5)
+209S:
+  run_number: 4
+  index_number: 38
+  stop_name: Burke Av (2,5)
+208N:
+  run_number: 4
+  index_number: 39
+  stop_name: Gun Hill Rd (2,5)
+208S:
+  run_number: 4
+  index_number: 39
+  stop_name: Gun Hill Rd (2,5)
+207N:
+  run_number: 4
+  index_number: 40
+  stop_name: 219 St (2,5)
+207S:
+  run_number: 4
+  index_number: 40
+  stop_name: 219 St (2,5)
+206N:
+  run_number: 4
+  index_number: 41
+  stop_name: 225 St (2,5)
+206S:
+  run_number: 4
+  index_number: 41
+  stop_name: 225 St (2,5)
+205N:
+  run_number: 4
+  index_number: 42
+  stop_name: 233 St (2,5)
+205S:
+  run_number: 4
+  index_number: 42
+  stop_name: 233 St (2,5)
+204N:
+  run_number: 4
+  index_number: 43
+  stop_name: Nereid Av (2,5)
+204S:
+  run_number: 4
+  index_number: 43
+  stop_name: Nereid Av (2,5)
+201N:
+  run_number: 4
+  index_number: 44
+  stop_name: Wakefield-241 St (2)
+201S:
+  run_number: 4
+  index_number: 44
+  stop_name: Wakefield-241 St (2)
+505N:
+  run_number: 5
+  index_number: 0
+  stop_name: Morris Park (5)
+505S:
+  run_number: 5
+  index_number: 0
+  stop_name: Morris Park (5)
+504N:
+  run_number: 5
+  index_number: 1
+  stop_name: Pelham Pkwy (5)
+504S:
+  run_number: 5
+  index_number: 1
+  stop_name: Pelham Pkwy (5)
+503N:
+  run_number: 5
+  index_number: 2
+  stop_name: Gun Hill Rd (5)
+503S:
+  run_number: 5
+  index_number: 2
+  stop_name: Gun Hill Rd (5)
+502N:
+  run_number: 5
+  index_number: 3
+  stop_name: Baychester Av (5)
+502S:
+  run_number: 5
+  index_number: 3
+  stop_name: Baychester Av (5)
+501N:
+  run_number: 5
+  index_number: 4
+  stop_name: Eastchester-Dyre Av (5)
+501S:
+  run_number: 5
+  index_number: 4
+  stop_name: Eastchester-Dyre Av (5)
+414N:
+  run_number: 6
+  index_number: 0
+  stop_name: 161 St-Yankee Stadium (4,B,D)
+414S:
+  run_number: 6
+  index_number: 0
+  stop_name: 161 St-Yankee Stadium (4,B,D)
+D11N:
+  run_number: 6
+  index_number: 0
+  stop_name: 161 St-Yankee Stadium (4,B,D)
+D11S:
+  run_number: 6
+  index_number: 0
+  stop_name: 161 St-Yankee Stadium (4,B,D)
+413N:
+  run_number: 6
+  index_number: 1
+  stop_name: 167 St (4)
+413S:
+  run_number: 6
+  index_number: 1
+  stop_name: 167 St (4)
+412N:
+  run_number: 6
+  index_number: 2
+  stop_name: 170 St (4)
+412S:
+  run_number: 6
+  index_number: 2
+  stop_name: 170 St (4)
+411N:
+  run_number: 6
+  index_number: 3
+  stop_name: Mt Eden Av (4)
+411S:
+  run_number: 6
+  index_number: 3
+  stop_name: Mt Eden Av (4)
+410N:
+  run_number: 6
+  index_number: 4
+  stop_name: 176 St (4)
+410S:
+  run_number: 6
+  index_number: 4
+  stop_name: 176 St (4)
+409N:
+  run_number: 6
+  index_number: 5
+  stop_name: Burnside Av (4)
+409S:
+  run_number: 6
+  index_number: 5
+  stop_name: Burnside Av (4)
+408N:
+  run_number: 6
+  index_number: 6
+  stop_name: 183 St (4)
+408S:
+  run_number: 6
+  index_number: 6
+  stop_name: 183 St (4)
+407N:
+  run_number: 6
+  index_number: 7
+  stop_name: Fordham Rd (4)
+407S:
+  run_number: 6
+  index_number: 7
+  stop_name: Fordham Rd (4)
+406N:
+  run_number: 6
+  index_number: 8
+  stop_name: Kingsbridge Rd (4)
+406S:
+  run_number: 6
+  index_number: 8
+  stop_name: Kingsbridge Rd (4)
+405N:
+  run_number: 6
+  index_number: 9
+  stop_name: Bedford Park Blvd-Lehman College (4)
+405S:
+  run_number: 6
+  index_number: 9
+  stop_name: Bedford Park Blvd-Lehman College (4)
+402N:
+  run_number: 6
+  index_number: 10
+  stop_name: Mosholu Pkwy (4)
+402S:
+  run_number: 6
+  index_number: 10
+  stop_name: Mosholu Pkwy (4)
+401N:
+  run_number: 6
+  index_number: 11
+  stop_name: Woodlawn (4)
+401S:
+  run_number: 6
+  index_number: 11
+  stop_name: Woodlawn (4)
+619N:
+  run_number: 7
+  index_number: 0
+  stop_name: 3 Av-138 St (6)
+619S:
+  run_number: 7
+  index_number: 0
+  stop_name: 3 Av-138 St (6)
+618N:
+  run_number: 7
+  index_number: 1
+  stop_name: Brook Av (6)
+618S:
+  run_number: 7
+  index_number: 1
+  stop_name: Brook Av (6)
+617N:
+  run_number: 7
+  index_number: 2
+  stop_name: Cypress Av (6)
+617S:
+  run_number: 7
+  index_number: 2
+  stop_name: Cypress Av (6)
+616N:
+  run_number: 7
+  index_number: 3
+  stop_name: E 143 St-St Mary's St (6)
+616S:
+  run_number: 7
+  index_number: 3
+  stop_name: E 143 St-St Mary's St (6)
+615N:
+  run_number: 7
+  index_number: 4
+  stop_name: E 149 St (6)
+615S:
+  run_number: 7
+  index_number: 4
+  stop_name: E 149 St (6)
+614N:
+  run_number: 7
+  index_number: 5
+  stop_name: Longwood Av (6)
+614S:
+  run_number: 7
+  index_number: 5
+  stop_name: Longwood Av (6)
+613N:
+  run_number: 7
+  index_number: 6
+  stop_name: Hunts Point Av (6)
+613S:
+  run_number: 7
+  index_number: 6
+  stop_name: Hunts Point Av (6)
+612N:
+  run_number: 7
+  index_number: 7
+  stop_name: Whitlock Av (6)
+612S:
+  run_number: 7
+  index_number: 7
+  stop_name: Whitlock Av (6)
+611N:
+  run_number: 7
+  index_number: 8
+  stop_name: Elder Av (6)
+611S:
+  run_number: 7
+  index_number: 8
+  stop_name: Elder Av (6)
+610N:
+  run_number: 7
+  index_number: 9
+  stop_name: Morrison Av-Soundview (6)
+610S:
+  run_number: 7
+  index_number: 9
+  stop_name: Morrison Av-Soundview (6)
+609N:
+  run_number: 7
+  index_number: 10
+  stop_name: St Lawrence Av (6)
+609S:
+  run_number: 7
+  index_number: 10
+  stop_name: St Lawrence Av (6)
+608N:
+  run_number: 7
+  index_number: 11
+  stop_name: Parkchester (6)
+608S:
+  run_number: 7
+  index_number: 11
+  stop_name: Parkchester (6)
+607N:
+  run_number: 7
+  index_number: 12
+  stop_name: Castle Hill Av (6)
+607S:
+  run_number: 7
+  index_number: 12
+  stop_name: Castle Hill Av (6)
+606N:
+  run_number: 7
+  index_number: 13
+  stop_name: Zerega Av (6)
+606S:
+  run_number: 7
+  index_number: 13
+  stop_name: Zerega Av (6)
+604N:
+  run_number: 7
+  index_number: 14
+  stop_name: Westchester Sq-E Tremont Av (6)
+604S:
+  run_number: 7
+  index_number: 14
+  stop_name: Westchester Sq-E Tremont Av (6)
+603N:
+  run_number: 7
+  index_number: 15
+  stop_name: Middletown Rd (6)
+603S:
+  run_number: 7
+  index_number: 15
+  stop_name: Middletown Rd (6)
+602N:
+  run_number: 7
+  index_number: 16
+  stop_name: Buhre Av (6)
+602S:
+  run_number: 7
+  index_number: 16
+  stop_name: Buhre Av (6)
+601N:
+  run_number: 7
+  index_number: 17
+  stop_name: Pelham Bay Park (6)
+601S:
+  run_number: 7
+  index_number: 17
+  stop_name: Pelham Bay Park (6)
+H11N:
+  run_number: 8
+  index_number: 0
+  stop_name: Far Rockaway-Mott Av (A)
+H11S:
+  run_number: 8
+  index_number: 0
+  stop_name: Far Rockaway-Mott Av (A)
+H10N:
+  run_number: 8
+  index_number: 1
+  stop_name: Beach 25 St (A)
+H10S:
+  run_number: 8
+  index_number: 1
+  stop_name: Beach 25 St (A)
+H09N:
+  run_number: 8
+  index_number: 2
+  stop_name: Beach 36 St (A)
+H09S:
+  run_number: 8
+  index_number: 2
+  stop_name: Beach 36 St (A)
+H08N:
+  run_number: 8
+  index_number: 3
+  stop_name: Beach 44 St (A)
+H08S:
+  run_number: 8
+  index_number: 3
+  stop_name: Beach 44 St (A)
+H07N:
+  run_number: 8
+  index_number: 4
+  stop_name: Beach 60 St (A)
+H07S:
+  run_number: 8
+  index_number: 4
+  stop_name: Beach 60 St (A)
+H06N:
+  run_number: 8
+  index_number: 5
+  stop_name: Beach 67 St (A)
+H06S:
+  run_number: 8
+  index_number: 5
+  stop_name: Beach 67 St (A)
+H04N:
+  run_number: 8
+  index_number: 6
+  stop_name: Broad Channel (A,S)
+H04S:
+  run_number: 8
+  index_number: 6
+  stop_name: Broad Channel (A,S)
+H03N:
+  run_number: 8
+  index_number: 7
+  stop_name: Howard Beach-JFK Airport (A)
+H03S:
+  run_number: 8
+  index_number: 7
+  stop_name: Howard Beach-JFK Airport (A)
+H02N:
+  run_number: 8
+  index_number: 8
+  stop_name: Aqueduct-N Conduit Av (A)
+H02S:
+  run_number: 8
+  index_number: 8
+  stop_name: Aqueduct-N Conduit Av (A)
+H01N:
+  run_number: 8
+  index_number: 9
+  stop_name: Aqueduct Racetrack (A)
+H01S:
+  run_number: 8
+  index_number: 9
+  stop_name: Aqueduct Racetrack (A)
+A65N:
+  run_number: 8
+  index_number: 10
+  stop_name: Ozone Park-Lefferts Blvd (A)
+A65S:
+  run_number: 8
+  index_number: 10
+  stop_name: Ozone Park-Lefferts Blvd (A)
+A64N:
+  run_number: 8
+  index_number: 11
+  stop_name: 111 St (A)
+A64S:
+  run_number: 8
+  index_number: 11
+  stop_name: 111 St (A)
+A63N:
+  run_number: 8
+  index_number: 12
+  stop_name: 104 St (A)
+A63S:
+  run_number: 8
+  index_number: 12
+  stop_name: 104 St (A)
+A61N:
+  run_number: 8
+  index_number: 13
+  stop_name: Rockaway Blvd (A)
+A61S:
+  run_number: 8
+  index_number: 13
+  stop_name: Rockaway Blvd (A)
+A60N:
+  run_number: 8
+  index_number: 14
+  stop_name: 88 St (A)
+A60S:
+  run_number: 8
+  index_number: 14
+  stop_name: 88 St (A)
+A59N:
+  run_number: 8
+  index_number: 15
+  stop_name: 80 St (A)
+A59S:
+  run_number: 8
+  index_number: 15
+  stop_name: 80 St (A)
+A57N:
+  run_number: 8
+  index_number: 16
+  stop_name: Grant Av (A)
+A57S:
+  run_number: 8
+  index_number: 16
+  stop_name: Grant Av (A)
+A55N:
+  run_number: 8
+  index_number: 17
+  stop_name: Euclid Av (A,C)
+A55S:
+  run_number: 8
+  index_number: 17
+  stop_name: Euclid Av (A,C)
+A54N:
+  run_number: 8
+  index_number: 18
+  stop_name: Shepherd Av (C)
+A54S:
+  run_number: 8
+  index_number: 18
+  stop_name: Shepherd Av (C)
+A53N:
+  run_number: 8
+  index_number: 19
+  stop_name: Van Siclen Av (C)
+A53S:
+  run_number: 8
+  index_number: 19
+  stop_name: Van Siclen Av (C)
+A52N:
+  run_number: 8
+  index_number: 20
+  stop_name: Liberty Av (C)
+A52S:
+  run_number: 8
+  index_number: 20
+  stop_name: Liberty Av (C)
+A51N:
+  run_number: 8
+  index_number: 21
+  stop_name: Broadway Junction (A,C,J,Z,L)
+A51S:
+  run_number: 8
+  index_number: 21
+  stop_name: Broadway Junction (A,C,J,Z,L)
+A50N:
+  run_number: 8
+  index_number: 22
+  stop_name: Rockaway Av (C)
+A50S:
+  run_number: 8
+  index_number: 22
+  stop_name: Rockaway Av (C)
+A49N:
+  run_number: 8
+  index_number: 23
+  stop_name: Ralph Av (C)
+A49S:
+  run_number: 8
+  index_number: 23
+  stop_name: Ralph Av (C)
+A48N:
+  run_number: 8
+  index_number: 24
+  stop_name: Utica Av (A,C)
+A48S:
+  run_number: 8
+  index_number: 24
+  stop_name: Utica Av (A,C)
+A47N:
+  run_number: 8
+  index_number: 25
+  stop_name: Kingston-Throop Avs (C)
+A47S:
+  run_number: 8
+  index_number: 25
+  stop_name: Kingston-Throop Avs (C)
+A46N:
+  run_number: 8
+  index_number: 26
+  stop_name: Nostrand Av (A,C)
+A46S:
+  run_number: 8
+  index_number: 26
+  stop_name: Nostrand Av (A,C)
+A45N:
+  run_number: 8
+  index_number: 27
+  stop_name: Franklin Av (C,S)
+A45S:
+  run_number: 8
+  index_number: 27
+  stop_name: Franklin Av (C,S)
+S01N:
+  run_number: 8
+  index_number: 27
+  stop_name: Franklin Av (C,S)
+S01S:
+  run_number: 8
+  index_number: 27
+  stop_name: Franklin Av (C,S)
+A44N:
+  run_number: 8
+  index_number: 28
+  stop_name: Clinton-Washington Avs (C)
+A44S:
+  run_number: 8
+  index_number: 28
+  stop_name: Clinton-Washington Avs (C)
+A43N:
+  run_number: 8
+  index_number: 29
+  stop_name: Lafayette Av (C)
+A43S:
+  run_number: 8
+  index_number: 29
+  stop_name: Lafayette Av (C)
+A42N:
+  run_number: 8
+  index_number: 30
+  stop_name: Hoyt-Schermerhorn Sts (A,C,G)
+A42S:
+  run_number: 8
+  index_number: 30
+  stop_name: Hoyt-Schermerhorn Sts (A,C,G)
+A41N:
+  run_number: 8
+  index_number: 31
+  stop_name: Jay St-MetroTech (A,C,F,R)
+A41S:
+  run_number: 8
+  index_number: 31
+  stop_name: Jay St-MetroTech (A,C,F,R)
+A40N:
+  run_number: 8
+  index_number: 32
+  stop_name: High St (A,C)
+A40S:
+  run_number: 8
+  index_number: 32
+  stop_name: High St (A,C)
+A38N:
+  run_number: 8
+  index_number: 33
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+A38S:
+  run_number: 8
+  index_number: 33
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+A36N:
+  run_number: 8
+  index_number: 34
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+A36S:
+  run_number: 8
+  index_number: 34
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+E01N:
+  run_number: 8
+  index_number: 34
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+E01S:
+  run_number: 8
+  index_number: 34
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+A34N:
+  run_number: 8
+  index_number: 35
+  stop_name: Canal St (A,C,E)
+A34S:
+  run_number: 8
+  index_number: 35
+  stop_name: Canal St (A,C,E)
+A33N:
+  run_number: 8
+  index_number: 36
+  stop_name: Spring St (C,E)
+A33S:
+  run_number: 8
+  index_number: 36
+  stop_name: Spring St (C,E)
+A32N:
+  run_number: 8
+  index_number: 37
+  stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
+A32S:
+  run_number: 8
+  index_number: 37
+  stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
+A31N:
+  run_number: 8
+  index_number: 38
+  stop_name: 14 St/8 Av (A,C,E,L)
+A31S:
+  run_number: 8
+  index_number: 38
+  stop_name: 14 St/8 Av (A,C,E,L)
+A30N:
+  run_number: 8
+  index_number: 39
+  stop_name: 23 St (C,E)
+A30S:
+  run_number: 8
+  index_number: 39
+  stop_name: 23 St (C,E)
+A28N:
+  run_number: 8
+  index_number: 40
+  stop_name: 34 St-Penn Station (A,C,E)
+A28S:
+  run_number: 8
+  index_number: 40
+  stop_name: 34 St-Penn Station (A,C,E)
+A27N:
+  run_number: 8
+  index_number: 41
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+A27S:
+  run_number: 8
+  index_number: 41
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+A25N:
+  run_number: 8
+  index_number: 42
+  stop_name: 50 St (C,E)
+A25S:
+  run_number: 8
+  index_number: 42
+  stop_name: 50 St (C,E)
+A24N:
+  run_number: 8
+  index_number: 43
+  stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+A24S:
+  run_number: 8
+  index_number: 43
+  stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+A22N:
+  run_number: 8
+  index_number: 44
+  stop_name: 72 St (C,B)
+A22S:
+  run_number: 8
+  index_number: 44
+  stop_name: 72 St (C,B)
+A21N:
+  run_number: 8
+  index_number: 45
+  stop_name: 81 St-Museum of Natural History (C,B)
+A21S:
+  run_number: 8
+  index_number: 45
+  stop_name: 81 St-Museum of Natural History (C,B)
+A20N:
+  run_number: 8
+  index_number: 46
+  stop_name: 86 St (C,B)
+A20S:
+  run_number: 8
+  index_number: 46
+  stop_name: 86 St (C,B)
+A19N:
+  run_number: 8
+  index_number: 47
+  stop_name: 96 St (C,B)
+A19S:
+  run_number: 8
+  index_number: 47
+  stop_name: 96 St (C,B)
+A18N:
+  run_number: 8
+  index_number: 48
+  stop_name: 103 St (C,B)
+A18S:
+  run_number: 8
+  index_number: 48
+  stop_name: 103 St (C,B)
+A17N:
+  run_number: 8
+  index_number: 49
+  stop_name: Cathedral Pkwy (110 St) (C,B)
+A17S:
+  run_number: 8
+  index_number: 49
+  stop_name: Cathedral Pkwy (110 St) (C,B)
+A16N:
+  run_number: 8
+  index_number: 50
+  stop_name: 116 St (C,B)
+A16S:
+  run_number: 8
+  index_number: 50
+  stop_name: 116 St (C,B)
+A15N:
+  run_number: 8
+  index_number: 51
+  stop_name: 125 St (A,C,B,D)
+A15S:
+  run_number: 8
+  index_number: 51
+  stop_name: 125 St (A,C,B,D)
+A14N:
+  run_number: 8
+  index_number: 52
+  stop_name: 135 St (C,B)
+A14S:
+  run_number: 8
+  index_number: 52
+  stop_name: 135 St (C,B)
+A12N:
+  run_number: 8
+  index_number: 53
+  stop_name: 145 St (A,C,B,D)
+A12S:
+  run_number: 8
+  index_number: 53
+  stop_name: 145 St (A,C,B,D)
+D13N:
+  run_number: 8
+  index_number: 53
+  stop_name: 145 St (A,C,B,D)
+D13S:
+  run_number: 8
+  index_number: 53
+  stop_name: 145 St (A,C,B,D)
+A11N:
+  run_number: 8
+  index_number: 54
+  stop_name: 155 St (C)
+A11S:
+  run_number: 8
+  index_number: 54
+  stop_name: 155 St (C)
+A10N:
+  run_number: 8
+  index_number: 55
+  stop_name: 163 St-Amsterdam Av (C)
+A10S:
+  run_number: 8
+  index_number: 55
+  stop_name: 163 St-Amsterdam Av (C)
+A09N:
+  run_number: 8
+  index_number: 56
+  stop_name: 168 St-Washington Hts (1,A,C)
+A09S:
+  run_number: 8
+  index_number: 56
+  stop_name: 168 St-Washington Hts (1,A,C)
+A07N:
+  run_number: 8
+  index_number: 57
+  stop_name: 175 St (A)
+A07S:
+  run_number: 8
+  index_number: 57
+  stop_name: 175 St (A)
+A06N:
+  run_number: 8
+  index_number: 58
+  stop_name: 181 St (A)
+A06S:
+  run_number: 8
+  index_number: 58
+  stop_name: 181 St (A)
+A05N:
+  run_number: 8
+  index_number: 59
+  stop_name: 190 St (A)
+A05S:
+  run_number: 8
+  index_number: 59
+  stop_name: 190 St (A)
+A03N:
+  run_number: 8
+  index_number: 60
+  stop_name: Dyckman St (A)
+A03S:
+  run_number: 8
+  index_number: 60
+  stop_name: Dyckman St (A)
+A02N:
+  run_number: 8
+  index_number: 61
+  stop_name: Inwood-207 St (A)
+A02S:
+  run_number: 8
+  index_number: 61
+  stop_name: Inwood-207 St (A)
+D43N:
+  run_number: 9
+  index_number: 0
+  stop_name: Coney Island-Stillwell Av (D,F,N,Q)
+D43S:
+  run_number: 9
+  index_number: 0
+  stop_name: Coney Island-Stillwell Av (D,F,N,Q)
+D42N:
+  run_number: 9
+  index_number: 1
+  stop_name: W 8 St-NY Aquarium (F,Q)
+D42S:
+  run_number: 9
+  index_number: 1
+  stop_name: W 8 St-NY Aquarium (F,Q)
+D41N:
+  run_number: 9
+  index_number: 2
+  stop_name: Ocean Pkwy (Q)
+D41S:
+  run_number: 9
+  index_number: 2
+  stop_name: Ocean Pkwy (Q)
+D40N:
+  run_number: 9
+  index_number: 3
+  stop_name: Brighton Beach (B,Q)
+D40S:
+  run_number: 9
+  index_number: 3
+  stop_name: Brighton Beach (B,Q)
+D39N:
+  run_number: 9
+  index_number: 4
+  stop_name: Sheepshead Bay (B,Q)
+D39S:
+  run_number: 9
+  index_number: 4
+  stop_name: Sheepshead Bay (B,Q)
+D38N:
+  run_number: 9
+  index_number: 5
+  stop_name: Neck Rd (Q)
+D38S:
+  run_number: 9
+  index_number: 5
+  stop_name: Neck Rd (Q)
+D37N:
+  run_number: 9
+  index_number: 6
+  stop_name: Avenue U (Q)
+D37S:
+  run_number: 9
+  index_number: 6
+  stop_name: Avenue U (Q)
+D35N:
+  run_number: 9
+  index_number: 7
+  stop_name: Kings Hwy (B,Q)
+D35S:
+  run_number: 9
+  index_number: 7
+  stop_name: Kings Hwy (B,Q)
+D34N:
+  run_number: 9
+  index_number: 8
+  stop_name: Avenue M (Q)
+D34S:
+  run_number: 9
+  index_number: 8
+  stop_name: Avenue M (Q)
+D33N:
+  run_number: 9
+  index_number: 9
+  stop_name: Avenue J (Q)
+D33S:
+  run_number: 9
+  index_number: 9
+  stop_name: Avenue J (Q)
+D32N:
+  run_number: 9
+  index_number: 10
+  stop_name: Avenue H (Q)
+D32S:
+  run_number: 9
+  index_number: 10
+  stop_name: Avenue H (Q)
+D31N:
+  run_number: 9
+  index_number: 11
+  stop_name: Newkirk Plaza (B,Q)
+D31S:
+  run_number: 9
+  index_number: 11
+  stop_name: Newkirk Plaza (B,Q)
+D30N:
+  run_number: 9
+  index_number: 12
+  stop_name: Cortelyou Rd (Q)
+D30S:
+  run_number: 9
+  index_number: 12
+  stop_name: Cortelyou Rd (Q)
+D29N:
+  run_number: 9
+  index_number: 13
+  stop_name: Beverley Rd (Q)
+D29S:
+  run_number: 9
+  index_number: 13
+  stop_name: Beverley Rd (Q)
+D28N:
+  run_number: 9
+  index_number: 14
+  stop_name: Church Av (B,Q)
+D28S:
+  run_number: 9
+  index_number: 14
+  stop_name: Church Av (B,Q)
+D27N:
+  run_number: 9
+  index_number: 15
+  stop_name: Parkside Av (Q)
+D27S:
+  run_number: 9
+  index_number: 15
+  stop_name: Parkside Av (Q)
+D26N:
+  run_number: 9
+  index_number: 16
+  stop_name: Prospect Park (B,Q,S)
+D26S:
+  run_number: 9
+  index_number: 16
+  stop_name: Prospect Park (B,Q,S)
+D25N:
+  run_number: 9
+  index_number: 17
+  stop_name: 7 Av (B,Q)
+D25S:
+  run_number: 9
+  index_number: 17
+  stop_name: 7 Av (B,Q)
+D24N:
+  run_number: 9
+  index_number: 18
+  stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+D24S:
+  run_number: 9
+  index_number: 18
+  stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+D22N:
+  run_number: 9
+  index_number: 19
+  stop_name: Grand St (B,D)
+D22S:
+  run_number: 9
+  index_number: 19
+  stop_name: Grand St (B,D)
+D21N:
+  run_number: 9
+  index_number: 20
+  stop_name: Broadway-Lafayette St/Bleecker St (6,B,D,F,M)
+D21S:
+  run_number: 9
+  index_number: 20
+  stop_name: Broadway-Lafayette St/Bleecker St (6,B,D,F,M)
+D20N:
+  run_number: 9
+  index_number: 21
+  stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
+D20S:
+  run_number: 9
+  index_number: 21
+  stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
+D19N:
+  run_number: 9
+  index_number: 22
+  stop_name: 14 St/6 Av (1,2,3,L,F,M)
+D19S:
+  run_number: 9
+  index_number: 22
+  stop_name: 14 St/6 Av (1,2,3,L,F,M)
+D18N:
+  run_number: 9
+  index_number: 23
+  stop_name: 23 St (F,M)
+D18S:
+  run_number: 9
+  index_number: 23
+  stop_name: 23 St (F,M)
+D17N:
+  run_number: 9
+  index_number: 24
+  stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+D17S:
+  run_number: 9
+  index_number: 24
+  stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+D16N:
+  run_number: 9
+  index_number: 25
+  stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+D16S:
+  run_number: 9
+  index_number: 25
+  stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+D15N:
+  run_number: 9
+  index_number: 26
+  stop_name: 47-50 Sts-Rockefeller Ctr (B,D,F,M)
+D15S:
+  run_number: 9
+  index_number: 26
+  stop_name: 47-50 Sts-Rockefeller Ctr (B,D,F,M)
+D14N:
+  run_number: 9
+  index_number: 27
+  stop_name: 7 Av (E,B,D)
+D14S:
+  run_number: 9
+  index_number: 27
+  stop_name: 7 Av (E,B,D)
+D12N:
+  run_number: 9
+  index_number: 28
+  stop_name: 155 St (B,D)
+D12S:
+  run_number: 9
+  index_number: 28
+  stop_name: 155 St (B,D)
+D10N:
+  run_number: 9
+  index_number: 29
+  stop_name: 167 St (B,D)
+D10S:
+  run_number: 9
+  index_number: 29
+  stop_name: 167 St (B,D)
+D09N:
+  run_number: 9
+  index_number: 30
+  stop_name: 170 St (B,D)
+D09S:
+  run_number: 9
+  index_number: 30
+  stop_name: 170 St (B,D)
+D08N:
+  run_number: 9
+  index_number: 31
+  stop_name: 174-175 Sts (B,D)
+D08S:
+  run_number: 9
+  index_number: 31
+  stop_name: 174-175 Sts (B,D)
+D07N:
+  run_number: 9
+  index_number: 32
+  stop_name: Tremont Av (B,D)
+D07S:
+  run_number: 9
+  index_number: 32
+  stop_name: Tremont Av (B,D)
+D06N:
+  run_number: 9
+  index_number: 33
+  stop_name: 182-183 Sts (B,D)
+D06S:
+  run_number: 9
+  index_number: 33
+  stop_name: 182-183 Sts (B,D)
+D05N:
+  run_number: 9
+  index_number: 34
+  stop_name: Fordham Rd (B,D)
+D05S:
+  run_number: 9
+  index_number: 34
+  stop_name: Fordham Rd (B,D)
+D04N:
+  run_number: 9
+  index_number: 35
+  stop_name: Kingsbridge Rd (B,D)
+D04S:
+  run_number: 9
+  index_number: 35
+  stop_name: Kingsbridge Rd (B,D)
+D03N:
+  run_number: 9
+  index_number: 36
+  stop_name: Bedford Park Blvd (B,D)
+D03S:
+  run_number: 9
+  index_number: 36
+  stop_name: Bedford Park Blvd (B,D)
+D01N:
+  run_number: 9
+  index_number: 37
+  stop_name: Norwood-205 St (D)
+D01S:
+  run_number: 9
+  index_number: 37
+  stop_name: Norwood-205 St (D)
+Q05N:
+  run_number: 10
+  index_number: 0
+  stop_name: 96 St (Q)
+Q05S:
+  run_number: 10
+  index_number: 0
+  stop_name: 96 St (Q)
+Q04N:
+  run_number: 10
+  index_number: 1
+  stop_name: 86 St (Q)
+Q04S:
+  run_number: 10
+  index_number: 1
+  stop_name: 86 St (Q)
+Q03N:
+  run_number: 10
+  index_number: 2
+  stop_name: 72 St (Q)
+Q03S:
+  run_number: 10
+  index_number: 2
+  stop_name: 72 St (Q)
+B04N:
+  run_number: 10
+  index_number: 3
+  stop_name: 21 St-Queensbridge (F)
+B04S:
+  run_number: 10
+  index_number: 3
+  stop_name: 21 St-Queensbridge (F)
+B06N:
+  run_number: 10
+  index_number: 4
+  stop_name: Roosevelt Island (F)
+B06S:
+  run_number: 10
+  index_number: 4
+  stop_name: Roosevelt Island (F)
+B08N:
+  run_number: 10
+  index_number: 5
+  stop_name: Lexington Av/63 St (F,Q)
+B08S:
+  run_number: 10
+  index_number: 5
+  stop_name: Lexington Av/63 St (F,Q)
+B10N:
+  run_number: 10
+  index_number: 6
+  stop_name: 57 St (F)
+B10S:
+  run_number: 10
+  index_number: 6
+  stop_name: 57 St (F)
+F12N:
+  run_number: 10
+  index_number: 7
+  stop_name: 5 Av/53 St (E,M)
+F12S:
+  run_number: 10
+  index_number: 7
+  stop_name: 5 Av/53 St (E,M)
+F11N:
+  run_number: 10
+  index_number: 8
+  stop_name: Lexington Av/51-53 Sts (6,E,M)
+F11S:
+  run_number: 10
+  index_number: 8
+  stop_name: Lexington Av/51-53 Sts (6,E,M)
+F09N:
+  run_number: 10
+  index_number: 9
+  stop_name: Court Sq-23 St (7,E,M,G)
+F09S:
+  run_number: 10
+  index_number: 9
+  stop_name: Court Sq-23 St (7,E,M,G)
+G21N:
+  run_number: 10
+  index_number: 10
+  stop_name: Queens Plaza (E,M,R)
+G21S:
+  run_number: 10
+  index_number: 10
+  stop_name: Queens Plaza (E,M,R)
+G20N:
+  run_number: 10
+  index_number: 11
+  stop_name: 36 St (M,R)
+G20S:
+  run_number: 10
+  index_number: 11
+  stop_name: 36 St (M,R)
+G19N:
+  run_number: 10
+  index_number: 12
+  stop_name: Steinway St (M,R)
+G19S:
+  run_number: 10
+  index_number: 12
+  stop_name: Steinway St (M,R)
+G18N:
+  run_number: 10
+  index_number: 13
+  stop_name: 46 St (M,R)
+G18S:
+  run_number: 10
+  index_number: 13
+  stop_name: 46 St (M,R)
+G16N:
+  run_number: 10
+  index_number: 14
+  stop_name: Northern Blvd (M,R)
+G16S:
+  run_number: 10
+  index_number: 14
+  stop_name: Northern Blvd (M,R)
+G15N:
+  run_number: 10
+  index_number: 15
+  stop_name: 65 St (M,R)
+G15S:
+  run_number: 10
+  index_number: 15
+  stop_name: 65 St (M,R)
+G14N:
+  run_number: 10
+  index_number: 16
+  stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+G14S:
+  run_number: 10
+  index_number: 16
+  stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+G13N:
+  run_number: 10
+  index_number: 17
+  stop_name: Elmhurst Av (M,R)
+G13S:
+  run_number: 10
+  index_number: 17
+  stop_name: Elmhurst Av (M,R)
+G12N:
+  run_number: 10
+  index_number: 18
+  stop_name: Grand Av-Newtown (M,R)
+G12S:
+  run_number: 10
+  index_number: 18
+  stop_name: Grand Av-Newtown (M,R)
+G11N:
+  run_number: 10
+  index_number: 19
+  stop_name: Woodhaven Blvd (M,R)
+G11S:
+  run_number: 10
+  index_number: 19
+  stop_name: Woodhaven Blvd (M,R)
+G10N:
+  run_number: 10
+  index_number: 20
+  stop_name: 63 Dr-Rego Park (M,R)
+G10S:
+  run_number: 10
+  index_number: 20
+  stop_name: 63 Dr-Rego Park (M,R)
+G09N:
+  run_number: 10
+  index_number: 21
+  stop_name: 67 Av (M,R)
+G09S:
+  run_number: 10
+  index_number: 21
+  stop_name: 67 Av (M,R)
+G08N:
+  run_number: 10
+  index_number: 22
+  stop_name: Forest Hills-71 Av (E,F,M,R)
+G08S:
+  run_number: 10
+  index_number: 22
+  stop_name: Forest Hills-71 Av (E,F,M,R)
+F07N:
+  run_number: 10
+  index_number: 23
+  stop_name: 75 Av (E,F)
+F07S:
+  run_number: 10
+  index_number: 23
+  stop_name: 75 Av (E,F)
+F06N:
+  run_number: 10
+  index_number: 24
+  stop_name: Kew Gardens-Union Tpke (E,F)
+F06S:
+  run_number: 10
+  index_number: 24
+  stop_name: Kew Gardens-Union Tpke (E,F)
+F05N:
+  run_number: 10
+  index_number: 25
+  stop_name: Briarwood (E,F)
+F05S:
+  run_number: 10
+  index_number: 25
+  stop_name: Briarwood (E,F)
+F04N:
+  run_number: 10
+  index_number: 26
+  stop_name: Sutphin Blvd (F)
+F04S:
+  run_number: 10
+  index_number: 26
+  stop_name: Sutphin Blvd (F)
+F03N:
+  run_number: 10
+  index_number: 27
+  stop_name: Parsons Blvd (F)
+F03S:
+  run_number: 10
+  index_number: 27
+  stop_name: Parsons Blvd (F)
+F02N:
+  run_number: 10
+  index_number: 28
+  stop_name: 169 St (F)
+F02S:
+  run_number: 10
+  index_number: 28
+  stop_name: 169 St (F)
+F01N:
+  run_number: 10
+  index_number: 29
+  stop_name: Jamaica-179 St (F)
+F01S:
+  run_number: 10
+  index_number: 29
+  stop_name: Jamaica-179 St (F)
+R45N:
+  run_number: 11
+  index_number: 0
+  stop_name: Bay Ridge-95 St (R)
+R45S:
+  run_number: 11
+  index_number: 0
+  stop_name: Bay Ridge-95 St (R)
+R44N:
+  run_number: 11
+  index_number: 1
+  stop_name: 86 St (R)
+R44S:
+  run_number: 11
+  index_number: 1
+  stop_name: 86 St (R)
+R43N:
+  run_number: 11
+  index_number: 2
+  stop_name: 77 St (R)
+R43S:
+  run_number: 11
+  index_number: 2
+  stop_name: 77 St (R)
+R42N:
+  run_number: 11
+  index_number: 3
+  stop_name: Bay Ridge Av (R)
+R42S:
+  run_number: 11
+  index_number: 3
+  stop_name: Bay Ridge Av (R)
+R41N:
+  run_number: 11
+  index_number: 4
+  stop_name: 59 St (N,R)
+R41S:
+  run_number: 11
+  index_number: 4
+  stop_name: 59 St (N,R)
+R40N:
+  run_number: 11
+  index_number: 5
+  stop_name: 53 St (R)
+R40S:
+  run_number: 11
+  index_number: 5
+  stop_name: 53 St (R)
+R39N:
+  run_number: 11
+  index_number: 6
+  stop_name: 45 St (R)
+R39S:
+  run_number: 11
+  index_number: 6
+  stop_name: 45 St (R)
+R36N:
+  run_number: 11
+  index_number: 7
+  stop_name: 36 St (D,N,R)
+R36S:
+  run_number: 11
+  index_number: 7
+  stop_name: 36 St (D,N,R)
+R35N:
+  run_number: 11
+  index_number: 8
+  stop_name: 25 St (R)
+R35S:
+  run_number: 11
+  index_number: 8
+  stop_name: 25 St (R)
+R34N:
+  run_number: 11
+  index_number: 9
+  stop_name: Prospect Av (R)
+R34S:
+  run_number: 11
+  index_number: 9
+  stop_name: Prospect Av (R)
+R33N:
+  run_number: 11
+  index_number: 10
+  stop_name: 4 Av-9 St (F,G,R)
+R33S:
+  run_number: 11
+  index_number: 10
+  stop_name: 4 Av-9 St (F,G,R)
+R32N:
+  run_number: 11
+  index_number: 11
+  stop_name: Union St (R)
+R32S:
+  run_number: 11
+  index_number: 11
+  stop_name: Union St (R)
+R31N:
+  run_number: 11
+  index_number: 12
+  stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+R31S:
+  run_number: 11
+  index_number: 12
+  stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+R30N:
+  run_number: 11
+  index_number: 13
+  stop_name: DeKalb Av (B,Q,R)
+R30S:
+  run_number: 11
+  index_number: 13
+  stop_name: DeKalb Av (B,Q,R)
+R29N:
+  run_number: 11
+  index_number: 14
+  stop_name: Jay St-MetroTech (A,C,F,R)
+R29S:
+  run_number: 11
+  index_number: 14
+  stop_name: Jay St-MetroTech (A,C,F,R)
+R28N:
+  run_number: 11
+  index_number: 15
+  stop_name: Borough Hall/Court St (2,3,4,5,R)
+R28S:
+  run_number: 11
+  index_number: 15
+  stop_name: Borough Hall/Court St (2,3,4,5,R)
+R27N:
+  run_number: 11
+  index_number: 16
+  stop_name: Whitehall St-South Ferry (1,R,W)
+R27S:
+  run_number: 11
+  index_number: 16
+  stop_name: Whitehall St-South Ferry (1,R,W)
+R26N:
+  run_number: 11
+  index_number: 17
+  stop_name: Rector St (R,W)
+R26S:
+  run_number: 11
+  index_number: 17
+  stop_name: Rector St (R,W)
+R25N:
+  run_number: 11
+  index_number: 18
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+R25S:
+  run_number: 11
+  index_number: 18
+  stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+R24N:
+  run_number: 11
+  index_number: 19
+  stop_name: City Hall (R,W)
+R24S:
+  run_number: 11
+  index_number: 19
+  stop_name: City Hall (R,W)
+R23N:
+  run_number: 11
+  index_number: 20
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+R23S:
+  run_number: 11
+  index_number: 20
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+Q01N:
+  run_number: 11
+  index_number: 20
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+Q01S:
+  run_number: 11
+  index_number: 20
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+R22N:
+  run_number: 11
+  index_number: 21
+  stop_name: Prince St (R,W)
+R22S:
+  run_number: 11
+  index_number: 21
+  stop_name: Prince St (R,W)
+R21N:
+  run_number: 11
+  index_number: 22
+  stop_name: 8 St-NYU (R,W)
+R21S:
+  run_number: 11
+  index_number: 22
+  stop_name: 8 St-NYU (R,W)
+R20N:
+  run_number: 11
+  index_number: 23
+  stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+R20S:
+  run_number: 11
+  index_number: 23
+  stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+R19N:
+  run_number: 11
+  index_number: 24
+  stop_name: 23 St (R,W)
+R19S:
+  run_number: 11
+  index_number: 24
+  stop_name: 23 St (R,W)
+R18N:
+  run_number: 11
+  index_number: 25
+  stop_name: 28 St (R,W)
+R18S:
+  run_number: 11
+  index_number: 25
+  stop_name: 28 St (R,W)
+R17N:
+  run_number: 11
+  index_number: 26
+  stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+R17S:
+  run_number: 11
+  index_number: 26
+  stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+R16N:
+  run_number: 11
+  index_number: 27
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+R16S:
+  run_number: 11
+  index_number: 27
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+902N:
+  run_number: 11
+  index_number: 27
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+902S:
+  run_number: 11
+  index_number: 27
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+R15N:
+  run_number: 11
+  index_number: 28
+  stop_name: 49 St (N,R,W)
+R15S:
+  run_number: 11
+  index_number: 28
+  stop_name: 49 St (N,R,W)
+R14N:
+  run_number: 11
+  index_number: 29
+  stop_name: 57 St-7 Av (N,Q,R,W)
+R14S:
+  run_number: 11
+  index_number: 29
+  stop_name: 57 St-7 Av (N,Q,R,W)
+R13N:
+  run_number: 11
+  index_number: 30
+  stop_name: 5 Av/59 St (N,R,W)
+R13S:
+  run_number: 11
+  index_number: 30
+  stop_name: 5 Av/59 St (N,R,W)
+R11N:
+  run_number: 11
+  index_number: 31
+  stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+R11S:
+  run_number: 11
+  index_number: 31
+  stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+R09N:
+  run_number: 11
+  index_number: 32
+  stop_name: Queensboro Plaza (7,N,W)
+R09S:
+  run_number: 11
+  index_number: 32
+  stop_name: Queensboro Plaza (7,N,W)
+R08N:
+  run_number: 11
+  index_number: 33
+  stop_name: 39 Av-Dutch Kills (N,W)
+R08S:
+  run_number: 11
+  index_number: 33
+  stop_name: 39 Av-Dutch Kills (N,W)
+R06N:
+  run_number: 11
+  index_number: 34
+  stop_name: 36 Av (N,W)
+R06S:
+  run_number: 11
+  index_number: 34
+  stop_name: 36 Av (N,W)
+R05N:
+  run_number: 11
+  index_number: 35
+  stop_name: Broadway (N,W)
+R05S:
+  run_number: 11
+  index_number: 35
+  stop_name: Broadway (N,W)
+R04N:
+  run_number: 11
+  index_number: 36
+  stop_name: 30 Av (N,W)
+R04S:
+  run_number: 11
+  index_number: 36
+  stop_name: 30 Av (N,W)
+R03N:
+  run_number: 11
+  index_number: 37
+  stop_name: Astoria Blvd (N,W)
+R03S:
+  run_number: 11
+  index_number: 37
+  stop_name: Astoria Blvd (N,W)
+R01N:
+  run_number: 11
+  index_number: 38
+  stop_name: Astoria-Ditmars Blvd (N,W)
+R01S:
+  run_number: 11
+  index_number: 38
+  stop_name: Astoria-Ditmars Blvd (N,W)
+N02N:
+  run_number: 12
+  index_number: 0
+  stop_name: 8 Av (N)
+N02S:
+  run_number: 12
+  index_number: 0
+  stop_name: 8 Av (N)
+N03N:
+  run_number: 12
+  index_number: 1
+  stop_name: Fort Hamilton Pkwy (N)
+N03S:
+  run_number: 12
+  index_number: 1
+  stop_name: Fort Hamilton Pkwy (N)
+N05N:
+  run_number: 12
+  index_number: 2
+  stop_name: 18 Av (N)
+N05S:
+  run_number: 12
+  index_number: 2
+  stop_name: 18 Av (N)
+N06N:
+  run_number: 12
+  index_number: 3
+  stop_name: 20 Av (N)
+N06S:
+  run_number: 12
+  index_number: 3
+  stop_name: 20 Av (N)
+N07N:
+  run_number: 12
+  index_number: 4
+  stop_name: Bay Pkwy (N)
+N07S:
+  run_number: 12
+  index_number: 4
+  stop_name: Bay Pkwy (N)
+N08N:
+  run_number: 12
+  index_number: 5
+  stop_name: Kings Hwy (N)
+N08S:
+  run_number: 12
+  index_number: 5
+  stop_name: Kings Hwy (N)
+N09N:
+  run_number: 12
+  index_number: 6
+  stop_name: Avenue U (N)
+N09S:
+  run_number: 12
+  index_number: 6
+  stop_name: Avenue U (N)
+N10N:
+  run_number: 12
+  index_number: 7
+  stop_name: 86 St (N)
+N10S:
+  run_number: 12
+  index_number: 7
+  stop_name: 86 St (N)
+B23N:
+  run_number: 12
+  index_number: 8
+  stop_name: Bay 50 St (D)
+B23S:
+  run_number: 12
+  index_number: 8
+  stop_name: Bay 50 St (D)
+B22N:
+  run_number: 12
+  index_number: 9
+  stop_name: 25 Av (D)
+B22S:
+  run_number: 12
+  index_number: 9
+  stop_name: 25 Av (D)
+B21N:
+  run_number: 12
+  index_number: 10
+  stop_name: Bay Pkwy (D)
+B21S:
+  run_number: 12
+  index_number: 10
+  stop_name: Bay Pkwy (D)
+B20N:
+  run_number: 12
+  index_number: 11
+  stop_name: 20 Av (D)
+B20S:
+  run_number: 12
+  index_number: 11
+  stop_name: 20 Av (D)
+B19N:
+  run_number: 12
+  index_number: 12
+  stop_name: 18 Av (D)
+B19S:
+  run_number: 12
+  index_number: 12
+  stop_name: 18 Av (D)
+B18N:
+  run_number: 12
+  index_number: 13
+  stop_name: 79 St (D)
+B18S:
+  run_number: 12
+  index_number: 13
+  stop_name: 79 St (D)
+B17N:
+  run_number: 12
+  index_number: 14
+  stop_name: 71 St (D)
+B17S:
+  run_number: 12
+  index_number: 14
+  stop_name: 71 St (D)
+B16N:
+  run_number: 12
+  index_number: 15
+  stop_name: 62 St/New Utrecht Av (D,N)
+B16S:
+  run_number: 12
+  index_number: 15
+  stop_name: 62 St/New Utrecht Av (D,N)
+N04N:
+  run_number: 12
+  index_number: 15
+  stop_name: 62 St/New Utrecht Av (D,N)
+N04S:
+  run_number: 12
+  index_number: 15
+  stop_name: 62 St/New Utrecht Av (D,N)
+B15N:
+  run_number: 12
+  index_number: 16
+  stop_name: 55 St (D)
+B15S:
+  run_number: 12
+  index_number: 16
+  stop_name: 55 St (D)
+B14N:
+  run_number: 12
+  index_number: 17
+  stop_name: 50 St (D)
+B14S:
+  run_number: 12
+  index_number: 17
+  stop_name: 50 St (D)
+B13N:
+  run_number: 12
+  index_number: 18
+  stop_name: Fort Hamilton Pkwy (D)
+B13S:
+  run_number: 12
+  index_number: 18
+  stop_name: Fort Hamilton Pkwy (D)
+B12N:
+  run_number: 12
+  index_number: 19
+  stop_name: 9 Av (D)
+B12S:
+  run_number: 12
+  index_number: 19
+  stop_name: 9 Av (D)
+F39N:
+  run_number: 13
+  index_number: 0
+  stop_name: Neptune Av (F)
+F39S:
+  run_number: 13
+  index_number: 0
+  stop_name: Neptune Av (F)
+F38N:
+  run_number: 13
+  index_number: 1
+  stop_name: Avenue X (F)
+F38S:
+  run_number: 13
+  index_number: 1
+  stop_name: Avenue X (F)
+F36N:
+  run_number: 13
+  index_number: 2
+  stop_name: Avenue U (F)
+F36S:
+  run_number: 13
+  index_number: 2
+  stop_name: Avenue U (F)
+F35N:
+  run_number: 13
+  index_number: 3
+  stop_name: Kings Hwy (F)
+F35S:
+  run_number: 13
+  index_number: 3
+  stop_name: Kings Hwy (F)
+F34N:
+  run_number: 13
+  index_number: 4
+  stop_name: Avenue P (F)
+F34S:
+  run_number: 13
+  index_number: 4
+  stop_name: Avenue P (F)
+F33N:
+  run_number: 13
+  index_number: 5
+  stop_name: Avenue N (F)
+F33S:
+  run_number: 13
+  index_number: 5
+  stop_name: Avenue N (F)
+F32N:
+  run_number: 13
+  index_number: 6
+  stop_name: Bay Pkwy (F)
+F32S:
+  run_number: 13
+  index_number: 6
+  stop_name: Bay Pkwy (F)
+F31N:
+  run_number: 13
+  index_number: 7
+  stop_name: Avenue I (F)
+F31S:
+  run_number: 13
+  index_number: 7
+  stop_name: Avenue I (F)
+F30N:
+  run_number: 13
+  index_number: 8
+  stop_name: 18 Av (F)
+F30S:
+  run_number: 13
+  index_number: 8
+  stop_name: 18 Av (F)
+F29N:
+  run_number: 13
+  index_number: 9
+  stop_name: Ditmas Av (F)
+F29S:
+  run_number: 13
+  index_number: 9
+  stop_name: Ditmas Av (F)
+F27N:
+  run_number: 13
+  index_number: 10
+  stop_name: Church Av (F,G)
+F27S:
+  run_number: 13
+  index_number: 10
+  stop_name: Church Av (F,G)
+F26N:
+  run_number: 13
+  index_number: 11
+  stop_name: Fort Hamilton Pkwy (F,G)
+F26S:
+  run_number: 13
+  index_number: 11
+  stop_name: Fort Hamilton Pkwy (F,G)
+F25N:
+  run_number: 13
+  index_number: 12
+  stop_name: 15 St-Prospect Park (F,G)
+F25S:
+  run_number: 13
+  index_number: 12
+  stop_name: 15 St-Prospect Park (F,G)
+F24N:
+  run_number: 13
+  index_number: 13
+  stop_name: 7 Av (F,G)
+F24S:
+  run_number: 13
+  index_number: 13
+  stop_name: 7 Av (F,G)
+F23N:
+  run_number: 13
+  index_number: 14
+  stop_name: 4 Av-9 St (F,G,R)
+F23S:
+  run_number: 13
+  index_number: 14
+  stop_name: 4 Av-9 St (F,G,R)
+F22N:
+  run_number: 13
+  index_number: 15
+  stop_name: Smith-9 Sts (F,G)
+F22S:
+  run_number: 13
+  index_number: 15
+  stop_name: Smith-9 Sts (F,G)
+F21N:
+  run_number: 13
+  index_number: 16
+  stop_name: Carroll St (F,G)
+F21S:
+  run_number: 13
+  index_number: 16
+  stop_name: Carroll St (F,G)
+F20N:
+  run_number: 13
+  index_number: 17
+  stop_name: Bergen St (F,G)
+F20S:
+  run_number: 13
+  index_number: 17
+  stop_name: Bergen St (F,G)
+F18N:
+  run_number: 13
+  index_number: 18
+  stop_name: York St (F)
+F18S:
+  run_number: 13
+  index_number: 18
+  stop_name: York St (F)
+F16N:
+  run_number: 13
+  index_number: 19
+  stop_name: East Broadway (F)
+F16S:
+  run_number: 13
+  index_number: 19
+  stop_name: East Broadway (F)
+F15N:
+  run_number: 13
+  index_number: 20
+  stop_name: Delancey St-Essex St (F,M,J,Z)
+F15S:
+  run_number: 13
+  index_number: 20
+  stop_name: Delancey St-Essex St (F,M,J,Z)
+F14N:
+  run_number: 13
+  index_number: 21
+  stop_name: 2 Av (F)
+F14S:
+  run_number: 13
+  index_number: 21
+  stop_name: 2 Av (F)
+M23N:
+  run_number: 14
+  index_number: 0
+  stop_name: Broad St (J,Z)
+M23S:
+  run_number: 14
+  index_number: 0
+  stop_name: Broad St (J,Z)
+M22N:
+  run_number: 14
+  index_number: 1
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+M22S:
+  run_number: 14
+  index_number: 1
+  stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+M21N:
+  run_number: 14
+  index_number: 2
+  stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+M21S:
+  run_number: 14
+  index_number: 2
+  stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+M20N:
+  run_number: 14
+  index_number: 3
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+M20S:
+  run_number: 14
+  index_number: 3
+  stop_name: Canal St (6,J,Z,N,Q,R,W)
+M19N:
+  run_number: 14
+  index_number: 4
+  stop_name: Bowery (J,Z)
+M19S:
+  run_number: 14
+  index_number: 4
+  stop_name: Bowery (J,Z)
+M18N:
+  run_number: 14
+  index_number: 5
+  stop_name: Delancey St-Essex St (F,M,J,Z)
+M18S:
+  run_number: 14
+  index_number: 5
+  stop_name: Delancey St-Essex St (F,M,J,Z)
+M16N:
+  run_number: 14
+  index_number: 6
+  stop_name: Marcy Av (M,J,Z)
+M16S:
+  run_number: 14
+  index_number: 6
+  stop_name: Marcy Av (M,J,Z)
+M14N:
+  run_number: 14
+  index_number: 7
+  stop_name: Hewes St (M,J)
+M14S:
+  run_number: 14
+  index_number: 7
+  stop_name: Hewes St (M,J)
+M13N:
+  run_number: 14
+  index_number: 8
+  stop_name: Lorimer St (M,J)
+M13S:
+  run_number: 14
+  index_number: 8
+  stop_name: Lorimer St (M,J)
+M12N:
+  run_number: 14
+  index_number: 9
+  stop_name: Flushing Av (M,J)
+M12S:
+  run_number: 14
+  index_number: 9
+  stop_name: Flushing Av (M,J)
+M11N:
+  run_number: 14
+  index_number: 10
+  stop_name: Myrtle Av (M,J,Z)
+M11S:
+  run_number: 14
+  index_number: 10
+  stop_name: Myrtle Av (M,J,Z)
+J31N:
+  run_number: 14
+  index_number: 11
+  stop_name: Kosciuszko St (J)
+J31S:
+  run_number: 14
+  index_number: 11
+  stop_name: Kosciuszko St (J)
+J30N:
+  run_number: 14
+  index_number: 12
+  stop_name: Gates Av (J,Z)
+J30S:
+  run_number: 14
+  index_number: 12
+  stop_name: Gates Av (J,Z)
+J29N:
+  run_number: 14
+  index_number: 13
+  stop_name: Halsey St (J)
+J29S:
+  run_number: 14
+  index_number: 13
+  stop_name: Halsey St (J)
+J28N:
+  run_number: 14
+  index_number: 14
+  stop_name: Chauncey St (J,Z)
+J28S:
+  run_number: 14
+  index_number: 14
+  stop_name: Chauncey St (J,Z)
+J27N:
+  run_number: 14
+  index_number: 15
+  stop_name: Broadway Junction (A,C,J,Z,L)
+J27S:
+  run_number: 14
+  index_number: 15
+  stop_name: Broadway Junction (A,C,J,Z,L)
+J24N:
+  run_number: 14
+  index_number: 16
+  stop_name: Alabama Av (J,Z)
+J24S:
+  run_number: 14
+  index_number: 16
+  stop_name: Alabama Av (J,Z)
+J23N:
+  run_number: 14
+  index_number: 17
+  stop_name: Van Siclen Av (J,Z)
+J23S:
+  run_number: 14
+  index_number: 17
+  stop_name: Van Siclen Av (J,Z)
+J22N:
+  run_number: 14
+  index_number: 18
+  stop_name: Cleveland St (J)
+J22S:
+  run_number: 14
+  index_number: 18
+  stop_name: Cleveland St (J)
+J21N:
+  run_number: 14
+  index_number: 19
+  stop_name: Norwood Av (J,Z)
+J21S:
+  run_number: 14
+  index_number: 19
+  stop_name: Norwood Av (J,Z)
+J20N:
+  run_number: 14
+  index_number: 20
+  stop_name: Crescent St (J,Z)
+J20S:
+  run_number: 14
+  index_number: 20
+  stop_name: Crescent St (J,Z)
+J19N:
+  run_number: 14
+  index_number: 21
+  stop_name: Cypress Hills (J)
+J19S:
+  run_number: 14
+  index_number: 21
+  stop_name: Cypress Hills (J)
+J17N:
+  run_number: 14
+  index_number: 22
+  stop_name: 75 St-Elderts Ln (J,Z)
+J17S:
+  run_number: 14
+  index_number: 22
+  stop_name: 75 St-Elderts Ln (J,Z)
+J16N:
+  run_number: 14
+  index_number: 23
+  stop_name: 85 St-Forest Pkwy (J)
+J16S:
+  run_number: 14
+  index_number: 23
+  stop_name: 85 St-Forest Pkwy (J)
+J15N:
+  run_number: 14
+  index_number: 24
+  stop_name: Woodhaven Blvd (J,Z)
+J15S:
+  run_number: 14
+  index_number: 24
+  stop_name: Woodhaven Blvd (J,Z)
+J14N:
+  run_number: 14
+  index_number: 25
+  stop_name: 104 St (J,Z)
+J14S:
+  run_number: 14
+  index_number: 25
+  stop_name: 104 St (J,Z)
+J13N:
+  run_number: 14
+  index_number: 26
+  stop_name: 111 St (J)
+J13S:
+  run_number: 14
+  index_number: 26
+  stop_name: 111 St (J)
+J12N:
+  run_number: 14
+  index_number: 27
+  stop_name: 121 St (J,Z)
+J12S:
+  run_number: 14
+  index_number: 27
+  stop_name: 121 St (J,Z)
+G06N:
+  run_number: 14
+  index_number: 28
+  stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
+G06S:
+  run_number: 14
+  index_number: 28
+  stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
+G05N:
+  run_number: 14
+  index_number: 29
+  stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
+G05S:
+  run_number: 14
+  index_number: 29
+  stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
+G07N:
+  run_number: 14
+  index_number: 30
+  stop_name: Jamaica-Van Wyck (E)
+G07S:
+  run_number: 14
+  index_number: 30
+  stop_name: Jamaica-Van Wyck (E)
+M10N:
+  run_number: 15
+  index_number: 0
+  stop_name: Central Av (M)
+M10S:
+  run_number: 15
+  index_number: 0
+  stop_name: Central Av (M)
+M09N:
+  run_number: 15
+  index_number: 1
+  stop_name: Knickerbocker Av (M)
+M09S:
+  run_number: 15
+  index_number: 1
+  stop_name: Knickerbocker Av (M)
+M08N:
+  run_number: 15
+  index_number: 2
+  stop_name: Myrtle-Wyckoff Avs (M,L)
+M08S:
+  run_number: 15
+  index_number: 2
+  stop_name: Myrtle-Wyckoff Avs (M,L)
+M06N:
+  run_number: 15
+  index_number: 3
+  stop_name: Seneca Av (M)
+M06S:
+  run_number: 15
+  index_number: 3
+  stop_name: Seneca Av (M)
+M05N:
+  run_number: 15
+  index_number: 4
+  stop_name: Forest Av (M)
+M05S:
+  run_number: 15
+  index_number: 4
+  stop_name: Forest Av (M)
+M04N:
+  run_number: 15
+  index_number: 5
+  stop_name: Fresh Pond Rd (M)
+M04S:
+  run_number: 15
+  index_number: 5
+  stop_name: Fresh Pond Rd (M)
+M01N:
+  run_number: 15
+  index_number: 6
+  stop_name: Middle Village-Metropolitan Av (M)
+M01S:
+  run_number: 15
+  index_number: 6
+  stop_name: Middle Village-Metropolitan Av (M)
+H12N:
+  run_number: 16
+  index_number: 0
+  stop_name: Beach 90 St (A,S)
+H12S:
+  run_number: 16
+  index_number: 0
+  stop_name: Beach 90 St (A,S)
+H13N:
+  run_number: 16
+  index_number: 1
+  stop_name: Beach 98 St (A,S)
+H13S:
+  run_number: 16
+  index_number: 1
+  stop_name: Beach 98 St (A,S)
+H14N:
+  run_number: 16
+  index_number: 2
+  stop_name: Beach 105 St (A,S)
+H14S:
+  run_number: 16
+  index_number: 2
+  stop_name: Beach 105 St (A,S)
+H15N:
+  run_number: 16
+  index_number: 3
+  stop_name: Rockaway Park-Beach 116 St (A,S)
+H15S:
+  run_number: 16
+  index_number: 3
+  stop_name: Rockaway Park-Beach 116 St (A,S)
+L29N:
+  run_number: 16
+  index_number: 4
+  stop_name: Canarsie-Rockaway Pkwy (L)
+L29S:
+  run_number: 16
+  index_number: 4
+  stop_name: Canarsie-Rockaway Pkwy (L)
+L28N:
+  run_number: 16
+  index_number: 5
+  stop_name: East 105 St (L)
+L28S:
+  run_number: 16
+  index_number: 5
+  stop_name: East 105 St (L)
+L27N:
+  run_number: 16
+  index_number: 6
+  stop_name: New Lots Av (L)
+L27S:
+  run_number: 16
+  index_number: 6
+  stop_name: New Lots Av (L)
+L26N:
+  run_number: 16
+  index_number: 7
+  stop_name: Livonia Av (L)
+L26S:
+  run_number: 16
+  index_number: 7
+  stop_name: Livonia Av (L)
+L25N:
+  run_number: 16
+  index_number: 8
+  stop_name: Sutter Av (L)
+L25S:
+  run_number: 16
+  index_number: 8
+  stop_name: Sutter Av (L)
+L24N:
+  run_number: 16
+  index_number: 9
+  stop_name: Atlantic Av (L)
+L24S:
+  run_number: 16
+  index_number: 9
+  stop_name: Atlantic Av (L)
+L22N:
+  run_number: 16
+  index_number: 10
+  stop_name: Broadway Junction (A,C,J,Z,L)
+L22S:
+  run_number: 16
+  index_number: 10
+  stop_name: Broadway Junction (A,C,J,Z,L)
+L21N:
+  run_number: 16
+  index_number: 11
+  stop_name: Bushwick Av-Aberdeen St (L)
+L21S:
+  run_number: 16
+  index_number: 11
+  stop_name: Bushwick Av-Aberdeen St (L)
+L20N:
+  run_number: 16
+  index_number: 12
+  stop_name: Wilson Av (L)
+L20S:
+  run_number: 16
+  index_number: 12
+  stop_name: Wilson Av (L)
+L19N:
+  run_number: 16
+  index_number: 13
+  stop_name: Halsey St (L)
+L19S:
+  run_number: 16
+  index_number: 13
+  stop_name: Halsey St (L)
+L17N:
+  run_number: 16
+  index_number: 14
+  stop_name: Myrtle-Wyckoff Avs (M,L)
+L17S:
+  run_number: 16
+  index_number: 14
+  stop_name: Myrtle-Wyckoff Avs (M,L)
+L16N:
+  run_number: 16
+  index_number: 15
+  stop_name: DeKalb Av (L)
+L16S:
+  run_number: 16
+  index_number: 15
+  stop_name: DeKalb Av (L)
+L15N:
+  run_number: 16
+  index_number: 16
+  stop_name: Jefferson St (L)
+L15S:
+  run_number: 16
+  index_number: 16
+  stop_name: Jefferson St (L)
+L14N:
+  run_number: 16
+  index_number: 17
+  stop_name: Morgan Av (L)
+L14S:
+  run_number: 16
+  index_number: 17
+  stop_name: Morgan Av (L)
+L13N:
+  run_number: 16
+  index_number: 18
+  stop_name: Montrose Av (L)
+L13S:
+  run_number: 16
+  index_number: 18
+  stop_name: Montrose Av (L)
+L12N:
+  run_number: 16
+  index_number: 19
+  stop_name: Grand St (L)
+L12S:
+  run_number: 16
+  index_number: 19
+  stop_name: Grand St (L)
+L11N:
+  run_number: 16
+  index_number: 20
+  stop_name: Graham Av (L)
+L11S:
+  run_number: 16
+  index_number: 20
+  stop_name: Graham Av (L)
+L10N:
+  run_number: 16
+  index_number: 21
+  stop_name: Metropolitan Av/Lorimer St (G,L)
+L10S:
+  run_number: 16
+  index_number: 21
+  stop_name: Metropolitan Av/Lorimer St (G,L)
+L08N:
+  run_number: 16
+  index_number: 22
+  stop_name: Bedford Av (L)
+L08S:
+  run_number: 16
+  index_number: 22
+  stop_name: Bedford Av (L)
+L06N:
+  run_number: 16
+  index_number: 23
+  stop_name: 1 Av (L)
+L06S:
+  run_number: 16
+  index_number: 23
+  stop_name: 1 Av (L)
+L05N:
+  run_number: 16
+  index_number: 24
+  stop_name: 3 Av (L)
+L05S:
+  run_number: 16
+  index_number: 24
+  stop_name: 3 Av (L)
+L03N:
+  run_number: 16
+  index_number: 25
+  stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+L03S:
+  run_number: 16
+  index_number: 25
+  stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+L02N:
+  run_number: 16
+  index_number: 26
+  stop_name: 14 St/6 Av (1,2,3,L,F,M)
+L02S:
+  run_number: 16
+  index_number: 26
+  stop_name: 14 St/6 Av (1,2,3,L,F,M)
+L01N:
+  run_number: 16
+  index_number: 27
+  stop_name: 14 St/8 Av (A,C,E,L)
+L01S:
+  run_number: 16
+  index_number: 27
+  stop_name: 14 St/8 Av (A,C,E,L)
+726N:
+  run_number: 17
+  index_number: 0
+  stop_name: 34 St-Hudson Yards (7)
+726S:
+  run_number: 17
+  index_number: 0
+  stop_name: 34 St-Hudson Yards (7)
+725N:
+  run_number: 17
+  index_number: 1
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+725S:
+  run_number: 17
+  index_number: 1
+  stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+724N:
+  run_number: 17
+  index_number: 2
+  stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+724S:
+  run_number: 17
+  index_number: 2
+  stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+723N:
+  run_number: 17
+  index_number: 3
+  stop_name: Grand Central-42 St (4,5,6,7,S)
+723S:
+  run_number: 17
+  index_number: 3
+  stop_name: Grand Central-42 St (4,5,6,7,S)
+721N:
+  run_number: 17
+  index_number: 4
+  stop_name: Vernon Blvd-Jackson Av (7)
+721S:
+  run_number: 17
+  index_number: 4
+  stop_name: Vernon Blvd-Jackson Av (7)
+720N:
+  run_number: 17
+  index_number: 5
+  stop_name: Hunters Point Av (7)
+720S:
+  run_number: 17
+  index_number: 5
+  stop_name: Hunters Point Av (7)
+719N:
+  run_number: 17
+  index_number: 6
+  stop_name: Court Sq-23 St (7,E,M,G)
+719S:
+  run_number: 17
+  index_number: 6
+  stop_name: Court Sq-23 St (7,E,M,G)
+718N:
+  run_number: 17
+  index_number: 7
+  stop_name: Queensboro Plaza (7,N,W)
+718S:
+  run_number: 17
+  index_number: 7
+  stop_name: Queensboro Plaza (7,N,W)
+716N:
+  run_number: 17
+  index_number: 8
+  stop_name: 33 St-Rawson St (7)
+716S:
+  run_number: 17
+  index_number: 8
+  stop_name: 33 St-Rawson St (7)
+715N:
+  run_number: 17
+  index_number: 9
+  stop_name: 40 St-Lowery St (7)
+715S:
+  run_number: 17
+  index_number: 9
+  stop_name: 40 St-Lowery St (7)
+714N:
+  run_number: 17
+  index_number: 10
+  stop_name: 46 St-Bliss St (7)
+714S:
+  run_number: 17
+  index_number: 10
+  stop_name: 46 St-Bliss St (7)
+713N:
+  run_number: 17
+  index_number: 11
+  stop_name: 52 St (7)
+713S:
+  run_number: 17
+  index_number: 11
+  stop_name: 52 St (7)
+712N:
+  run_number: 17
+  index_number: 12
+  stop_name: 61 St-Woodside (7)
+712S:
+  run_number: 17
+  index_number: 12
+  stop_name: 61 St-Woodside (7)
+711N:
+  run_number: 17
+  index_number: 13
+  stop_name: 69 St (7)
+711S:
+  run_number: 17
+  index_number: 13
+  stop_name: 69 St (7)
+710N:
+  run_number: 17
+  index_number: 14
+  stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+710S:
+  run_number: 17
+  index_number: 14
+  stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+709N:
+  run_number: 17
+  index_number: 15
+  stop_name: 82 St-Jackson Hts (7)
+709S:
+  run_number: 17
+  index_number: 15
+  stop_name: 82 St-Jackson Hts (7)
+708N:
+  run_number: 17
+  index_number: 16
+  stop_name: 90 St-Elmhurst Av (7)
+708S:
+  run_number: 17
+  index_number: 16
+  stop_name: 90 St-Elmhurst Av (7)
+707N:
+  run_number: 17
+  index_number: 17
+  stop_name: Junction Blvd (7)
+707S:
+  run_number: 17
+  index_number: 17
+  stop_name: Junction Blvd (7)
+706N:
+  run_number: 17
+  index_number: 18
+  stop_name: 103 St-Corona Plaza (7)
+706S:
+  run_number: 17
+  index_number: 18
+  stop_name: 103 St-Corona Plaza (7)
+705N:
+  run_number: 17
+  index_number: 19
+  stop_name: 111 St (7)
+705S:
+  run_number: 17
+  index_number: 19
+  stop_name: 111 St (7)
+702N:
+  run_number: 17
+  index_number: 20
+  stop_name: Mets-Willets Point (7)
+702S:
+  run_number: 17
+  index_number: 20
+  stop_name: Mets-Willets Point (7)
+701N:
+  run_number: 17
+  index_number: 21
+  stop_name: Flushing-Main St (7)
+701S:
+  run_number: 17
+  index_number: 21
+  stop_name: Flushing-Main St (7)
+G36N:
+  run_number: 18
+  index_number: 0
+  stop_name: Fulton St (G)
+G36S:
+  run_number: 18
+  index_number: 0
+  stop_name: Fulton St (G)
+G35N:
+  run_number: 18
+  index_number: 1
+  stop_name: Clinton-Washington Avs (G)
+G35S:
+  run_number: 18
+  index_number: 1
+  stop_name: Clinton-Washington Avs (G)
+G34N:
+  run_number: 18
+  index_number: 2
+  stop_name: Classon Av (G)
+G34S:
+  run_number: 18
+  index_number: 2
+  stop_name: Classon Av (G)
+G33N:
+  run_number: 18
+  index_number: 3
+  stop_name: Bedford-Nostrand Avs (G)
+G33S:
+  run_number: 18
+  index_number: 3
+  stop_name: Bedford-Nostrand Avs (G)
+G32N:
+  run_number: 18
+  index_number: 4
+  stop_name: Myrtle-Willoughby Avs (G)
+G32S:
+  run_number: 18
+  index_number: 4
+  stop_name: Myrtle-Willoughby Avs (G)
+G31N:
+  run_number: 18
+  index_number: 5
+  stop_name: Flushing Av (G)
+G31S:
+  run_number: 18
+  index_number: 5
+  stop_name: Flushing Av (G)
+G30N:
+  run_number: 18
+  index_number: 6
+  stop_name: Broadway (G)
+G30S:
+  run_number: 18
+  index_number: 6
+  stop_name: Broadway (G)
+G29N:
+  run_number: 18
+  index_number: 7
+  stop_name: Metropolitan Av/Lorimer St (G,L)
+G29S:
+  run_number: 18
+  index_number: 7
+  stop_name: Metropolitan Av/Lorimer St (G,L)
+G28N:
+  run_number: 18
+  index_number: 8
+  stop_name: Nassau Av (G)
+G28S:
+  run_number: 18
+  index_number: 8
+  stop_name: Nassau Av (G)
+G26N:
+  run_number: 18
+  index_number: 9
+  stop_name: Greenpoint Av (G)
+G26S:
+  run_number: 18
+  index_number: 9
+  stop_name: Greenpoint Av (G)
+G24N:
+  run_number: 18
+  index_number: 10
+  stop_name: 21 St (G)
+G24S:
+  run_number: 18
+  index_number: 10
+  stop_name: 21 St (G)
+G22N:
+  run_number: 18
+  index_number: 11
+  stop_name: Court Sq-23 St (7,E,M,G)
+G22S:
+  run_number: 18
+  index_number: 11
+  stop_name: Court Sq-23 St (7,E,M,G)
+S11N:
+  run_number: 19
+  index_number: 0
+  stop_name: Arthur Kill (SIR)
+S11S:
+  run_number: 19
+  index_number: 0
+  stop_name: Arthur Kill (SIR)
+S09N:
+  run_number: 19
+  index_number: 1
+  stop_name: Tottenville (SIR)
+S09S:
+  run_number: 19
+  index_number: 1
+  stop_name: Tottenville (SIR)
+S13N:
+  run_number: 19
+  index_number: 2
+  stop_name: Richmond Valley (SIR)
+S13S:
+  run_number: 19
+  index_number: 2
+  stop_name: Richmond Valley (SIR)
+S14N:
+  run_number: 19
+  index_number: 3
+  stop_name: Pleasant Plains (SIR)
+S14S:
+  run_number: 19
+  index_number: 3
+  stop_name: Pleasant Plains (SIR)
+S15N:
+  run_number: 19
+  index_number: 4
+  stop_name: Prince's Bay (SIR)
+S15S:
+  run_number: 19
+  index_number: 4
+  stop_name: Prince's Bay (SIR)
+S16N:
+  run_number: 19
+  index_number: 5
+  stop_name: Huguenot (SIR)
+S16S:
+  run_number: 19
+  index_number: 5
+  stop_name: Huguenot (SIR)
+S17N:
+  run_number: 19
+  index_number: 6
+  stop_name: Annadale (SIR)
+S17S:
+  run_number: 19
+  index_number: 6
+  stop_name: Annadale (SIR)
+S18N:
+  run_number: 19
+  index_number: 7
+  stop_name: Eltingville (SIR)
+S18S:
+  run_number: 19
+  index_number: 7
+  stop_name: Eltingville (SIR)
+S19N:
+  run_number: 19
+  index_number: 8
+  stop_name: Great Kills (SIR)
+S19S:
+  run_number: 19
+  index_number: 8
+  stop_name: Great Kills (SIR)
+S20N:
+  run_number: 19
+  index_number: 9
+  stop_name: Bay Terrace (SIR)
+S20S:
+  run_number: 19
+  index_number: 9
+  stop_name: Bay Terrace (SIR)
+S21N:
+  run_number: 19
+  index_number: 10
+  stop_name: Oakwood Heights (SIR)
+S21S:
+  run_number: 19
+  index_number: 10
+  stop_name: Oakwood Heights (SIR)
+S22N:
+  run_number: 19
+  index_number: 11
+  stop_name: New Dorp (SIR)
+S22S:
+  run_number: 19
+  index_number: 11
+  stop_name: New Dorp (SIR)
+S23N:
+  run_number: 19
+  index_number: 12
+  stop_name: Grant City (SIR)
+S23S:
+  run_number: 19
+  index_number: 12
+  stop_name: Grant City (SIR)
+S24N:
+  run_number: 19
+  index_number: 13
+  stop_name: Jefferson Av (SIR)
+S24S:
+  run_number: 19
+  index_number: 13
+  stop_name: Jefferson Av (SIR)
+S25N:
+  run_number: 19
+  index_number: 14
+  stop_name: Dongan Hills (SIR)
+S25S:
+  run_number: 19
+  index_number: 14
+  stop_name: Dongan Hills (SIR)
+S26N:
+  run_number: 19
+  index_number: 15
+  stop_name: Old Town (SIR)
+S26S:
+  run_number: 19
+  index_number: 15
+  stop_name: Old Town (SIR)
+S27N:
+  run_number: 19
+  index_number: 16
+  stop_name: Grasmere (SIR)
+S27S:
+  run_number: 19
+  index_number: 16
+  stop_name: Grasmere (SIR)
+S28N:
+  run_number: 19
+  index_number: 17
+  stop_name: Clifton (SIR)
+S28S:
+  run_number: 19
+  index_number: 17
+  stop_name: Clifton (SIR)
+S29N:
+  run_number: 19
+  index_number: 18
+  stop_name: Stapleton (SIR)
+S29S:
+  run_number: 19
+  index_number: 18
+  stop_name: Stapleton (SIR)
+S30N:
+  run_number: 19
+  index_number: 19
+  stop_name: Tompkinsville (SIR)
+S30S:
+  run_number: 19
+  index_number: 19
+  stop_name: Tompkinsville (SIR)
+S31N:
+  run_number: 19
+  index_number: 20
+  stop_name: St George (SIR)
+S31S:
+  run_number: 19
+  index_number: 20
+  stop_name: St George (SIR)
