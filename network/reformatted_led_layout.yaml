@@ -1,0 +1,2471 @@
+runs:
+  0:
+  - station_index: 0
+    stop_id:
+    - 257N
+    - 257S
+    stop_name: New Lots Av (3)
+  - station_index: 1
+    stop_id:
+    - 256N
+    - 256S
+    stop_name: Van Siclen Av (3)
+  - station_index: 2
+    stop_id:
+    - 255N
+    - 255S
+    stop_name: Pennsylvania Av (3)
+  - station_index: 3
+    stop_id:
+    - 254N
+    - 254S
+    stop_name: Junius St (3)
+  - station_index: 4
+    stop_id:
+    - 253N
+    - 253S
+    stop_name: Rockaway Av (3)
+  - station_index: 5
+    stop_id:
+    - 252N
+    - 252S
+    stop_name: Saratoga Av (3)
+  - station_index: 6
+    stop_id:
+    - 251N
+    - 251S
+    stop_name: Sutter Av-Rutland Rd (3)
+  - station_index: 7
+    stop_id:
+    - 250N
+    - 250S
+    stop_name: Crown Hts-Utica Av (3,4)
+  - station_index: 8
+    stop_id:
+    - 249N
+    - 249S
+    stop_name: Kingston Av (3)
+  - station_index: 9
+    stop_id:
+    - 248N
+    - 248S
+    stop_name: Nostrand Av (3)
+  - station_index: 10
+    stop_id:
+    - 239N
+    - 239S
+    - S04N
+    - S04S
+    stop_name: Franklin Av-Medgar Evers College/Botanic Garden (2,3,4,5,S)
+  - station_index: 11
+    stop_id:
+    - 238N
+    - 238S
+    stop_name: Eastern Pkwy-Brooklyn Museum (2,3)
+  - station_index: 12
+    stop_id:
+    - 237N
+    - 237S
+    stop_name: Grand Army Plaza (2,3)
+  - station_index: 13
+    stop_id:
+    - 236N
+    - 236S
+    stop_name: Bergen St (2,3)
+  - station_index: 14
+    stop_id:
+    - 235N
+    - 235S
+    stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+  - station_index: 15
+    stop_id:
+    - 234N
+    - 234S
+    stop_name: Nevins St (2,3,4,5)
+  - station_index: 16
+    stop_id:
+    - 233N
+    - 233S
+    stop_name: Hoyt St (2,3)
+  - station_index: 17
+    stop_id:
+    - 232N
+    - 232S
+    stop_name: Borough Hall/Court St (2,3,4,5,R)
+  - station_index: 18
+    stop_id:
+    - 231N
+    - 231S
+    stop_name: Clark St (2,3)
+  - station_index: 19
+    stop_id:
+    - 230N
+    - 230S
+    stop_name: Wall St (2,3)
+  - station_index: 20
+    stop_id:
+    - 229N
+    - 229S
+    stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+  - station_index: 21
+    stop_id:
+    - 228N
+    - 228S
+    stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+  - station_index: 22
+    stop_id:
+    - 137N
+    - 137S
+    stop_name: Chambers St (1,2,3)
+  - station_index: 23
+    stop_id:
+    - 136N
+    - 136S
+    stop_name: Franklin St (1)
+  - station_index: 24
+    stop_id:
+    - 135N
+    - 135S
+    stop_name: Canal St (1)
+  - station_index: 25
+    stop_id:
+    - 134N
+    - 134S
+    stop_name: Houston St (1)
+  - station_index: 26
+    stop_id:
+    - 133N
+    - 133S
+    stop_name: Christopher St-Stonewall (1)
+  - station_index: 27
+    stop_id:
+    - 132N
+    - 132S
+    stop_name: 14 St/6 Av (1,2,3,L,F,M)
+  - station_index: 28
+    stop_id:
+    - 131N
+    - 131S
+    stop_name: 18 St (1)
+  - station_index: 29
+    stop_id:
+    - 130N
+    - 130S
+    stop_name: 23 St (1)
+  - station_index: 30
+    stop_id:
+    - 129N
+    - 129S
+    stop_name: 28 St (1)
+  - station_index: 31
+    stop_id:
+    - 128N
+    - 128S
+    stop_name: 34 St-Penn Station (1,2,3)
+  - station_index: 32
+    stop_id:
+    - 127N
+    - 127S
+    stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+  - station_index: 33
+    stop_id:
+    - 126N
+    - 126S
+    stop_name: 50 St (1)
+  - station_index: 34
+    stop_id:
+    - 125N
+    - 125S
+    stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+  - station_index: 35
+    stop_id:
+    - 124N
+    - 124S
+    stop_name: 66 St-Lincoln Center (1)
+  - station_index: 36
+    stop_id:
+    - 123N
+    - 123S
+    stop_name: 72 St (1,2,3)
+  - station_index: 37
+    stop_id:
+    - 122N
+    - 122S
+    stop_name: 79 St (1)
+  - station_index: 38
+    stop_id:
+    - 121N
+    - 121S
+    stop_name: 86 St (1)
+  - station_index: 39
+    stop_id:
+    - 120N
+    - 120S
+    stop_name: 96 St (1,2,3)
+  - station_index: 40
+    stop_id:
+    - 119N
+    - 119S
+    stop_name: 103 St (1)
+  - station_index: 41
+    stop_id:
+    - 118N
+    - 118S
+    stop_name: Cathedral Pkwy (110 St) (1)
+  - station_index: 42
+    stop_id:
+    - 117N
+    - 117S
+    stop_name: 116 St-Columbia University (1)
+  - station_index: 43
+    stop_id:
+    - 116N
+    - 116S
+    stop_name: 125 St (1)
+  - station_index: 44
+    stop_id:
+    - 115N
+    - 115S
+    stop_name: 137 St-City College (1)
+  - station_index: 45
+    stop_id:
+    - 114N
+    - 114S
+    stop_name: 145 St (1)
+  - station_index: 46
+    stop_id:
+    - 113N
+    - 113S
+    stop_name: 157 St (1)
+  - station_index: 47
+    stop_id:
+    - 112N
+    - 112S
+    stop_name: 168 St-Washington Hts (1,A,C)
+  - station_index: 48
+    stop_id:
+    - 111N
+    - 111S
+    stop_name: 181 St (1)
+  - station_index: 49
+    stop_id:
+    - 110N
+    - 110S
+    stop_name: 191 St (1)
+  - station_index: 50
+    stop_id:
+    - 109N
+    - 109S
+    stop_name: Dyckman St (1)
+  - station_index: 51
+    stop_id:
+    - 108N
+    - 108S
+    stop_name: 207 St (1)
+  - station_index: 52
+    stop_id:
+    - 107N
+    - 107S
+    stop_name: 215 St (1)
+  - station_index: 53
+    stop_id:
+    - 106N
+    - 106S
+    stop_name: Marble Hill-225 St (1)
+  - station_index: 54
+    stop_id:
+    - 104N
+    - 104S
+    stop_name: 231 St (1)
+  - station_index: 55
+    stop_id:
+    - 103N
+    - 103S
+    stop_name: 238 St (1)
+  - station_index: 56
+    stop_id:
+    - 101N
+    - 101S
+    stop_name: Van Cortlandt Park-242 St (1)
+  1:
+  - station_index: 0
+    stop_id:
+    - 227N
+    - 227S
+    stop_name: 110 St-Malcolm X Plaza (2,3)
+  - station_index: 1
+    stop_id:
+    - 226N
+    - 226S
+    stop_name: 116 St (2,3)
+  - station_index: 2
+    stop_id:
+    - 225N
+    - 225S
+    stop_name: 125 St (2,3)
+  - station_index: 3
+    stop_id:
+    - 224N
+    - 224S
+    stop_name: 135 St (2,3)
+  - station_index: 4
+    stop_id:
+    - 302N
+    - 302S
+    stop_name: 145 St (3)
+  - station_index: 5
+    stop_id:
+    - 301N
+    - 301S
+    stop_name: Harlem-148 St (3)
+  2:
+  - station_index: 0
+    stop_id:
+    - 138N
+    - 138S
+    stop_name: WTC Cortlandt (1)
+  - station_index: 1
+    stop_id:
+    - 139N
+    - 139S
+    stop_name: Rector St (1)
+  - station_index: 2
+    stop_id:
+    - 142N
+    - 142S
+    stop_name: Whitehall St-South Ferry (1,R,W)
+  3:
+  - station_index: 0
+    stop_id:
+    - 247N
+    - 247S
+    stop_name: Flatbush Av-Brooklyn College (2,5)
+  - station_index: 1
+    stop_id:
+    - 246N
+    - 246S
+    stop_name: Newkirk Av-Little Haiti (2,5)
+  - station_index: 2
+    stop_id:
+    - 245N
+    - 245S
+    stop_name: Beverly Rd (2,5)
+  - station_index: 3
+    stop_id:
+    - 244N
+    - 244S
+    stop_name: Church Av (2,5)
+  - station_index: 4
+    stop_id:
+    - 243N
+    - 243S
+    stop_name: Winthrop St (2,5)
+  - station_index: 5
+    stop_id:
+    - 242N
+    - 242S
+    stop_name: Sterling St (2,5)
+  - station_index: 6
+    stop_id:
+    - 241N
+    - 241S
+    stop_name: President St-Medgar Evers College (2,5)
+  - station_index: 7
+    stop_id:
+    - S03N
+    - S03S
+    stop_name: Park Pl (S)
+  4:
+  - station_index: 0
+    stop_id:
+    - 423N
+    - 423S
+    stop_name: Borough Hall/Court St (2,3,4,5,R)
+  - station_index: 1
+    stop_id:
+    - 420N
+    - 420S
+    stop_name: Bowling Green (4,5)
+  - station_index: 2
+    stop_id:
+    - 419N
+    - 419S
+    stop_name: Wall St (4,5)
+  - station_index: 3
+    stop_id:
+    - 418N
+    - 418S
+    stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+  - station_index: 4
+    stop_id:
+    - 640N
+    - 640S
+    stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+  - station_index: 5
+    stop_id:
+    - 639N
+    - 639S
+    stop_name: Canal St (6,J,Z,N,Q,R,W)
+  - station_index: 6
+    stop_id:
+    - 638N
+    - 638S
+    stop_name: Spring St (6)
+  - station_index: 7
+    stop_id:
+    - 637N
+    - 637S
+    stop_name: Broadway-Lafayette St/Bleecker St (6,B,D,F,M)
+  - station_index: 8
+    stop_id:
+    - 636N
+    - 636S
+    stop_name: Astor Pl (6)
+  - station_index: 9
+    stop_id:
+    - 635N
+    - 635S
+    stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+  - station_index: 10
+    stop_id:
+    - 634N
+    - 634S
+    stop_name: 23 St (6)
+  - station_index: 11
+    stop_id:
+    - 633N
+    - 633S
+    stop_name: 28 St (6)
+  - station_index: 12
+    stop_id:
+    - 632N
+    - 632S
+    stop_name: 33 St (6)
+  - station_index: 13
+    stop_id:
+    - 631N
+    - 631S
+    - 901N
+    - 901S
+    stop_name: Grand Central-42 St (4,5,6,7,S)
+  - station_index: 14
+    stop_id:
+    - 630N
+    - 630S
+    stop_name: Lexington Av/51-53 Sts (6,E,M)
+  - station_index: 15
+    stop_id:
+    - 629N
+    - 629S
+    stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+  - station_index: 16
+    stop_id:
+    - 628N
+    - 628S
+    stop_name: 68 St-Hunter College (6)
+  - station_index: 17
+    stop_id:
+    - 627N
+    - 627S
+    stop_name: 77 St (6)
+  - station_index: 18
+    stop_id:
+    - 626N
+    - 626S
+    stop_name: 86 St (4,5,6)
+  - station_index: 19
+    stop_id:
+    - 625N
+    - 625S
+    stop_name: 96 St (6)
+  - station_index: 20
+    stop_id:
+    - 624N
+    - 624S
+    stop_name: 103 St (6)
+  - station_index: 21
+    stop_id:
+    - 623N
+    - 623S
+    stop_name: 110 St (6)
+  - station_index: 22
+    stop_id:
+    - 622N
+    - 622S
+    stop_name: 116 St (6)
+  - station_index: 23
+    stop_id:
+    - 621N
+    - 621S
+    stop_name: 125 St (4,5,6)
+  - station_index: 24
+    stop_id:
+    - 416N
+    - 416S
+    stop_name: 138 St-Grand Concourse (4,5)
+  - station_index: 25
+    stop_id:
+    - 415N
+    - 415S
+    - 222N
+    - 222S
+    stop_name: 149 St-Grand Concourse (2,4,5)
+  - station_index: 26
+    stop_id:
+    - 221N
+    - 221S
+    stop_name: 3 Av-149 St (2,5)
+  - station_index: 27
+    stop_id:
+    - 220N
+    - 220S
+    stop_name: Jackson Av (2,5)
+  - station_index: 28
+    stop_id:
+    - 219N
+    - 219S
+    stop_name: Prospect Av (2,5)
+  - station_index: 29
+    stop_id:
+    - 218N
+    - 218S
+    stop_name: Intervale Av (2,5)
+  - station_index: 30
+    stop_id:
+    - 217N
+    - 217S
+    stop_name: Simpson St (2,5)
+  - station_index: 31
+    stop_id:
+    - 216N
+    - 216S
+    stop_name: Freeman St (2,5)
+  - station_index: 32
+    stop_id:
+    - 215N
+    - 215S
+    stop_name: 174 St (2,5)
+  - station_index: 33
+    stop_id:
+    - 214N
+    - 214S
+    stop_name: West Farms Sq-E Tremont Av (2,5)
+  - station_index: 34
+    stop_id:
+    - 213N
+    - 213S
+    stop_name: E 180 St (2,5)
+  - station_index: 35
+    stop_id:
+    - 212N
+    - 212S
+    stop_name: Bronx Park East (2,5)
+  - station_index: 36
+    stop_id:
+    - 211N
+    - 211S
+    stop_name: Pelham Pkwy (2,5)
+  - station_index: 37
+    stop_id:
+    - 210N
+    - 210S
+    stop_name: Allerton Av (2,5)
+  - station_index: 38
+    stop_id:
+    - 209N
+    - 209S
+    stop_name: Burke Av (2,5)
+  - station_index: 39
+    stop_id:
+    - 208N
+    - 208S
+    stop_name: Gun Hill Rd (2,5)
+  - station_index: 40
+    stop_id:
+    - 207N
+    - 207S
+    stop_name: 219 St (2,5)
+  - station_index: 41
+    stop_id:
+    - 206N
+    - 206S
+    stop_name: 225 St (2,5)
+  - station_index: 42
+    stop_id:
+    - 205N
+    - 205S
+    stop_name: 233 St (2,5)
+  - station_index: 43
+    stop_id:
+    - 204N
+    - 204S
+    stop_name: Nereid Av (2,5)
+  - station_index: 44
+    stop_id:
+    - 201N
+    - 201S
+    stop_name: Wakefield-241 St (2)
+  5:
+  - station_index: 0
+    stop_id:
+    - 505N
+    - 505S
+    stop_name: Morris Park (5)
+  - station_index: 1
+    stop_id:
+    - 504N
+    - 504S
+    stop_name: Pelham Pkwy (5)
+  - station_index: 2
+    stop_id:
+    - 503N
+    - 503S
+    stop_name: Gun Hill Rd (5)
+  - station_index: 3
+    stop_id:
+    - 502N
+    - 502S
+    stop_name: Baychester Av (5)
+  - station_index: 4
+    stop_id:
+    - 501N
+    - 501S
+    stop_name: Eastchester-Dyre Av (5)
+  6:
+  - station_index: 0
+    stop_id:
+    - 414N
+    - 414S
+    - D11N
+    - D11S
+    stop_name: 161 St-Yankee Stadium (4,B,D)
+  - station_index: 1
+    stop_id:
+    - 413N
+    - 413S
+    stop_name: 167 St (4)
+  - station_index: 2
+    stop_id:
+    - 412N
+    - 412S
+    stop_name: 170 St (4)
+  - station_index: 3
+    stop_id:
+    - 411N
+    - 411S
+    stop_name: Mt Eden Av (4)
+  - station_index: 4
+    stop_id:
+    - 410N
+    - 410S
+    stop_name: 176 St (4)
+  - station_index: 5
+    stop_id:
+    - 409N
+    - 409S
+    stop_name: Burnside Av (4)
+  - station_index: 6
+    stop_id:
+    - 408N
+    - 408S
+    stop_name: 183 St (4)
+  - station_index: 7
+    stop_id:
+    - 407N
+    - 407S
+    stop_name: Fordham Rd (4)
+  - station_index: 8
+    stop_id:
+    - 406N
+    - 406S
+    stop_name: Kingsbridge Rd (4)
+  - station_index: 9
+    stop_id:
+    - 405N
+    - 405S
+    stop_name: Bedford Park Blvd-Lehman College (4)
+  - station_index: 10
+    stop_id:
+    - 402N
+    - 402S
+    stop_name: Mosholu Pkwy (4)
+  - station_index: 11
+    stop_id:
+    - 401N
+    - 401S
+    stop_name: Woodlawn (4)
+  7:
+  - station_index: 0
+    stop_id:
+    - 619N
+    - 619S
+    stop_name: 3 Av-138 St (6)
+  - station_index: 1
+    stop_id:
+    - 618N
+    - 618S
+    stop_name: Brook Av (6)
+  - station_index: 2
+    stop_id:
+    - 617N
+    - 617S
+    stop_name: Cypress Av (6)
+  - station_index: 3
+    stop_id:
+    - 616N
+    - 616S
+    stop_name: E 143 St-St Mary's St (6)
+  - station_index: 4
+    stop_id:
+    - 615N
+    - 615S
+    stop_name: E 149 St (6)
+  - station_index: 5
+    stop_id:
+    - 614N
+    - 614S
+    stop_name: Longwood Av (6)
+  - station_index: 6
+    stop_id:
+    - 613N
+    - 613S
+    stop_name: Hunts Point Av (6)
+  - station_index: 7
+    stop_id:
+    - 612N
+    - 612S
+    stop_name: Whitlock Av (6)
+  - station_index: 8
+    stop_id:
+    - 611N
+    - 611S
+    stop_name: Elder Av (6)
+  - station_index: 9
+    stop_id:
+    - 610N
+    - 610S
+    stop_name: Morrison Av-Soundview (6)
+  - station_index: 10
+    stop_id:
+    - 609N
+    - 609S
+    stop_name: St Lawrence Av (6)
+  - station_index: 11
+    stop_id:
+    - 608N
+    - 608S
+    stop_name: Parkchester (6)
+  - station_index: 12
+    stop_id:
+    - 607N
+    - 607S
+    stop_name: Castle Hill Av (6)
+  - station_index: 13
+    stop_id:
+    - 606N
+    - 606S
+    stop_name: Zerega Av (6)
+  - station_index: 14
+    stop_id:
+    - 604N
+    - 604S
+    stop_name: Westchester Sq-E Tremont Av (6)
+  - station_index: 15
+    stop_id:
+    - 603N
+    - 603S
+    stop_name: Middletown Rd (6)
+  - station_index: 16
+    stop_id:
+    - 602N
+    - 602S
+    stop_name: Buhre Av (6)
+  - station_index: 17
+    stop_id:
+    - 601N
+    - 601S
+    stop_name: Pelham Bay Park (6)
+  8:
+  - station_index: 0
+    stop_id:
+    - H11N
+    - H11S
+    stop_name: Far Rockaway-Mott Av (A)
+  - station_index: 1
+    stop_id:
+    - H10N
+    - H10S
+    stop_name: Beach 25 St (A)
+  - station_index: 2
+    stop_id:
+    - H09N
+    - H09S
+    stop_name: Beach 36 St (A)
+  - station_index: 3
+    stop_id:
+    - H08N
+    - H08S
+    stop_name: Beach 44 St (A)
+  - station_index: 4
+    stop_id:
+    - H07N
+    - H07S
+    stop_name: Beach 60 St (A)
+  - station_index: 5
+    stop_id:
+    - H06N
+    - H06S
+    stop_name: Beach 67 St (A)
+  - station_index: 6
+    stop_id:
+    - H04N
+    - H04S
+    stop_name: Broad Channel (A,S)
+  - station_index: 7
+    stop_id:
+    - H03N
+    - H03S
+    stop_name: Howard Beach-JFK Airport (A)
+  - station_index: 8
+    stop_id:
+    - H02N
+    - H02S
+    stop_name: Aqueduct-N Conduit Av (A)
+  - station_index: 9
+    stop_id:
+    - H01N
+    - H01S
+    stop_name: Aqueduct Racetrack (A)
+  - station_index: 10
+    stop_id:
+    - A65N
+    - A65S
+    stop_name: Ozone Park-Lefferts Blvd (A)
+  - station_index: 11
+    stop_id:
+    - A64N
+    - A64S
+    stop_name: 111 St (A)
+  - station_index: 12
+    stop_id:
+    - A63N
+    - A63S
+    stop_name: 104 St (A)
+  - station_index: 13
+    stop_id:
+    - A61N
+    - A61S
+    stop_name: Rockaway Blvd (A)
+  - station_index: 14
+    stop_id:
+    - A60N
+    - A60S
+    stop_name: 88 St (A)
+  - station_index: 15
+    stop_id:
+    - A59N
+    - A59S
+    stop_name: 80 St (A)
+  - station_index: 16
+    stop_id:
+    - A57N
+    - A57S
+    stop_name: Grant Av (A)
+  - station_index: 17
+    stop_id:
+    - A55N
+    - A55S
+    stop_name: Euclid Av (A,C)
+  - station_index: 18
+    stop_id:
+    - A54N
+    - A54S
+    stop_name: Shepherd Av (C)
+  - station_index: 19
+    stop_id:
+    - A53N
+    - A53S
+    stop_name: Van Siclen Av (C)
+  - station_index: 20
+    stop_id:
+    - A52N
+    - A52S
+    stop_name: Liberty Av (C)
+  - station_index: 21
+    stop_id:
+    - A51N
+    - A51S
+    stop_name: Broadway Junction (A,C,J,Z,L)
+  - station_index: 22
+    stop_id:
+    - A50N
+    - A50S
+    stop_name: Rockaway Av (C)
+  - station_index: 23
+    stop_id:
+    - A49N
+    - A49S
+    stop_name: Ralph Av (C)
+  - station_index: 24
+    stop_id:
+    - A48N
+    - A48S
+    stop_name: Utica Av (A,C)
+  - station_index: 25
+    stop_id:
+    - A47N
+    - A47S
+    stop_name: Kingston-Throop Avs (C)
+  - station_index: 26
+    stop_id:
+    - A46N
+    - A46S
+    stop_name: Nostrand Av (A,C)
+  - station_index: 27
+    stop_id:
+    - A45N
+    - A45S
+    - S01N
+    - S01S
+    stop_name: Franklin Av (C,S)
+  - station_index: 28
+    stop_id:
+    - A44N
+    - A44S
+    stop_name: Clinton-Washington Avs (C)
+  - station_index: 29
+    stop_id:
+    - A43N
+    - A43S
+    stop_name: Lafayette Av (C)
+  - station_index: 30
+    stop_id:
+    - A42N
+    - A42S
+    stop_name: Hoyt-Schermerhorn Sts (A,C,G)
+  - station_index: 31
+    stop_id:
+    - A41N
+    - A41S
+    stop_name: Jay St-MetroTech (A,C,F,R)
+  - station_index: 32
+    stop_id:
+    - A40N
+    - A40S
+    stop_name: High St (A,C)
+  - station_index: 33
+    stop_id:
+    - A38N
+    - A38S
+    stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+  - station_index: 34
+    stop_id:
+    - A36N
+    - A36S
+    - E01N
+    - E01S
+    stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+  - station_index: 35
+    stop_id:
+    - A34N
+    - A34S
+    stop_name: Canal St (A,C,E)
+  - station_index: 36
+    stop_id:
+    - A33N
+    - A33S
+    stop_name: Spring St (C,E)
+  - station_index: 37
+    stop_id:
+    - A32N
+    - A32S
+    stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
+  - station_index: 38
+    stop_id:
+    - A31N
+    - A31S
+    stop_name: 14 St/8 Av (A,C,E,L)
+  - station_index: 39
+    stop_id:
+    - A30N
+    - A30S
+    stop_name: 23 St (C,E)
+  - station_index: 40
+    stop_id:
+    - A28N
+    - A28S
+    stop_name: 34 St-Penn Station (A,C,E)
+  - station_index: 41
+    stop_id:
+    - A27N
+    - A27S
+    stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+  - station_index: 42
+    stop_id:
+    - A25N
+    - A25S
+    stop_name: 50 St (C,E)
+  - station_index: 43
+    stop_id:
+    - A24N
+    - A24S
+    stop_name: 59 St-Columbus Circle (1,A,C,B,D)
+  - station_index: 44
+    stop_id:
+    - A22N
+    - A22S
+    stop_name: 72 St (C,B)
+  - station_index: 45
+    stop_id:
+    - A21N
+    - A21S
+    stop_name: 81 St-Museum of Natural History (C,B)
+  - station_index: 46
+    stop_id:
+    - A20N
+    - A20S
+    stop_name: 86 St (C,B)
+  - station_index: 47
+    stop_id:
+    - A19N
+    - A19S
+    stop_name: 96 St (C,B)
+  - station_index: 48
+    stop_id:
+    - A18N
+    - A18S
+    stop_name: 103 St (C,B)
+  - station_index: 49
+    stop_id:
+    - A17N
+    - A17S
+    stop_name: Cathedral Pkwy (110 St) (C,B)
+  - station_index: 50
+    stop_id:
+    - A16N
+    - A16S
+    stop_name: 116 St (C,B)
+  - station_index: 51
+    stop_id:
+    - A15N
+    - A15S
+    stop_name: 125 St (A,C,B,D)
+  - station_index: 52
+    stop_id:
+    - A14N
+    - A14S
+    stop_name: 135 St (C,B)
+  - station_index: 53
+    stop_id:
+    - A12N
+    - A12S
+    - D13N
+    - D13S
+    stop_name: 145 St (A,C,B,D)
+  - station_index: 54
+    stop_id:
+    - A11N
+    - A11S
+    stop_name: 155 St (C)
+  - station_index: 55
+    stop_id:
+    - A10N
+    - A10S
+    stop_name: 163 St-Amsterdam Av (C)
+  - station_index: 56
+    stop_id:
+    - A09N
+    - A09S
+    stop_name: 168 St-Washington Hts (1,A,C)
+  - station_index: 57
+    stop_id:
+    - A07N
+    - A07S
+    stop_name: 175 St (A)
+  - station_index: 58
+    stop_id:
+    - A06N
+    - A06S
+    stop_name: 181 St (A)
+  - station_index: 59
+    stop_id:
+    - A05N
+    - A05S
+    stop_name: 190 St (A)
+  - station_index: 60
+    stop_id:
+    - A03N
+    - A03S
+    stop_name: Dyckman St (A)
+  - station_index: 61
+    stop_id:
+    - A02N
+    - A02S
+    stop_name: Inwood-207 St (A)
+  9:
+  - station_index: 0
+    stop_id:
+    - D43N
+    - D43S
+    stop_name: Coney Island-Stillwell Av (D,F,N,Q)
+  - station_index: 1
+    stop_id:
+    - D42N
+    - D42S
+    stop_name: W 8 St-NY Aquarium (F,Q)
+  - station_index: 2
+    stop_id:
+    - D41N
+    - D41S
+    stop_name: Ocean Pkwy (Q)
+  - station_index: 3
+    stop_id:
+    - D40N
+    - D40S
+    stop_name: Brighton Beach (B,Q)
+  - station_index: 4
+    stop_id:
+    - D39N
+    - D39S
+    stop_name: Sheepshead Bay (B,Q)
+  - station_index: 5
+    stop_id:
+    - D38N
+    - D38S
+    stop_name: Neck Rd (Q)
+  - station_index: 6
+    stop_id:
+    - D37N
+    - D37S
+    stop_name: Avenue U (Q)
+  - station_index: 7
+    stop_id:
+    - D35N
+    - D35S
+    stop_name: Kings Hwy (B,Q)
+  - station_index: 8
+    stop_id:
+    - D34N
+    - D34S
+    stop_name: Avenue M (Q)
+  - station_index: 9
+    stop_id:
+    - D33N
+    - D33S
+    stop_name: Avenue J (Q)
+  - station_index: 10
+    stop_id:
+    - D32N
+    - D32S
+    stop_name: Avenue H (Q)
+  - station_index: 11
+    stop_id:
+    - D31N
+    - D31S
+    stop_name: Newkirk Plaza (B,Q)
+  - station_index: 12
+    stop_id:
+    - D30N
+    - D30S
+    stop_name: Cortelyou Rd (Q)
+  - station_index: 13
+    stop_id:
+    - D29N
+    - D29S
+    stop_name: Beverley Rd (Q)
+  - station_index: 14
+    stop_id:
+    - D28N
+    - D28S
+    stop_name: Church Av (B,Q)
+  - station_index: 15
+    stop_id:
+    - D27N
+    - D27S
+    stop_name: Parkside Av (Q)
+  - station_index: 16
+    stop_id:
+    - D26N
+    - D26S
+    stop_name: Prospect Park (B,Q,S)
+  - station_index: 17
+    stop_id:
+    - D25N
+    - D25S
+    stop_name: 7 Av (B,Q)
+  - station_index: 18
+    stop_id:
+    - D24N
+    - D24S
+    stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+  - station_index: 19
+    stop_id:
+    - D22N
+    - D22S
+    stop_name: Grand St (B,D)
+  - station_index: 20
+    stop_id:
+    - D21N
+    - D21S
+    stop_name: Broadway-Lafayette St/Bleecker St (6,B,D,F,M)
+  - station_index: 21
+    stop_id:
+    - D20N
+    - D20S
+    stop_name: W 4 St-Wash Sq (A,C,E,B,D,F,M)
+  - station_index: 22
+    stop_id:
+    - D19N
+    - D19S
+    stop_name: 14 St/6 Av (1,2,3,L,F,M)
+  - station_index: 23
+    stop_id:
+    - D18N
+    - D18S
+    stop_name: 23 St (F,M)
+  - station_index: 24
+    stop_id:
+    - D17N
+    - D17S
+    stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+  - station_index: 25
+    stop_id:
+    - D16N
+    - D16S
+    stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+  - station_index: 26
+    stop_id:
+    - D15N
+    - D15S
+    stop_name: 47-50 Sts-Rockefeller Ctr (B,D,F,M)
+  - station_index: 27
+    stop_id:
+    - D14N
+    - D14S
+    stop_name: 7 Av (E,B,D)
+  - station_index: 28
+    stop_id:
+    - D12N
+    - D12S
+    stop_name: 155 St (B,D)
+  - station_index: 29
+    stop_id:
+    - D10N
+    - D10S
+    stop_name: 167 St (B,D)
+  - station_index: 30
+    stop_id:
+    - D09N
+    - D09S
+    stop_name: 170 St (B,D)
+  - station_index: 31
+    stop_id:
+    - D08N
+    - D08S
+    stop_name: 174-175 Sts (B,D)
+  - station_index: 32
+    stop_id:
+    - D07N
+    - D07S
+    stop_name: Tremont Av (B,D)
+  - station_index: 33
+    stop_id:
+    - D06N
+    - D06S
+    stop_name: 182-183 Sts (B,D)
+  - station_index: 34
+    stop_id:
+    - D05N
+    - D05S
+    stop_name: Fordham Rd (B,D)
+  - station_index: 35
+    stop_id:
+    - D04N
+    - D04S
+    stop_name: Kingsbridge Rd (B,D)
+  - station_index: 36
+    stop_id:
+    - D03N
+    - D03S
+    stop_name: Bedford Park Blvd (B,D)
+  - station_index: 37
+    stop_id:
+    - D01N
+    - D01S
+    stop_name: Norwood-205 St (D)
+  10:
+  - station_index: 0
+    stop_id:
+    - Q05N
+    - Q05S
+    stop_name: 96 St (Q)
+  - station_index: 1
+    stop_id:
+    - Q04N
+    - Q04S
+    stop_name: 86 St (Q)
+  - station_index: 2
+    stop_id:
+    - Q03N
+    - Q03S
+    stop_name: 72 St (Q)
+  - station_index: 3
+    stop_id:
+    - B04N
+    - B04S
+    stop_name: 21 St-Queensbridge (F)
+  - station_index: 4
+    stop_id:
+    - B06N
+    - B06S
+    stop_name: Roosevelt Island (F)
+  - station_index: 5
+    stop_id:
+    - B08N
+    - B08S
+    stop_name: Lexington Av/63 St (F,Q)
+  - station_index: 6
+    stop_id:
+    - B10N
+    - B10S
+    stop_name: 57 St (F)
+  - station_index: 7
+    stop_id:
+    - F12N
+    - F12S
+    stop_name: 5 Av/53 St (E,M)
+  - station_index: 8
+    stop_id:
+    - F11N
+    - F11S
+    stop_name: Lexington Av/51-53 Sts (6,E,M)
+  - station_index: 9
+    stop_id:
+    - F09N
+    - F09S
+    stop_name: Court Sq-23 St (7,E,M,G)
+  - station_index: 10
+    stop_id:
+    - G21N
+    - G21S
+    stop_name: Queens Plaza (E,M,R)
+  - station_index: 11
+    stop_id:
+    - G20N
+    - G20S
+    stop_name: 36 St (M,R)
+  - station_index: 12
+    stop_id:
+    - G19N
+    - G19S
+    stop_name: Steinway St (M,R)
+  - station_index: 13
+    stop_id:
+    - G18N
+    - G18S
+    stop_name: 46 St (M,R)
+  - station_index: 14
+    stop_id:
+    - G16N
+    - G16S
+    stop_name: Northern Blvd (M,R)
+  - station_index: 15
+    stop_id:
+    - G15N
+    - G15S
+    stop_name: 65 St (M,R)
+  - station_index: 16
+    stop_id:
+    - G14N
+    - G14S
+    stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+  - station_index: 17
+    stop_id:
+    - G13N
+    - G13S
+    stop_name: Elmhurst Av (M,R)
+  - station_index: 18
+    stop_id:
+    - G12N
+    - G12S
+    stop_name: Grand Av-Newtown (M,R)
+  - station_index: 19
+    stop_id:
+    - G11N
+    - G11S
+    stop_name: Woodhaven Blvd (M,R)
+  - station_index: 20
+    stop_id:
+    - G10N
+    - G10S
+    stop_name: 63 Dr-Rego Park (M,R)
+  - station_index: 21
+    stop_id:
+    - G09N
+    - G09S
+    stop_name: 67 Av (M,R)
+  - station_index: 22
+    stop_id:
+    - G08N
+    - G08S
+    stop_name: Forest Hills-71 Av (E,F,M,R)
+  - station_index: 23
+    stop_id:
+    - F07N
+    - F07S
+    stop_name: 75 Av (E,F)
+  - station_index: 24
+    stop_id:
+    - F06N
+    - F06S
+    stop_name: Kew Gardens-Union Tpke (E,F)
+  - station_index: 25
+    stop_id:
+    - F05N
+    - F05S
+    stop_name: Briarwood (E,F)
+  - station_index: 26
+    stop_id:
+    - F04N
+    - F04S
+    stop_name: Sutphin Blvd (F)
+  - station_index: 27
+    stop_id:
+    - F03N
+    - F03S
+    stop_name: Parsons Blvd (F)
+  - station_index: 28
+    stop_id:
+    - F02N
+    - F02S
+    stop_name: 169 St (F)
+  - station_index: 29
+    stop_id:
+    - F01N
+    - F01S
+    stop_name: Jamaica-179 St (F)
+  11:
+  - station_index: 0
+    stop_id:
+    - R45N
+    - R45S
+    stop_name: Bay Ridge-95 St (R)
+  - station_index: 1
+    stop_id:
+    - R44N
+    - R44S
+    stop_name: 86 St (R)
+  - station_index: 2
+    stop_id:
+    - R43N
+    - R43S
+    stop_name: 77 St (R)
+  - station_index: 3
+    stop_id:
+    - R42N
+    - R42S
+    stop_name: Bay Ridge Av (R)
+  - station_index: 4
+    stop_id:
+    - R41N
+    - R41S
+    stop_name: 59 St (N,R)
+  - station_index: 5
+    stop_id:
+    - R40N
+    - R40S
+    stop_name: 53 St (R)
+  - station_index: 6
+    stop_id:
+    - R39N
+    - R39S
+    stop_name: 45 St (R)
+  - station_index: 7
+    stop_id:
+    - R36N
+    - R36S
+    stop_name: 36 St (D,N,R)
+  - station_index: 8
+    stop_id:
+    - R35N
+    - R35S
+    stop_name: 25 St (R)
+  - station_index: 9
+    stop_id:
+    - R34N
+    - R34S
+    stop_name: Prospect Av (R)
+  - station_index: 10
+    stop_id:
+    - R33N
+    - R33S
+    stop_name: 4 Av-9 St (F,G,R)
+  - station_index: 11
+    stop_id:
+    - R32N
+    - R32S
+    stop_name: Union St (R)
+  - station_index: 12
+    stop_id:
+    - R31N
+    - R31S
+    stop_name: Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)
+  - station_index: 13
+    stop_id:
+    - R30N
+    - R30S
+    stop_name: DeKalb Av (B,Q,R)
+  - station_index: 14
+    stop_id:
+    - R29N
+    - R29S
+    stop_name: Jay St-MetroTech (A,C,F,R)
+  - station_index: 15
+    stop_id:
+    - R28N
+    - R28S
+    stop_name: Borough Hall/Court St (2,3,4,5,R)
+  - station_index: 16
+    stop_id:
+    - R27N
+    - R27S
+    stop_name: Whitehall St-South Ferry (1,R,W)
+  - station_index: 17
+    stop_id:
+    - R26N
+    - R26S
+    stop_name: Rector St (R,W)
+  - station_index: 18
+    stop_id:
+    - R25N
+    - R25S
+    stop_name: Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)
+  - station_index: 19
+    stop_id:
+    - R24N
+    - R24S
+    stop_name: City Hall (R,W)
+  - station_index: 20
+    stop_id:
+    - R23N
+    - R23S
+    - Q01N
+    - Q01S
+    stop_name: Canal St (6,J,Z,N,Q,R,W)
+  - station_index: 21
+    stop_id:
+    - R22N
+    - R22S
+    stop_name: Prince St (R,W)
+  - station_index: 22
+    stop_id:
+    - R21N
+    - R21S
+    stop_name: 8 St-NYU (R,W)
+  - station_index: 23
+    stop_id:
+    - R20N
+    - R20S
+    stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+  - station_index: 24
+    stop_id:
+    - R19N
+    - R19S
+    stop_name: 23 St (R,W)
+  - station_index: 25
+    stop_id:
+    - R18N
+    - R18S
+    stop_name: 28 St (R,W)
+  - station_index: 26
+    stop_id:
+    - R17N
+    - R17S
+    stop_name: 34 St-Herald Sq (B,D,F,M,N,Q,R,W)
+  - station_index: 27
+    stop_id:
+    - R16N
+    - R16S
+    - 902N
+    - 902S
+    stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+  - station_index: 28
+    stop_id:
+    - R15N
+    - R15S
+    stop_name: 49 St (N,R,W)
+  - station_index: 29
+    stop_id:
+    - R14N
+    - R14S
+    stop_name: 57 St-7 Av (N,Q,R,W)
+  - station_index: 30
+    stop_id:
+    - R13N
+    - R13S
+    stop_name: 5 Av/59 St (N,R,W)
+  - station_index: 31
+    stop_id:
+    - R11N
+    - R11S
+    stop_name: Lexington Av/59 St (4,5,6,N,R,W)
+  - station_index: 32
+    stop_id:
+    - R09N
+    - R09S
+    stop_name: Queensboro Plaza (7,N,W)
+  - station_index: 33
+    stop_id:
+    - R08N
+    - R08S
+    stop_name: 39 Av-Dutch Kills (N,W)
+  - station_index: 34
+    stop_id:
+    - R06N
+    - R06S
+    stop_name: 36 Av (N,W)
+  - station_index: 35
+    stop_id:
+    - R05N
+    - R05S
+    stop_name: Broadway (N,W)
+  - station_index: 36
+    stop_id:
+    - R04N
+    - R04S
+    stop_name: 30 Av (N,W)
+  - station_index: 37
+    stop_id:
+    - R03N
+    - R03S
+    stop_name: Astoria Blvd (N,W)
+  - station_index: 38
+    stop_id:
+    - R01N
+    - R01S
+    stop_name: Astoria-Ditmars Blvd (N,W)
+  12:
+  - station_index: 0
+    stop_id:
+    - N02N
+    - N02S
+    stop_name: 8 Av (N)
+  - station_index: 1
+    stop_id:
+    - N03N
+    - N03S
+    stop_name: Fort Hamilton Pkwy (N)
+  - station_index: 2
+    stop_id:
+    - N05N
+    - N05S
+    stop_name: 18 Av (N)
+  - station_index: 3
+    stop_id:
+    - N06N
+    - N06S
+    stop_name: 20 Av (N)
+  - station_index: 4
+    stop_id:
+    - N07N
+    - N07S
+    stop_name: Bay Pkwy (N)
+  - station_index: 5
+    stop_id:
+    - N08N
+    - N08S
+    stop_name: Kings Hwy (N)
+  - station_index: 6
+    stop_id:
+    - N09N
+    - N09S
+    stop_name: Avenue U (N)
+  - station_index: 7
+    stop_id:
+    - N10N
+    - N10S
+    stop_name: 86 St (N)
+  - station_index: 8
+    stop_id:
+    - B23N
+    - B23S
+    stop_name: Bay 50 St (D)
+  - station_index: 9
+    stop_id:
+    - B22N
+    - B22S
+    stop_name: 25 Av (D)
+  - station_index: 10
+    stop_id:
+    - B21N
+    - B21S
+    stop_name: Bay Pkwy (D)
+  - station_index: 11
+    stop_id:
+    - B20N
+    - B20S
+    stop_name: 20 Av (D)
+  - station_index: 12
+    stop_id:
+    - B19N
+    - B19S
+    stop_name: 18 Av (D)
+  - station_index: 13
+    stop_id:
+    - B18N
+    - B18S
+    stop_name: 79 St (D)
+  - station_index: 14
+    stop_id:
+    - B17N
+    - B17S
+    stop_name: 71 St (D)
+  - station_index: 15
+    stop_id:
+    - B16N
+    - B16S
+    - N04N
+    - N04S
+    stop_name: 62 St/New Utrecht Av (D,N)
+  - station_index: 16
+    stop_id:
+    - B15N
+    - B15S
+    stop_name: 55 St (D)
+  - station_index: 17
+    stop_id:
+    - B14N
+    - B14S
+    stop_name: 50 St (D)
+  - station_index: 18
+    stop_id:
+    - B13N
+    - B13S
+    stop_name: Fort Hamilton Pkwy (D)
+  - station_index: 19
+    stop_id:
+    - B12N
+    - B12S
+    stop_name: 9 Av (D)
+  13:
+  - station_index: 0
+    stop_id:
+    - F39N
+    - F39S
+    stop_name: Neptune Av (F)
+  - station_index: 1
+    stop_id:
+    - F38N
+    - F38S
+    stop_name: Avenue X (F)
+  - station_index: 2
+    stop_id:
+    - F36N
+    - F36S
+    stop_name: Avenue U (F)
+  - station_index: 3
+    stop_id:
+    - F35N
+    - F35S
+    stop_name: Kings Hwy (F)
+  - station_index: 4
+    stop_id:
+    - F34N
+    - F34S
+    stop_name: Avenue P (F)
+  - station_index: 5
+    stop_id:
+    - F33N
+    - F33S
+    stop_name: Avenue N (F)
+  - station_index: 6
+    stop_id:
+    - F32N
+    - F32S
+    stop_name: Bay Pkwy (F)
+  - station_index: 7
+    stop_id:
+    - F31N
+    - F31S
+    stop_name: Avenue I (F)
+  - station_index: 8
+    stop_id:
+    - F30N
+    - F30S
+    stop_name: 18 Av (F)
+  - station_index: 9
+    stop_id:
+    - F29N
+    - F29S
+    stop_name: Ditmas Av (F)
+  - station_index: 10
+    stop_id:
+    - F27N
+    - F27S
+    stop_name: Church Av (F,G)
+  - station_index: 11
+    stop_id:
+    - F26N
+    - F26S
+    stop_name: Fort Hamilton Pkwy (F,G)
+  - station_index: 12
+    stop_id:
+    - F25N
+    - F25S
+    stop_name: 15 St-Prospect Park (F,G)
+  - station_index: 13
+    stop_id:
+    - F24N
+    - F24S
+    stop_name: 7 Av (F,G)
+  - station_index: 14
+    stop_id:
+    - F23N
+    - F23S
+    stop_name: 4 Av-9 St (F,G,R)
+  - station_index: 15
+    stop_id:
+    - F22N
+    - F22S
+    stop_name: Smith-9 Sts (F,G)
+  - station_index: 16
+    stop_id:
+    - F21N
+    - F21S
+    stop_name: Carroll St (F,G)
+  - station_index: 17
+    stop_id:
+    - F20N
+    - F20S
+    stop_name: Bergen St (F,G)
+  - station_index: 18
+    stop_id:
+    - F18N
+    - F18S
+    stop_name: York St (F)
+  - station_index: 19
+    stop_id:
+    - F16N
+    - F16S
+    stop_name: East Broadway (F)
+  - station_index: 20
+    stop_id:
+    - F15N
+    - F15S
+    stop_name: Delancey St-Essex St (F,M,J,Z)
+  - station_index: 21
+    stop_id:
+    - F14N
+    - F14S
+    stop_name: 2 Av (F)
+  14:
+  - station_index: 0
+    stop_id:
+    - M23N
+    - M23S
+    stop_name: Broad St (J,Z)
+  - station_index: 1
+    stop_id:
+    - M22N
+    - M22S
+    stop_name: Fulton St (2,3,4,5,A,C,J,Z)
+  - station_index: 2
+    stop_id:
+    - M21N
+    - M21S
+    stop_name: Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)
+  - station_index: 3
+    stop_id:
+    - M20N
+    - M20S
+    stop_name: Canal St (6,J,Z,N,Q,R,W)
+  - station_index: 4
+    stop_id:
+    - M19N
+    - M19S
+    stop_name: Bowery (J,Z)
+  - station_index: 5
+    stop_id:
+    - M18N
+    - M18S
+    stop_name: Delancey St-Essex St (F,M,J,Z)
+  - station_index: 6
+    stop_id:
+    - M16N
+    - M16S
+    stop_name: Marcy Av (M,J,Z)
+  - station_index: 7
+    stop_id:
+    - M14N
+    - M14S
+    stop_name: Hewes St (M,J)
+  - station_index: 8
+    stop_id:
+    - M13N
+    - M13S
+    stop_name: Lorimer St (M,J)
+  - station_index: 9
+    stop_id:
+    - M12N
+    - M12S
+    stop_name: Flushing Av (M,J)
+  - station_index: 10
+    stop_id:
+    - M11N
+    - M11S
+    stop_name: Myrtle Av (M,J,Z)
+  - station_index: 11
+    stop_id:
+    - J31N
+    - J31S
+    stop_name: Kosciuszko St (J)
+  - station_index: 12
+    stop_id:
+    - J30N
+    - J30S
+    stop_name: Gates Av (J,Z)
+  - station_index: 13
+    stop_id:
+    - J29N
+    - J29S
+    stop_name: Halsey St (J)
+  - station_index: 14
+    stop_id:
+    - J28N
+    - J28S
+    stop_name: Chauncey St (J,Z)
+  - station_index: 15
+    stop_id:
+    - J27N
+    - J27S
+    stop_name: Broadway Junction (A,C,J,Z,L)
+  - station_index: 16
+    stop_id:
+    - J24N
+    - J24S
+    stop_name: Alabama Av (J,Z)
+  - station_index: 17
+    stop_id:
+    - J23N
+    - J23S
+    stop_name: Van Siclen Av (J,Z)
+  - station_index: 18
+    stop_id:
+    - J22N
+    - J22S
+    stop_name: Cleveland St (J)
+  - station_index: 19
+    stop_id:
+    - J21N
+    - J21S
+    stop_name: Norwood Av (J,Z)
+  - station_index: 20
+    stop_id:
+    - J20N
+    - J20S
+    stop_name: Crescent St (J,Z)
+  - station_index: 21
+    stop_id:
+    - J19N
+    - J19S
+    stop_name: Cypress Hills (J)
+  - station_index: 22
+    stop_id:
+    - J17N
+    - J17S
+    stop_name: 75 St-Elderts Ln (J,Z)
+  - station_index: 23
+    stop_id:
+    - J16N
+    - J16S
+    stop_name: 85 St-Forest Pkwy (J)
+  - station_index: 24
+    stop_id:
+    - J15N
+    - J15S
+    stop_name: Woodhaven Blvd (J,Z)
+  - station_index: 25
+    stop_id:
+    - J14N
+    - J14S
+    stop_name: 104 St (J,Z)
+  - station_index: 26
+    stop_id:
+    - J13N
+    - J13S
+    stop_name: 111 St (J)
+  - station_index: 27
+    stop_id:
+    - J12N
+    - J12S
+    stop_name: 121 St (J,Z)
+  - station_index: 28
+    stop_id:
+    - G06N
+    - G06S
+    stop_name: Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)
+  - station_index: 29
+    stop_id:
+    - G05N
+    - G05S
+    stop_name: Jamaica Center-Parsons/Archer (E,J,Z)
+  - station_index: 30
+    stop_id:
+    - G07N
+    - G07S
+    stop_name: Jamaica-Van Wyck (E)
+  15:
+  - station_index: 0
+    stop_id:
+    - M10N
+    - M10S
+    stop_name: Central Av (M)
+  - station_index: 1
+    stop_id:
+    - M09N
+    - M09S
+    stop_name: Knickerbocker Av (M)
+  - station_index: 2
+    stop_id:
+    - M08N
+    - M08S
+    stop_name: Myrtle-Wyckoff Avs (M,L)
+  - station_index: 3
+    stop_id:
+    - M06N
+    - M06S
+    stop_name: Seneca Av (M)
+  - station_index: 4
+    stop_id:
+    - M05N
+    - M05S
+    stop_name: Forest Av (M)
+  - station_index: 5
+    stop_id:
+    - M04N
+    - M04S
+    stop_name: Fresh Pond Rd (M)
+  - station_index: 6
+    stop_id:
+    - M01N
+    - M01S
+    stop_name: Middle Village-Metropolitan Av (M)
+  16:
+  - station_index: 0
+    stop_id:
+    - H12N
+    - H12S
+    stop_name: Beach 90 St (A,S)
+  - station_index: 1
+    stop_id:
+    - H13N
+    - H13S
+    stop_name: Beach 98 St (A,S)
+  - station_index: 2
+    stop_id:
+    - H14N
+    - H14S
+    stop_name: Beach 105 St (A,S)
+  - station_index: 3
+    stop_id:
+    - H15N
+    - H15S
+    stop_name: Rockaway Park-Beach 116 St (A,S)
+  - station_index: 4
+    stop_id:
+    - L29N
+    - L29S
+    stop_name: Canarsie-Rockaway Pkwy (L)
+  - station_index: 5
+    stop_id:
+    - L28N
+    - L28S
+    stop_name: East 105 St (L)
+  - station_index: 6
+    stop_id:
+    - L27N
+    - L27S
+    stop_name: New Lots Av (L)
+  - station_index: 7
+    stop_id:
+    - L26N
+    - L26S
+    stop_name: Livonia Av (L)
+  - station_index: 8
+    stop_id:
+    - L25N
+    - L25S
+    stop_name: Sutter Av (L)
+  - station_index: 9
+    stop_id:
+    - L24N
+    - L24S
+    stop_name: Atlantic Av (L)
+  - station_index: 10
+    stop_id:
+    - L22N
+    - L22S
+    stop_name: Broadway Junction (A,C,J,Z,L)
+  - station_index: 11
+    stop_id:
+    - L21N
+    - L21S
+    stop_name: Bushwick Av-Aberdeen St (L)
+  - station_index: 12
+    stop_id:
+    - L20N
+    - L20S
+    stop_name: Wilson Av (L)
+  - station_index: 13
+    stop_id:
+    - L19N
+    - L19S
+    stop_name: Halsey St (L)
+  - station_index: 14
+    stop_id:
+    - L17N
+    - L17S
+    stop_name: Myrtle-Wyckoff Avs (M,L)
+  - station_index: 15
+    stop_id:
+    - L16N
+    - L16S
+    stop_name: DeKalb Av (L)
+  - station_index: 16
+    stop_id:
+    - L15N
+    - L15S
+    stop_name: Jefferson St (L)
+  - station_index: 17
+    stop_id:
+    - L14N
+    - L14S
+    stop_name: Morgan Av (L)
+  - station_index: 18
+    stop_id:
+    - L13N
+    - L13S
+    stop_name: Montrose Av (L)
+  - station_index: 19
+    stop_id:
+    - L12N
+    - L12S
+    stop_name: Grand St (L)
+  - station_index: 20
+    stop_id:
+    - L11N
+    - L11S
+    stop_name: Graham Av (L)
+  - station_index: 21
+    stop_id:
+    - L10N
+    - L10S
+    stop_name: Metropolitan Av/Lorimer St (G,L)
+  - station_index: 22
+    stop_id:
+    - L08N
+    - L08S
+    stop_name: Bedford Av (L)
+  - station_index: 23
+    stop_id:
+    - L06N
+    - L06S
+    stop_name: 1 Av (L)
+  - station_index: 24
+    stop_id:
+    - L05N
+    - L05S
+    stop_name: 3 Av (L)
+  - station_index: 25
+    stop_id:
+    - L03N
+    - L03S
+    stop_name: 14 St-Union Sq (4,5,6,L,N,Q,R,W)
+  - station_index: 26
+    stop_id:
+    - L02N
+    - L02S
+    stop_name: 14 St/6 Av (1,2,3,L,F,M)
+  - station_index: 27
+    stop_id:
+    - L01N
+    - L01S
+    stop_name: 14 St/8 Av (A,C,E,L)
+  17:
+  - station_index: 0
+    stop_id:
+    - 726N
+    - 726S
+    stop_name: 34 St-Hudson Yards (7)
+  - station_index: 1
+    stop_id:
+    - 725N
+    - 725S
+    stop_name: Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)
+  - station_index: 2
+    stop_id:
+    - 724N
+    - 724S
+    stop_name: 42 St-Bryant Pk/5 Av (7,B,D,F,M)
+  - station_index: 3
+    stop_id:
+    - 723N
+    - 723S
+    stop_name: Grand Central-42 St (4,5,6,7,S)
+  - station_index: 4
+    stop_id:
+    - 721N
+    - 721S
+    stop_name: Vernon Blvd-Jackson Av (7)
+  - station_index: 5
+    stop_id:
+    - 720N
+    - 720S
+    stop_name: Hunters Point Av (7)
+  - station_index: 6
+    stop_id:
+    - 719N
+    - 719S
+    stop_name: Court Sq-23 St (7,E,M,G)
+  - station_index: 7
+    stop_id:
+    - 718N
+    - 718S
+    stop_name: Queensboro Plaza (7,N,W)
+  - station_index: 8
+    stop_id:
+    - 716N
+    - 716S
+    stop_name: 33 St-Rawson St (7)
+  - station_index: 9
+    stop_id:
+    - 715N
+    - 715S
+    stop_name: 40 St-Lowery St (7)
+  - station_index: 10
+    stop_id:
+    - 714N
+    - 714S
+    stop_name: 46 St-Bliss St (7)
+  - station_index: 11
+    stop_id:
+    - 713N
+    - 713S
+    stop_name: 52 St (7)
+  - station_index: 12
+    stop_id:
+    - 712N
+    - 712S
+    stop_name: 61 St-Woodside (7)
+  - station_index: 13
+    stop_id:
+    - 711N
+    - 711S
+    stop_name: 69 St (7)
+  - station_index: 14
+    stop_id:
+    - 710N
+    - 710S
+    stop_name: Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)
+  - station_index: 15
+    stop_id:
+    - 709N
+    - 709S
+    stop_name: 82 St-Jackson Hts (7)
+  - station_index: 16
+    stop_id:
+    - 708N
+    - 708S
+    stop_name: 90 St-Elmhurst Av (7)
+  - station_index: 17
+    stop_id:
+    - 707N
+    - 707S
+    stop_name: Junction Blvd (7)
+  - station_index: 18
+    stop_id:
+    - 706N
+    - 706S
+    stop_name: 103 St-Corona Plaza (7)
+  - station_index: 19
+    stop_id:
+    - 705N
+    - 705S
+    stop_name: 111 St (7)
+  - station_index: 20
+    stop_id:
+    - 702N
+    - 702S
+    stop_name: Mets-Willets Point (7)
+  - station_index: 21
+    stop_id:
+    - 701N
+    - 701S
+    stop_name: Flushing-Main St (7)
+  18:
+  - station_index: 0
+    stop_id:
+    - G36N
+    - G36S
+    stop_name: Fulton St (G)
+  - station_index: 1
+    stop_id:
+    - G35N
+    - G35S
+    stop_name: Clinton-Washington Avs (G)
+  - station_index: 2
+    stop_id:
+    - G34N
+    - G34S
+    stop_name: Classon Av (G)
+  - station_index: 3
+    stop_id:
+    - G33N
+    - G33S
+    stop_name: Bedford-Nostrand Avs (G)
+  - station_index: 4
+    stop_id:
+    - G32N
+    - G32S
+    stop_name: Myrtle-Willoughby Avs (G)
+  - station_index: 5
+    stop_id:
+    - G31N
+    - G31S
+    stop_name: Flushing Av (G)
+  - station_index: 6
+    stop_id:
+    - G30N
+    - G30S
+    stop_name: Broadway (G)
+  - station_index: 7
+    stop_id:
+    - G29N
+    - G29S
+    stop_name: Metropolitan Av/Lorimer St (G,L)
+  - station_index: 8
+    stop_id:
+    - G28N
+    - G28S
+    stop_name: Nassau Av (G)
+  - station_index: 9
+    stop_id:
+    - G26N
+    - G26S
+    stop_name: Greenpoint Av (G)
+  - station_index: 10
+    stop_id:
+    - G24N
+    - G24S
+    stop_name: 21 St (G)
+  - station_index: 11
+    stop_id:
+    - G22N
+    - G22S
+    stop_name: Court Sq-23 St (7,E,M,G)
+  19:
+  - station_index: 0
+    stop_id:
+    - S11N
+    - S11S
+    stop_name: Arthur Kill (SIR)
+  - station_index: 1
+    stop_id:
+    - S09N
+    - S09S
+    stop_name: Tottenville (SIR)
+  - station_index: 2
+    stop_id:
+    - S13N
+    - S13S
+    stop_name: Richmond Valley (SIR)
+  - station_index: 3
+    stop_id:
+    - S14N
+    - S14S
+    stop_name: Pleasant Plains (SIR)
+  - station_index: 4
+    stop_id:
+    - S15N
+    - S15S
+    stop_name: Prince's Bay (SIR)
+  - station_index: 5
+    stop_id:
+    - S16N
+    - S16S
+    stop_name: Huguenot (SIR)
+  - station_index: 6
+    stop_id:
+    - S17N
+    - S17S
+    stop_name: Annadale (SIR)
+  - station_index: 7
+    stop_id:
+    - S18N
+    - S18S
+    stop_name: Eltingville (SIR)
+  - station_index: 8
+    stop_id:
+    - S19N
+    - S19S
+    stop_name: Great Kills (SIR)
+  - station_index: 9
+    stop_id:
+    - S20N
+    - S20S
+    stop_name: Bay Terrace (SIR)
+  - station_index: 10
+    stop_id:
+    - S21N
+    - S21S
+    stop_name: Oakwood Heights (SIR)
+  - station_index: 11
+    stop_id:
+    - S22N
+    - S22S
+    stop_name: New Dorp (SIR)
+  - station_index: 12
+    stop_id:
+    - S23N
+    - S23S
+    stop_name: Grant City (SIR)
+  - station_index: 13
+    stop_id:
+    - S24N
+    - S24S
+    stop_name: Jefferson Av (SIR)
+  - station_index: 14
+    stop_id:
+    - S25N
+    - S25S
+    stop_name: Dongan Hills (SIR)
+  - station_index: 15
+    stop_id:
+    - S26N
+    - S26S
+    stop_name: Old Town (SIR)
+  - station_index: 16
+    stop_id:
+    - S27N
+    - S27S
+    stop_name: Grasmere (SIR)
+  - station_index: 17
+    stop_id:
+    - S28N
+    - S28S
+    stop_name: Clifton (SIR)
+  - station_index: 18
+    stop_id:
+    - S29N
+    - S29S
+    stop_name: Stapleton (SIR)
+  - station_index: 19
+    stop_id:
+    - S30N
+    - S30S
+    stop_name: Tompkinsville (SIR)
+  - station_index: 20
+    stop_id:
+    - S31N
+    - S31S
+    stop_name: St George (SIR)
