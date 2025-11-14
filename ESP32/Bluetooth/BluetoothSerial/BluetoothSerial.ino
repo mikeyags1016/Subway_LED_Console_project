@@ -1,23 +1,22 @@
 #include <Arduino.h>
 
 void setup() {
-  Serial.begin(115200);      // For debugging over USB
-  Serial1.begin(115200);     // UART to Raspberry Pi using TX1/RX1 pins
+  Serial.begin(115200);       // USB Serial Monitor
+  Serial1.begin(115200);      // UART from Raspberry Pi
 
-  Serial.println("ESP32 UART ready");
+  Serial.println("ESP32 UART Receiver Ready");
 }
 
 void loop() {
-  // -------- RECEIVE FROM RASPBERRY PI --------
+
+  // Check if Pi sent anything
   if (Serial1.available()) {
-    String msg = Serial1.readStringUntil('\n');  // read line ending in \n
+    String msg = Serial1.readStringUntil('\n');   // read until newline
+    msg.trim();                                   // clean \r and spaces
 
-    Serial.print("Received from Pi: ");
+    Serial.print("From Pi: ");
     Serial.println(msg);
-
-    // -------- RESPOND BACK TO PI --------
-    Serial1.println("ESP32 received: " + msg);
   }
 
-  delay(10);
+  delay(5);
 }
