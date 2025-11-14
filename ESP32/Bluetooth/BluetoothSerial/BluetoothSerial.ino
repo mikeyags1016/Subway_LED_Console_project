@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#include <ArduinoJson.h>
 
 void setup() {
   Serial.begin(115200);   // USB serial for debugging
@@ -7,12 +6,11 @@ void setup() {
 }
 
 void loop() {
-  StaticJsonDocument<200> doc;
-  doc["temp"] = 22.5;
-  doc["status"] = "OK";
+  // Send a simple message instead of JSON
+  Serial1.println("Hello from ESP32!");
 
-  serializeJson(doc, Serial1);
-  Serial1.println(); // newline makes parsing easier
+  // Also print to USB Serial so you can see it
+  Serial.println("Sent: Hello from ESP32!");
 
   delay(1000);
 }
