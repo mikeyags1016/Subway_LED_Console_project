@@ -1,12 +1,12 @@
 import serial
+from time import sleep
 
-# Open UART on Raspberry Pi
-ser = serial.Serial('/dev/serial0', 115200, timeout=1)
-
-print("Listening on /dev/serial0...")
+ser = serial.Serial("/dev/tty/AMA10", 115200)
 
 while True:
-    line = ser.readline().decode('utf-8', errors='ignore').strip()
-    
-    if line:
-        print("Received:", line)
+    recieved_data = ser.read()
+    sleep(0.03)
+    data_left = ser.inWaiting()
+    received_data += ser.read(data_left)
+    print(received_data)
+    ser.write(received_data)
