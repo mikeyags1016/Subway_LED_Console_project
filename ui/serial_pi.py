@@ -1,7 +1,7 @@
 import serial
 from time import sleep
 
-ser = serial.Serial("/dev/ttyAMA10", 115200)
+ser = serial.Serial("/dev/ttyAMA0", 115200)
 
 while True:
     ser.write(b'HIHIHIHIHI\r\n')
