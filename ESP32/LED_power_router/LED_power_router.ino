@@ -1,94 +1,34 @@
 #include <Arduino.h>
 #include <FastLED.h>
 
-#define LED_PIN    5
-#define LED_COUNT  600  // enough for all runs
-#define BRIGHTNESS 50
+#define LED_PIN_1   5
+#define LED_PIN_2   4
+#define LED_COUNT_1 300   // number of LEDs on pin 5
+#define LED_COUNT_2 300   // number of LEDs on pin 4
+#define BRIGHTNESS  5
 
-CRGB leds[LED_COUNT];
-
-// ======================= RUN MAP ============================
-const int NUM_RUNS = 19;
-const int runLengths[NUM_RUNS] = {
-  56, 2, 7, 44, 4, 11, 17, 61, 37, 29,
-  38, 19, 21, 30, 5, 27, 21, 11, 20
-};
-int runStart[NUM_RUNS];
-
-// ======================= HELPERS ============================
-void setRunColor(int runIndex, const CRGB& color) {
-  if (runIndex < 1 || runIndex > NUM_RUNS) return;
-  int idx = runIndex - 1;
-  for (int i = 0; i < runLengths[idx]; i++) {
-    leds[runStart[idx] + i] = color;
-  }
-  FastLED.show();
-}
-
-void clearRun(int runIndex) {
-  setRunColor(runIndex, CRGB::Black);
-}
+CRGB leds1[LED_COUNT_1];
+CRGB leds2[LED_COUNT_2];
 
 // ======================= SETUP ===============================
 void setup() {
   Serial.begin(115200);
-  FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, LED_COUNT);
+
+  // Initialize both LED runs
+  FastLED.addLeds<WS2812B, LED_PIN_1, GRB>(leds1, LED_COUNT_1);
+  FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds2, LED_COUNT_2);
   FastLED.setBrightness(BRIGHTNESS);
 
-  // Compute run start indices
-  int total = 0;
-  for (int i = 0; i < NUM_RUNS; i++) {
-    runStart[i] = total;
-    total += runLengths[i];
-  }
+  // Turn first run (pin 5) red
+  fill_solid(leds1, LED_COUNT_1, CRGB::Red);
 
-  Serial.printf("Total LEDs: %d\n", total);
+  // Turn second run (pin 4) blue
+  fill_solid(leds2, LED_COUNT_2, CRGB::Blue);
 
-  // Light each run briefly
-  for (int i = 1; i <= NUM_RUNS; i++) {
-    setRunColor(i, CRGB::Blue);
-    delay(200);
-    clearRun(i);
-  }
+  FastLED.show();
 }
 
 // ======================= LOOP ================================
 void loop() {
-  // Example: pulse run 1 red
-  setRunColor(1, CRGB::Red);
-  delay(500);
-  clearRun(1);
-  delay(500);
+  // Keep colors constant — nothing needed here
 }
-
-
-// ============================================================================
-// Main Program
-// ============================================================================
-
-//void setup() {
-//  Serial.begin(115200);
-//  Serial2.begin(9600, SERIAL_8N1, 16, 17); // UART2 on GPIO16=RX, GPIO17=TX
-//
-//  LEDMap subwayMap; 
-//
-//  FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, LED_COUNT);
-//  FastLED.setBrightness(BRIGHTNESS);
-//
-//  Serial.println("ESP32 LED controller ready (UART mode, FastLED).");
-//
-//  // Example: Turn on all LEDs for route 1 in blue
-//  subwayMap.routes[0].setAll(CRGB::Blue);
-//  delay(1000);
-//  subwayMap.routes[0].setAll(CRGB::Black);
-//}
-//
-//void loop() {
-//  // Example animation: walk a red dot through all LEDs
-//  for (int i = 0; i < LED_COUNT; i++) {
-//    leds[i] = CRGB::Red;
-//    FastLED.show();
-//    delay(50);
-//    leds[i] = CRGB::Black;
-//  }
-//}

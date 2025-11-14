@@ -1,27 +1,18 @@
-#include "BluetoothSerial.h"
-#include "esp_bt_device.h"   // ✅ Required for esp_bt_dev_get_address()
-
-BluetoothSerial SerialBT;
+#include <Arduino.h>
+#include <ArduinoJson.h>
 
 void setup() {
-  Serial.begin(115200);
-  SerialBT.begin("ESP32_BT"); // Set your device name
-  Serial.println("Bluetooth started! Pair with ESP32_BT");
-
-  // ✅ Get and print MAC address
-  const uint8_t* mac = esp_bt_dev_get_address();
-  Serial.printf("Bluetooth MAC address: %02X:%02X:%02X:%02X:%02X:%02X\n",
-                mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]);
+  Serial.begin(115200);   // USB serial for debugging
+  Serial1.begin(115200);  // UART TX/RX pins
 }
 
 void loop() {
-  if (Serial.available()) {
-    SerialBT.write(Serial.read()); // USB → Bluetooth
-  }
+  StaticJsonDocument<200> doc;
+  doc["temp"] = 22.5;
+  doc["status"] = "OK";
 
-  if (SerialBT.available()) {
-    Serial.write(SerialBT.read()); // Bluetooth → USB
-  }
+  serializeJson(doc, Serial1);
+  Serial1.println(); // newline makes parsing easier
 
-  delay(20);
+  delay(1000);
 }
