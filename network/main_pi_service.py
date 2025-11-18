@@ -4,23 +4,23 @@ Main Raspberry Pi Service for NYC Subway LED Display
 
 This script:
 1. Loads the SubwayNetwork and updates edges every 60 seconds in a background thread.
-2. Accepts start/goal stop IDs from stdin and computes A* path.
+2. Accepts start/goal stop IDs via Unix socket and computes A* path.
 3. Enriches the path with run/index info from stop_lookup.json.
 4. Sends LED commands over UART to ESP32 for FastLED display.
 
 Usage:
   python3 network/main_pi_service.py --port /dev/serial0 --baud 115200 --db network/subway.db
 
-Protocol:
+Socket Protocol:
+  - Listens on Unix socket: /tmp/subway_service.sock
+  - Receives newline-delimited JSON: {"start": "stop_id", "goal": "stop_id"}
+  - Sends newline-delimited JSON response with path, delays, etc.
+
+LED Protocol:
   - Sends newline-delimited commands to ESP32:
     <run>,<index>,<color>\n
     where run is the line identifier, index is the LED position, color is RGB hex.
   - Example: "3,42,00FF00\n" -> turn LED at run=3, index=42 green.
-
-Interactive mode:
-  - Enter start and goal stop IDs separated by space: "257N 235N"
-  - The service will compute the path and send LED commands to the ESP32.
-  - Press Ctrl-C to quit.
 """
 
 from __future__ import annotations
@@ -31,6 +31,8 @@ import sys
 import threading
 import time
 import signal
+import socket
+import os
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -39,7 +41,7 @@ try:
 except ImportError:
     serial = None
 
-from network.SubwayNetwork import SubwayNetwork
+from SubwayNetwork import SubwayNetwork
 
 
 # Global flag for graceful shutdown
@@ -181,6 +183,133 @@ def signal_handler(sig, frame):
     shutdown_flag.set()
 
 
+def handle_client_request(network: SubwayNetwork, ser, stop_lookup: Dict, request: Dict) -> Dict:
+    """
+    Process a routing request and send LED commands.
+    
+    Args:
+        network: SubwayNetwork instance
+        ser: Serial port for LED commands
+        stop_lookup: Stop lookup dictionary
+        request: Dict with 'start' and 'goal' keys
+        
+    Returns:
+        Response dict with status, path, delays, etc.
+    """
+    start_id = request.get('start')
+    goal_id = request.get('goal')
+    
+    if not start_id or not goal_id:
+        return {'status': 'error', 'message': 'Missing start or goal in request'}
+    
+    print(f"\n🔍 Request: {start_id} → {goal_id}")
+    
+    # Compute path
+    result = compute_path(network, start_id, goal_id)
+    if not result:
+        return {'status': 'error', 'message': 'No path found'}
+    
+    # Extract path and delayed segments
+    path_list = result.get('path', [])
+    delayed_segments = result.get('delayed_segments', [])
+    has_delays = result.get('has_delays', False)
+    
+    if not path_list:
+        return {'status': 'error', 'message': 'Empty path returned'}
+    
+    # Show delay warning
+    if has_delays:
+        print(f"⚠️  Route includes {len(delayed_segments)} delayed segment(s)")
+    
+    # Enrich with metadata
+    enriched = enrich_path_with_metadata(path_list, stop_lookup)
+    if not enriched:
+        return {'status': 'error', 'message': 'No valid stops found in path after enrichment'}
+    
+    print(f"📍 Enriched path: {len(enriched)} stops")
+    
+    # Send LED commands
+    print("💡 Sending LED commands to ESP32...")
+    send_led_commands(ser, enriched, delayed_segments=delayed_segments)
+    print("✅ Done")
+    
+    # Return success response with full route info
+    return {
+        'status': 'ok',
+        'path': path_list,
+        'total_time_minutes': result.get('total_time_minutes'),
+        'num_stops': result.get('num_stops'),
+        'stop_names': result.get('stop_names'),
+        'has_delays': has_delays,
+        'delayed_segments': delayed_segments
+    }
+
+
+def run_socket_server(network: SubwayNetwork, ser, stop_lookup: Dict, socket_path: str):
+    """Run Unix socket server to accept routing requests."""
+    # Remove old socket file if it exists
+    try:
+        os.unlink(socket_path)
+    except FileNotFoundError:
+        pass
+    
+    # Create Unix socket
+    sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+    sock.bind(socket_path)
+    sock.listen(5)
+    sock.settimeout(1.0)  # Allow periodic shutdown checks
+    
+    print(f"🔌 Socket server listening on {socket_path}")
+    
+    while not shutdown_flag.is_set():
+        try:
+            conn, _ = sock.accept()
+            conn.settimeout(5.0)
+            
+            # Receive request (newline-delimited JSON)
+            data = b''
+            while not shutdown_flag.is_set():
+                chunk = conn.recv(1024)
+                if not chunk:
+                    break
+                data += chunk
+                if b'\n' in data:
+                    break
+            
+            if not data:
+                conn.close()
+                continue
+            
+            # Parse request
+            try:
+                request = json.loads(data.decode('utf-8').strip())
+            except json.JSONDecodeError as e:
+                response = {'status': 'error', 'message': f'Invalid JSON: {e}'}
+                conn.sendall(json.dumps(response).encode('utf-8') + b'\n')
+                conn.close()
+                continue
+            
+            # Process request
+            response = handle_client_request(network, ser, stop_lookup, request)
+            
+            # Send response
+            conn.sendall(json.dumps(response).encode('utf-8') + b'\n')
+            conn.close()
+            
+        except socket.timeout:
+            continue  # Check shutdown flag
+        except Exception as e:
+            print(f"❌ Socket error: {e}")
+            continue
+    
+    sock.close()
+    try:
+        os.unlink(socket_path)
+    except Exception:
+        pass
+    print("🛑 Socket server stopped")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Raspberry Pi NYC Subway LED Service")
     parser.add_argument('--port', default='/dev/serial0', help='Serial device (e.g., /dev/serial0)')
@@ -189,6 +318,7 @@ def main(argv=None):
     parser.add_argument('--lookup', default='stop_lookup.json', help='Path to stop_lookup.json')
     parser.add_argument('--update-interval', type=int, default=60, help='Edge update interval (seconds)')
     parser.add_argument('--no-serial', action='store_true', help='Run without serial (dry-run mode)')
+    parser.add_argument('--socket', default='/tmp/subway_service.sock', help='Unix socket path')
     args = parser.parse_args(argv)
     
     # Register signal handler for graceful shutdown
@@ -234,74 +364,14 @@ def main(argv=None):
     print("\n" + "="*60)
     print("🚇 NYC Subway LED Service Ready")
     print("="*60)
-    print("Enter start and goal stop IDs separated by space (e.g., '257N 235N')")
+    print(f"Listening on Unix socket: {args.socket}")
+    print("UI can now connect and send routing requests")
     print("Press Ctrl-C to quit")
     print("="*60 + "\n")
     
-    # Main interactive loop
+    # Run socket server (blocks until shutdown)
     try:
-        while not shutdown_flag.is_set():
-            try:
-                # Read input with a timeout check for shutdown
-                print("> ", end='', flush=True)
-                
-                # Use select or threading to allow responsive shutdown
-                # For simplicity, we'll use input() with a short timeout via stdin
-                import select
-                if select.select([sys.stdin], [], [], 1.0)[0]:
-                    line = sys.stdin.readline().strip()
-                else:
-                    continue  # timeout, check shutdown flag again
-                
-                if not line:
-                    continue
-                
-                # Parse input
-                parts = line.split()
-                if len(parts) != 2:
-                    print("❌ Invalid input. Please enter: <start_id> <goal_id>")
-                    continue
-                
-                start_id, goal_id = parts
-                print(f"\n🔍 Computing path: {start_id} → {goal_id}")
-                
-                # Compute path
-                path = compute_path(network, start_id, goal_id)
-                if not path:
-                    continue
-                
-                # Extract path and delayed segments from result
-                path_list = path.get('path', [])
-                delayed_segments = path.get('delayed_segments', [])
-                has_delays = path.get('has_delays', False)
-                
-                if not path_list:
-                    print("❌ Empty path returned")
-                    continue
-                
-                # Show delay warning
-                if has_delays:
-                    print(f"⚠️  Route includes {len(delayed_segments)} delayed segment(s)")
-                
-                # Enrich with metadata
-                enriched = enrich_path_with_metadata(path_list, stop_lookup)
-                if not enriched:
-                    print("❌ No valid stops found in path after enrichment")
-                    continue
-                
-                print(f"📍 Enriched path: {len(enriched)} stops")
-                
-                # Send LED commands with delay information
-                print("💡 Sending LED commands to ESP32...")
-                send_led_commands(ser, enriched, delayed_segments=delayed_segments)
-                print("✅ Done\n")
-                
-            except EOFError:
-                # stdin closed
-                break
-            except Exception as e:
-                print(f"❌ Error: {e}\n")
-    
+        run_socket_server(network, ser, stop_lookup, args.socket)
     except KeyboardInterrupt:
         pass
     finally:

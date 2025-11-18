@@ -1,12 +1,11 @@
 import sys
 import os
+import socket
+import json
 
 # Add the parent directory (Subway_LED_Console_project) to Python path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
-
-# Now you can import SubwayNetwork from the network folder
-from network.SubwayNetwork import SubwayNetwork
 
 # The rest of your imports
 from kivy.app import App
@@ -202,11 +201,6 @@ class TouchPadUI(App):
         stops = get_stops(db_path)
 
         # -------------------------
-        # Subway Network
-        # -------------------------
-        self.network = SubwayNetwork(db_path)
-
-        # -------------------------
         # MapView
         # -------------------------
         mapview = MapView(zoom=10, lat=40.7580, lon=-73.9855, size_hint=(1, 1))
@@ -266,10 +260,48 @@ class TouchPadUI(App):
                 return
 
             # -------------------------
-            # Find path
+            # Request path from service via Unix socket
             # -------------------------
-            path_result = self.network.find_route(stop1_id, stop2_id, use_live_data=True)
-            path = path_result['path']
+            try:
+                sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+                sock.settimeout(5.0)  # 5 second timeout
+                sock.connect('/tmp/subway_service.sock')
+                
+                # Send request
+                request = json.dumps({"start": stop1_id, "goal": stop2_id})
+                sock.sendall(request.encode('utf-8') + b'\n')
+                
+                # Receive response
+                response_data = b''
+                while True:
+                    chunk = sock.recv(4096)
+                    if not chunk:
+                        break
+                    response_data += chunk
+                    if b'\n' in response_data:
+                        break
+                
+                sock.close()
+                
+                # Parse response
+                path_result = json.loads(response_data.decode('utf-8').strip())
+                
+                if path_result.get('status') == 'error':
+                    print(f"Error from service: {path_result.get('message')}")
+                    return
+                    
+            except socket.timeout:
+                print("Service request timed out. Is main_pi_service.py running?")
+                return
+            except FileNotFoundError:
+                print("Could not connect to service. Please start main_pi_service.py first.")
+                return
+            except Exception as e:
+                print(f"Error communicating with service: {e}")
+                return
+
+            path = path_result.get('path')
+            delayed_segments = path_result.get('delayed_segments', [])
 
             # Clear previous markers
             mapview.children[:] = [w for w in mapview.children if not isinstance(w, MapMarker)]
