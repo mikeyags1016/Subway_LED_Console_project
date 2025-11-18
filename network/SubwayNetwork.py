@@ -66,7 +66,8 @@ class SubwayNetwork:
                     'target': row['dst_stop_id'],
                     'weight': row['weight_s'],
                     'edge_type': row['edge_type'],
-                    'original_weight': row['weight_s']  # Store original weight
+                    'original_weight': row['weight_s'],  # Store original weight
+                    'has_delay': False  # Track if edge currently has delays
                 })
             
             # Load heuristics
@@ -122,6 +123,7 @@ class SubwayNetwork:
                 last_seen = {}
                 for trip in feed.trips:
                     trip_id = trip.trip_id
+                    has_delay = trip.has_delay_alert
                     
                     for stu in trip.stop_time_updates:
                         if not stu.arrival:
@@ -135,9 +137,13 @@ class SubwayNetwork:
                             if prev_stop != stop_id and arrival > prev_arrival:
                                 travel_time = int(arrival - prev_arrival)
                                 
+                                # Apply penalty for delayed trips (accounts for unpredictability)
+                                if has_delay:
+                                    travel_time = int(travel_time * 1.5)
+                                
                                 # Update edge weight and tracking
                                 edge_key = (prev_stop, stop_id)
-                                self._update_edge_weight(prev_stop, stop_id, travel_time)
+                                self._update_edge_weight(prev_stop, stop_id, travel_time, has_delay=has_delay)
                                 
                                 # Track when we saw this edge
                                 self.edge_last_seen[edge_key] = current_time
@@ -187,12 +193,13 @@ class SubwayNetwork:
         
         return stats
     
-    def _update_edge_weight(self, from_stop: str, to_stop: str, new_weight: int):
-        """Update the weight of a specific edge if it exists."""
+    def _update_edge_weight(self, from_stop: str, to_stop: str, new_weight: int, has_delay: bool = False):
+        """Update the weight and delay status of a specific edge if it exists."""
         if from_stop in self.edges:
             for edge in self.edges[from_stop]:
                 if edge['target'] == to_stop and edge['edge_type'] == 'run':
                     edge['weight'] = new_weight
+                    edge['has_delay'] = has_delay
                     break
     
     def _remove_stale_edges(self, current_time) -> int:
@@ -378,6 +385,22 @@ class SubwayNetwork:
                 self.nodes[stop_id]['stop_name'] if stop_id in self.nodes else stop_id
                 for stop_id in path
             ]
+            
+            # Check for delays along the path
+            delayed_segments = []
+            for i in range(len(path) - 1):
+                src, dst = path[i], path[i + 1]
+                if src in self.edges:
+                    for edge in self.edges[src]:
+                        if edge['target'] == dst and edge.get('has_delay', False):
+                            delayed_segments.append((src, dst))
+                            break
+            
+            result['has_delays'] = len(delayed_segments) > 0
+            result['delayed_segments'] = delayed_segments
+        else:
+            result['has_delays'] = False
+            result['delayed_segments'] = []
         
         return result
     

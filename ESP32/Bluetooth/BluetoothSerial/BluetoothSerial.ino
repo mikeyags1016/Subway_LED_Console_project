@@ -5,7 +5,7 @@ void setup() {
 
   // Explicitly map UART pins:
   // RX = GPIO16, TX = GPIO17
-  Serial1.begin(115200, SERIAL_8N1, 16, 17);
+  Serial1.begin(115200, SERIAL_8N1, 18, 19);
 
   Serial.println("ESP32 UART ready (RX=16, TX=17)");
 }
