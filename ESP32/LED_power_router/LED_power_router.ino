@@ -1,118 +1,192 @@
+//#include <Arduino.h>
+//#include <FastLED.h>
+//#include <map>
+//#include <ArduinoJson.h>
+//
+//#define NUM_RUNS  20
+//#define LEDS_PER_RUN 300
+//#define BRIGHTNESS 5
+//
+//struct StationInfo {
+//  int run;
+//  int index;
+//};
+//
+//std::map<String, StationInfo> stationMap;
+//
+//CRGB leds[NUM_RUNS][LEDS_PER_RUN];
+//
+//void setup() {
+//  Serial.begin(115200);
+//  FastLED.setBrightness(BRIGHTNESS);
+//
+//  // All your LED pins
+//  FastLED.addLeds<WS2812B, 2,  GRB>(leds[0],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 3,  GRB>(leds[1],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 4,  GRB>(leds[2],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 5,  GRB>(leds[3],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 12, GRB>(leds[4],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 13, GRB>(leds[5],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 14, GRB>(leds[6],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 15, GRB>(leds[7],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 16, GRB>(leds[8],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 17, GRB>(leds[9],  LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 18, GRB>(leds[10], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 19, GRB>(leds[11], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 21, GRB>(leds[12], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 22, GRB>(leds[13], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 23, GRB>(leds[14], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 25, GRB>(leds[15], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 26, GRB>(leds[16], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 27, GRB>(leds[17], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 32, GRB>(leds[18], LEDS_PER_RUN);
+//  FastLED.addLeds<WS2812B, 33, GRB>(leds[19], LEDS_PER_RUN);
+//
+//  // ------------------ Your JSON string ------------------
+//  String input =
+//    "{\"255S\":{\"run\":3,\"index\":2,\"name\":\"Pennsylvania Av (3)\"},"
+//    "\"254N\":{\"run\":2,\"index\":3,\"name\":\"Junius St (3)\"},"
+//    "\"254S\":{\"run\":3,\"index\":100,\"name\":\"Junius St (3)\"}}";
+//
+//  // ------------------ JSON Parsing ----------------------
+//  StaticJsonDocument<4096> doc;
+//  DeserializationError err = deserializeJson(doc, input);
+//
+//  if (err) {
+//    Serial.println("JSON parse error!");
+//    Serial.println(err.c_str());
+//    return;
+//  }
+//
+//  // Convert JSON to stationMap
+//  for (JsonPair kv : doc.as<JsonObject>()) {
+//    String stationID = kv.key().c_str();
+//    JsonObject obj = kv.value();
+//
+//    int run   = obj["run"];
+//    int index = obj["index"];
+//
+//    stationMap[stationID] = { run, index };
+//
+//    Serial.print("Loaded station: ");
+//    Serial.print(stationID);
+//    Serial.print(" → run=");
+//    Serial.print(run);
+//    Serial.print(" index=");
+//    Serial.println(index);
+//  }
+//
+//  // ------------------ Light LEDs ------------------
+//  for (int r = 0; r < NUM_RUNS; r++) {
+//    fill_solid(leds[r], LEDS_PER_RUN, CRGB::Black);
+//  }
+//
+//  // Turn on LEDs based on parsed data
+//  for (auto &p : stationMap) {
+//    int run = p.second.run;
+//    int idx = p.second.index;
+//
+//    if (run >= 0 && run < NUM_RUNS &&
+//        idx >= 0 && idx < LEDS_PER_RUN) {
+//      leds[run][idx] = CRGB::Red;
+//    }
+//  }
+//
+//  FastLED.show();
+//}
+//
+//void loop() {}
+
 #include <Arduino.h>
 #include <FastLED.h>
-#include <map>
+#include <ArduinoJson.h>
 
-#define NUM_RUNS  20       // You said you will have ~20 LED runs
-#define LEDS_PER_RUN 300   // Adjust as needed
-#define BRIGHTNESS 5
+#define LED_PIN     5        // change this to your LED data pin
+#define LED_PIN_2   4
+#define LED_COUNT   100       // number of LEDs you want to turn on
+#define BRIGHTNESS  50       // brightness 0–255
 
-// Map: stationID -> (run, index)
-struct StationInfo {
-  int run;
-  int index;
-};
+CRGB leds[LED_COUNT];
+CRGB leds_2[LED_COUNT];
 
-std::map<String, StationInfo> stationMap;
+String path = "";
 
-// Create arrays for all LED runs
-CRGB leds[NUM_RUNS][LEDS_PER_RUN];
-
-// ----------------------------- SETUP -----------------------------
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200); 
+  Serial1.begin(115200, SERIAL_8N1, 18, 19);
+  delay(500);
+  Serial.println("ESP32 UART ready (RX=16, TX=17)");
+  
+  FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, LED_COUNT);
+  FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds_2, LED_COUNT);
   FastLED.setBrightness(BRIGHTNESS);
 
-  // ------------- Initialize all LED strips -------------
-  // Assign each run to pins 2–21 (you can customize)
-  int pins[NUM_RUNS] = {
-    2,3,4,5,12,13,14,15,16,17,
-    18,19,21,22,23,25,26,27,32,33
-  };
+  fill_solid(leds, LED_COUNT, CRGB::Black);
+  fill_solid(leds_2, LED_COUNT, CRGB::Black);
 
-  for (int r = 0; r < NUM_RUNS; r++) {
-    FastLED.addLeds<WS2812B, -1 /*temp*/, GRB>(leds[r], LEDS_PER_RUN);
+  for (int i = 56; i < 60; i++) {
+    leds[i] = CRGB::Red; 
   }
-  // Important: assign the correct data pins AFTER registration
-  for (int r = 0; r < NUM_RUNS; r++) {
-    FastLED[ r ].setPin(pins[r]);
+  for (int i = 56; i < 60; i++) {
+    leds_2[i] = CRGB::Blue; 
   }
-
-  // ------------------ Test JSON fragment -------------------
-  String input = R"(
-    },
-        "255S": {
-            "run": 0,
-            "index": 2,
-            "name": "Pennsylvania Av (3)"
-        },
-        "254N": {
-            "run": 0,
-            "index": 3,
-            "name": "Junius St (3)"
-        },
-        "254S": {
-            "run": 1,
-            "index": 100,
-            "name": "Junius St (3)"
-        },
-  )";
-
-  int pos = 0;
-
-  while (true) {
-    int q1 = input.indexOf("\"", pos);
-    if (q1 < 0) break;
-    int q2 = input.indexOf("\"", q1 + 1);
-    if (q2 < 0) break;
-
-    String stationID = input.substring(q1 + 1, q2);
-    pos = q2 + 1;
-
-    int brace = input.indexOf("{", pos);
-    if (brace < 0) break;
-    if (brace - q2 > 6) continue;
-
-    // run
-    int runPos = input.indexOf("\"run\"", brace);
-    if (runPos < 0) break;
-    int colon1 = input.indexOf(":", runPos);
-    int runValue = input.substring(colon1 + 1).toInt();
-
-    // index
-    int indexPos = input.indexOf("\"index\"", runPos);
-    if (indexPos < 0) break;
-    int colon2 = input.indexOf(":", indexPos);
-    int indexValue = input.substring(colon2 + 1).toInt();
-
-    StationInfo info{ runValue, indexValue };
-    stationMap[stationID] = info;
-  }
-
-  // ------------------ Light LEDs based on map -------------------
-  // Clear all strips first
-  for (int r = 0; r < NUM_RUNS; r++) {
-    fill_solid(leds[r], LEDS_PER_RUN, CRGB::Black);
-  }
-
-  // Light each station based on its run and index
-  for (auto &entry : stationMap) {
-    String station = entry.first;
-    int run   = entry.second.run;
-    int index = entry.second.index;
-
-    Serial.print("Lighting station ");
-    Serial.print(station);
-    Serial.print(" at run ");
-    Serial.print(run);
-    Serial.print(" index ");
-    Serial.println(index);
-
-    if (run >= 0 && run < NUM_RUNS && index >= 0 && index < LEDS_PER_RUN) {
-      leds[run][index] = CRGB::Red;   // choose a color (you can customize)
-    }
-  }
-
   FastLED.show();
+  
+  // Serial
+//  if (Serial1.available()) {
+//    int b = Serial1.read();
+//    Serial.print("Char: ");
+//    Serial.println((char)b);
+//  }
 }
 
-void loop() {}
+void loop() {
+  // Read JSON text over Serial1
+  while (Serial1.available()) {
+    char c = Serial.read();
+
+    if (c=='\n') {
+      parseJson(path);
+      path = "";
+    }
+    else {
+      path += c;
+    }
+  } 
+}
+
+void parseJson(const String &json) {
+  StaticJsonDocument<256> doc;
+  DeserializationError err = deserialization(doc, json);
+
+  if (err) {
+    Serial.print("JSON Error: ");
+    Serial.println(err.c_str());
+    return;
+  }
+
+  for (JsonPair kv : doc.as<JsonObject>()) {
+      const char* station_id = kv.key().c_str();  
+      JsonObject info = kv.value().as<JsonObject>();
+  
+      int run = info["run"];
+      int index = info["index"];
+      const char* name = info["name"];
+  
+      Serial.println("----- Station -----");
+      Serial.print("ID: ");    Serial.println(station_id);
+      Serial.print("run: ");   Serial.println(run);
+      Serial.print("index: "); Serial.println(index);
+      Serial.print("name: ");  Serial.println(name);
+  
+      // Example: light LEDs based on run/index
+      if (run == 0) {
+        leds[index] = CRGB::Blue;
+      } else {
+        leds_2[index] = CRGB::Red;
+      }
+    }
+  
+    FastLED.show();
+  }
+}
