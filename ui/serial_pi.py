@@ -2,7 +2,7 @@ import serial
 from time import sleep
 
 # Open UART0 on Raspberry Pi (GPIO14 TX → ESP32 RX)
-ser = serial.Serial("/dev/ttyAMA0", 115200)
+ser = serial.Serial('/dev/serial0', 115200, timeout=1)
 
 print("Raspberry Pi UART Sender Ready")
 
