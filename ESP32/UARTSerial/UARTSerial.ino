@@ -99,7 +99,6 @@
 
 #include <Arduino.h>
 #include <FastLED.h>
-#include <ArduinoJson.h>
 
 #define LED_PIN     5        // change this to your LED data pin
 #define LED_PIN_2   4
@@ -109,84 +108,99 @@
 CRGB leds[LED_COUNT];
 CRGB leds_2[LED_COUNT];
 
-String path = "";
+String inputLine = "";
+
+// Struct to hold parsed command values
+struct ParsedCommand {
+  int run;
+  int index;
+  byte r, g, b;
+  bool valid;
+  bool end;
+};
+
+// Helper function to parse and return values
+ParsedCommand parseInputLine(const String &line) {
+  ParsedCommand cmd = {0, 0, 0, 0, 0, false, false};
+  if (line.equalsIgnoreCase("END")) {
+    cmd.end = true;
+    cmd.valid = true;
+    return cmd;
+  }
+  int firstComma = line.indexOf(',');
+  int secondComma = line.indexOf(',', firstComma + 1);
+
+  if (firstComma > 0 && secondComma > firstComma) {
+    String runStr = line.substring(0, firstComma);
+    String indexStr = line.substring(firstComma + 1, secondComma);
+    String colorStr = line.substring(secondComma + 1);
+
+    cmd.run = runStr.toInt();
+    cmd.index = indexStr.toInt();
+    long colorValue = strtol(colorStr.c_str(), NULL, 16);
+    cmd.r = (colorValue >> 16) & 0xFF;
+    cmd.g = (colorValue >> 8) & 0xFF;
+    cmd.b = colorValue & 0xFF;
+    cmd.valid = true;
+  }
+  return cmd;
+}
 
 void setup() {
-  Serial.begin(115200); 
+  Serial.begin(115200);
   Serial1.begin(115200, SERIAL_8N1, 18, 19);
   delay(500);
-  Serial.println("ESP32 UART ready (RX=16, TX=17)");
-  
+  Serial.println("ESP32 UART ready (RX=18, TX=19)");
+
   FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, LED_COUNT);
   FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds_2, LED_COUNT);
   FastLED.setBrightness(BRIGHTNESS);
 
   fill_solid(leds, LED_COUNT, CRGB::Black);
   fill_solid(leds_2, LED_COUNT, CRGB::Black);
-
-  for (int i = 56; i < 60; i++) {
-    leds[i] = CRGB::Red; 
-  }
-  for (int i = 56; i < 60; i++) {
-    leds_2[i] = CRGB::Blue; 
-  }
   FastLED.show();
-  
-  // Serial
-//  if (Serial1.available()) {
-//    int b = Serial1.read();
-//    Serial.print("Char: ");
-//    Serial.println((char)b);
-//  }
 }
 
 void loop() {
-  // Read JSON text over Serial1
   while (Serial1.available()) {
-    char c = Serial.read();
+    char c = Serial1.read();
 
-    if (c=='\n') {
-      parseJson(path);
-      path = "";
-    }
-    else {
-      path += c;
-    }
-  } 
-}
+    if (c == '\n') {
+      inputLine.trim();
+      ParsedCommand cmd = parseInputLine(inputLine);
 
-void parseJson(const String &json) {
-  StaticJsonDocument<256> doc;
-  DeserializationError err = deserialization(doc, json);
+      if (cmd.valid) {
+        if (cmd.end) {
+          Serial.println("End message received");
+          FastLED.show();
+        } else {
+          Serial.print("Run: ");
+          Serial.print(cmd.run);
+          Serial.print(", Index: ");
+          Serial.print(cmd.index);
+          Serial.print(", Color: ");
+          Serial.print(cmd.r);
+          Serial.print(",");
+          Serial.print(cmd.g);
+          Serial.print(",");
+          Serial.println(cmd.b);
 
-  if (err) {
-    Serial.print("JSON Error: ");
-    Serial.println(err.c_str());
-    return;
-  }
-
-  for (JsonPair kv : doc.as<JsonObject>()) {
-      const char* station_id = kv.key().c_str();  
-      JsonObject info = kv.value().as<JsonObject>();
-  
-      int run = info["run"];
-      int index = info["index"];
-      const char* name = info["name"];
-  
-      Serial.println("----- Station -----");
-      Serial.print("ID: ");    Serial.println(station_id);
-      Serial.print("run: ");   Serial.println(run);
-      Serial.print("index: "); Serial.println(index);
-      Serial.print("name: ");  Serial.println(name);
-  
-      // Example: light LEDs based on run/index
-      if (run == 0) {
-        leds[index] = CRGB::Blue;
+          if (cmd.index >= 0 && cmd.index < LED_COUNT) {
+            if (cmd.run == 0) {
+              leds[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
+            } else {
+              leds_2[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
+            }
+          }
+        }
+        // Later: use cmd.run, cmd.index, cmd.r/g/b to control LEDs as needed
       } else {
-        leds_2[index] = CRGB::Red;
+        Serial.print("Invalid input: ");
+        Serial.println(inputLine);
       }
+      inputLine = "";
+    } else {
+      inputLine += c;
     }
-  
-    FastLED.show();
   }
 }
