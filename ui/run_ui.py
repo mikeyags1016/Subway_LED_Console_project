@@ -50,20 +50,19 @@ class AutocompleteTextInput(TextInput):
         self.stops = list(stops)
         self.dropdown = DropDown(auto_dismiss=False)
         self.selected_id = None
-
+        self.dropdown_open = False
         self.bind(text=self.on_text_change)
         self.bind(focus=self.on_focus)
-        self.dropdown_open = False
-        self.dropdown.bind(on_dismiss=self.on_dropdown_dismiss)
+        self.multiline = False
+        self._should_close = False
 
     def build_dropdown(self, matches):
         """Rebuilds dropdown contents from an iterable of (stop_name, stop_id)."""
         self.dropdown.clear_widgets()
-
         box = BoxLayout(orientation='vertical', size_hint_y=None)
         box.bind(minimum_height=box.setter('height'))
-
         btn_h = 40
+        
         for name, sid in matches:
             btn = Button(text=name, size_hint_y=None, height=btn_h)
             btn.bind(on_release=lambda btn, n=name, s=sid: self.select_stop(n, s))
@@ -72,6 +71,10 @@ class AutocompleteTextInput(TextInput):
         scroll = ScrollView(size_hint=(None, None), size=(self.width, 200), do_scroll_x=False)
         scroll.add_widget(box)
         self.dropdown.add_widget(scroll)
+        
+        if matches and not self.dropdown_open:
+            self.dropdown.open(self)
+            self.dropdown_open = True
 
     def on_text_change(self, instance, value):
         if not self.focus:
@@ -80,30 +83,32 @@ class AutocompleteTextInput(TextInput):
         value = value.strip().lower()
         matches = self.stops if not value else [s for s in self.stops if s[0].lower().startswith(value)]
         self.build_dropdown(matches)
+
+    def on_touch_down(self, touch):
+        result = super().on_touch_down(touch)
         
-        if matches:
-            self.dropdown.open(self)
-            self.dropdown_open = True
+        if self.collide_point(*touch.pos):
+            self._should_close = False
+        else:
+            self._should_close = True
+            
+        return result
 
     def on_focus(self, instance, value):
         if value:
             self.build_dropdown(self.stops)
-            if not self.dropdown_open:
-                self.dropdown.open(self)
-                self.dropdown_open = True
+            self._should_close = False
         else:
-            if self.dropdown_open:
+            if self._should_close and self.dropdown_open:
                 self.dropdown.dismiss()
                 self.dropdown_open = False
-
-    def on_dropdown_dismiss(self, instance):
-        self.dropdown_open = False
 
     def select_stop(self, stop_name, stop_id):
         self.text = stop_name
         self.selected_id = stop_id
         self.dropdown.dismiss()
         self.dropdown_open = False
+        self._should_close = False
 
 # -------------------------
 # Database Helpers
