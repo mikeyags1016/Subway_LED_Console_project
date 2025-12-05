@@ -53,6 +53,7 @@ class AutocompleteTextInput(TextInput):
 
         self.bind(text=self.on_text_change)
         self.bind(focus=self.on_focus)
+        self.dropdown_open = False
 
     def build_dropdown(self, matches):
         """Rebuilds dropdown contents from an iterable of (stop_name, stop_id)."""
@@ -73,6 +74,7 @@ class AutocompleteTextInput(TextInput):
 
         if matches:
             self.dropdown.open(self)
+            self.dropdown_open = True
 
     def on_text_change(self, instance, value):
         value = value.strip().lower()
@@ -84,17 +86,23 @@ class AutocompleteTextInput(TextInput):
             self.on_text_change(self, self.text)
         else:
             self.dropdown.dismiss()
+            self.dropdown_open = False
 
     def on_touch_down(self, touch):
         if self.collide_point(*touch.pos):
-            # Focus and show dropdown on first tap
+            # Focus the TextInput
             self.focus = True
+            # If dropdown closed, open it
+            if not self.dropdown_open:
+                self.build_dropdown(self.stops)
+            return True
         return super().on_touch_down(touch)
 
     def select_stop(self, stop_name, stop_id):
         self.text = stop_name
         self.selected_id = stop_id
         self.dropdown.dismiss()
+        self.dropdown_open = False
 
 # -------------------------
 # Database Helpers
