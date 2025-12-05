@@ -96,7 +96,7 @@ class AutocompleteTextInput(TextInput):
                 self.dropdown.dismiss()
                 self.dropdown_open = False
 
-     def on_dropdown_dismiss(self, instance):
+    def on_dropdown_dismiss(self, instance):
         self.dropdown_open = False
 
     def select_stop(self, stop_name, stop_id):
