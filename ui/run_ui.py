@@ -54,6 +54,7 @@ class AutocompleteTextInput(TextInput):
         self.bind(text=self.on_text_change)
         self.bind(focus=self.on_focus)
         self.dropdown_open = False
+        self.dropdown.bind(on_dismiss=self.on_dropdown_dismiss)
 
     def build_dropdown(self, matches):
         """Rebuilds dropdown contents from an iterable of (stop_name, stop_id)."""
@@ -72,11 +73,6 @@ class AutocompleteTextInput(TextInput):
         scroll.add_widget(box)
         self.dropdown.add_widget(scroll)
 
-    def open_dropdown(self):
-        if not self.dropdown_open and self.dropdown.children:
-            self.dropdown.open(self)
-            self.dropdown_open = True
-
     def on_text_change(self, instance, value):
         if not self.focus:
             return
@@ -86,20 +82,22 @@ class AutocompleteTextInput(TextInput):
         self.build_dropdown(matches)
         
         if matches:
-            from kivy.clock import Clock
-            Clock.schedule_once(lambda dt: self.open_dropdown(), 0)
+            self.dropdown.open(self)
+            self.dropdown_open = True
 
     def on_focus(self, instance, value):
         if value:
-            value_text = self.text.strip().lower()
-            matches = self.stops if not value_text else [s for s in self.stops if s[0].lower().startswith(value_text)]
-            self.build_dropdown(matches)
-            if matches:
-                from kivy.clock import Clock
-                Clock.schedule_once(lambda dt: self.open_dropdown(), 0)
+            self.build_dropdown(self.stops)
+            if not self.dropdown_open:
+                self.dropdown.open(self)
+                self.dropdown_open = True
         else:
-            self.dropdown.dismiss()
-            self.dropdown_open = False
+            if self.dropdown_open:
+                self.dropdown.dismiss()
+                self.dropdown_open = False
+
+     def on_dropdown_dismiss(self, instance):
+        self.dropdown_open = False
 
     def select_stop(self, stop_name, stop_id):
         self.text = stop_name
