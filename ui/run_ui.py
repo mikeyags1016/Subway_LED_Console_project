@@ -90,12 +90,12 @@ class AutocompleteTextInput(TextInput):
 
     def on_touch_down(self, touch):
         if self.collide_point(*touch.pos):
-            # Focus the TextInput
+            result = super().on_touch_down(touch)
+
             self.focus = True
-            # If dropdown closed, open it
             if not self.dropdown_open:
                 self.build_dropdown(self.stops)
-            return True
+            return result
         return super().on_touch_down(touch)
 
     def select_stop(self, stop_name, stop_id):
