@@ -75,7 +75,7 @@ class AutocompleteTextInput(TextInput):
         self.dropdown.clear_widgets()
         self.dropdown.add_widget(scroll)
 
-        if matches:
+        if matches and self.focus:
             self.dropdown.open(self)
 
     def on_text_change(self, instance, value):
@@ -90,7 +90,7 @@ class AutocompleteTextInput(TextInput):
         if value:
             self.on_text_change(self, self.text)
         else:
-            if self.dropdown and not getattr(self.dropdown, 'focus', False):
+            if self.dropdown:
                 self.dropdown.dismiss()
 
     def select_stop(self, stop_name, stop_id):
@@ -98,14 +98,6 @@ class AutocompleteTextInput(TextInput):
         self.selected_id = stop_id
         if self.dropdown:
             self.dropdown.dismiss()
-
-    def on_touch_down(self, touch):
-        if self.dropdown and self.dropdown.attach_to is self:
-            if self.collide_point(*touch.pos):
-                super().on_touch_down(touch)
-                return True
-
-        return super().on_touch_down(touch)
 
 # -------------------------
 # Database Helpers
