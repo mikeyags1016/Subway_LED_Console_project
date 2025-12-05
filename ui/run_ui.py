@@ -56,8 +56,7 @@ class AutocompleteTextInput(TextInput):
 
     def build_dropdown(self, matches):
         """Rebuilds dropdown contents from an iterable of (stop_name, stop_id)."""
-        self.dropdown.dismiss()
-        self.dropdown = DropDown(auto_dismiss=False)
+        self.dropdown.clear_widgets()
 
         box = BoxLayout(orientation='vertical', size_hint_y=None)
         box.bind(minimum_height=box.setter('height'))
@@ -70,34 +69,32 @@ class AutocompleteTextInput(TextInput):
             
         scroll = ScrollView(size_hint=(None, None), size=(self.width, 200), do_scroll_x=False)
         scroll.add_widget(box)
-
-        self.dropdown.width = self.width
-        self.dropdown.clear_widgets()
         self.dropdown.add_widget(scroll)
 
-        if matches and self.focus:
+        if matches:
             self.dropdown.open(self)
 
     def on_text_change(self, instance, value):
         value = value.strip().lower()
-        if not value:
-            matches = self.stops
-        else:
-            matches = [s for s in self.stops if s[0].lower().startswith(value)]
+        matches = self.stops if not value else [s for s in self.stops if s[0].lower().startswith(value)]
         self.build_dropdown(matches)
 
     def on_focus(self, instance, value):
         if value:
             self.on_text_change(self, self.text)
         else:
-            if self.dropdown:
-                self.dropdown.dismiss()
+            self.dropdown.dismiss()
+
+    def on_touch_down(self, touch):
+        if self.collide_point(*touch.pos):
+            # Focus and show dropdown on first tap
+            self.focus = True
+        return super().on_touch_down(touch)
 
     def select_stop(self, stop_name, stop_id):
         self.text = stop_name
         self.selected_id = stop_id
-        if self.dropdown:
-            self.dropdown.dismiss()
+        self.dropdown.dismiss()
 
 # -------------------------
 # Database Helpers
