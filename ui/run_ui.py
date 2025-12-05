@@ -72,31 +72,34 @@ class AutocompleteTextInput(TextInput):
         scroll.add_widget(box)
         self.dropdown.add_widget(scroll)
 
-        if matches:
+    def open_dropdown(self):
+        if not self.dropdown_open and self.dropdown.children:
             self.dropdown.open(self)
             self.dropdown_open = True
 
     def on_text_change(self, instance, value):
+        if not self.focus:
+            return
+        
         value = value.strip().lower()
         matches = self.stops if not value else [s for s in self.stops if s[0].lower().startswith(value)]
         self.build_dropdown(matches)
+        
+        if matches:
+            from kivy.clock import Clock
+            Clock.schedule_once(lambda dt: self.open_dropdown(), 0)
 
     def on_focus(self, instance, value):
         if value:
-            self.on_text_change(self, self.text)
+            value_text = self.text.strip().lower()
+            matches = self.stops if not value_text else [s for s in self.stops if s[0].lower().startswith(value_text)]
+            self.build_dropdown(matches)
+            if matches:
+                from kivy.clock import Clock
+                Clock.schedule_once(lambda dt: self.open_dropdown(), 0)
         else:
             self.dropdown.dismiss()
             self.dropdown_open = False
-
-    def on_touch_down(self, touch):
-        if self.collide_point(*touch.pos):
-            result = super().on_touch_down(touch)
-
-            self.focus = True
-            if not self.dropdown_open:
-                self.build_dropdown(self.stops)
-            return result
-        return super().on_touch_down(touch)
 
     def select_stop(self, stop_name, stop_id):
         self.text = stop_name
