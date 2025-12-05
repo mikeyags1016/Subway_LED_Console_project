@@ -48,7 +48,7 @@ class AutocompleteTextInput(TextInput):
     def __init__(self, stops, **kwargs):
         super().__init__(**kwargs)
         self.stops = list(stops)
-        self.dropdown = DropDown(auto_dismiss=False)
+        self.dropdown = DropDown(auto_dismiss=False, dismiss_on_scroll=False)
         self.selected_id = None
 
         self.bind(text=self.on_text_change)
@@ -57,7 +57,7 @@ class AutocompleteTextInput(TextInput):
     def build_dropdown(self, matches):
         """Rebuilds dropdown contents from an iterable of (stop_name, stop_id)."""
         self.dropdown.dismiss()
-        self.dropdown = DropDown(auto_dismiss=False)
+        self.dropdown = DropDown(auto_dismiss=False, dismiss_on_scroll=False)
 
         box = BoxLayout(orientation='vertical', size_hint_y=None)
         box.bind(minimum_height=box.setter('height'))
@@ -67,9 +67,12 @@ class AutocompleteTextInput(TextInput):
             btn = Button(text=name, size_hint_y=None, height=btn_h)
             btn.bind(on_release=lambda btn, n=name, s=sid: self.select_stop(n, s))
             box.add_widget(btn)
-
-        scroll = ScrollView(size_hint=(None, None), size=(self.width, 200))
+            
+        scroll = ScrollView(size_hint=(None, None), size=(self.width, 200), do_scroll_x=False)
         scroll.add_widget(box)
+
+        self.dropdown.width = self.width
+        self.dropdown.clear_widgets()
         self.dropdown.add_widget(scroll)
 
         if matches:
@@ -95,6 +98,12 @@ class AutocompleteTextInput(TextInput):
         self.selected_id = stop_id
         if self.dropdown:
             self.dropdown.dismiss()
+
+    def on_touch_down(self, touch):
+        # Allow interacting with dropdown without closing it
+        if self.dropdown.attach_to is self and self.dropdown.collide_point(*touch.pos):
+            return super(TextInput, self).on_touch_down(touch)
+        return super().on_touch_down(touch)
 
 # -------------------------
 # Database Helpers
