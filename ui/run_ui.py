@@ -183,9 +183,14 @@ class PathLayer(MapLayer):
 
     def reposition(self):
         self.canvas.clear()
+
+        map_view = self.parent
+        if not map_view:
+            return
+            
         points = []
         for lat, lon in self.coords_seq:
-            x, y = self.get_map().get_window_xy_from(lat, lon, self.get_map().zoom)
+            x, y = map_view.get_window_xy_from(lat, lon, self.get_map().zoom)
             points.extend([x, y])
 
         if len(points) >= 4:
