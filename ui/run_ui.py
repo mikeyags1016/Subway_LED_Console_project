@@ -190,7 +190,7 @@ class PathLayer(MapLayer):
             
         points = []
         for lat, lon in self.coords_seq:
-            x, y = map_view.get_window_xy_from(lat, lon, self.get_map().zoom)
+            x, y = map_view.get_window_xy_from(lat, lon, map_view.zoom)
             points.extend([x, y])
 
         if len(points) >= 4:
