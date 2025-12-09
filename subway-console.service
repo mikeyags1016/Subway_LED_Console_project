@@ -1,0 +1,25 @@
+[Unit]
+Description=NYC Subway LED Console System
+After=network.target
+Wants=display-manager.service
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/repos/cpeg_capstone/Subway_LED_Console_project
+ExecStart=/bin/bash /home/pi/repos/cpeg_capstone/Subway_LED_Console_project/start_subway_system.sh
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Allow access to serial port
+SupplementaryGroups=dialout
+
+# Set environment
+Environment="PATH=/home/pi/repos/cpeg_capstone/Subway_LED_Console_project/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="DISPLAY=:0.0"
+Environment="XAUTHORITY=/home/pi/.Xauthority"
+
+[Install]
+WantedBy=multi-user.target
