@@ -159,6 +159,16 @@
         "index": 14,
         "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
     },
+    "D24N": {
+        "run": 0,
+        "index": 14,
+        "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
+    },
+    "D24S": {
+        "run": 0,
+        "index": 14,
+        "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
+    },
     "234N": {
         "run": 0,
         "index": 15,
@@ -339,6 +349,26 @@
         "index": 32,
         "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
     },
+    "R16N": {
+        "run": 0,
+        "index": 32,
+        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
+    },
+    "R16S": {
+        "run": 0,
+        "index": 32,
+        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
+    },
+    "902N": {
+        "run": 0,
+        "index": 32,
+        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
+    },
+    "902S": {
+        "run": 0,
+        "index": 32,
+        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
+    },
     "126N": {
         "run": 0,
         "index": 33,
@@ -479,104 +509,94 @@
         "index": 46,
         "name": "157 St (1)"
     },
-    "112N": {
-        "run": 0,
-        "index": 47,
-        "name": "168 St-Washington Hts (1,A,C)"
-    },
-    "112S": {
-        "run": 0,
-        "index": 47,
-        "name": "168 St-Washington Hts (1,A,C)"
-    },
     "111N": {
         "run": 0,
-        "index": 48,
+        "index": 47,
         "name": "181 St (1)"
     },
     "111S": {
         "run": 0,
-        "index": 48,
+        "index": 47,
         "name": "181 St (1)"
     },
     "110N": {
         "run": 0,
-        "index": 49,
+        "index": 48,
         "name": "191 St (1)"
     },
     "110S": {
         "run": 0,
-        "index": 49,
+        "index": 48,
         "name": "191 St (1)"
     },
     "109N": {
         "run": 0,
-        "index": 50,
+        "index": 49,
         "name": "Dyckman St (1)"
     },
     "109S": {
         "run": 0,
-        "index": 50,
+        "index": 49,
         "name": "Dyckman St (1)"
     },
     "108N": {
         "run": 0,
-        "index": 51,
+        "index": 50,
         "name": "207 St (1)"
     },
     "108S": {
         "run": 0,
-        "index": 51,
+        "index": 50,
         "name": "207 St (1)"
     },
     "107N": {
         "run": 0,
-        "index": 52,
+        "index": 51,
         "name": "215 St (1)"
     },
     "107S": {
         "run": 0,
-        "index": 52,
+        "index": 51,
         "name": "215 St (1)"
     },
     "106N": {
         "run": 0,
-        "index": 53,
+        "index": 52,
         "name": "Marble Hill-225 St (1)"
     },
     "106S": {
         "run": 0,
-        "index": 53,
+        "index": 52,
         "name": "Marble Hill-225 St (1)"
     },
     "104N": {
         "run": 0,
-        "index": 54,
+        "index": 53,
         "name": "231 St (1)"
     },
     "104S": {
         "run": 0,
-        "index": 54,
+        "index": 53,
         "name": "231 St (1)"
     },
     "103N": {
         "run": 0,
-        "index": 55,
+        "index": 54,
         "name": "238 St (1)"
     },
     "103S": {
         "run": 0,
-        "index": 55,
+        "index": 54,
         "name": "238 St (1)"
     },
     "101N": {
         "run": 0,
-        "index": 56,
+        "index": 55,
         "name": "Van Cortlandt Park-242 St (1)"
     },
     "101S": {
         "run": 0,
-        "index": 56,
+        "index": 55,
         "name": "Van Cortlandt Park-242 St (1)"
     },
     "227N": {
@@ -809,6 +829,16 @@
         "index": 5,
         "name": "Canal St (6,J,Z,N,Q,R,W)"
     },
+    "M20N": {
+        "run": 4,
+        "index": 5,
+        "name": "Canal St (6,J,Z,N,Q,R,W)"
+    },
+    "M20S": {
+        "run": 4,
+        "index": 5,
+        "name": "Canal St (6,J,Z,N,Q,R,W)"
+    },
     "638N": {
         "run": 4,
         "index": 6,
@@ -829,6 +859,16 @@
         "index": 7,
         "name": "Broadway-Lafayette St/Bleecker St (6,B,D,F,M)"
     },
+    "D21N": {
+        "run": 4,
+        "index": 7,
+        "name": "Broadway-Lafayette St/Bleecker St (6,B,D,F,M)"
+    },
+    "D21S": {
+        "run": 4,
+        "index": 7,
+        "name": "Broadway-Lafayette St/Bleecker St (6,B,D,F,M)"
+    },
     "636N": {
         "run": 4,
         "index": 8,
@@ -845,6 +885,26 @@
         "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
     },
     "635S": {
+        "run": 4,
+        "index": 9,
+        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
+    },
+    "R20N": {
+        "run": 4,
+        "index": 9,
+        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
+    },
+    "R20S": {
+        "run": 4,
+        "index": 9,
+        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
+    },
+    "L03N": {
+        "run": 4,
+        "index": 9,
+        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
+    },
+    "L03S": {
         "run": 4,
         "index": 9,
         "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
@@ -899,6 +959,16 @@
         "index": 13,
         "name": "Grand Central-42 St (4,5,6,7,S)"
     },
+    "723N": {
+        "run": 4,
+        "index": 13,
+        "name": "Grand Central-42 St (4,5,6,7,S)"
+    },
+    "723S": {
+        "run": 4,
+        "index": 3,
+        "name": "Grand Central-42 St (4,5,6,7,S)"
+    },
     "630N": {
         "run": 4,
         "index": 14,
@@ -915,6 +985,16 @@
         "name": "Lexington Av/59 St (4,5,6,N,R,W)"
     },
     "629S": {
+        "run": 4,
+        "index": 15,
+        "name": "Lexington Av/59 St (4,5,6,N,R,W)"
+    },
+    "R11N": {
+        "run": 4,
+        "index": 15,
+        "name": "Lexington Av/59 St (4,5,6,N,R,W)"
+    },
+    "R11S": {
         "run": 4,
         "index": 15,
         "name": "Lexington Av/59 St (4,5,6,N,R,W)"
@@ -1799,6 +1879,26 @@
         "index": 21,
         "name": "Broadway Junction (A,C,J,Z,L)"
     },
+    "J27N": {
+        "run": 8,
+        "index": 21,
+        "name": "Broadway Junction (A,C,J,Z,L)"
+    },
+    "J27S": {
+        "run": 8,
+        "index": 21,
+        "name": "Broadway Junction (A,C,J,Z,L)"
+    },
+    "L22N": {
+        "run": 8,
+        "index": 21,
+        "name": "Broadway Junction (A,C,J,Z,L)"
+    },
+    "L22S": {
+        "run": 8,
+        "index": 21,
+        "name": "Broadway Junction (A,C,J,Z,L)"
+    },
     "A50N": {
         "run": 8,
         "index": 22,
@@ -1929,6 +2029,16 @@
         "index": 33,
         "name": "Fulton St (2,3,4,5,A,C,J,Z)"
     },
+    "M22N": {
+        "run": 8,
+        "index": 33,
+        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
+    },
+    "M22S": {
+        "run": 8,
+        "index": 33,
+        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
+    },
     "A36N": {
         "run": 8,
         "index": 34,
@@ -1979,12 +2089,32 @@
         "index": 37,
         "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
     },
+    "D20N": {
+        "run": 8,
+        "index": 37,
+        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
+    },
+    "D20S": {
+        "run": 8,
+        "index": 37,
+        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
+    },
     "A31N": {
         "run": 8,
         "index": 38,
         "name": "14 St/8 Av (A,C,E,L)"
     },
     "A31S": {
+        "run": 8,
+        "index": 38,
+        "name": "14 St/8 Av (A,C,E,L)"
+    },
+    "L01N": {
+        "run": 8,
+        "index": 38,
+        "name": "14 St/8 Av (A,C,E,L)"
+    },
+    "L01S": {
         "run": 8,
         "index": 38,
         "name": "14 St/8 Av (A,C,E,L)"
@@ -2015,6 +2145,16 @@
         "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
     },
     "A27S": {
+        "run": 8,
+        "index": 41,
+        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
+    },
+    "725N": {
+        "run": 8,
+        "index": 41,
+        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
+    },
+    "725S": {
         "run": 8,
         "index": 41,
         "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
@@ -2175,6 +2315,16 @@
         "name": "168 St-Washington Hts (1,A,C)"
     },
     "A09S": {
+        "run": 8,
+        "index": 56,
+        "name": "168 St-Washington Hts (1,A,C)"
+    },
+    "112N": {
+        "run": 8,
+        "index": 56,
+        "name": "168 St-Washington Hts (1,A,C)"
+    },
+    "112S": {
         "run": 8,
         "index": 56,
         "name": "168 St-Washington Hts (1,A,C)"
@@ -2409,204 +2559,204 @@
         "index": 17,
         "name": "7 Av (B,Q)"
     },
-    "D24N": {
-        "run": 9,
-        "index": 18,
-        "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
-    },
-    "D24S": {
-        "run": 9,
-        "index": 18,
-        "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
-    },
     "D22N": {
         "run": 9,
-        "index": 19,
+        "index": 18,
         "name": "Grand St (B,D)"
     },
     "D22S": {
         "run": 9,
-        "index": 19,
+        "index": 18,
         "name": "Grand St (B,D)"
-    },
-    "D21N": {
-        "run": 9,
-        "index": 20,
-        "name": "Broadway-Lafayette St/Bleecker St (6,B,D,F,M)"
-    },
-    "D21S": {
-        "run": 9,
-        "index": 20,
-        "name": "Broadway-Lafayette St/Bleecker St (6,B,D,F,M)"
-    },
-    "D20N": {
-        "run": 9,
-        "index": 21,
-        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
-    },
-    "D20S": {
-        "run": 9,
-        "index": 21,
-        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
     },
     "D19N": {
         "run": 9,
-        "index": 22,
+        "index": 19,
         "name": "14 St/6 Av (1,2,3,L,F,M)"
     },
     "D19S": {
         "run": 9,
-        "index": 22,
+        "index": 19,
+        "name": "14 St/6 Av (1,2,3,L,F,M)"
+    },
+    "L02N": {
+        "run": 9,
+        "index": 19,
+        "name": "14 St/6 Av (1,2,3,L,F,M)"
+    },
+    "L02S": {
+        "run": 9,
+        "index": 19,
         "name": "14 St/6 Av (1,2,3,L,F,M)"
     },
     "D18N": {
         "run": 9,
-        "index": 23,
+        "index": 20,
         "name": "23 St (F,M)"
     },
     "D18S": {
         "run": 9,
-        "index": 23,
+        "index": 20,
         "name": "23 St (F,M)"
     },
     "D17N": {
         "run": 9,
-        "index": 24,
+        "index": 21,
         "name": "34 St-Herald Sq (B,D,F,M,N,Q,R,W)"
     },
     "D17S": {
         "run": 9,
-        "index": 24,
+        "index": 21,
+        "name": "34 St-Herald Sq (B,D,F,M,N,Q,R,W)"
+    },
+    "R17N": {
+        "run": 9,
+        "index": 21,
+        "name": "34 St-Herald Sq (B,D,F,M,N,Q,R,W)"
+    },
+    "R17S": {
+        "run": 9,
+        "index": 21,
         "name": "34 St-Herald Sq (B,D,F,M,N,Q,R,W)"
     },
     "D16N": {
         "run": 9,
-        "index": 25,
+        "index": 22,
         "name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)"
     },
     "D16S": {
         "run": 9,
-        "index": 25,
+        "index": 22,
+        "name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)"
+    },
+    "724N": {
+        "run": 9,
+        "index": 22,
+        "name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)"
+    },
+    "724S": {
+        "run": 9,
+        "index": 22,
         "name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)"
     },
     "D15N": {
         "run": 9,
-        "index": 26,
+        "index": 23,
         "name": "47-50 Sts-Rockefeller Ctr (B,D,F,M)"
     },
     "D15S": {
         "run": 9,
-        "index": 26,
+        "index": 23,
         "name": "47-50 Sts-Rockefeller Ctr (B,D,F,M)"
     },
     "D14N": {
         "run": 9,
-        "index": 27,
+        "index": 24,
         "name": "7 Av (E,B,D)"
     },
     "D14S": {
         "run": 9,
-        "index": 27,
+        "index": 24,
         "name": "7 Av (E,B,D)"
     },
     "D12N": {
         "run": 9,
-        "index": 28,
+        "index": 25,
         "name": "155 St (B,D)"
     },
     "D12S": {
         "run": 9,
-        "index": 28,
+        "index": 25,
         "name": "155 St (B,D)"
     },
     "D10N": {
         "run": 9,
-        "index": 29,
+        "index": 26,
         "name": "167 St (B,D)"
     },
     "D10S": {
         "run": 9,
-        "index": 29,
+        "index": 26,
         "name": "167 St (B,D)"
     },
     "D09N": {
         "run": 9,
-        "index": 30,
+        "index": 27,
         "name": "170 St (B,D)"
     },
     "D09S": {
         "run": 9,
-        "index": 30,
+        "index": 27,
         "name": "170 St (B,D)"
     },
     "D08N": {
         "run": 9,
-        "index": 31,
+        "index": 28,
         "name": "174-175 Sts (B,D)"
     },
     "D08S": {
         "run": 9,
-        "index": 31,
+        "index": 28,
         "name": "174-175 Sts (B,D)"
     },
     "D07N": {
         "run": 9,
-        "index": 32,
+        "index": 29,
         "name": "Tremont Av (B,D)"
     },
     "D07S": {
         "run": 9,
-        "index": 32,
+        "index": 29,
         "name": "Tremont Av (B,D)"
     },
     "D06N": {
         "run": 9,
-        "index": 33,
+        "index": 30,
         "name": "182-183 Sts (B,D)"
     },
     "D06S": {
         "run": 9,
-        "index": 33,
+        "index": 30,
         "name": "182-183 Sts (B,D)"
     },
     "D05N": {
         "run": 9,
-        "index": 34,
+        "index": 31,
         "name": "Fordham Rd (B,D)"
     },
     "D05S": {
         "run": 9,
-        "index": 34,
+        "index": 31,
         "name": "Fordham Rd (B,D)"
     },
     "D04N": {
         "run": 9,
-        "index": 35,
+        "index": 32,
         "name": "Kingsbridge Rd (B,D)"
     },
     "D04S": {
         "run": 9,
-        "index": 35,
+        "index": 32,
         "name": "Kingsbridge Rd (B,D)"
     },
     "D03N": {
         "run": 9,
-        "index": 36,
+        "index": 33,
         "name": "Bedford Park Blvd (B,D)"
     },
     "D03S": {
         "run": 9,
-        "index": 36,
+        "index": 33,
         "name": "Bedford Park Blvd (B,D)"
     },
     "D01N": {
         "run": 9,
-        "index": 37,
+        "index": 34,
         "name": "Norwood-205 St (D)"
     },
     "D01S": {
         "run": 9,
-        "index": 37,
+        "index": 34,
         "name": "Norwood-205 St (D)"
     },
     "Q05N": {
@@ -2705,6 +2855,26 @@
         "name": "Court Sq-23 St (7,E,M,G)"
     },
     "F09S": {
+        "run": 10,
+        "index": 9,
+        "name": "Court Sq-23 St (7,E,M,G)"
+    },
+    "719N": {
+        "run": 10,
+        "index": 9,
+        "name": "Court Sq-23 St (7,E,M,G)"
+    },
+    "719S": {
+        "run": 10,
+        "index": 9,
+        "name": "Court Sq-23 St (7,E,M,G)"
+    },
+    "G22N": {
+        "run": 10,
+        "index": 9,
+        "name": "Court Sq-23 St (7,E,M,G)"
+    },
+    "G22S": {
         "run": 10,
         "index": 9,
         "name": "Court Sq-23 St (7,E,M,G)"
@@ -3019,6 +3189,16 @@
         "index": 10,
         "name": "4 Av-9 St (F,G,R)"
     },
+    "F23N": {
+        "run": 11,
+        "index": 10,
+        "name": "4 Av-9 St (F,G,R)"
+    },
+    "F23S": {
+        "run": 11,
+        "index": 10,
+        "name": "4 Av-9 St (F,G,R)"
+    },
     "R32N": {
         "run": 11,
         "index": 11,
@@ -3149,174 +3329,134 @@
         "index": 22,
         "name": "8 St-NYU (R,W)"
     },
-    "R20N": {
-        "run": 11,
-        "index": 23,
-        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
-    },
-    "R20S": {
-        "run": 11,
-        "index": 23,
-        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
-    },
     "R19N": {
         "run": 11,
-        "index": 24,
+        "index": 23,
         "name": "23 St (R,W)"
     },
     "R19S": {
         "run": 11,
-        "index": 24,
+        "index": 23,
         "name": "23 St (R,W)"
     },
     "R18N": {
         "run": 11,
-        "index": 25,
+        "index": 24,
         "name": "28 St (R,W)"
     },
     "R18S": {
         "run": 11,
-        "index": 25,
+        "index": 24,
         "name": "28 St (R,W)"
-    },
-    "R17N": {
-        "run": 11,
-        "index": 26,
-        "name": "34 St-Herald Sq (B,D,F,M,N,Q,R,W)"
-    },
-    "R17S": {
-        "run": 11,
-        "index": 26,
-        "name": "34 St-Herald Sq (B,D,F,M,N,Q,R,W)"
-    },
-    "R16N": {
-        "run": 11,
-        "index": 27,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "R16S": {
-        "run": 11,
-        "index": 27,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "902N": {
-        "run": 11,
-        "index": 27,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "902S": {
-        "run": 11,
-        "index": 27,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
     },
     "R15N": {
         "run": 11,
-        "index": 28,
+        "index": 25,
         "name": "49 St (N,R,W)"
     },
     "R15S": {
         "run": 11,
-        "index": 28,
+        "index": 25,
         "name": "49 St (N,R,W)"
     },
     "R14N": {
         "run": 11,
-        "index": 29,
+        "index": 26,
         "name": "57 St-7 Av (N,Q,R,W)"
     },
     "R14S": {
         "run": 11,
-        "index": 29,
+        "index": 26,
         "name": "57 St-7 Av (N,Q,R,W)"
     },
     "R13N": {
         "run": 11,
-        "index": 30,
+        "index": 27,
         "name": "5 Av/59 St (N,R,W)"
     },
     "R13S": {
         "run": 11,
-        "index": 30,
+        "index": 27,
         "name": "5 Av/59 St (N,R,W)"
-    },
-    "R11N": {
-        "run": 11,
-        "index": 31,
-        "name": "Lexington Av/59 St (4,5,6,N,R,W)"
-    },
-    "R11S": {
-        "run": 11,
-        "index": 31,
-        "name": "Lexington Av/59 St (4,5,6,N,R,W)"
     },
     "R09N": {
         "run": 11,
-        "index": 32,
+        "index": 28,
         "name": "Queensboro Plaza (7,N,W)"
     },
     "R09S": {
         "run": 11,
-        "index": 32,
+        "index": 28,
+        "name": "Queensboro Plaza (7,N,W)"
+    },
+    "718N": {
+        "run": 11,
+        "index": 28,
+        "name": "Queensboro Plaza (7,N,W)"
+    },
+    "718S": {
+        "run": 11,
+        "index": 28,
         "name": "Queensboro Plaza (7,N,W)"
     },
     "R08N": {
         "run": 11,
-        "index": 33,
+        "index": 29,
         "name": "39 Av-Dutch Kills (N,W)"
     },
     "R08S": {
         "run": 11,
-        "index": 33,
+        "index": 29,
         "name": "39 Av-Dutch Kills (N,W)"
     },
     "R06N": {
         "run": 11,
-        "index": 34,
+        "index": 30,
         "name": "36 Av (N,W)"
     },
     "R06S": {
         "run": 11,
-        "index": 34,
+        "index": 30,
         "name": "36 Av (N,W)"
     },
     "R05N": {
         "run": 11,
-        "index": 35,
+        "index": 31,
         "name": "Broadway (N,W)"
     },
     "R05S": {
         "run": 11,
-        "index": 35,
+        "index": 31,
         "name": "Broadway (N,W)"
     },
     "R04N": {
         "run": 11,
-        "index": 36,
+        "index": 32,
         "name": "30 Av (N,W)"
     },
     "R04S": {
         "run": 11,
-        "index": 36,
+        "index": 32,
         "name": "30 Av (N,W)"
     },
     "R03N": {
         "run": 11,
-        "index": 37,
+        "index": 33,
         "name": "Astoria Blvd (N,W)"
     },
     "R03S": {
         "run": 11,
-        "index": 37,
+        "index": 33,
         "name": "Astoria Blvd (N,W)"
     },
     "R01N": {
         "run": 11,
-        "index": 38,
+        "index": 34,
         "name": "Astoria-Ditmars Blvd (N,W)"
     },
     "R01S": {
         "run": 11,
-        "index": 38,
+        "index": 34,
         "name": "Astoria-Ditmars Blvd (N,W)"
     },
     "N02N": {
@@ -3669,84 +3809,84 @@
         "index": 13,
         "name": "7 Av (F,G)"
     },
-    "F23N": {
-        "run": 13,
-        "index": 14,
-        "name": "4 Av-9 St (F,G,R)"
-    },
-    "F23S": {
-        "run": 13,
-        "index": 14,
-        "name": "4 Av-9 St (F,G,R)"
-    },
     "F22N": {
         "run": 13,
-        "index": 15,
+        "index": 14,
         "name": "Smith-9 Sts (F,G)"
     },
     "F22S": {
         "run": 13,
-        "index": 15,
+        "index": 14,
         "name": "Smith-9 Sts (F,G)"
     },
     "F21N": {
         "run": 13,
-        "index": 16,
+        "index": 15,
         "name": "Carroll St (F,G)"
     },
     "F21S": {
         "run": 13,
-        "index": 16,
+        "index": 15,
         "name": "Carroll St (F,G)"
     },
     "F20N": {
         "run": 13,
-        "index": 17,
+        "index": 16,
         "name": "Bergen St (F,G)"
     },
     "F20S": {
         "run": 13,
-        "index": 17,
+        "index": 16,
         "name": "Bergen St (F,G)"
     },
     "F18N": {
         "run": 13,
-        "index": 18,
+        "index": 17,
         "name": "York St (F)"
     },
     "F18S": {
         "run": 13,
-        "index": 18,
+        "index": 17,
         "name": "York St (F)"
     },
     "F16N": {
         "run": 13,
-        "index": 19,
+        "index": 18,
         "name": "East Broadway (F)"
     },
     "F16S": {
         "run": 13,
-        "index": 19,
+        "index": 18,
         "name": "East Broadway (F)"
     },
     "F15N": {
         "run": 13,
-        "index": 20,
+        "index": 19,
         "name": "Delancey St-Essex St (F,M,J,Z)"
     },
     "F15S": {
         "run": 13,
-        "index": 20,
+        "index": 19,
+        "name": "Delancey St-Essex St (F,M,J,Z)"
+    },
+    "M18N": {
+        "run": 13,
+        "index": 19,
+        "name": "Delancey St-Essex St (F,M,J,Z)"
+    },
+    "M18S": {
+        "run": 13,
+        "index": 19,
         "name": "Delancey St-Essex St (F,M,J,Z)"
     },
     "F14N": {
         "run": 13,
-        "index": 21,
+        "index": 20,
         "name": "2 Av (F)"
     },
     "F14S": {
         "run": 13,
-        "index": 21,
+        "index": 20,
         "name": "2 Av (F)"
     },
     "M23N": {
@@ -3759,304 +3899,264 @@
         "index": 0,
         "name": "Broad St (J,Z)"
     },
-    "M22N": {
-        "run": 14,
-        "index": 1,
-        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
-    },
-    "M22S": {
-        "run": 14,
-        "index": 1,
-        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
-    },
     "M21N": {
         "run": 14,
-        "index": 2,
+        "index": 1,
         "name": "Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)"
     },
     "M21S": {
         "run": 14,
-        "index": 2,
+        "index": 1,
         "name": "Brooklyn Bridge-City Hall/Chambers St (4,5,6,J,Z)"
-    },
-    "M20N": {
-        "run": 14,
-        "index": 3,
-        "name": "Canal St (6,J,Z,N,Q,R,W)"
-    },
-    "M20S": {
-        "run": 14,
-        "index": 3,
-        "name": "Canal St (6,J,Z,N,Q,R,W)"
     },
     "M19N": {
         "run": 14,
-        "index": 4,
+        "index": 2,
         "name": "Bowery (J,Z)"
     },
     "M19S": {
         "run": 14,
-        "index": 4,
+        "index": 2,
         "name": "Bowery (J,Z)"
-    },
-    "M18N": {
-        "run": 14,
-        "index": 5,
-        "name": "Delancey St-Essex St (F,M,J,Z)"
-    },
-    "M18S": {
-        "run": 14,
-        "index": 5,
-        "name": "Delancey St-Essex St (F,M,J,Z)"
     },
     "M16N": {
         "run": 14,
-        "index": 6,
+        "index": 3,
         "name": "Marcy Av (M,J,Z)"
     },
     "M16S": {
         "run": 14,
-        "index": 6,
+        "index": 3,
         "name": "Marcy Av (M,J,Z)"
     },
     "M14N": {
         "run": 14,
-        "index": 7,
+        "index": 4,
         "name": "Hewes St (M,J)"
     },
     "M14S": {
         "run": 14,
-        "index": 7,
+        "index": 4,
         "name": "Hewes St (M,J)"
     },
     "M13N": {
         "run": 14,
-        "index": 8,
+        "index": 5,
         "name": "Lorimer St (M,J)"
     },
     "M13S": {
         "run": 14,
-        "index": 8,
+        "index": 5,
         "name": "Lorimer St (M,J)"
     },
     "M12N": {
         "run": 14,
-        "index": 9,
+        "index": 6,
         "name": "Flushing Av (M,J)"
     },
     "M12S": {
         "run": 14,
-        "index": 9,
+        "index": 6,
         "name": "Flushing Av (M,J)"
     },
     "M11N": {
         "run": 14,
-        "index": 10,
+        "index": 7,
         "name": "Myrtle Av (M,J,Z)"
     },
     "M11S": {
         "run": 14,
-        "index": 10,
+        "index": 7,
         "name": "Myrtle Av (M,J,Z)"
     },
     "J31N": {
         "run": 14,
-        "index": 11,
+        "index": 8,
         "name": "Kosciuszko St (J)"
     },
     "J31S": {
         "run": 14,
-        "index": 11,
+        "index": 8,
         "name": "Kosciuszko St (J)"
     },
     "J30N": {
         "run": 14,
-        "index": 12,
+        "index": 9,
         "name": "Gates Av (J,Z)"
     },
     "J30S": {
         "run": 14,
-        "index": 12,
+        "index": 9,
         "name": "Gates Av (J,Z)"
     },
     "J29N": {
         "run": 14,
-        "index": 13,
+        "index": 10,
         "name": "Halsey St (J)"
     },
     "J29S": {
         "run": 14,
-        "index": 13,
+        "index": 10,
         "name": "Halsey St (J)"
     },
     "J28N": {
         "run": 14,
-        "index": 14,
+        "index": 11,
         "name": "Chauncey St (J,Z)"
     },
     "J28S": {
         "run": 14,
-        "index": 14,
+        "index": 11,
         "name": "Chauncey St (J,Z)"
-    },
-    "J27N": {
-        "run": 14,
-        "index": 15,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "J27S": {
-        "run": 14,
-        "index": 15,
-        "name": "Broadway Junction (A,C,J,Z,L)"
     },
     "J24N": {
         "run": 14,
-        "index": 16,
+        "index": 12,
         "name": "Alabama Av (J,Z)"
     },
     "J24S": {
         "run": 14,
-        "index": 16,
+        "index": 12,
         "name": "Alabama Av (J,Z)"
     },
     "J23N": {
         "run": 14,
-        "index": 17,
+        "index": 13,
         "name": "Van Siclen Av (J,Z)"
     },
     "J23S": {
         "run": 14,
-        "index": 17,
+        "index": 13,
         "name": "Van Siclen Av (J,Z)"
     },
     "J22N": {
         "run": 14,
-        "index": 18,
+        "index": 14,
         "name": "Cleveland St (J)"
     },
     "J22S": {
         "run": 14,
-        "index": 18,
+        "index": 14,
         "name": "Cleveland St (J)"
     },
     "J21N": {
         "run": 14,
-        "index": 19,
+        "index": 15,
         "name": "Norwood Av (J,Z)"
     },
     "J21S": {
         "run": 14,
-        "index": 19,
+        "index": 15,
         "name": "Norwood Av (J,Z)"
     },
     "J20N": {
         "run": 14,
-        "index": 20,
+        "index": 16,
         "name": "Crescent St (J,Z)"
     },
     "J20S": {
         "run": 14,
-        "index": 20,
+        "index": 16,
         "name": "Crescent St (J,Z)"
     },
     "J19N": {
         "run": 14,
-        "index": 21,
+        "index": 17,
         "name": "Cypress Hills (J)"
     },
     "J19S": {
         "run": 14,
-        "index": 21,
+        "index": 17,
         "name": "Cypress Hills (J)"
     },
     "J17N": {
         "run": 14,
-        "index": 22,
+        "index": 18,
         "name": "75 St-Elderts Ln (J,Z)"
     },
     "J17S": {
         "run": 14,
-        "index": 22,
+        "index": 18,
         "name": "75 St-Elderts Ln (J,Z)"
     },
     "J16N": {
         "run": 14,
-        "index": 23,
+        "index": 19,
         "name": "85 St-Forest Pkwy (J)"
     },
     "J16S": {
         "run": 14,
-        "index": 23,
+        "index": 19,
         "name": "85 St-Forest Pkwy (J)"
     },
     "J15N": {
         "run": 14,
-        "index": 24,
+        "index": 20,
         "name": "Woodhaven Blvd (J,Z)"
     },
     "J15S": {
         "run": 14,
-        "index": 24,
+        "index": 20,
         "name": "Woodhaven Blvd (J,Z)"
     },
     "J14N": {
         "run": 14,
-        "index": 25,
+        "index": 21,
         "name": "104 St (J,Z)"
     },
     "J14S": {
         "run": 14,
-        "index": 25,
+        "index": 21,
         "name": "104 St (J,Z)"
     },
     "J13N": {
         "run": 14,
-        "index": 26,
+        "index": 22,
         "name": "111 St (J)"
     },
     "J13S": {
         "run": 14,
-        "index": 26,
+        "index": 22,
         "name": "111 St (J)"
     },
     "J12N": {
         "run": 14,
-        "index": 27,
+        "index": 23,
         "name": "121 St (J,Z)"
     },
     "J12S": {
         "run": 14,
-        "index": 27,
+        "index": 23,
         "name": "121 St (J,Z)"
     },
     "G06N": {
         "run": 14,
-        "index": 28,
+        "index": 24,
         "name": "Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)"
     },
     "G06S": {
         "run": 14,
-        "index": 28,
+        "index": 24,
         "name": "Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)"
     },
     "G05N": {
         "run": 14,
-        "index": 29,
+        "index": 25,
         "name": "Jamaica Center-Parsons/Archer (E,J,Z)"
     },
     "G05S": {
         "run": 14,
-        "index": 29,
+        "index": 25,
         "name": "Jamaica Center-Parsons/Archer (E,J,Z)"
     },
     "G07N": {
         "run": 14,
-        "index": 30,
+        "index": 26,
         "name": "Jamaica-Van Wyck (E)"
     },
     "G07S": {
         "run": 14,
-        "index": 30,
+        "index": 26,
         "name": "Jamaica-Van Wyck (E)"
     },
     "M10N": {
@@ -4085,6 +4185,16 @@
         "name": "Myrtle-Wyckoff Avs (M,L)"
     },
     "M08S": {
+        "run": 15,
+        "index": 2,
+        "name": "Myrtle-Wyckoff Avs (M,L)"
+    },
+    "L17N": {
+        "run": 15,
+        "index": 2,
+        "name": "Myrtle-Wyckoff Avs (M,L)"
+    },
+    "L17S": {
         "run": 15,
         "index": 2,
         "name": "Myrtle-Wyckoff Avs (M,L)"
@@ -4229,185 +4339,135 @@
         "index": 9,
         "name": "Atlantic Av (L)"
     },
-    "L22N": {
-        "run": 16,
-        "index": 10,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "L22S": {
-        "run": 16,
-        "index": 10,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
     "L21N": {
         "run": 16,
-        "index": 11,
+        "index": 10,
         "name": "Bushwick Av-Aberdeen St (L)"
     },
     "L21S": {
         "run": 16,
-        "index": 11,
+        "index": 10,
         "name": "Bushwick Av-Aberdeen St (L)"
     },
     "L20N": {
         "run": 16,
-        "index": 12,
+        "index": 11,
         "name": "Wilson Av (L)"
     },
     "L20S": {
         "run": 16,
-        "index": 12,
+        "index": 11,
         "name": "Wilson Av (L)"
     },
     "L19N": {
         "run": 16,
-        "index": 13,
+        "index": 12,
         "name": "Halsey St (L)"
     },
     "L19S": {
         "run": 16,
-        "index": 13,
+        "index": 12,
         "name": "Halsey St (L)"
-    },
-    "L17N": {
-        "run": 16,
-        "index": 14,
-        "name": "Myrtle-Wyckoff Avs (M,L)"
-    },
-    "L17S": {
-        "run": 16,
-        "index": 14,
-        "name": "Myrtle-Wyckoff Avs (M,L)"
     },
     "L16N": {
         "run": 16,
-        "index": 15,
+        "index": 13,
         "name": "DeKalb Av (L)"
     },
     "L16S": {
         "run": 16,
-        "index": 15,
+        "index": 13,
         "name": "DeKalb Av (L)"
     },
     "L15N": {
         "run": 16,
-        "index": 16,
+        "index": 14,
         "name": "Jefferson St (L)"
     },
     "L15S": {
         "run": 16,
-        "index": 16,
+        "index": 14,
         "name": "Jefferson St (L)"
     },
     "L14N": {
         "run": 16,
-        "index": 17,
+        "index": 15,
         "name": "Morgan Av (L)"
     },
     "L14S": {
         "run": 16,
-        "index": 17,
+        "index": 15,
         "name": "Morgan Av (L)"
     },
     "L13N": {
         "run": 16,
-        "index": 18,
+        "index": 16,
         "name": "Montrose Av (L)"
     },
     "L13S": {
         "run": 16,
-        "index": 18,
+        "index": 16,
         "name": "Montrose Av (L)"
     },
     "L12N": {
         "run": 16,
-        "index": 19,
+        "index": 17,
         "name": "Grand St (L)"
     },
     "L12S": {
         "run": 16,
-        "index": 19,
+        "index": 17,
         "name": "Grand St (L)"
     },
     "L11N": {
         "run": 16,
-        "index": 20,
+        "index": 18,
         "name": "Graham Av (L)"
     },
     "L11S": {
         "run": 16,
-        "index": 20,
+        "index": 18,
         "name": "Graham Av (L)"
     },
     "L10N": {
         "run": 16,
-        "index": 21,
+        "index": 19,
         "name": "Metropolitan Av/Lorimer St (G,L)"
     },
     "L10S": {
         "run": 16,
-        "index": 21,
+        "index": 19,
         "name": "Metropolitan Av/Lorimer St (G,L)"
     },
     "L08N": {
         "run": 16,
-        "index": 22,
+        "index": 20,
         "name": "Bedford Av (L)"
     },
     "L08S": {
         "run": 16,
-        "index": 22,
+        "index": 20,
         "name": "Bedford Av (L)"
     },
     "L06N": {
         "run": 16,
-        "index": 23,
+        "index": 21,
         "name": "1 Av (L)"
     },
     "L06S": {
         "run": 16,
-        "index": 23,
+        "index": 21,
         "name": "1 Av (L)"
     },
     "L05N": {
         "run": 16,
-        "index": 24,
+        "index": 22,
         "name": "3 Av (L)"
     },
     "L05S": {
         "run": 16,
-        "index": 24,
+        "index": 22,
         "name": "3 Av (L)"
-    },
-    "L03N": {
-        "run": 16,
-        "index": 25,
-        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
-    },
-    "L03S": {
-        "run": 16,
-        "index": 25,
-        "name": "14 St-Union Sq (4,5,6,L,N,Q,R,W)"
-    },
-    "L02N": {
-        "run": 16,
-        "index": 26,
-        "name": "14 St/6 Av (1,2,3,L,F,M)"
-    },
-    "L02S": {
-        "run": 16,
-        "index": 26,
-        "name": "14 St/6 Av (1,2,3,L,F,M)"
-    },
-    "L01N": {
-        "run": 16,
-        "index": 27,
-        "name": "14 St/8 Av (A,C,E,L)"
-    },
-    "L01S": {
-        "run": 16,
-        "index": 27,
-        "name": "14 St/8 Av (A,C,E,L)"
     },
     "726N": {
         "run": 17,
@@ -4419,214 +4479,164 @@
         "index": 0,
         "name": "34 St-Hudson Yards (7)"
     },
-    "725N": {
-        "run": 17,
-        "index": 1,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "725S": {
-        "run": 17,
-        "index": 1,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "724N": {
-        "run": 17,
-        "index": 2,
-        "name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)"
-    },
-    "724S": {
-        "run": 17,
-        "index": 2,
-        "name": "42 St-Bryant Pk/5 Av (7,B,D,F,M)"
-    },
-    "723N": {
-        "run": 17,
-        "index": 3,
-        "name": "Grand Central-42 St (4,5,6,7,S)"
-    },
-    "723S": {
-        "run": 17,
-        "index": 3,
-        "name": "Grand Central-42 St (4,5,6,7,S)"
-    },
     "721N": {
         "run": 17,
-        "index": 4,
+        "index": 1,
         "name": "Vernon Blvd-Jackson Av (7)"
     },
     "721S": {
         "run": 17,
-        "index": 4,
+        "index": 1,
         "name": "Vernon Blvd-Jackson Av (7)"
     },
     "720N": {
         "run": 17,
-        "index": 5,
+        "index": 2,
         "name": "Hunters Point Av (7)"
     },
     "720S": {
         "run": 17,
-        "index": 5,
+        "index": 2,
         "name": "Hunters Point Av (7)"
-    },
-    "719N": {
-        "run": 17,
-        "index": 6,
-        "name": "Court Sq-23 St (7,E,M,G)"
-    },
-    "719S": {
-        "run": 17,
-        "index": 6,
-        "name": "Court Sq-23 St (7,E,M,G)"
-    },
-    "718N": {
-        "run": 17,
-        "index": 7,
-        "name": "Queensboro Plaza (7,N,W)"
-    },
-    "718S": {
-        "run": 17,
-        "index": 7,
-        "name": "Queensboro Plaza (7,N,W)"
     },
     "716N": {
         "run": 17,
-        "index": 8,
+        "index": 3,
         "name": "33 St-Rawson St (7)"
     },
     "716S": {
         "run": 17,
-        "index": 8,
+        "index": 3,
         "name": "33 St-Rawson St (7)"
     },
     "715N": {
         "run": 17,
-        "index": 9,
+        "index": 4,
         "name": "40 St-Lowery St (7)"
     },
     "715S": {
         "run": 17,
-        "index": 9,
+        "index": 4,
         "name": "40 St-Lowery St (7)"
     },
     "714N": {
         "run": 17,
-        "index": 10,
+        "index": 5,
         "name": "46 St-Bliss St (7)"
     },
     "714S": {
         "run": 17,
-        "index": 10,
+        "index": 5,
         "name": "46 St-Bliss St (7)"
     },
     "713N": {
         "run": 17,
-        "index": 11,
+        "index": 6,
         "name": "52 St (7)"
     },
     "713S": {
         "run": 17,
-        "index": 11,
+        "index": 6,
         "name": "52 St (7)"
     },
     "712N": {
         "run": 17,
-        "index": 12,
+        "index": 7,
         "name": "61 St-Woodside (7)"
     },
     "712S": {
         "run": 17,
-        "index": 12,
+        "index": 7,
         "name": "61 St-Woodside (7)"
     },
     "711N": {
         "run": 17,
-        "index": 13,
+        "index": 8,
         "name": "69 St (7)"
     },
     "711S": {
         "run": 17,
-        "index": 13,
+        "index": 8,
         "name": "69 St (7)"
     },
     "710N": {
         "run": 17,
-        "index": 14,
+        "index": 9,
         "name": "Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)"
     },
     "710S": {
         "run": 17,
-        "index": 14,
+        "index": 9,
         "name": "Jackson Hts-Roosevelt Av/74 St-Broadway (7,E,F,M,R)"
     },
     "709N": {
         "run": 17,
-        "index": 15,
+        "index": 10,
         "name": "82 St-Jackson Hts (7)"
     },
     "709S": {
         "run": 17,
-        "index": 15,
+        "index": 10,
         "name": "82 St-Jackson Hts (7)"
     },
     "708N": {
         "run": 17,
-        "index": 16,
+        "index": 11,
         "name": "90 St-Elmhurst Av (7)"
     },
     "708S": {
         "run": 17,
-        "index": 16,
+        "index": 11,
         "name": "90 St-Elmhurst Av (7)"
     },
     "707N": {
         "run": 17,
-        "index": 17,
+        "index": 12,
         "name": "Junction Blvd (7)"
     },
     "707S": {
         "run": 17,
-        "index": 17,
+        "index": 12,
         "name": "Junction Blvd (7)"
     },
     "706N": {
         "run": 17,
-        "index": 18,
+        "index": 13,
         "name": "103 St-Corona Plaza (7)"
     },
     "706S": {
         "run": 17,
-        "index": 18,
+        "index": 13,
         "name": "103 St-Corona Plaza (7)"
     },
     "705N": {
         "run": 17,
-        "index": 19,
+        "index": 14,
         "name": "111 St (7)"
     },
     "705S": {
         "run": 17,
-        "index": 19,
+        "index": 14,
         "name": "111 St (7)"
     },
     "702N": {
         "run": 17,
-        "index": 20,
+        "index": 15,
         "name": "Mets-Willets Point (7)"
     },
     "702S": {
         "run": 17,
-        "index": 20,
+        "index": 15,
         "name": "Mets-Willets Point (7)"
     },
     "701N": {
         "run": 17,
-        "index": 21,
+        "index": 16,
         "name": "Flushing-Main St (7)"
     },
     "701S": {
         "run": 17,
-        "index": 21,
+        "index": 16,
         "name": "Flushing-Main St (7)"
     },
     "G36N": {
@@ -4738,16 +4748,6 @@
         "run": 18,
         "index": 10,
         "name": "21 St (G)"
-    },
-    "G22N": {
-        "run": 18,
-        "index": 11,
-        "name": "Court Sq-23 St (7,E,M,G)"
-    },
-    "G22S": {
-        "run": 18,
-        "index": 11,
-        "name": "Court Sq-23 St (7,E,M,G)"
     },
     "S11N": {
         "run": 19,
