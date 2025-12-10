@@ -5,7 +5,7 @@ Wants=display-manager.service
 
 [Service]
 Type=simple
-User=pi
+User=groupseven
 WorkingDirectory=/home/groupseven/Documents/Github/Subway_LED_Console_project
 ExecStart=/bin/bash /home/groupseven/Documents/Github/Subway_LED_Console_project/start_subway_system.sh
 Restart=on-failure
