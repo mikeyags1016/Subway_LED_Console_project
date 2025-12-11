@@ -97,325 +97,294 @@
 ////
 ////void loop() {}
 //
-//#include <Arduino.h>
-//#include <FastLED.h>
-//
-//#define LED_PIN_0   23 // Run 0
-//#define LED_PIN_1   2 // Run 0
-//#define LED_PIN_2   5
-//#define LED_PIN_3   15
-//#define LED_PIN_4   21
-//#define LED_PIN_5   15        
-//#define LED_PIN_6   22
-//#define LED_PIN_7   21        
-//#define LED_PIN_8   22
-//#define LED_PIN_9   15        // change this to your LED data pin
-//#define LED_PIN_10  23
-//#define LED_PIN_11  21        
-//#define LED_PIN_12  22
-//#define LED_PIN_13  15        // change this to your LED data pin
-//#define LED_PIN_14  24
-//#define LED_PIN_15  21        
-//#define LED_PIN_16  22
-//#define LED_PIN_17  25
-//#define LED_PIN_18  21        
-//#define LED_PIN_19  22
-//#define LED_COUNT   100       // number of LEDs you want to turn on
-//#define BRIGHTNESS  50       // brightness 0–255
-//
-//CRGB leds_0[LED_COUNT];
-//CRGB leds_1[LED_COUNT];
-//CRGB leds_2[LED_COUNT];
-//CRGB leds_3[LED_COUNT];
-//CRGB leds_4[LED_COUNT];
-//CRGB leds_5[LED_COUNT];
-//CRGB leds_6[LED_COUNT];
-//CRGB leds_7[LED_COUNT];
-//CRGB leds_8[LED_COUNT];
-//CRGB leds_9[LED_COUNT];
-//CRGB leds_10[LED_COUNT];
-//CRGB leds_11[LED_COUNT];
-//CRGB leds_12[LED_COUNT];
-//CRGB leds_13[LED_COUNT];
-//CRGB leds_14[LED_COUNT];
-//CRGB leds_15[LED_COUNT];
-//CRGB leds_16[LED_COUNT];
-//CRGB leds_17[LED_COUNT];
-//CRGB leds_18[LED_COUNT];
-//CRGB leds_19[LED_COUNT];
-//
-//String inputLine = "";
-//
-//// Struct to hold parsed command values
-//struct ParsedCommand {
-//  int run;
-//  int index;
-//  byte r, g, b;
-//  bool valid;
-//  bool end;
-//};
-//
-//// Helper function to parse and return values
-//ParsedCommand parseInputLine(const String &line) {
-//  ParsedCommand cmd = {0, 0, 0, 0, 0, false, false};
-//  if (line.equalsIgnoreCase("END")) {
-//    cmd.end = true;
-//    cmd.valid = true;
-//    return cmd;
-//  }
-//  int firstComma = line.indexOf(',');
-//  int secondComma = line.indexOf(',', firstComma + 1);
-//
-//  if (firstComma > 0 && secondComma > firstComma) {
-//    String runStr = line.substring(0, firstComma);
-//    String indexStr = line.substring(firstComma + 1, secondComma);
-//    String colorStr = line.substring(secondComma + 1);
-//
-//    cmd.run = runStr.toInt();
-//    cmd.index = indexStr.toInt();
-//    long colorValue = strtol(colorStr.c_str(), NULL, 16);
-//    cmd.r = (colorValue >> 16) & 0xFF;
-//    cmd.g = (colorValue >> 8) & 0xFF;
-//    cmd.b = colorValue & 0xFF;
-//    cmd.valid = true;
-//  }
-//  return cmd;
-//}
-//
-//void setup() {
-//  Serial.begin(115200);
-//  Serial1.begin(115200, SERIAL_8N1, 18, 19);
-//  delay(500);
-//  Serial.println("ESP32 UART ready (RX=18, TX=19)");
-//
-//  FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds_2, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_3, GRB>(leds_3, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_4, GRB>(leds_4, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_5, GRB>(leds_5, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_6, GRB>(leds_6, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_7, GRB>(leds_7, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_8, GRB>(leds_8, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_9, GRB>(leds_9, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_10, GRB>(leds_10, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_11, GRB>(leds_11, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_12, GRB>(leds_12, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_13, GRB>(leds_13, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_14, GRB>(leds_14, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_15, GRB>(leds_15, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_16, GRB>(leds_16, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_17, GRB>(leds_17, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_18, GRB>(leds_18, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_19, GRB>(leds_19, LED_COUNT);
-//  FastLED.setBrightness(BRIGHTNESS);
-//
-//  fill_solid(leds_0, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_1, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_2, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_3, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_4, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_5, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_6, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_7, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_8, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_9, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_10, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_11, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_12 LED_COUNT, CRGB::Black);
-//  fill_solid(leds_13, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_14, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_15, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_16, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_17, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_18, LED_COUNT, CRGB::Black);
-//  fill_solid(leds_19, LED_COUNT, CRGB::Black);
-//  FastLED.show();
-//}
-//
-//void loop() {
-//  while (Serial1.available()) {
-//    char c = Serial1.read();
-//
-//    if (c == '\n') {
-//      inputLine.trim();
-//      ParsedCommand cmd = parseInputLine(inputLine);
-//
-//      if (cmd.valid) {
-//        if (cmd.end) {
-//          Serial.println("End message received");
-//          FastLED.show();
-//        } else {
-//          Serial.print("Run: ");
-//          Serial.print(cmd.run);
-//          Serial.print(", Index: ");
-//          Serial.print(cmd.index);
-//          Serial.print(", Color: ");
-//          Serial.print(cmd.r);
-//          Serial.print(",");
-//          Serial.print(cmd.g);
-//          Serial.print(",");
-//          Serial.println(cmd.b);
-//
-//          if (cmd.index >= 0 && cmd.index < LED_COUNT) {
-//            if (cmd.run == 0) {
-//              leds_0[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            } 
-//            else if (cmd.run == 1) {
-//              leds_1[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 2) {
-//              leds_2[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 3) {
-//              leds_3[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 4) {
-//              leds_4[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            } 
-//            else if (cmd.run == 5) {
-//              leds_5[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 6) {
-//              leds_6[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 7) {
-//              leds_7[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 8) {
-//              leds_8[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 9) {
-//              leds_9[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 10) {
-//              leds_10[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            } 
-//            else if (cmd.run == 11) {
-//              leds_11[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 12) {
-//              leds_12[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 13) {
-//              leds_13[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 14) {
-//              leds_14[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 15) {
-//              leds_15[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 16) {
-//              leds_16[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 17) {
-//              leds_17[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//            else if (cmd.run == 18) {
-//              leds_18[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            } 
-//            else if (cmd.run == 19) {
-//              leds_19[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b);
-//            }
-//          }
-//        }
-//        // Later: use cmd.run, cmd.index, cmd.r/g/b to control LEDs as needed
-//      } else {
-//        Serial.print("Invalid input: ");
-//        Serial.println(inputLine);
-//      }
-//      inputLine = "";
-//    } else {
-//      inputLine += c;
-//    }
-//  }
-//}
-
+#include <Arduino.h>
 #include <FastLED.h>
 
-// ---- CONFIG ----
 #define LED_PIN_0   23 // Run 0
 #define LED_PIN_1   2 // Run 0
-//#define LED_PIN_2   5
-//#define LED_PIN_3   15
-//#define LED_PIN_4   21
-//#define LED_PIN_5   15        
-//#define LED_PIN_6   22
-//#define LED_PIN_7   21        
-//#define LED_PIN_8   22
-//#define LED_PIN_9   15        // change this to your LED data pin
-//#define LED_PIN_10  23
-//#define LED_PIN_11  21        
-//#define LED_PIN_12  22
-//#define LED_PIN_13  15        // change this to your LED data pin
-//#define LED_PIN_14  24
-//#define LED_PIN_15  21        
-//#define LED_PIN_16  22
-//#define LED_PIN_17  25
-//#define LED_PIN_18  21        
-//#define LED_PIN_19  22
-
-#define LED_COUNT   30
-#define BRIGHTNESS  150
+#define LED_PIN_2   5
+#define LED_PIN_3   15
+#define LED_PIN_4   21
+#define LED_PIN_5   13        
+#define LED_PIN_6   22
+#define LED_PIN_7   21        
+#define LED_PIN_8   24
+#define LED_PIN_9   1        // change this to your LED data pin
+#define LED_PIN_10  3
+#define LED_PIN_11  4        
+#define LED_PIN_12  5
+#define LED_PIN_13  6        // change this to your LED data pin
+#define LED_PIN_14  7
+#define LED_PIN_15  8        
+#define LED_PIN_16  9
+#define LED_PIN_17  10
+#define LED_PIN_18  11        
+#define LED_PIN_19  12
+#define LED_COUNT   100       // number of LEDs you want to turn on
+#define BRIGHTNESS  50       // brightness 0–255
 
 CRGB leds_0[LED_COUNT];
 CRGB leds_1[LED_COUNT];
-//CRGB leds_2[LED_COUNT];
-//CRGB leds_3[LED_COUNT];
-//CRGB leds_4[LED_COUNT];
-//CRGB leds_5[LED_COUNT];
-//CRGB leds_6[LED_COUNT];
-//CRGB leds_7[LED_COUNT];
-//CRGB leds_8[LED_COUNT];
-//CRGB leds_9[LED_COUNT];
-//CRGB leds_10[LED_COUNT];
-//CRGB leds_11[LED_COUNT];
-//CRGB leds_12[LED_COUNT];
-//CRGB leds_13[LED_COUNT];
-//CRGB leds_14[LED_COUNT];
-//CRGB leds_15[LED_COUNT];
-//CRGB leds_16[LED_COUNT];
-//CRGB leds_17[LED_COUNT];
-//CRGB leds_18[LED_COUNT];
-//CRGB leds_19[LED_COUNT];
+CRGB leds_2[LED_COUNT];
+CRGB leds_3[LED_COUNT];
+CRGB leds_4[LED_COUNT];
+CRGB leds_5[LED_COUNT];
+CRGB leds_6[LED_COUNT];
+CRGB leds_7[LED_COUNT];
+CRGB leds_8[LED_COUNT];
+CRGB leds_9[LED_COUNT];
+CRGB leds_10[LED_COUNT];
+CRGB leds_11[LED_COUNT];
+CRGB leds_12[LED_COUNT];
+CRGB leds_13[LED_COUNT];
+CRGB leds_14[LED_COUNT];
+CRGB leds_15[LED_COUNT];
+CRGB leds_16[LED_COUNT];
+CRGB leds_17[LED_COUNT];
+CRGB leds_18[LED_COUNT];
+CRGB leds_19[LED_COUNT];
+
+// Struct to hold parsed command values
+struct ParsedCommand {
+ int run;
+ int index;
+ byte r, g, b;
+ bool valid;
+ bool end;
+};
+
+// Helper function to parse and return values
+ParsedCommand parseInputLine(const String &line) {
+ ParsedCommand cmd = {0, 0, 0, 0, 0, false, false};
+ if (line.equalsIgnoreCase("END")) {
+   cmd.end = true;
+   cmd.valid = true;
+   return cmd;
+ }
+ int firstComma = line.indexOf(',');
+ int secondComma = line.indexOf(',', firstComma + 1);
+
+ if (firstComma > 0 && secondComma > firstComma) {
+   String runStr = line.substring(0, firstComma);
+   String indexStr = line.substring(firstComma + 1, secondComma);
+   String colorStr = line.substring(secondComma + 1);
+
+   cmd.run = runStr.toInt();
+   cmd.index = indexStr.toInt();
+   long colorValue = strtol(colorStr.c_str(), NULL, 16);
+   cmd.r = (colorValue >> 16) & 0xFF;
+   cmd.g = (colorValue >> 8) & 0xFF;
+   cmd.b = colorValue & 0xFF;
+   cmd.valid = true;
+ }
+ return cmd;
+}
 
 void setup() {
-  Serial.begin(115200);
-  Serial1.begin(115200, SERIAL_8N1, 18, 19);
-  delay(500);
-  Serial.println("ESP32 UART ready (RX=18, TX=19)");
+ Serial.begin(115200);
+ Serial1.begin(115200, SERIAL_8N1, 18, 19);
+ delay(500);
+ Serial.println("ESP32 UART ready (RX=18, TX=19)");
 
-  // ---- FASTLED INIT ----
-  FastLED.addLeds<WS2812B, LED_PIN_0, GRB>(leds_0, LED_COUNT);
-  FastLED.addLeds<WS2812B, LED_PIN_1, GRB>(leds_1, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds_2, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_3, GRB>(leds_3, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_4, GRB>(leds_4, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_5, GRB>(leds_5, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_6, GRB>(leds_6, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_7, GRB>(leds_7, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_8, GRB>(leds_8, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_9, GRB>(leds_9, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_10, GRB>(leds_10, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_11, GRB>(leds_11, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_12, GRB>(leds_12, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_13, GRB>(leds_13, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_14, GRB>(leds_14, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_15, GRB>(leds_15, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_16, GRB>(leds_16, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_17, GRB>(leds_17, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_18, GRB>(leds_18, LED_COUNT);
-//  FastLED.addLeds<WS2812B, LED_PIN_19, GRB>(leds_19, LED_COUNT);
-  FastLED.setBrightness(BRIGHTNESS);
+ FastLED.addLeds<WS2812B, LED_PIN_0, GRB>(leds_0, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_1, GRB>(leds_1, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds_2, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_3, GRB>(leds_3, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_4, GRB>(leds_4, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_5, GRB>(leds_5, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_6, GRB>(leds_6, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_7, GRB>(leds_7, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_8, GRB>(leds_8, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_9, GRB>(leds_9, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_10, GRB>(leds_10, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_11, GRB>(leds_11, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_12, GRB>(leds_12, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_13, GRB>(leds_13, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_14, GRB>(leds_14, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_15, GRB>(leds_15, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_16, GRB>(leds_16, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_17, GRB>(leds_17, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_18, GRB>(leds_18, LED_COUNT);
+ FastLED.addLeds<WS2812B, LED_PIN_19, GRB>(leds_19, LED_COUNT);
+ FastLED.setBrightness(BRIGHTNESS);
 
-  // ---- TURN EVERYTHING ON ----
-  fill_solid(leds_0,   LED_COUNT, CRGB::White);   // set color here
-//  fill_solid(leds_2, LED_COUNT, CRGB::White);
-//  fill_solid(leds_3, LED_COUNT, CRGB::White);
-//  fill_solid(leds_4, LED_COUNT, CRGB::White);
-  FastLED.show();
+ fill_solid(leds_0, LED_COUNT, CRGB::Black);
+ fill_solid(leds_1, LED_COUNT, CRGB::Black);
+ fill_solid(leds_2, LED_COUNT, CRGB::Black);
+ fill_solid(leds_3, LED_COUNT, CRGB::Black);
+ fill_solid(leds_4, LED_COUNT, CRGB::Black);
+ fill_solid(leds_5, LED_COUNT, CRGB::Black);
+ fill_solid(leds_6, LED_COUNT, CRGB::Black);
+ fill_solid(leds_7, LED_COUNT, CRGB::Black);
+ fill_solid(leds_8, LED_COUNT, CRGB::Black);
+ fill_solid(leds_9, LED_COUNT, CRGB::Black);
+ fill_solid(leds_10, LED_COUNT, CRGB::Black);
+ fill_solid(leds_11, LED_COUNT, CRGB::Black);
+ fill_solid(leds_12, LED_COUNT, CRGB::Black);
+ fill_solid(leds_13, LED_COUNT, CRGB::Black);
+ fill_solid(leds_14, LED_COUNT, CRGB::Black);
+ fill_solid(leds_15, LED_COUNT, CRGB::Black);
+ fill_solid(leds_16, LED_COUNT, CRGB::Black);
+ fill_solid(leds_17, LED_COUNT, CRGB::Black);
+ fill_solid(leds_18, LED_COUNT, CRGB::Black);
+ fill_solid(leds_19, LED_COUNT, CRGB::Black);
+ FastLED.show();
 }
+
+String inputLine = "";   // <-- must be global or static
 
 void loop() {
-  // nothing — LEDs stay on
+   while (Serial1.available() > 0) {
+       char c = Serial1.read();
+
+       if (c == '\n') {
+           inputLine.trim();
+
+           ParsedCommand cmd = parseInputLine(inputLine);
+
+           if (cmd.valid) {
+
+               if (cmd.end) {
+                   Serial.println("End message received");
+                   FastLED.show();    // update all strips
+               } else {
+
+                   Serial.print("Run: ");
+                   Serial.print(cmd.run);
+                   Serial.print(", Index: ");
+                   Serial.print(cmd.index);
+                   Serial.print(", Color: ");
+                   Serial.print(cmd.r);
+                   Serial.print(",");
+                   Serial.print(cmd.g);
+                   Serial.print(",");
+                   Serial.println(cmd.b);
+
+                   if (cmd.index >= 0 && cmd.index < LED_COUNT) {
+
+                       switch (cmd.run) {
+                           case 0:  leds_0[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 1:  leds_1[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 2:  leds_2[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 3:  leds_3[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 4:  leds_4[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 5:  leds_5[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 6:  leds_6[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 7:  leds_7[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 8:  leds_8[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 9:  leds_9[cmd.index]  = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 10: leds_10[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 11: leds_11[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 12: leds_12[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 13: leds_13[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 14: leds_14[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 15: leds_15[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 16: leds_16[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 17: leds_17[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 18: leds_18[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                           case 19: leds_19[cmd.index] = CRGB(cmd.r, cmd.g, cmd.b); break;
+                       }
+                   }
+               }
+           } else {
+               Serial.print("Invalid input: ");
+               Serial.println(inputLine); 
+           }
+
+           inputLine = "";  // reset buffer
+       }
+
+       else {
+           inputLine += c;  // accumulate characters
+       }
+   }
 }
+
+// #include <FastLED.h>
+
+// // ---- CONFIG ----
+// #define LED_PIN_0   23 // Run 0
+// #define LED_PIN_1   2 // Run 0
+// //#define LED_PIN_2   5
+// //#define LED_PIN_3   15
+// //#define LED_PIN_4   21
+// //#define LED_PIN_5   15        
+// //#define LED_PIN_6   22
+// //#define LED_PIN_7   21        
+// //#define LED_PIN_8   22
+// //#define LED_PIN_9   15        // change this to your LED data pin
+// //#define LED_PIN_10  23
+// //#define LED_PIN_11  21        
+// //#define LED_PIN_12  22
+// //#define LED_PIN_13  15        // change this to your LED data pin
+// //#define LED_PIN_14  24
+// //#define LED_PIN_15  21        
+// //#define LED_PIN_16  22
+// //#define LED_PIN_17  25
+// //#define LED_PIN_18  21        
+// //#define LED_PIN_19  22
+
+// #define LED_COUNT   30
+// #define BRIGHTNESS  150
+
+// CRGB leds_0[LED_COUNT];
+// CRGB leds_1[LED_COUNT];
+// //CRGB leds_2[LED_COUNT];
+// //CRGB leds_3[LED_COUNT];
+// //CRGB leds_4[LED_COUNT];
+// //CRGB leds_5[LED_COUNT];
+// //CRGB leds_6[LED_COUNT];
+// //CRGB leds_7[LED_COUNT];
+// //CRGB leds_8[LED_COUNT];
+// //CRGB leds_9[LED_COUNT];
+// //CRGB leds_10[LED_COUNT];
+// //CRGB leds_11[LED_COUNT];
+// //CRGB leds_12[LED_COUNT];
+// //CRGB leds_13[LED_COUNT];
+// //CRGB leds_14[LED_COUNT];
+// //CRGB leds_15[LED_COUNT];
+// //CRGB leds_16[LED_COUNT];
+// //CRGB leds_17[LED_COUNT];
+// //CRGB leds_18[LED_COUNT];
+// //CRGB leds_19[LED_COUNT];
+
+// void setup() {
+//   Serial.begin(115200);
+//   Serial1.begin(115200, SERIAL_8N1, 18, 19);
+//   delay(500);
+//   Serial.println("ESP32 UART ready (RX=18, TX=19)");
+
+//   // ---- FASTLED INIT ----
+//   FastLED.addLeds<WS2812B, LED_PIN_0, GRB>(leds_0, LED_COUNT);
+//   FastLED.addLeds<WS2812B, LED_PIN_1, GRB>(leds_1, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_2, GRB>(leds_2, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_3, GRB>(leds_3, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_4, GRB>(leds_4, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_5, GRB>(leds_5, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_6, GRB>(leds_6, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_7, GRB>(leds_7, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_8, GRB>(leds_8, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_9, GRB>(leds_9, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_10, GRB>(leds_10, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_11, GRB>(leds_11, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_12, GRB>(leds_12, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_13, GRB>(leds_13, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_14, GRB>(leds_14, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_15, GRB>(leds_15, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_16, GRB>(leds_16, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_17, GRB>(leds_17, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_18, GRB>(leds_18, LED_COUNT);
+// //  FastLED.addLeds<WS2812B, LED_PIN_19, GRB>(leds_19, LED_COUNT);
+//   FastLED.setBrightness(BRIGHTNESS);
+
+//   // ---- TURN EVERYTHING ON ----
+//   fill_solid(leds_0,   LED_COUNT, CRGB::White);   // set color here
+// //  fill_solid(leds_2, LED_COUNT, CRGB::White);
+// //  fill_solid(leds_3, LED_COUNT, CRGB::White);
+// //  fill_solid(leds_4, LED_COUNT, CRGB::White);
+//   FastLED.show();
+// }
+
+// void loop() {
+//   // nothing — LEDs stay on
+// }
