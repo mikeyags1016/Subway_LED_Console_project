@@ -1659,726 +1659,150 @@
         "index": 17,
         "name": "Pelham Bay Park (6)"
     },
-    "H11N": {
-        "run": 8,
-        "index": 0,
-        "name": "Far Rockaway-Mott Av (A)"
-    },
-    "H11S": {
-        "run": 8,
-        "index": 0,
-        "name": "Far Rockaway-Mott Av (A)"
-    },
-    "H10N": {
-        "run": 8,
-        "index": 1,
-        "name": "Beach 25 St (A)"
-    },
-    "H10S": {
-        "run": 8,
-        "index": 1,
-        "name": "Beach 25 St (A)"
-    },
-    "H09N": {
-        "run": 8,
-        "index": 2,
-        "name": "Beach 36 St (A)"
-    },
-    "H09S": {
-        "run": 8,
-        "index": 2,
-        "name": "Beach 36 St (A)"
-    },
-    "H08N": {
-        "run": 8,
-        "index": 3,
-        "name": "Beach 44 St (A)"
-    },
-    "H08S": {
-        "run": 8,
-        "index": 3,
-        "name": "Beach 44 St (A)"
-    },
-    "H07N": {
-        "run": 8,
-        "index": 4,
-        "name": "Beach 60 St (A)"
-    },
-    "H07S": {
-        "run": 8,
-        "index": 4,
-        "name": "Beach 60 St (A)"
-    },
-    "H06N": {
-        "run": 8,
-        "index": 5,
-        "name": "Beach 67 St (A)"
-    },
-    "H06S": {
-        "run": 8,
-        "index": 5,
-        "name": "Beach 67 St (A)"
-    },
-    "H04N": {
-        "run": 8,
-        "index": 6,
-        "name": "Broad Channel (A,S)"
-    },
-    "H04S": {
-        "run": 8,
-        "index": 6,
-        "name": "Broad Channel (A,S)"
-    },
-    "H03N": {
-        "run": 8,
-        "index": 7,
-        "name": "Howard Beach-JFK Airport (A)"
-    },
-    "H03S": {
-        "run": 8,
-        "index": 7,
-        "name": "Howard Beach-JFK Airport (A)"
-    },
-    "H02N": {
-        "run": 8,
-        "index": 8,
-        "name": "Aqueduct-N Conduit Av (A)"
-    },
-    "H02S": {
-        "run": 8,
-        "index": 8,
-        "name": "Aqueduct-N Conduit Av (A)"
-    },
-    "H01N": {
-        "run": 8,
-        "index": 9,
-        "name": "Aqueduct Racetrack (A)"
-    },
-    "H01S": {
-        "run": 8,
-        "index": 9,
-        "name": "Aqueduct Racetrack (A)"
-    },
-    "A65N": {
-        "run": 8,
-        "index": 10,
-        "name": "Ozone Park-Lefferts Blvd (A)"
-    },
-    "A65S": {
-        "run": 8,
-        "index": 10,
-        "name": "Ozone Park-Lefferts Blvd (A)"
-    },
-    "A64N": {
-        "run": 8,
-        "index": 11,
-        "name": "111 St (A)"
-    },
-    "A64S": {
-        "run": 8,
-        "index": 11,
-        "name": "111 St (A)"
-    },
-    "A63N": {
-        "run": 8,
-        "index": 12,
-        "name": "104 St (A)"
-    },
-    "A63S": {
-        "run": 8,
-        "index": 12,
-        "name": "104 St (A)"
-    },
-    "A61N": {
-        "run": 8,
-        "index": 13,
-        "name": "Rockaway Blvd (A)"
-    },
-    "A61S": {
-        "run": 8,
-        "index": 13,
-        "name": "Rockaway Blvd (A)"
-    },
-    "A60N": {
-        "run": 8,
-        "index": 14,
-        "name": "88 St (A)"
-    },
-    "A60S": {
-        "run": 8,
-        "index": 14,
-        "name": "88 St (A)"
-    },
-    "A59N": {
-        "run": 8,
-        "index": 15,
-        "name": "80 St (A)"
-    },
-    "A59S": {
-        "run": 8,
-        "index": 15,
-        "name": "80 St (A)"
-    },
-    "A57N": {
-        "run": 8,
-        "index": 16,
-        "name": "Grant Av (A)"
-    },
-    "A57S": {
-        "run": 8,
-        "index": 16,
-        "name": "Grant Av (A)"
-    },
-    "A55N": {
-        "run": 8,
-        "index": 17,
-        "name": "Euclid Av (A,C)"
-    },
-    "A55S": {
-        "run": 8,
-        "index": 17,
-        "name": "Euclid Av (A,C)"
-    },
-    "A54N": {
-        "run": 8,
-        "index": 18,
-        "name": "Shepherd Av (C)"
-    },
-    "A54S": {
-        "run": 8,
-        "index": 18,
-        "name": "Shepherd Av (C)"
-    },
-    "A53N": {
-        "run": 8,
-        "index": 19,
-        "name": "Van Siclen Av (C)"
-    },
-    "A53S": {
-        "run": 8,
-        "index": 19,
-        "name": "Van Siclen Av (C)"
-    },
-    "A52N": {
-        "run": 8,
-        "index": 20,
-        "name": "Liberty Av (C)"
-    },
-    "A52S": {
-        "run": 8,
-        "index": 20,
-        "name": "Liberty Av (C)"
-    },
-    "A51N": {
-        "run": 8,
-        "index": 21,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "A51S": {
-        "run": 8,
-        "index": 21,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "J27N": {
-        "run": 8,
-        "index": 21,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "J27S": {
-        "run": 8,
-        "index": 21,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "L22N": {
-        "run": 8,
-        "index": 21,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "L22S": {
-        "run": 8,
-        "index": 21,
-        "name": "Broadway Junction (A,C,J,Z,L)"
-    },
-    "A50N": {
-        "run": 8,
-        "index": 22,
-        "name": "Rockaway Av (C)"
-    },
-    "A50S": {
-        "run": 8,
-        "index": 22,
-        "name": "Rockaway Av (C)"
-    },
-    "A49N": {
-        "run": 8,
-        "index": 23,
-        "name": "Ralph Av (C)"
-    },
-    "A49S": {
-        "run": 8,
-        "index": 23,
-        "name": "Ralph Av (C)"
-    },
-    "A48N": {
-        "run": 8,
-        "index": 24,
-        "name": "Utica Av (A,C)"
-    },
-    "A48S": {
-        "run": 8,
-        "index": 24,
-        "name": "Utica Av (A,C)"
-    },
-    "A47N": {
-        "run": 8,
-        "index": 25,
-        "name": "Kingston-Throop Avs (C)"
-    },
-    "A47S": {
-        "run": 8,
-        "index": 25,
-        "name": "Kingston-Throop Avs (C)"
-    },
-    "A46N": {
-        "run": 8,
-        "index": 26,
-        "name": "Nostrand Av (A,C)"
-    },
-    "A46S": {
-        "run": 8,
-        "index": 26,
-        "name": "Nostrand Av (A,C)"
-    },
-    "A45N": {
-        "run": 8,
-        "index": 27,
-        "name": "Franklin Av (C,S)"
-    },
-    "A45S": {
-        "run": 8,
-        "index": 27,
-        "name": "Franklin Av (C,S)"
-    },
-    "S01N": {
-        "run": 8,
-        "index": 27,
-        "name": "Franklin Av (C,S)"
-    },
-    "S01S": {
-        "run": 8,
-        "index": 27,
-        "name": "Franklin Av (C,S)"
-    },
-    "A44N": {
-        "run": 8,
-        "index": 28,
-        "name": "Clinton-Washington Avs (C)"
-    },
-    "A44S": {
-        "run": 8,
-        "index": 28,
-        "name": "Clinton-Washington Avs (C)"
-    },
-    "A43N": {
-        "run": 8,
-        "index": 29,
-        "name": "Lafayette Av (C)"
-    },
-    "A43S": {
-        "run": 8,
-        "index": 29,
-        "name": "Lafayette Av (C)"
-    },
-    "A42N": {
-        "run": 8,
-        "index": 30,
-        "name": "Hoyt-Schermerhorn Sts (A,C,G)"
-    },
-    "A42S": {
-        "run": 8,
-        "index": 30,
-        "name": "Hoyt-Schermerhorn Sts (A,C,G)"
-    },
-    "A41N": {
-        "run": 8,
-        "index": 31,
-        "name": "Jay St-MetroTech (A,C,F,R)"
-    },
-    "A41S": {
-        "run": 8,
-        "index": 31,
-        "name": "Jay St-MetroTech (A,C,F,R)"
-    },
-    "A40N": {
-        "run": 8,
-        "index": 32,
-        "name": "High St (A,C)"
-    },
-    "A40S": {
-        "run": 8,
-        "index": 32,
-        "name": "High St (A,C)"
-    },
-    "A38N": {
-        "run": 8,
-        "index": 33,
-        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
-    },
-    "A38S": {
-        "run": 8,
-        "index": 33,
-        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
-    },
-    "M22N": {
-        "run": 8,
-        "index": 33,
-        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
-    },
-    "M22S": {
-        "run": 8,
-        "index": 33,
-        "name": "Fulton St (2,3,4,5,A,C,J,Z)"
-    },
-    "A36N": {
-        "run": 8,
-        "index": 34,
-        "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)"
-    },
-    "A36S": {
-        "run": 8,
-        "index": 34,
-        "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)"
-    },
-    "E01N": {
-        "run": 8,
-        "index": 34,
-        "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)"
-    },
-    "E01S": {
-        "run": 8,
-        "index": 34,
-        "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)"
-    },
-    "A34N": {
-        "run": 8,
-        "index": 35,
-        "name": "Canal St (A,C,E)"
-    },
-    "A34S": {
-        "run": 8,
-        "index": 35,
-        "name": "Canal St (A,C,E)"
-    },
-    "A33N": {
-        "run": 8,
-        "index": 36,
-        "name": "Spring St (C,E)"
-    },
-    "A33S": {
-        "run": 8,
-        "index": 36,
-        "name": "Spring St (C,E)"
-    },
-    "A32N": {
-        "run": 8,
-        "index": 37,
-        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
-    },
-    "A32S": {
-        "run": 8,
-        "index": 37,
-        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
-    },
-    "D20N": {
-        "run": 8,
-        "index": 37,
-        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
-    },
-    "D20S": {
-        "run": 8,
-        "index": 37,
-        "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)"
-    },
-    "A31N": {
-        "run": 8,
-        "index": 38,
-        "name": "14 St/8 Av (A,C,E,L)"
-    },
-    "A31S": {
-        "run": 8,
-        "index": 38,
-        "name": "14 St/8 Av (A,C,E,L)"
-    },
-    "L01N": {
-        "run": 8,
-        "index": 38,
-        "name": "14 St/8 Av (A,C,E,L)"
-    },
-    "L01S": {
-        "run": 8,
-        "index": 38,
-        "name": "14 St/8 Av (A,C,E,L)"
-    },
-    "A30N": {
-        "run": 8,
-        "index": 39,
-        "name": "23 St (C,E)"
-    },
-    "A30S": {
-        "run": 8,
-        "index": 39,
-        "name": "23 St (C,E)"
-    },
-    "A28N": {
-        "run": 8,
-        "index": 40,
-        "name": "34 St-Penn Station (A,C,E)"
-    },
-    "A28S": {
-        "run": 8,
-        "index": 40,
-        "name": "34 St-Penn Station (A,C,E)"
-    },
-    "A27N": {
-        "run": 8,
-        "index": 41,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "A27S": {
-        "run": 8,
-        "index": 41,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "725N": {
-        "run": 8,
-        "index": 41,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "725S": {
-        "run": 8,
-        "index": 41,
-        "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)"
-    },
-    "A25N": {
-        "run": 8,
-        "index": 42,
-        "name": "50 St (C,E)"
-    },
-    "A25S": {
-        "run": 8,
-        "index": 42,
-        "name": "50 St (C,E)"
-    },
-    "A24N": {
-        "run": 8,
-        "index": 43,
-        "name": "59 St-Columbus Circle (1,A,C,B,D)"
-    },
-    "A24S": {
-        "run": 8,
-        "index": 43,
-        "name": "59 St-Columbus Circle (1,A,C,B,D)"
-    },
-    "A22N": {
-        "run": 8,
-        "index": 44,
-        "name": "72 St (C,B)"
-    },
-    "A22S": {
-        "run": 8,
-        "index": 44,
-        "name": "72 St (C,B)"
-    },
-    "A21N": {
-        "run": 8,
-        "index": 45,
-        "name": "81 St-Museum of Natural History (C,B)"
-    },
-    "A21S": {
-        "run": 8,
-        "index": 45,
-        "name": "81 St-Museum of Natural History (C,B)"
-    },
-    "A20N": {
-        "run": 8,
-        "index": 46,
-        "name": "86 St (C,B)"
-    },
-    "A20S": {
-        "run": 8,
-        "index": 46,
-        "name": "86 St (C,B)"
-    },
-    "A19N": {
-        "run": 8,
-        "index": 47,
-        "name": "96 St (C,B)"
-    },
-    "A19S": {
-        "run": 8,
-        "index": 47,
-        "name": "96 St (C,B)"
-    },
-    "A18N": {
-        "run": 8,
-        "index": 48,
-        "name": "103 St (C,B)"
-    },
-    "A18S": {
-        "run": 8,
-        "index": 48,
-        "name": "103 St (C,B)"
-    },
-    "A17N": {
-        "run": 8,
-        "index": 49,
-        "name": "Cathedral Pkwy (110 St) (C,B)"
-    },
-    "A17S": {
-        "run": 8,
-        "index": 49,
-        "name": "Cathedral Pkwy (110 St) (C,B)"
-    },
-    "A16N": {
-        "run": 8,
-        "index": 50,
-        "name": "116 St (C,B)"
-    },
-    "A16S": {
-        "run": 8,
-        "index": 50,
-        "name": "116 St (C,B)"
-    },
-    "A15N": {
-        "run": 8,
-        "index": 51,
-        "name": "125 St (A,C,B,D)"
-    },
-    "A15S": {
-        "run": 8,
-        "index": 51,
-        "name": "125 St (A,C,B,D)"
-    },
-    "A14N": {
-        "run": 8,
-        "index": 52,
-        "name": "135 St (C,B)"
-    },
-    "A14S": {
-        "run": 8,
-        "index": 52,
-        "name": "135 St (C,B)"
-    },
-    "A12N": {
-        "run": 8,
-        "index": 53,
-        "name": "145 St (A,C,B,D)"
-    },
-    "A12S": {
-        "run": 8,
-        "index": 53,
-        "name": "145 St (A,C,B,D)"
-    },
-    "D13N": {
-        "run": 8,
-        "index": 53,
-        "name": "145 St (A,C,B,D)"
-    },
-    "D13S": {
-        "run": 8,
-        "index": 53,
-        "name": "145 St (A,C,B,D)"
-    },
-    "A11N": {
-        "run": 8,
-        "index": 54,
-        "name": "155 St (C)"
-    },
-    "A11S": {
-        "run": 8,
-        "index": 54,
-        "name": "155 St (C)"
-    },
-    "A10N": {
-        "run": 8,
-        "index": 55,
-        "name": "163 St-Amsterdam Av (C)"
-    },
-    "A10S": {
-        "run": 8,
-        "index": 55,
-        "name": "163 St-Amsterdam Av (C)"
-    },
-    "A09N": {
-        "run": 8,
-        "index": 56,
-        "name": "168 St-Washington Hts (1,A,C)"
-    },
-    "A09S": {
-        "run": 8,
-        "index": 56,
-        "name": "168 St-Washington Hts (1,A,C)"
-    },
-    "112N": {
-        "run": 8,
-        "index": 56,
-        "name": "168 St-Washington Hts (1,A,C)"
-    },
-    "112S": {
-        "run": 8,
-        "index": 56,
-        "name": "168 St-Washington Hts (1,A,C)"
-    },
-    "A07N": {
-        "run": 8,
-        "index": 57,
-        "name": "175 St (A)"
-    },
-    "A07S": {
-        "run": 8,
-        "index": 57,
-        "name": "175 St (A)"
-    },
-    "A06N": {
-        "run": 8,
-        "index": 58,
-        "name": "181 St (A)"
-    },
-    "A06S": {
-        "run": 8,
-        "index": 58,
-        "name": "181 St (A)"
-    },
-    "A05N": {
-        "run": 8,
-        "index": 59,
-        "name": "190 St (A)"
-    },
-    "A05S": {
-        "run": 8,
-        "index": 59,
-        "name": "190 St (A)"
-    },
-    "A03N": {
-        "run": 8,
-        "index": 60,
-        "name": "Dyckman St (A)"
-    },
-    "A03S": {
-        "run": 8,
-        "index": 60,
-        "name": "Dyckman St (A)"
-    },
-    "A02N": {
-        "run": 8,
-        "index": 61,
-        "name": "Inwood-207 St (A)"
-    },
-    "A02S": {
-        "run": 8,
-        "index": 61,
-        "name": "Inwood-207 St (A)"
-    },
+"A02N": { "run": 8, "index": 0, "name": "Inwood-207 St (A)" },
+    "A02S": { "run": 8, "index": 0, "name": "Inwood-207 St (A)" },
+    "A03N": { "run": 8, "index": 1, "name": "Dyckman St (A)" },
+    "A03S": { "run": 8, "index": 1, "name": "Dyckman St (A)" },
+    "A05N": { "run": 8, "index": 2, "name": "190 St (A)" },
+    "A05S": { "run": 8, "index": 2, "name": "190 St (A)" },
+    "A06N": { "run": 8, "index": 3, "name": "181 St (A)" },
+    "A06S": { "run": 8, "index": 3, "name": "181 St (A)" },
+    "A07N": { "run": 8, "index": 4, "name": "175 St (A)" },
+    "A07S": { "run": 8, "index": 4, "name": "175 St (A)" },
+    "A09N": { "run": 8, "index": 5, "name": "168 St-Washington Hts (1,A,C)" },
+    "A09S": { "run": 8, "index": 5, "name": "168 St-Washington Hts (1,A,C)" },
+    "112N": { "run": 8, "index": 5, "name": "168 St-Washington Hts (1,A,C)" },
+    "112S": { "run": 8, "index": 5, "name": "168 St-Washington Hts (1,A,C)" },
+    "A10N": { "run": 8, "index": 6, "name": "163 St-Amsterdam Av (C)" },
+    "A10S": { "run": 8, "index": 6, "name": "163 St-Amsterdam Av (C)" },
+    "A11N": { "run": 8, "index": 7, "name": "155 St (C)" },
+    "A11S": { "run": 8, "index": 7, "name": "155 St (C)" },
+    "A12N": { "run": 8, "index": 8, "name": "145 St (A,C,B,D)" },
+    "A12S": { "run": 8, "index": 8, "name": "145 St (A,C,B,D)" },
+    "D13N": { "run": 8, "index": 8, "name": "145 St (A,C,B,D)" },
+    "D13S": { "run": 8, "index": 8, "name": "145 St (A,C,B,D)" },
+    "A14N": { "run": 8, "index": 9, "name": "135 St (C,B)" },
+    "A14S": { "run": 8, "index": 9, "name": "135 St (C,B)" },
+    "A15N": { "run": 8, "index": 10, "name": "125 St (A,C,B,D)" },
+    "A15S": { "run": 8, "index": 10, "name": "125 St (A,C,B,D)" },
+    "A16N": { "run": 8, "index": 11, "name": "116 St (C,B)" },
+    "A16S": { "run": 8, "index": 11, "name": "116 St (C,B)" },
+    "A17N": { "run": 8, "index": 12, "name": "Cathedral Pkwy (110 St) (C,B)" },
+    "A17S": { "run": 8, "index": 12, "name": "Cathedral Pkwy (110 St) (C,B)" },
+    "A18N": { "run": 8, "index": 13, "name": "103 St (C,B)" },
+    "A18S": { "run": 8, "index": 13, "name": "103 St (C,B)" },
+    "A19N": { "run": 8, "index": 14, "name": "96 St (C,B)" },
+    "A19S": { "run": 8, "index": 14, "name": "96 St (C,B)" },
+    "A20N": { "run": 8, "index": 15, "name": "86 St (C,B)" },
+    "A20S": { "run": 8, "index": 15, "name": "86 St (C,B)" },
+    "A21N": { "run": 8, "index": 16, "name": "81 St-Museum of Natural History (C,B)" },
+    "A21S": { "run": 8, "index": 16, "name": "81 St-Museum of Natural History (C,B)" },
+    "A22N": { "run": 8, "index": 17, "name": "72 St (C,B)" },
+    "A22S": { "run": 8, "index": 17, "name": "72 St (C,B)" },
+    "A24N": { "run": 8, "index": 18, "name": "59 St-Columbus Circle (1,A,C,B,D)" },
+    "A24S": { "run": 8, "index": 18, "name": "59 St-Columbus Circle (1,A,C,B,D)" },
+    "A25N": { "run": 8, "index": 19, "name": "50 St (C,E)" },
+    "A25S": { "run": 8, "index": 19, "name": "50 St (C,E)" },
+    "A27N": { "run": 8, "index": 20, "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)" },
+    "A27S": { "run": 8, "index": 20, "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)" },
+    "725N": { "run": 8, "index": 20, "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)" },
+    "725S": { "run": 8, "index": 20, "name": "Times Sq-42 St/Port Authority Bus Terminal (1,2,3,7,A,C,E,N,Q,R,W,S)" },
+    "A28N": { "run": 8, "index": 21, "name": "34 St-Penn Station (A,C,E)" },
+    "A28S": { "run": 8, "index": 21, "name": "34 St-Penn Station (A,C,E)" },
+    "A30N": { "run": 8, "index": 22, "name": "23 St (C,E)" },
+    "A30S": { "run": 8, "index": 22, "name": "23 St (C,E)" },
+    "A31N": { "run": 8, "index": 23, "name": "14 St/8 Av (A,C,E,L)" },
+    "A31S": { "run": 8, "index": 23, "name": "14 St/8 Av (A,C,E,L)" },
+    "L01N": { "run": 8, "index": 23, "name": "14 St/8 Av (A,C,E,L)" },
+    "L01S": { "run": 8, "index": 23, "name": "14 St/8 Av (A,C,E,L)" },
+    "A32N": { "run": 8, "index": 24, "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)" },
+    "A32S": { "run": 8, "index": 24, "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)" },
+    "D20N": { "run": 8, "index": 24, "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)" },
+    "D20S": { "run": 8, "index": 24, "name": "W 4 St-Wash Sq (A,C,E,B,D,F,M)" },
+    "A33N": { "run": 8, "index": 25, "name": "Spring St (C,E)" },
+    "A33S": { "run": 8, "index": 25, "name": "Spring St (C,E)" },
+    "A34N": { "run": 8, "index": 26, "name": "Canal St (A,C,E)" },
+    "A34S": { "run": 8, "index": 26, "name": "Canal St (A,C,E)" },
+    "A36N": { "run": 8, "index": 27, "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)" },
+    "A36S": { "run": 8, "index": 27, "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)" },
+    "E01N": { "run": 8, "index": 27, "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)" },
+    "E01S": { "run": 8, "index": 27, "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)" },
+    "A38N": { "run": 8, "index": 28, "name": "Fulton St (2,3,4,5,A,C,J,Z)" },
+    "A38S": { "run": 8, "index": 28, "name": "Fulton St (2,3,4,5,A,C,J,Z)" },
+    "M22N": { "run": 8, "index": 28, "name": "Fulton St (2,3,4,5,A,C,J,Z)" },
+    "M22S": { "run": 8, "index": 28, "name": "Fulton St (2,3,4,5,A,C,J,Z)" },
+    "A40N": { "run": 8, "index": 29, "name": "High St (A,C)" },
+    "A40S": { "run": 8, "index": 29, "name": "High St (A,C)" },
+    "A41N": { "run": 8, "index": 30, "name": "Jay St-MetroTech (A,C,F,R)" },
+    "A41S": { "run": 8, "index": 30, "name": "Jay St-MetroTech (A,C,F,R)" },
+    "A42N": { "run": 8, "index": 31, "name": "Hoyt-Schermerhorn Sts (A,C,G)" },
+    "A42S": { "run": 8, "index": 31, "name": "Hoyt-Schermerhorn Sts (A,C,G)" },
+    "A43N": { "run": 8, "index": 32, "name": "Lafayette Av (C)" },
+    "A43S": { "run": 8, "index": 32, "name": "Lafayette Av (C)" },
+    "A44N": { "run": 8, "index": 33, "name": "Clinton-Washington Avs (C)" },
+    "A44S": { "run": 8, "index": 33, "name": "Clinton-Washington Avs (C)" },
+    "A45N": { "run": 8, "index": 34, "name": "Franklin Av (C,S)" },
+    "A45S": { "run": 8, "index": 34, "name": "Franklin Av (C,S)" },
+    "S01N": { "run": 8, "index": 34, "name": "Franklin Av (C,S)" },
+    "S01S": { "run": 8, "index": 34, "name": "Franklin Av (C,S)" },
+    "A46N": { "run": 8, "index": 35, "name": "Nostrand Av (A,C)" },
+    "A46S": { "run": 8, "index": 35, "name": "Nostrand Av (A,C)" },
+    "A47N": { "run": 8, "index": 36, "name": "Kingston-Throop Avs (C)" },
+    "A47S": { "run": 8, "index": 36, "name": "Kingston-Throop Avs (C)" },
+    "A48N": { "run": 8, "index": 37, "name": "Utica Av (A,C)" },
+    "A48S": { "run": 8, "index": 37, "name": "Utica Av (A,C)" },
+    "A49N": { "run": 8, "index": 38, "name": "Ralph Av (C)" },
+    "A49S": { "run": 8, "index": 38, "name": "Ralph Av (C)" },
+    "A50N": { "run": 8, "index": 39, "name": "Rockaway Av (C)" },
+    "A50S": { "run": 8, "index": 39, "name": "Rockaway Av (C)" },
+    "A51N": { "run": 8, "index": 40, "name": "Broadway Junction (A,C,J,Z,L)" },
+    "A51S": { "run": 8, "index": 40, "name": "Broadway Junction (A,C,J,Z,L)" },
+    "J27N": { "run": 8, "index": 40, "name": "Broadway Junction (A,C,J,Z,L)" },
+    "J27S": { "run": 8, "index": 40, "name": "Broadway Junction (A,C,J,Z,L)" },
+    "L22N": { "run": 8, "index": 40, "name": "Broadway Junction (A,C,J,Z,L)" },
+    "L22S": { "run": 8, "index": 40, "name": "Broadway Junction (A,C,J,Z,L)" },
+    "A52N": { "run": 8, "index": 41, "name": "Liberty Av (C)" },
+    "A52S": { "run": 8, "index": 41, "name": "Liberty Av (C)" },
+    "A53N": { "run": 8, "index": 42, "name": "Van Siclen Av (C)" },
+    "A53S": { "run": 8, "index": 42, "name": "Van Siclen Av (C)" },
+    "A54N": { "run": 8, "index": 43, "name": "Shepherd Av (C)" },
+    "A54S": { "run": 8, "index": 43, "name": "Shepherd Av (C)" },
+    "A55N": { "run": 8, "index": 44, "name": "Euclid Av (A,C)" },
+    "A55S": { "run": 8, "index": 44, "name": "Euclid Av (A,C)" },
+    "A57N": { "run": 8, "index": 45, "name": "Grant Av (A)" },
+    "A57S": { "run": 8, "index": 45, "name": "Grant Av (A)" },
+    "A59N": { "run": 8, "index": 46, "name": "80 St (A)" },
+    "A59S": { "run": 8, "index": 46, "name": "80 St (A)" },
+    "A60N": { "run": 8, "index": 47, "name": "88 St (A)" },
+    "A60S": { "run": 8, "index": 47, "name": "88 St (A)" },
+    "A61N": { "run": 8, "index": 48, "name": "Rockaway Blvd (A)" },
+    "A61S": { "run": 8, "index": 48, "name": "Rockaway Blvd (A)" },
+    "A63N": { "run": 8, "index": 49, "name": "104 St (A)" },
+    "A63S": { "run": 8, "index": 49, "name": "104 St (A)" },
+    "A64N": { "run": 8, "index": 50, "name": "111 St (A)" },
+    "A64S": { "run": 8, "index": 50, "name": "111 St (A)" },
+    "A65N": { "run": 8, "index": 51, "name": "Ozone Park-Lefferts Blvd (A)" },
+    "A65S": { "run": 8, "index": 51, "name": "Ozone Park-Lefferts Blvd (A)" },
+    "H01N": { "run": 8, "index": 52, "name": "Aqueduct Racetrack (A)" },
+    "H01S": { "run": 8, "index": 52, "name": "Aqueduct Racetrack (A)" },
+    "H02N": { "run": 8, "index": 53, "name": "Aqueduct-N Conduit Av (A)" },
+    "H02S": { "run": 8, "index": 53, "name": "Aqueduct-N Conduit Av (A)" },
+    "H03N": { "run": 8, "index": 54, "name": "Howard Beach-JFK Airport (A)" },
+    "H03S": { "run": 8, "index": 54, "name": "Howard Beach-JFK Airport (A)" },
+    "H04N": { "run": 8, "index": 55, "name": "Broad Channel (A,S)" },
+    "H04S": { "run": 8, "index": 55, "name": "Broad Channel (A,S)" },
+    "H06N": { "run": 8, "index": 56, "name": "Beach 67 St (A)" },
+    "H06S": { "run": 8, "index": 56, "name": "Beach 67 St (A)" },
+    "H07N": { "run": 8, "index": 57, "name": "Beach 60 St (A)" },
+    "H07S": { "run": 8, "index": 57, "name": "Beach 60 St (A)" },
+    "H08N": { "run": 8, "index": 58, "name": "Beach 44 St (A)" },
+    "H08S": { "run": 8, "index": 58, "name": "Beach 44 St (A)" },
+    "H09N": { "run": 8, "index": 59, "name": "Beach 36 St (A)" },
+    "H09S": { "run": 8, "index": 59, "name": "Beach 36 St (A)" },
+    "H10N": { "run": 8, "index": 60, "name": "Beach 25 St (A)" },
+    "H10S": { "run": 8, "index": 60, "name": "Beach 25 St (A)" },
+    "H11N": { "run": 8, "index": 61, "name": "Far Rockaway-Mott Av (A)" },
+    "H11S": { "run": 8, "index": 61, "name": "Far Rockaway-Mott Av (A)" },
     "D43N": {
         "run": 9,
         "index": 0,
@@ -3079,386 +2503,119 @@
         "index": 29,
         "name": "Jamaica-179 St (F)"
     },
-    "R45N": {
-        "run": 11,
-        "index": 0,
-        "name": "Bay Ridge-95 St (R)"
-    },
-    "R45S": {
-        "run": 11,
-        "index": 0,
-        "name": "Bay Ridge-95 St (R)"
-    },
-    "R44N": {
-        "run": 11,
-        "index": 1,
-        "name": "86 St (R)"
-    },
-    "R44S": {
-        "run": 11,
-        "index": 1,
-        "name": "86 St (R)"
-    },
-    "R43N": {
-        "run": 11,
-        "index": 2,
-        "name": "77 St (R)"
-    },
-    "R43S": {
-        "run": 11,
-        "index": 2,
-        "name": "77 St (R)"
-    },
-    "R42N": {
-        "run": 11,
-        "index": 3,
-        "name": "Bay Ridge Av (R)"
-    },
-    "R42S": {
-        "run": 11,
-        "index": 3,
-        "name": "Bay Ridge Av (R)"
-    },
-    "R41N": {
-        "run": 11,
-        "index": 4,
-        "name": "59 St (N,R)"
-    },
-    "R41S": {
-        "run": 11,
-        "index": 4,
-        "name": "59 St (N,R)"
-    },
-    "R40N": {
-        "run": 11,
-        "index": 5,
-        "name": "53 St (R)"
-    },
-    "R40S": {
-        "run": 11,
-        "index": 5,
-        "name": "53 St (R)"
-    },
-    "R39N": {
-        "run": 11,
-        "index": 6,
-        "name": "45 St (R)"
-    },
-    "R39S": {
-        "run": 11,
-        "index": 6,
-        "name": "45 St (R)"
-    },
-    "R36N": {
-        "run": 11,
-        "index": 7,
-        "name": "36 St (D,N,R)"
-    },
-    "R36S": {
-        "run": 11,
-        "index": 7,
-        "name": "36 St (D,N,R)"
-    },
-    "R35N": {
-        "run": 11,
-        "index": 8,
-        "name": "25 St (R)"
-    },
-    "R35S": {
-        "run": 11,
-        "index": 8,
-        "name": "25 St (R)"
-    },
-    "R34N": {
-        "run": 11,
-        "index": 9,
-        "name": "Prospect Av (R)"
-    },
-    "R34S": {
-        "run": 11,
-        "index": 9,
-        "name": "Prospect Av (R)"
-    },
-    "R33N": {
-        "run": 11,
-        "index": 10,
-        "name": "4 Av-9 St (F,G,R)"
-    },
-    "R33S": {
-        "run": 11,
-        "index": 10,
-        "name": "4 Av-9 St (F,G,R)"
-    },
-    "F23N": {
-        "run": 11,
-        "index": 10,
-        "name": "4 Av-9 St (F,G,R)"
-    },
-    "F23S": {
-        "run": 11,
-        "index": 10,
-        "name": "4 Av-9 St (F,G,R)"
-    },
-    "R32N": {
-        "run": 11,
-        "index": 11,
-        "name": "Union St (R)"
-    },
-    "R32S": {
-        "run": 11,
-        "index": 11,
-        "name": "Union St (R)"
-    },
-    "R31N": {
-        "run": 11,
-        "index": 12,
-        "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
-    },
-    "R31S": {
-        "run": 11,
-        "index": 12,
-        "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)"
-    },
-    "R30N": {
-        "run": 11,
-        "index": 13,
-        "name": "DeKalb Av (B,Q,R)"
-    },
-    "R30S": {
-        "run": 11,
-        "index": 13,
-        "name": "DeKalb Av (B,Q,R)"
-    },
-    "R29N": {
-        "run": 11,
-        "index": 14,
-        "name": "Jay St-MetroTech (A,C,F,R)"
-    },
-    "R29S": {
-        "run": 11,
-        "index": 14,
-        "name": "Jay St-MetroTech (A,C,F,R)"
-    },
-    "R28N": {
-        "run": 11,
-        "index": 15,
-        "name": "Borough Hall/Court St (2,3,4,5,R)"
-    },
-    "R28S": {
-        "run": 11,
-        "index": 15,
-        "name": "Borough Hall/Court St (2,3,4,5,R)"
-    },
-    "R27N": {
-        "run": 11,
-        "index": 16,
-        "name": "Whitehall St-South Ferry (1,R,W)"
-    },
-    "R27S": {
-        "run": 11,
-        "index": 16,
-        "name": "Whitehall St-South Ferry (1,R,W)"
-    },
-    "R26N": {
-        "run": 11,
-        "index": 17,
-        "name": "Rector St (R,W)"
-    },
-    "R26S": {
-        "run": 11,
-        "index": 17,
-        "name": "Rector St (R,W)"
-    },
-    "R25N": {
-        "run": 11,
-        "index": 18,
-        "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)"
-    },
-    "R25S": {
-        "run": 11,
-        "index": 18,
-        "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)"
-    },
-    "R24N": {
-        "run": 11,
-        "index": 19,
-        "name": "City Hall (R,W)"
-    },
-    "R24S": {
-        "run": 11,
-        "index": 19,
-        "name": "City Hall (R,W)"
-    },
-    "R23N": {
-        "run": 11,
-        "index": 20,
-        "name": "Canal St (6,J,Z,N,Q,R,W)"
-    },
-    "R23S": {
-        "run": 11,
-        "index": 20,
-        "name": "Canal St (6,J,Z,N,Q,R,W)"
-    },
-    "Q01N": {
-        "run": 11,
-        "index": 20,
-        "name": "Canal St (6,J,Z,N,Q,R,W)"
-    },
-    "Q01S": {
-        "run": 11,
-        "index": 20,
-        "name": "Canal St (6,J,Z,N,Q,R,W)"
-    },
-    "R22N": {
-        "run": 11,
-        "index": 21,
-        "name": "Prince St (R,W)"
-    },
-    "R22S": {
-        "run": 11,
-        "index": 21,
-        "name": "Prince St (R,W)"
-    },
-    "R21N": {
-        "run": 11,
-        "index": 22,
-        "name": "8 St-NYU (R,W)"
-    },
-    "R21S": {
-        "run": 11,
-        "index": 22,
-        "name": "8 St-NYU (R,W)"
-    },
-    "R19N": {
-        "run": 11,
-        "index": 23,
-        "name": "23 St (R,W)"
-    },
-    "R19S": {
-        "run": 11,
-        "index": 23,
-        "name": "23 St (R,W)"
-    },
-    "R18N": {
-        "run": 11,
-        "index": 24,
-        "name": "28 St (R,W)"
-    },
-    "R18S": {
-        "run": 11,
-        "index": 24,
-        "name": "28 St (R,W)"
-    },
-    "R15N": {
-        "run": 11,
-        "index": 25,
-        "name": "49 St (N,R,W)"
-    },
-    "R15S": {
-        "run": 11,
-        "index": 25,
-        "name": "49 St (N,R,W)"
-    },
-    "R14N": {
-        "run": 11,
-        "index": 26,
-        "name": "57 St-7 Av (N,Q,R,W)"
-    },
-    "R14S": {
-        "run": 11,
-        "index": 26,
-        "name": "57 St-7 Av (N,Q,R,W)"
-    },
-    "R13N": {
-        "run": 11,
-        "index": 27,
-        "name": "5 Av/59 St (N,R,W)"
-    },
-    "R13S": {
-        "run": 11,
-        "index": 27,
-        "name": "5 Av/59 St (N,R,W)"
-    },
-    "R09N": {
-        "run": 11,
-        "index": 28,
-        "name": "Queensboro Plaza (7,N,W)"
-    },
-    "R09S": {
-        "run": 11,
-        "index": 28,
-        "name": "Queensboro Plaza (7,N,W)"
-    },
-    "718N": {
-        "run": 11,
-        "index": 28,
-        "name": "Queensboro Plaza (7,N,W)"
-    },
-    "718S": {
-        "run": 11,
-        "index": 28,
-        "name": "Queensboro Plaza (7,N,W)"
-    },
-    "R08N": {
-        "run": 11,
-        "index": 29,
-        "name": "39 Av-Dutch Kills (N,W)"
-    },
-    "R08S": {
-        "run": 11,
-        "index": 29,
-        "name": "39 Av-Dutch Kills (N,W)"
-    },
-    "R06N": {
-        "run": 11,
-        "index": 30,
-        "name": "36 Av (N,W)"
-    },
-    "R06S": {
-        "run": 11,
-        "index": 30,
-        "name": "36 Av (N,W)"
-    },
-    "R05N": {
-        "run": 11,
-        "index": 31,
-        "name": "Broadway (N,W)"
-    },
-    "R05S": {
-        "run": 11,
-        "index": 31,
-        "name": "Broadway (N,W)"
-    },
-    "R04N": {
-        "run": 11,
-        "index": 32,
-        "name": "30 Av (N,W)"
-    },
-    "R04S": {
-        "run": 11,
-        "index": 32,
-        "name": "30 Av (N,W)"
-    },
-    "R03N": {
-        "run": 11,
-        "index": 33,
-        "name": "Astoria Blvd (N,W)"
-    },
-    "R03S": {
-        "run": 11,
-        "index": 33,
-        "name": "Astoria Blvd (N,W)"
-    },
-    "R01N": {
-        "run": 11,
-        "index": 34,
-        "name": "Astoria-Ditmars Blvd (N,W)"
-    },
-    "R01S": {
-        "run": 11,
-        "index": 34,
-        "name": "Astoria-Ditmars Blvd (N,W)"
-    },
+    "R45N": { "run": 11, "index": 34, "name": "Bay Ridge-95 St (R)" },
+    "R45S": { "run": 11, "index": 34, "name": "Bay Ridge-95 St (R)" },
+
+    "R44N": { "run": 11, "index": 33, "name": "86 St (R)" },
+    "R44S": { "run": 11, "index": 33, "name": "86 St (R)" },
+
+    "R43N": { "run": 11, "index": 32, "name": "77 St (R)" },
+    "R43S": { "run": 11, "index": 32, "name": "77 St (R)" },
+
+    "R42N": { "run": 11, "index": 31, "name": "Bay Ridge Av (R)" },
+    "R42S": { "run": 11, "index": 31, "name": "Bay Ridge Av (R)" },
+
+    "R41N": { "run": 11, "index": 30, "name": "59 St (N,R)" },
+    "R41S": { "run": 11, "index": 30, "name": "59 St (N,R)" },
+
+    "R40N": { "run": 11, "index": 29, "name": "53 St (R)" },
+    "R40S": { "run": 11, "index": 29, "name": "53 St (R)" },
+
+    "R39N": { "run": 11, "index": 28, "name": "45 St (R)" },
+    "R39S": { "run": 11, "index": 28, "name": "45 St (R)" },
+
+    "R36N": { "run": 11, "index": 27, "name": "36 St (D,N,R)" },
+    "R36S": { "run": 11, "index": 27, "name": "36 St (D,N,R)" },
+
+    "R35N": { "run": 11, "index": 26, "name": "25 St (R)" },
+    "R35S": { "run": 11, "index": 26, "name": "25 St (R)" },
+
+    "R34N": { "run": 11, "index": 25, "name": "Prospect Av (R)" },
+    "R34S": { "run": 11, "index": 25, "name": "Prospect Av (R)" },
+
+    "R33N": { "run": 11, "index": 24, "name": "4 Av-9 St (F,G,R)" },
+    "R33S": { "run": 11, "index": 24, "name": "4 Av-9 St (F,G,R)" },
+
+    "F23N": { "run": 11, "index": 24, "name": "4 Av-9 St (F,G,R)" },
+    "F23S": { "run": 11, "index": 24, "name": "4 Av-9 St (F,G,R)" },
+
+    "R32N": { "run": 11, "index": 23, "name": "Union St (R)" },
+    "R32S": { "run": 11, "index": 23, "name": "Union St (R)" },
+
+    "R31N": { "run": 11, "index": 22, "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)" },
+    "R31S": { "run": 11, "index": 22, "name": "Atlantic Av-Barclays Ctr (2,3,4,5,B,D,N,Q,R)" },
+
+    "R30N": { "run": 11, "index": 21, "name": "DeKalb Av (B,Q,R)" },
+    "R30S": { "run": 11, "index": 21, "name": "DeKalb Av (B,Q,R)" },
+
+    "R29N": { "run": 11, "index": 20, "name": "Jay St-MetroTech (A,C,F,R)" },
+    "R29S": { "run": 11, "index": 20, "name": "Jay St-MetroTech (A,C,F,R)" },
+
+    "R28N": { "run": 11, "index": 19, "name": "Borough Hall/Court St (2,3,4,5,R)" },
+    "R28S": { "run": 11, "index": 19, "name": "Borough Hall/Court St (2,3,4,5,R)" },
+
+    "R27N": { "run": 11, "index": 18, "name": "Whitehall St-South Ferry (1,R,W)" },
+    "R27S": { "run": 11, "index": 18, "name": "Whitehall St-South Ferry (1,R,W)" },
+
+    "R26N": { "run": 11, "index": 17, "name": "Rector St (R,W)" },
+    "R26S": { "run": 11, "index": 17, "name": "Rector St (R,W)" },
+
+    "R25N": { "run": 11, "index": 16, "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)" },
+    "R25S": { "run": 11, "index": 16, "name": "Chambers St/WTC/Park Place/Cortlandt St (2,3,A,C,E,R,W)" },
+
+    "R24N": { "run": 11, "index": 15, "name": "City Hall (R,W)" },
+    "R24S": { "run": 11, "index": 15, "name": "City Hall (R,W)" },
+
+    "R23N": { "run": 11, "index": 14, "name": "Canal St (6,J,Z,N,Q,R,W)" },
+    "R23S": { "run": 11, "index": 14, "name": "Canal St (6,J,Z,N,Q,R,W)" },
+
+    "Q01N": { "run": 11, "index": 14, "name": "Canal St (6,J,Z,N,Q,R,W)" },
+    "Q01S": { "run": 11, "index": 14, "name": "Canal St (6,J,Z,N,Q,R,W)" },
+
+    "R22N": { "run": 11, "index": 13, "name": "Prince St (R,W)" },
+    "R22S": { "run": 11, "index": 13, "name": "Prince St (R,W)" },
+
+    "R21N": { "run": 11, "index": 12, "name": "8 St-NYU (R,W)" },
+    "R21S": { "run": 11, "index": 12, "name": "8 St-NYU (R,W)" },
+
+    "R19N": { "run": 11, "index": 11, "name": "23 St (R,W)" },
+    "R19S": { "run": 11, "index": 11, "name": "23 St (R,W)" },
+
+    "R18N": { "run": 11, "index": 10, "name": "28 St (R,W)" },
+    "R18S": { "run": 11, "index": 10, "name": "28 St (R,W)" },
+
+    "R15N": { "run": 11, "index": 9,  "name": "49 St (N,R,W)" },
+    "R15S": { "run": 11, "index": 9,  "name": "49 St (N,R,W)" },
+
+    "R14N": { "run": 11, "index": 8,  "name": "57 St-7 Av (N,Q,R,W)" },
+    "R14S": { "run": 11, "index": 8,  "name": "57 St-7 Av (N,Q,R,W)" },
+
+    "R13N": { "run": 11, "index": 7,  "name": "5 Av/59 St (N,R,W)" },
+    "R13S": { "run": 11, "index": 7,  "name": "5 Av/59 St (N,R,W)" },
+
+    "R09N": { "run": 11, "index": 6,  "name": "Queensboro Plaza (7,N,W)" },
+    "R09S": { "run": 11, "index": 6,  "name": "Queensboro Plaza (7,N,W)" },
+
+    "718N": { "run": 11, "index": 6,  "name": "Queensboro Plaza (7,N,W)" },
+    "718S": { "run": 11, "index": 6,  "name": "Queensboro Plaza (7,N,W)" },
+
+    "R08N": { "run": 11, "index": 5,  "name": "39 Av-Dutch Kills (N,W)" },
+    "R08S": { "run": 11, "index": 5,  "name": "39 Av-Dutch Kills (N,W)" },
+
+    "R06N": { "run": 11, "index": 4,  "name": "36 Av (N,W)" },
+    "R06S": { "run": 11, "index": 4,  "name": "36 Av (N,W)" },
+
+    "R05N": { "run": 11, "index": 3,  "name": "Broadway (N,W)" },
+    "R05S": { "run": 11, "index": 3,  "name": "Broadway (N,W)" },
+
+    "R04N": { "run": 11, "index": 2,  "name": "30 Av (N,W)" },
+    "R04S": { "run": 11, "index": 2,  "name": "30 Av (N,W)" },
+
+    "R03N": { "run": 11, "index": 1,  "name": "Astoria Blvd (N,W)" },
+    "R03S": { "run": 11, "index": 1,  "name": "Astoria Blvd (N,W)" },
+
+    "R01N": { "run": 11, "index": 0,  "name": "Astoria-Ditmars Blvd (N,W)" },
+    "R01S": { "run": 11, "index": 0,  "name": "Astoria-Ditmars Blvd (N,W)" },
     "N02N": {
         "run": 12,
         "index": 0,
